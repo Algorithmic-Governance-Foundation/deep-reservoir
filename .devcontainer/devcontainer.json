@@ -1,14 +1,37 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
-// README at: https://github.com/devcontainers/templates/tree/main/src/alpine
+// README at: https://github.com/devcontainers/templates/tree/main/src/ubuntu
 {
-	"name": "Alpine",
+	"name": "Ubuntu",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/base:alpine-3.20",
+	"image": "mcr.microsoft.com/devcontainers/base:noble",
 	"features": {
-		"ghcr.io/va-h/devcontainers-features/uv:1": {},
-		"ghcr.io/roul/devcontainer-features/mise-node:1": {}
-	},
+		"ghcr.io/va-h/devcontainers-features/uv:1": {
 
+		},
+		"ghcr.io/roul/devcontainer-features/mise-node:1": {
+			
+		}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"charliermarsh.ruff",
+				"eamodio.gitlens"
+			],
+			"settings": {
+				"python.analysis.typeCheckingMode": "standard",
+				"editor.formatOnSave": true,
+				"[python]": {
+					"editor.defaultFormatter": "charliermarsh.ruff"
+				},
+				"ruff.interpreter": [
+					"${workspaceFolder}/.venv/bin/python"
+				]
+			}
+		}
+	},
+	
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
 
@@ -16,10 +39,14 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "uname -a",
+	"postCreateCommand": {
+		"venv": "uv venv",
+		"sync": "uv sync",
+		"mise-idiomatic_version_file_enable_tools": "mise settings add idiomatic_version_file_enable_tools python"
+	}
 
 	// Configure tool-specific properties.
-	"customizations": {}
+	// "customizations": {},
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"

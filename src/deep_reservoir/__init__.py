@@ -1,2 +1,5 @@
+import sys
+
 def main() -> None:
-    print("Hello from deep-reservoir!")
+    print(sys.executable)
+    print("Hello from deep-reservoir!"     )
