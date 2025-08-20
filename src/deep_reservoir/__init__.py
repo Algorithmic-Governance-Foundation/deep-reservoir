@@ -1,11 +1,10 @@
 from typing import List
-from openai import OpenAI
 from dotenv import load_dotenv
-import os
 import csv
-from enum import Enum
+import time
 
 from deep_reservoir.researcher import Researcher
+from deep_reservoir.researcher.perplexity import SonarModel, SonarResearcher
 
 
 def main() -> None:
@@ -13,16 +12,24 @@ def main() -> None:
     countries = read_countries()
     policies = read_policies()
 
-    researcher = Researcher.PERPLEXITY
-    for country in countries:
-        for policy in policies:
+    researcher = SonarResearcher(SonarModel.PRO)
+    for i, country in enumerate(countries):
+        for j, policy in enumerate(policies):
             prompt = f"Determine whether {country} {policy}"
-            research_result = research(researcher, prompt)
+            print(prompt)
+            research_result = researcher.go(prompt)
+            print(research_result)
+
+            unique_timestamp = int(time.time())
+            with open(f"./results/dumps/{country}-{j}-{unique_timestamp}", "w") as f:
+                f.write(f"{researcher.model}\n{research_result.dump}")
+
+            return
 
 
 def read_countries() -> List[str]:
     countries = []
-    with open("inputs/countries.csv", "r", encoding="utf-8") as file:
+    with open("inputs/countries.csv", "r", encoding="utf-8-sig") as file:
         reader = csv.DictReader(file)
         for row in reader:
             countries.append(row["country"])
@@ -31,7 +38,7 @@ def read_countries() -> List[str]:
 
 def read_policies() -> List[str]:
     policies = []
-    with open("inputs/policies.csv", "r", encoding="utf-8") as file:
+    with open("inputs/policies.csv", "r", encoding="utf-8-sig") as file:
         reader = csv.DictReader(file)
         for row in reader:
             policies.append(row["policy"])

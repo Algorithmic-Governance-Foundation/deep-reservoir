@@ -16,3 +16,6 @@ class Result:
     note: str
     sources: List[str]
     dump: str
+    
+    def __repr__(self) -> str:
+        return f"Result(answer={self.answer!r}, note={self.note!r})"
