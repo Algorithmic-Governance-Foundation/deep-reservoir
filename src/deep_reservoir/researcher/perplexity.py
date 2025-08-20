@@ -8,7 +8,9 @@ import json
 
 class SonarModel(Enum):
     PRO = "sonar-pro"
-    DEEP_RESEARCH = "sonar-deep-research"
+
+    # Currently broken
+    # DEEP_RESEARCH = "sonar-deep-research"
 
 
 class SonarResearcher(Researcher):
@@ -21,11 +23,16 @@ class SonarResearcher(Researcher):
             base_url="https://api.perplexity.ai",
         )
 
+        # extra_body = None
+        # if self.model == SonarModel.DEEP_RESEARCH:
+        #     extra_body = {"reasoning_effort": "low"}
+
         response = client.chat.completions.create(
             model=self.model.value,
             messages=[
                 {"role": "user", "content": prompt},
             ],
+            extra_body=extra_body,
             response_format={
                 "type": "json_schema",
                 "json_schema": {
@@ -65,5 +72,5 @@ class SonarResearcher(Researcher):
             # Suppressing the below because it's an extra field allowed via Perplexity
             # See: https://docs.perplexity.ai/guides/chat-completions-guide#understanding-the-response-structure
             sources=response.search_results,  # type: ignore
-            dump=str(response),
+            dump=response.model_dump_json(indent=2),
         )

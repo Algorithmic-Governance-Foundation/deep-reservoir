@@ -2,6 +2,7 @@ from typing import List
 from dotenv import load_dotenv
 import csv
 import time
+import json
 
 from deep_reservoir.researcher import Researcher
 from deep_reservoir.researcher.perplexity import SonarModel, SonarResearcher

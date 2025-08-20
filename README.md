@@ -12,6 +12,7 @@ A CLI Tool for researching policies
 ## Developing
 1. Install [uv](https://docs.astral.sh/uv/getting-started/installation/)
 2. Run `uv sync`
+3. You can run the application via `uv run deep-reservoir`
 
 
 <!-- ## Installation
