@@ -17,7 +17,8 @@
 			"extensions": [
 				"ms-python.python",
 				"charliermarsh.ruff",
-				"eamodio.gitlens"
+				"eamodio.gitlens",
+				"tamasfe.even-better-toml"
 			],
 			"settings": {
 				"python.analysis.typeCheckingMode": "standard",
@@ -30,7 +31,7 @@
 				]
 			}
 		}
-	},
+	}
 	
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
@@ -39,11 +40,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": {
-		"venv": "uv venv",
-		"sync": "uv sync",
-		"mise-idiomatic_version_file_enable_tools": "mise settings add idiomatic_version_file_enable_tools python"
-	}
+	// "postCreateCommand": ""
 
 	// Configure tool-specific properties.
 	// "customizations": {},
