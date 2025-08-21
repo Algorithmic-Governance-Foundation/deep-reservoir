@@ -14,31 +14,32 @@ def main() -> None:
     policies = read_policies()
 
     researcher = SonarResearcher(SonarModel.PRO)
-    results = []
-    
-    # Calculate total number of research calls
+
     total_calls = len(countries) * len(policies)
-    print(f"Starting research for {total_calls} combinations (countries: {len(countries)}, policies: {len(policies)})")
-    
-    # Start timing the main research loop
+    print(f"Starting research for {total_calls} combinations")
+    print(f"Countries: {len(countries)}")
+    print(f"Policies: {len(policies)}")
     start_time = time.time()
-    
+
+    results = []
     for i, (country, policy) in enumerate(product(countries, policies), 1):
         print(f"Researching ({i}/{total_calls}):\n{country}{policy}\n\n")
         research_result = researcher.go(country, policy)
         results.append(research_result)
         dump_result(country, policy, researcher.model.value, research_result)
-    
+
     # End timing and calculate results
     end_time = time.time()
     total_duration = end_time - start_time
     avg_time_per_call = total_duration / total_calls
-    
-    print(f"\n=== Research Timing Results ===")
+
+    print("\n=== Research Timing Results ===")
     print(f"Total research calls: {total_calls}")
-    print(f"Total time: {total_duration:.2f} seconds ({total_duration/60:.2f} minutes)")
+    print(
+        f"Total time: {total_duration:.2f} seconds ({total_duration / 60:.2f} minutes)"
+    )
     print(f"Average time per call: {avg_time_per_call:.2f} seconds")
-    print(f"=== End Timing Results ===\n")
+    print("=== End Timing Results ===\n")
 
     write_results(results)
 
