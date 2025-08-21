@@ -34,11 +34,15 @@ RUN groupadd --gid $USER_GID $USERNAME \
 RUN curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash - \
     && apt-get install -y nodejs
 
-# Install Claude Code globally
-RUN npm install -g @anthropic-ai/claude-code
+# Create workspace and config directories and set permissions
+RUN mkdir -p /workspaces /home/$USERNAME/.claude && \
+    chown -R $USERNAME:$USERNAME /workspaces /home/$USERNAME/.claude
 
 # Set working directory
 WORKDIR /workspace
+
+# Install Claude Code globally
+RUN npm install -g @anthropic-ai/claude-code
 
 # Switch to non-root user
 USER $USERNAME
