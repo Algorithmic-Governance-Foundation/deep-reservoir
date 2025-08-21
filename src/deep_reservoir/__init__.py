@@ -6,6 +6,7 @@ import json
 
 from deep_reservoir.researcher import Researcher
 from deep_reservoir.researcher.perplexity import SonarModel, SonarResearcher
+from deep_reservoir.result import Result
 
 
 def main() -> None:
@@ -44,3 +45,6 @@ def read_policies() -> List[str]:
         for row in reader:
             policies.append(row["policy"])
     return policies
+
+def write_results(results: List[Result]) -> None:
+    pass
