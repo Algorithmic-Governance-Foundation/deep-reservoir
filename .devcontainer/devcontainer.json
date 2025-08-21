@@ -2,10 +2,8 @@
 // README at: https://github.com/devcontainers/templates/tree/main/src/ubuntu
 {
 	"name": "Ubuntu",
-	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/base:noble",
-	"features": {
-		"ghcr.io/va-h/devcontainers-features/uv:1": {}
+	"build": {
+		"dockerfile": "Dockerfile"
 	},
 	"customizations": {
 		"vscode": {
@@ -23,7 +21,8 @@
 				},
 				"ruff.interpreter": [
 					"${workspaceFolder}/.venv/bin/python"
-				]
+				],
+				"terminal.integrated.defaultProfile.linux": "bash"
 			}
 		}
 	}
