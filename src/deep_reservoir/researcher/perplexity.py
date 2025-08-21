@@ -9,6 +9,7 @@ import json
 
 class SonarModel(Enum):
     PRO = "sonar-pro"
+    REASONING_PRO = "sonar-reasoning-pro"
 
 
 class SonarResearcher(Researcher):
