@@ -2,11 +2,10 @@ from typing import List
 from dotenv import load_dotenv
 import csv
 import time
-import json
 
-from deep_reservoir.researcher import Researcher
 from deep_reservoir.researcher.perplexity import SonarModel, SonarResearcher
 from deep_reservoir.result import Result
+from itertools import product
 
 
 def main() -> None:
@@ -15,18 +14,39 @@ def main() -> None:
     policies = read_policies()
 
     researcher = SonarResearcher(SonarModel.PRO)
-    for i, country in enumerate(countries):
-        for j, policy in enumerate(policies):
-            prompt = f"Determine whether {country} {policy}"
-            print(prompt)
-            research_result = researcher.go(prompt)
-            print(research_result)
+    results = []
+    
+    # Calculate total number of research calls
+    total_calls = len(countries) * len(policies)
+    print(f"Starting research for {total_calls} combinations (countries: {len(countries)}, policies: {len(policies)})")
+    
+    # Start timing the main research loop
+    start_time = time.time()
+    
+    for i, (country, policy) in enumerate(product(countries, policies), 1):
+        print(f"Researching ({i}/{total_calls}):\n{country}{policy}\n\n")
+        research_result = researcher.go(country, policy)
+        results.append(research_result)
+        dump_result(country, policy, researcher.model.value, research_result)
+    
+    # End timing and calculate results
+    end_time = time.time()
+    total_duration = end_time - start_time
+    avg_time_per_call = total_duration / total_calls
+    
+    print(f"\n=== Research Timing Results ===")
+    print(f"Total research calls: {total_calls}")
+    print(f"Total time: {total_duration:.2f} seconds ({total_duration/60:.2f} minutes)")
+    print(f"Average time per call: {avg_time_per_call:.2f} seconds")
+    print(f"=== End Timing Results ===\n")
 
-            unique_timestamp = int(time.time())
-            with open(f"./results/dumps/{country}-{j}-{unique_timestamp}", "w") as f:
-                f.write(f"{researcher.model}\n{research_result.dump}")
+    write_results(results)
 
-            return
+
+def dump_result(country: str, policy: str, model: str, result: Result) -> None:
+    unique_timestamp = int(time.time())
+    with open(f"./results/dumps/{country}-{policy}-{unique_timestamp}", "w") as f:
+        f.write(f"{model}\n{policy}\n{result.dump}")
 
 
 def read_countries() -> List[str]:
@@ -46,5 +66,20 @@ def read_policies() -> List[str]:
             policies.append(row["policy"])
     return policies
 
+
 def write_results(results: List[Result]) -> None:
-    pass
+    with open("results/output.csv", "w", newline="", encoding="utf-8") as file:
+        writer = csv.writer(file)
+        writer.writerow(["policy", "country", "status", "explanation", "source"])
+
+        for result in results:
+            sources = ",".join(result.sources)
+            writer.writerow(
+                [
+                    result.policy,
+                    result.country,
+                    result.answer.value,
+                    result.note,
+                    sources,
+                ]
+            )

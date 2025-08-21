@@ -5,5 +5,5 @@ from deep_reservoir.result import Result
 
 class Researcher(ABC):
     @abstractmethod
-    def go(self, prompt: str) -> Result:
+    def go(self, country: str, policy: str) -> Result:
         pass

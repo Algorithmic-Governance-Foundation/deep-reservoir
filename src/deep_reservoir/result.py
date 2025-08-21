@@ -12,6 +12,8 @@ class Answer(Enum):
 
 @define
 class Result:
+    policy: str
+    country: str
     answer: Answer
     note: str
     sources: List[str]

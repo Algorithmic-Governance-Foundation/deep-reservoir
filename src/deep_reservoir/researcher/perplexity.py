@@ -1,7 +1,8 @@
 import os
 from enum import Enum
+from typing import List
 from openai import OpenAI
-from deep_reservoir import Researcher
+from deep_reservoir.researcher import Researcher
 from deep_reservoir.result import Result, Answer
 import json
 
@@ -17,7 +18,9 @@ class SonarResearcher(Researcher):
     def __init__(self, model: SonarModel):
         self.model = model
 
-    def go(self, prompt: str) -> Result:
+    def go(self, country: str, policy: str) -> Result:
+        prompt = f"Determine whether {country} {policy}"
+
         client = OpenAI(
             api_key=os.getenv("PERPLEXITY_API_KEY"),
             base_url="https://api.perplexity.ai",
@@ -61,16 +64,19 @@ class SonarResearcher(Researcher):
                 parsed_content = json.loads(content)
                 answer = Answer(parsed_content.get("answer", "UNKNOWN"))
                 note = parsed_content.get("note", "")
+                sources: List[str] | None = response.model_dump()["citations"]
+                if not sources:
+                    sources = []
             except (json.JSONDecodeError, ValueError):
                 raise ValueError("Unable to parse Perplexity Result", content)
         else:
             raise ValueError("Unable to parse Perplexity Result", content)
 
         return Result(
+            policy=policy,
+            country=country,
             answer=answer,
             note=note,
-            # Suppressing the below because it's an extra field allowed via Perplexity
-            # See: https://docs.perplexity.ai/guides/chat-completions-guide#understanding-the-response-structure
-            sources=response.search_results,  # type: ignore
+            sources=sources,
             dump=response.model_dump_json(indent=2),
         )
