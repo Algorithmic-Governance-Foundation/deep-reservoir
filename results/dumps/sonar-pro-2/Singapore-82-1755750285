@@ -1,0 +1,83 @@
+sonar-pro
+Provides a fully digital online submission portal for pharmaceutical product marketing authorization applications.
+{
+  "id": "9ab9c215-2405-41fa-a346-d1167a050c20",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"YES\",\"explanation\":\"Singapore provides a fully digital online submission portal—PRISM—for pharmaceutical product marketing authorization applications, requiring applicants to submit all necessary documentation electronically through this platform managed by the Health Sciences Authority (HSA)[1][4][5].\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750283,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 54,
+    "prompt_tokens": 18,
+    "total_tokens": 72,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://www.rginsight.com/registration-of-drug-product-in-singapore-2025",
+    "https://www.hsa.gov.sg/therapeutic-products/register/ectd-submissions",
+    "https://www.pacificbridgemedical.com/uncategorized/singapore-drug-registration-a-comprehensive-guide/",
+    "https://www.hsa.gov.sg/therapeutic-products/register/guides/new-drug/verification-evaluation",
+    "https://credevo.com/articles/2023/03/15/drug-registration-approval-process-in-singapore/"
+  ],
+  "search_results": [
+    {
+      "title": "Registration Of Drug Product In Singapore 2025 | RG Insight",
+      "url": "https://www.rginsight.com/registration-of-drug-product-in-singapore-2025",
+      "date": "2025-06-25",
+      "last_updated": "2025-08-20"
+    },
+    {
+      "title": "eCTD submissions - Singapore - Health Sciences Authority",
+      "url": "https://www.hsa.gov.sg/therapeutic-products/register/ectd-submissions",
+      "date": "2025-06-12",
+      "last_updated": "2025-06-15"
+    },
+    {
+      "title": "Singapore Drug Registration: A Comprehensive Guide",
+      "url": "https://www.pacificbridgemedical.com/uncategorized/singapore-drug-registration-a-comprehensive-guide/",
+      "date": "2025-03-05",
+      "last_updated": "2025-07-31"
+    },
+    {
+      "title": "Verification evaluation route for new drug application - HSA",
+      "url": "https://www.hsa.gov.sg/therapeutic-products/register/guides/new-drug/verification-evaluation",
+      "date": "2025-07-30",
+      "last_updated": "2025-03-21"
+    },
+    {
+      "title": "Drug Registration & Approval Process In Singapore | Credevo Articles",
+      "url": "https://credevo.com/articles/2023/03/15/drug-registration-approval-process-in-singapore/",
+      "date": "2023-03-15",
+      "last_updated": "2025-06-16"
+    }
+  ]
+}

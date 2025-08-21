@@ -1,0 +1,83 @@
+sonar-pro
+Imposes hospital-only distribution restrictions for certain classes of antimicrobial (AM) pharmaceutical products.
+{
+  "id": "81133c0f-3ca4-4818-82a2-8b6677f8f221",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"PARTIAL\",\"explanation\":\"Vietnam allows certain AM drugs for special treatment to be distributed only to specific hospitals upon request, but generally does not impose broad hospital-only distribution restrictions for antimicrobial classes; most restrictions focus on prescription-only dispensation and regulatory control rather than exclusive hospital channels[4][1].\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750022,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 65,
+    "prompt_tokens": 22,
+    "total_tokens": 87,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://www.tandfonline.com/doi/full/10.1080/09581596.2024.2303421",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC9019242/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC9948497/",
+    "https://www.tilleke.com/sites/default/files/2017_Feb_Marketing_Distribution_Drugs_Vietnam.pdf",
+    "https://peercommunityjournal.org/item/10_24072_pcjournal_512/"
+  ],
+  "search_results": [
+    {
+      "title": "Full article: 'When I tried to explain, they shouted back at me!'",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/09581596.2024.2303421",
+      "date": "2024-12-31",
+      "last_updated": "2025-08-21"
+    },
+    {
+      "title": "Inappropriate supply of antibiotics for common viral ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9019242/",
+      "date": "2022-04-11",
+      "last_updated": "2025-05-25"
+    },
+    {
+      "title": "Restrictions on antimicrobial use in aquaculture and ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9948497/",
+      "date": "2023-02-01",
+      "last_updated": "2025-07-12"
+    },
+    {
+      "title": "Distribution and marketing of drugs in Vietnam",
+      "url": "https://www.tilleke.com/sites/default/files/2017_Feb_Marketing_Distribution_Drugs_Vietnam.pdf",
+      "date": null,
+      "last_updated": "2025-08-14"
+    },
+    {
+      "title": "a multilayer analysis of the veterinary drug value chain",
+      "url": "https://peercommunityjournal.org/item/10_24072_pcjournal_512/",
+      "date": "2020-02-01",
+      "last_updated": "2025-06-24"
+    }
+  ]
+}

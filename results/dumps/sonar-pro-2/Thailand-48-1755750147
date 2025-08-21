@@ -1,0 +1,83 @@
+sonar-pro
+Targets an average marketing authorization (MA) approval timeline of six months or less for pharmaceutical products.
+{
+  "id": "a255e8f1-3134-4eb5-8fb9-506d46da777c",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"NO\",\"explanation\":\"Thailand does not target an average MA approval timeline of six months or less for pharmaceutical products; the registration process typically ranges from 6 months to 2 years depending on product type, with new drugs commonly requiring 220–280 working days (i.e., often more than six months)[1][3].\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750145,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 71,
+    "prompt_tokens": 23,
+    "total_tokens": 94,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://www.artixio.com/post/thailand-fda-regulations-for-pharmaceutical-registration",
+    "https://www.tilleke.com/insights/thailand-prepares-to-renew-drug-marketing-authorizations-as-first-expiration-nears/23/",
+    "https://credevo.com/articles/2023/10/05/new-drug-registration-process-in-thailand-a-guide-to-market-entry/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7516132/",
+    "https://www.tilleke.com/insights/thailand-prepares-to-renew-drug-marketing-authorizations-as-first-expiration-nears/14/"
+  ],
+  "search_results": [
+    {
+      "title": "Thai FDA Pharma Regulations & Registration Process in Thailand",
+      "url": "https://www.artixio.com/post/thailand-fda-regulations-for-pharmaceutical-registration",
+      "date": "2025-08-04",
+      "last_updated": "2025-06-22"
+    },
+    {
+      "title": "Thailand Prepares to Renew Drug Marketing Authorizations as First ...",
+      "url": "https://www.tilleke.com/insights/thailand-prepares-to-renew-drug-marketing-authorizations-as-first-expiration-nears/23/",
+      "date": "2023-09-20",
+      "last_updated": "2025-03-21"
+    },
+    {
+      "title": "New Drug Registration Process in Thailand: A Guide To Market Entry",
+      "url": "https://credevo.com/articles/2023/10/05/new-drug-registration-process-in-thailand-a-guide-to-market-entry/",
+      "date": "2023-10-05",
+      "last_updated": "2025-08-07"
+    },
+    {
+      "title": "Alignment in post-approval changes (PAC) guidelines in emerging ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7516132/",
+      "date": "2020-08-25",
+      "last_updated": "2025-06-01"
+    },
+    {
+      "title": "Thailand Prepares to Renew Drug Marketing Authorizations as First ...",
+      "url": "https://www.tilleke.com/insights/thailand-prepares-to-renew-drug-marketing-authorizations-as-first-expiration-nears/14/",
+      "date": "2023-09-20",
+      "last_updated": "2025-02-20"
+    }
+  ]
+}

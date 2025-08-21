@@ -1,0 +1,83 @@
+sonar-pro
+Provides a fully digital online submission portal for pharmaceutical product marketing authorization applications.
+{
+  "id": "fa1b219c-2172-4735-b0d6-40301736d347",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"NO\",\"explanation\":\"Brunei does not provide a fully digital online submission portal for pharmaceutical product marketing authorization; applications must be submitted electronically on a CD and delivered physically to the Department of Pharmaceutical Services.[2]\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750076,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 46,
+    "prompt_tokens": 19,
+    "total_tokens": 65,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://www.ijdra.com/index.php/journal/article/view/410",
+    "https://www.scribd.com/document/611930840/Guide-to-Application-for-Registration-of-Medicinal-Products-4th-Editi",
+    "https://www.biopharminternational.com/view/bruneis-potential-pharmaceutical-market-growth-0",
+    "https://www.ardms.org/maintain-certification/registrant-support/statusverification/",
+    "https://business.mofe.gov.bn/SitePages/business-licenses-and-approvals.aspx"
+  ],
+  "search_results": [
+    {
+      "title": "A comprehensive review on Drug Product registration and ...",
+      "url": "https://www.ijdra.com/index.php/journal/article/view/410",
+      "date": "2020-09-17",
+      "last_updated": "2025-06-20"
+    },
+    {
+      "title": "Guide To Application For Registration of Medicinal Products",
+      "url": "https://www.scribd.com/document/611930840/Guide-to-Application-for-Registration-of-Medicinal-Products-4th-Editi",
+      "date": "2025-04-30",
+      "last_updated": "2025-04-30"
+    },
+    {
+      "title": "Brunei's Potential Pharmaceutical Market Growth",
+      "url": "https://www.biopharminternational.com/view/bruneis-potential-pharmaceutical-market-growth-0",
+      "date": "2014-06-01",
+      "last_updated": "2025-08-21"
+    },
+    {
+      "title": "Status Verification",
+      "url": "https://www.ardms.org/maintain-certification/registrant-support/statusverification/",
+      "date": "2025-04-23",
+      "last_updated": "2025-06-16"
+    },
+    {
+      "title": "businessBN Portal - business-licenses-and-approvals",
+      "url": "https://business.mofe.gov.bn/SitePages/business-licenses-and-approvals.aspx",
+      "date": null,
+      "last_updated": "2025-08-15"
+    }
+  ]
+}

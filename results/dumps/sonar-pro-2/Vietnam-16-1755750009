@@ -1,0 +1,83 @@
+sonar-pro
+Requires halal certification for pharmaceutical products.
+{
+  "id": "44d7c132-1dd9-456c-a369-095c4eacb5cf",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"NO\",\"explanation\":\"Vietnam does not require halal certification for pharmaceutical products by default; it is pursued voluntarily by companies primarily for export to halal markets and international buyers, not mandated by Vietnamese law.[1][3][4][5]\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750007,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 54,
+    "prompt_tokens": 12,
+    "total_tokens": 66,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://vietnamnews.vn/economy/1689525/local-herbal-company-becomes-halal-certified.html",
+    "https://www.tilleke.com/insights/new-regulations-on-drug-registration-in-vietnam/21/",
+    "https://www.halaltimes.com/vietnams-halal-products-take-center-stage-in-malaysia/",
+    "https://www.halaltimes.com/vietnam-pm-pushes-for-halal-expansion/",
+    "https://www.vietnam-briefing.com/news/vietnam-strategic-exports-push-into-the-middle-east-halal-market.html/"
+  ],
+  "search_results": [
+    {
+      "title": "Local herbal company becomes Halal-certified - Vietnam News",
+      "url": "https://vietnamnews.vn/economy/1689525/local-herbal-company-becomes-halal-certified.html",
+      "date": "2024-12-23",
+      "last_updated": "2025-01-15"
+    },
+    {
+      "title": "New Regulations on Drug Registration in Vietnam - ...",
+      "url": "https://www.tilleke.com/insights/new-regulations-on-drug-registration-in-vietnam/21/",
+      "date": "2022-10-06",
+      "last_updated": "2024-11-28"
+    },
+    {
+      "title": "Vietnam's Halal Products Take Center Stage in Malaysia",
+      "url": "https://www.halaltimes.com/vietnams-halal-products-take-center-stage-in-malaysia/",
+      "date": "2025-02-11",
+      "last_updated": "2025-05-26"
+    },
+    {
+      "title": "Vietnam PM Pushes for Halal Expansion",
+      "url": "https://www.halaltimes.com/vietnam-pm-pushes-for-halal-expansion/",
+      "date": "2024-10-23",
+      "last_updated": "2024-10-26"
+    },
+    {
+      "title": "Vietnam Seeks Foothold in Halal Exports to Middle East Markets",
+      "url": "https://www.vietnam-briefing.com/news/vietnam-strategic-exports-push-into-the-middle-east-halal-market.html/",
+      "date": "2024-11-21",
+      "last_updated": "2024-11-28"
+    }
+  ]
+}

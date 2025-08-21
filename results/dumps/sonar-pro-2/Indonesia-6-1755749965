@@ -1,0 +1,83 @@
+sonar-pro
+Requires halal certification for pharmaceutical products.
+{
+  "id": "cc08d654-e029-4149-84e8-f1fe373bfa22",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"YES\",\"explanation\":\"Indonesia requires halal certification for pharmaceutical products, including medicines, supplements, and traditional remedies, under the Halal Product Assurance Law, with deadlines for compliance applying to over-the-counter and traditional drugs by 2026–2029[1][2][3].\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755749963,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 62,
+    "prompt_tokens": 12,
+    "total_tokens": 74,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://emerhub.com/indonesia/halal-certification-in-indonesia/",
+    "https://emerhub.com/indonesia/understanding-the-process-and-requirements-of-indonesia-halal-certification/",
+    "https://indonesia.incorp.asia/blogs/halal-certification-procedure-2025/",
+    "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Indonesia+Confirms+Extension+for+Mandatory+Halal+Certification+for+Imported+Food+and+Beverage+Products+and+Annulment+of+Apostille+Requirement_Jakarta_Indonesia_ID2024-0039",
+    "https://andamanmed.com/indonesia-implementation-of-halal-product-assurance-for-medical-devices-circulating-in-indonesia/"
+  ],
+  "search_results": [
+    {
+      "title": "2024 Halal Certification in Indonesia: A Guide to New Industry ...",
+      "url": "https://emerhub.com/indonesia/halal-certification-in-indonesia/",
+      "date": "2024-06-14",
+      "last_updated": "2025-06-03"
+    },
+    {
+      "title": "Process and requirements of Indonesia Halal certification - Emerhub",
+      "url": "https://emerhub.com/indonesia/understanding-the-process-and-requirements-of-indonesia-halal-certification/",
+      "date": "2023-03-06",
+      "last_updated": "2025-06-07"
+    },
+    {
+      "title": "Halal Certification Procedure in Indonesia: A 2025 Guide",
+      "url": "https://indonesia.incorp.asia/blogs/halal-certification-procedure-2025/",
+      "date": "2025-08-01",
+      "last_updated": "2025-08-03"
+    },
+    {
+      "title": "[PDF] Report Name:Indonesia Confirms Extension for Mandatory Halal ...",
+      "url": "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Indonesia+Confirms+Extension+for+Mandatory+Halal+Certification+for+Imported+Food+and+Beverage+Products+and+Annulment+of+Apostille+Requirement_Jakarta_Indonesia_ID2024-0039",
+      "date": "2024-11-05",
+      "last_updated": "2025-01-26"
+    },
+    {
+      "title": "Indonesia: Implementation of Halal Product Assurance for Medical ...",
+      "url": "https://andamanmed.com/indonesia-implementation-of-halal-product-assurance-for-medical-devices-circulating-in-indonesia/",
+      "date": "2024-11-07",
+      "last_updated": "2024-11-08"
+    }
+  ]
+}

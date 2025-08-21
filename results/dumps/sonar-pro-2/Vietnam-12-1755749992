@@ -1,0 +1,83 @@
+sonar-pro
+Provides a fully digital online submission portal for pharmaceutical product marketing authorization applications.
+{
+  "id": "bd061e95-b1a6-4075-9c68-0975c721bb3d",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"YES\",\"explanation\":\"Vietnam provides a fully digital online submission portal for pharmaceutical product marketing authorization applications through the online public service portal of the Drug Administration Department (https://dav.gov.vn), as confirmed in recent 2025 regulatory guides.[2][5]\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755749990,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 57,
+    "prompt_tokens": 18,
+    "total_tokens": 75,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://www.artixio.com/post/pharmaceutical-regulations-and-registration-in-vietnam",
+    "https://globalreferral.group/drug-registration-in-vietnam-guide-for-foreign-companies-p2/",
+    "https://www.tilleke.com/insights/vietnam-issues-new-regulations-on-drug-registration/7/",
+    "https://www.vietnam-briefing.com/news/vietnams-amended-pharmaceutical-law-navigating-the-key-changes.html/",
+    "https://hmlf.vn/business-sectors/healthcare/drug-registration-process-vietnam-guide-foreign-companies-2025-2/"
+  ],
+  "search_results": [
+    {
+      "title": "Vietnam Pharmaceutical Regulations & Drug Registration",
+      "url": "https://www.artixio.com/post/pharmaceutical-regulations-and-registration-in-vietnam",
+      "date": "2025-07-21",
+      "last_updated": "2025-08-06"
+    },
+    {
+      "title": "Drug Registration in Vietnam: Guide for Foreign Companies (P2)",
+      "url": "https://globalreferral.group/drug-registration-in-vietnam-guide-for-foreign-companies-p2/",
+      "date": null,
+      "last_updated": null
+    },
+    {
+      "title": "Vietnam Issues New Regulations on Drug Registration - ...",
+      "url": "https://www.tilleke.com/insights/vietnam-issues-new-regulations-on-drug-registration/7/",
+      "date": "2025-05-27",
+      "last_updated": "2025-06-04"
+    },
+    {
+      "title": "Vietnam's Amended Pharmaceutical Law: Key Changes",
+      "url": "https://www.vietnam-briefing.com/news/vietnams-amended-pharmaceutical-law-navigating-the-key-changes.html/",
+      "date": "2025-02-11",
+      "last_updated": "2025-06-16"
+    },
+    {
+      "title": "Drug Registration in Vietnam: Guide for Foreign ...",
+      "url": "https://hmlf.vn/business-sectors/healthcare/drug-registration-process-vietnam-guide-foreign-companies-2025-2/",
+      "date": "2025-08-05",
+      "last_updated": "2025-08-06"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+sonar-pro
+Publishes national antimicrobial resistance (AMR) surveillance data related to pharmaceutical products.
+{
+  "id": "33f92e03-45c1-4f9c-b72a-39a0243214e4",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"YES\",\"explanation\":\"Singapore publishes national antimicrobial resistance (AMR) surveillance data related to pharmaceutical products, as evidenced by the publicly available 'One Health Report on Antimicrobial Utilisation and Resistance' and regular national surveillance reports that include data on antimicrobial sales, use, and resistance patterns across humans, animals, food, and the environment[1][2][5].\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750309,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 80,
+    "prompt_tokens": 21,
+    "total_tokens": 101,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://www.ncid.sg/Health-Professionals/Documents/One%20Health%20Report%20on%20Antimicrobial%20Utilisation%20and%20Resistance%202021.pdf",
+    "https://www.ncid.sg/Health-Professionals/Documents/One%20Health%20Report%20on%20Antimicrobial%20Utilisation%20and%20Resistance%202019.pdf",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC6963657/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC6717780/",
+    "https://www.asianfisheriessociety.org/publication/downloadfile.php?id=1332&file=Y0dSbUx6QTBPREF4TWpnd01ERTJNRGc0T1RVeU1ESXVjR1Jt"
+  ],
+  "search_results": [
+    {
+      "title": "One Health Antimicrobial Resistance Workgroup, Singapore",
+      "url": "https://www.ncid.sg/Health-Professionals/Documents/One%20Health%20Report%20on%20Antimicrobial%20Utilisation%20and%20Resistance%202021.pdf",
+      "date": null,
+      "last_updated": "2025-08-20"
+    },
+    {
+      "title": "One Health Antimicrobial Resistance Workgroup, Singapore",
+      "url": "https://www.ncid.sg/Health-Professionals/Documents/One%20Health%20Report%20on%20Antimicrobial%20Utilisation%20and%20Resistance%202019.pdf",
+      "date": null,
+      "last_updated": "2024-03-02"
+    },
+    {
+      "title": "Combating Antimicrobial Resistance in Singapore",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6963657/",
+      "date": "2019-10-29",
+      "last_updated": "2025-07-10"
+    },
+    {
+      "title": "Ten-year narrative review on antimicrobial resistance in ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6717780/",
+      "date": "2018-07-18",
+      "last_updated": "2025-07-11"
+    },
+    {
+      "title": "Singapore's National Action Plan on Antimicrobial ...",
+      "url": "https://www.asianfisheriessociety.org/publication/downloadfile.php?id=1332&file=Y0dSbUx6QTBPREF4TWpnd01ERTJNRGc0T1RVeU1ESXVjR1Jt",
+      "date": null,
+      "last_updated": "2025-05-30"
+    }
+  ]
+}

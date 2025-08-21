@@ -1,0 +1,83 @@
+sonar-pro
+Specifically mandates the use of a “red dot” symbol on prescription-only pharmaceutical products.
+{
+  "id": "f3babee5-7815-4bbd-b73a-189e1a0a8dd0",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"PARTIAL\",\"explanation\":\"Thailand appears to use a red dot marker to distinguish certain categories of medicines, including prescription-only and specially controlled medicines, but the sources reviewed do not establish a current, explicit legal mandate by the Thai government specifically requiring a 'red dot' on all prescription-only pharmaceutical product labels.[2]\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750142,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 68,
+    "prompt_tokens": 21,
+    "total_tokens": 89,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://www.artixio.com/post/medical-device-regulations-registration-process-in-thailand",
+    "http://www.tsmia.or.th/RTD2022/Self-CARER_e-book_final.pdf",
+    "https://andamanmed.com/thailand-draft-criteria-methods-and-conditions-on-labeling-and-documentation-ifu-for-medical-devices/",
+    "https://msh.org/wp-content/uploads/2025/07/MTP-Malaria-online.pdf",
+    "https://ota.fas.org/reports/9321.pdf"
+  ],
+  "search_results": [
+    {
+      "title": "Thailand Medical Device Regulations & Registration Process",
+      "url": "https://www.artixio.com/post/medical-device-regulations-registration-process-in-thailand",
+      "date": "2025-06-19",
+      "last_updated": "2025-06-22"
+    },
+    {
+      "title": "[PDF] Self-CARER",
+      "url": "http://www.tsmia.or.th/RTD2022/Self-CARER_e-book_final.pdf",
+      "date": "2015-09-17",
+      "last_updated": null
+    },
+    {
+      "title": "Thailand: (Draft) Criteria, Methods, and Conditions on ...",
+      "url": "https://andamanmed.com/thailand-draft-criteria-methods-and-conditions-on-labeling-and-documentation-ifu-for-medical-devices/",
+      "date": "2025-04-18",
+      "last_updated": "2025-04-26"
+    },
+    {
+      "title": "[PDF] Guide for Malaria Commodities Logistic Management System",
+      "url": "https://msh.org/wp-content/uploads/2025/07/MTP-Malaria-online.pdf",
+      "date": null,
+      "last_updated": "2025-07-30"
+    },
+    {
+      "title": "Drug Labeling in Developing Countries",
+      "url": "https://ota.fas.org/reports/9321.pdf",
+      "date": null,
+      "last_updated": "2025-04-15"
+    }
+  ]
+}

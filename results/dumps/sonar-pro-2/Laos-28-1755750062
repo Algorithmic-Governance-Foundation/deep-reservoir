@@ -1,0 +1,83 @@
+sonar-pro
+Targets an average marketing authorization (MA) approval timeline of six months or less for pharmaceutical products.
+{
+  "id": "772576a0-f407-470e-aa75-50c0a3db81b5",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"YES\",\"explanation\":\"Laos targets an average marketing authorization (MA) approval timeline of approximately six months, as the medicinal product registration process typically takes about six months once the application is confirmed and all documents are received.[1]\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750061,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 50,
+    "prompt_tokens": 23,
+    "total_tokens": 73,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://credevo.com/articles/2021/04/25/generic-drug-approval-process-in-laos/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC9734413/",
+    "https://www.tilleke.com/insights/laos-implements-medical-device-registration-and-notification-requirements/26/",
+    "https://www.youtube.com/watch?v=AtUChEfkokY",
+    "https://www.ijdra.com/index.php/journal/article/download/158/77"
+  ],
+  "search_results": [
+    {
+      "title": "Generic Drug Approval Process In Laos | Credevo Articles",
+      "url": "https://credevo.com/articles/2021/04/25/generic-drug-approval-process-in-laos/",
+      "date": "2021-04-25",
+      "last_updated": "2025-07-14"
+    },
+    {
+      "title": "Regulatory Pathways Supporting Expedited Drug Development and ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9734413/",
+      "date": "2022-12-03",
+      "last_updated": "2025-05-26"
+    },
+    {
+      "title": "Laos Implements Medical Device Registration and Notification ...",
+      "url": "https://www.tilleke.com/insights/laos-implements-medical-device-registration-and-notification-requirements/26/",
+      "date": "2023-12-06",
+      "last_updated": "2025-04-13"
+    },
+    {
+      "title": "[EN] Understanding Regulatory Requirements for Exporting Drugs to ...",
+      "url": "https://www.youtube.com/watch?v=AtUChEfkokY",
+      "date": null,
+      "last_updated": "2024-03-25"
+    },
+    {
+      "title": "[PDF] regulatory requirements & marketing authorization of generic drugs ...",
+      "url": "https://www.ijdra.com/index.php/journal/article/download/158/77",
+      "date": null,
+      "last_updated": "2025-03-24"
+    }
+  ]
+}

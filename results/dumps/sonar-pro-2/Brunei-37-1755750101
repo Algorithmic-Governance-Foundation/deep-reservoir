@@ -1,0 +1,83 @@
+sonar-pro
+Specifically mandates the use of a “red dot” symbol on prescription-only pharmaceutical products.
+{
+  "id": "2635d3a3-c5a9-442d-a8e2-e31c7b90ad71",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"NO\",\"explanation\":\"No evidence was found in Brunei’s official pharmacovigilance or medicines regulations mandating a 'red dot' symbol for prescription-only pharmaceutical products; such a requirement is specified in Indonesia, not Brunei.[1][5][3]\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750099,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 58,
+    "prompt_tokens": 22,
+    "total_tokens": 80,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://moh.gov.bn/wp-content/uploads/2024/10/Brunei-Darussalam-Pharmacovigilance-Guidelines-31.7.18.pdf",
+    "http://www.tsmia.or.th/RTD2022/Self-CARER_e-book_final.pdf",
+    "https://www.artixio.com/post/nadfc-bpom-regulation-of-pharmaceuticals-in-indonesia",
+    "https://www.annualreports.com/HostedData/AnnualReportArchive/d/NASDAQ_DCPH_2020.pdf",
+    "https://www.agc.gov.bn/AGC%20Images/LAWS/ACT_PDF/M/CHAPTER%20285%20RG%201.pdf"
+  ],
+  "search_results": [
+    {
+      "title": "Brunei-Darussalam-Pharmacovigilance-Guidelines- ...",
+      "url": "https://moh.gov.bn/wp-content/uploads/2024/10/Brunei-Darussalam-Pharmacovigilance-Guidelines-31.7.18.pdf",
+      "date": null,
+      "last_updated": "2025-08-13"
+    },
+    {
+      "title": "Self-CARER",
+      "url": "http://www.tsmia.or.th/RTD2022/Self-CARER_e-book_final.pdf",
+      "date": "2015-09-17",
+      "last_updated": null
+    },
+    {
+      "title": "NADFC (BPOM) Regulation Of Pharmaceuticals In Indonesia",
+      "url": "https://www.artixio.com/post/nadfc-bpom-regulation-of-pharmaceuticals-in-indonesia",
+      "date": "2025-06-19",
+      "last_updated": "2025-06-25"
+    },
+    {
+      "title": "DECIPHERA PHARMACEUTICALS, INC.",
+      "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/NASDAQ_DCPH_2020.pdf",
+      "date": "2021-02-09",
+      "last_updated": "2024-01-19"
+    },
+    {
+      "title": "MEDICINES (CHAPTER 285) MEDICINES (COSMETIC ...",
+      "url": "https://www.agc.gov.bn/AGC%20Images/LAWS/ACT_PDF/M/CHAPTER%20285%20RG%201.pdf",
+      "date": null,
+      "last_updated": "2025-07-13"
+    }
+  ]
+}

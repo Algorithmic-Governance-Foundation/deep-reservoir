@@ -1,0 +1,83 @@
+sonar-pro
+Publishes national antimicrobial resistance (AMR) surveillance data related to pharmaceutical products.
+{
+  "id": "316d5bd4-c483-4146-8807-ed7b0c3f74be",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"PARTIAL\",\"explanation\":\"Myanmar has a national AMR surveillance system and has published national AMR surveillance data as of 2017, reporting resistance rates in key pathogens, but there is no evidence of regular or recent publication of comprehensive AMR surveillance data specifically related to pharmaceutical products after that year[4][5].\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750193,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 69,
+    "prompt_tokens": 21,
+    "total_tokens": 90,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://solve.mit.edu/challenges/trinity-challenge-amr/solutions/85892",
+    "https://ghsindex.org/wp-content/uploads/2021/12/Myanmar.pdf",
+    "https://pubmed.ncbi.nlm.nih.gov/34070228/",
+    "https://journals.plos.org/plosone/article/file?id=10.1371%2Fjournal.pone.0273380&type=printable",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC9387831/"
+  ],
+  "search_results": [
+    {
+      "title": "Antimicrobial Usage Unveiled: Exploring its Impact on Resistance",
+      "url": "https://solve.mit.edu/challenges/trinity-challenge-amr/solutions/85892",
+      "date": "2024-02-26",
+      "last_updated": "2025-08-21"
+    },
+    {
+      "title": "Myanmar",
+      "url": "https://ghsindex.org/wp-content/uploads/2021/12/Myanmar.pdf",
+      "date": null,
+      "last_updated": "2025-08-21"
+    },
+    {
+      "title": "Wounds, Antimicrobial Resistance and Challenges of Implementing ...",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34070228/",
+      "date": "2021-05-18",
+      "last_updated": "2025-08-08"
+    },
+    {
+      "title": "Public knowledge, practices, and awareness of antibiotics and ...",
+      "url": "https://journals.plos.org/plosone/article/file?id=10.1371%2Fjournal.pone.0273380&type=printable",
+      "date": null,
+      "last_updated": "2025-06-02"
+    },
+    {
+      "title": "Public knowledge, practices, and awareness of antibiotics and ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9387831/",
+      "date": "2022-08-18",
+      "last_updated": "2025-07-31"
+    }
+  ]
+}

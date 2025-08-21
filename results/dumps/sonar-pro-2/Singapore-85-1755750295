@@ -1,0 +1,83 @@
+sonar-pro
+Allows the use of bracketing and matrixing study designs in pharmaceutical product stability testing.
+{
+  "id": "8b5c7005-d3c4-43fb-b797-d3149bee8472",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"YES\",\"explanation\":\"Singapore adopts the ASEAN Guideline on Stability Study of Drug Product, which aligns with ICH guidelines that allow for the use of bracketing and matrixing study designs in pharmaceutical product stability testing when scientifically justified, subject to regulatory review and acceptance[1][3][2].\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750293,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 65,
+    "prompt_tokens": 21,
+    "total_tokens": 86,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://asean.org/wp-content/uploads/i-Final-ASEAN-Guideline-on-Stability-Study-Drug-Product-R2_uniformed-template.pdf",
+    "https://aapsopen.springeropen.com/articles/10.1186/s41120-023-00078-5",
+    "https://www.ich.org/page/quality-guidelines",
+    "https://japsonline.com/admin/php/uploads/409_pdf.pdf",
+    "http://academy.gmp-compliance.org/guidemgr/files/WHO_TRS_953_Annex2.pdf"
+  ],
+  "search_results": [
+    {
+      "title": "[PDF] ASEAN GUIDELINE ON STABILITY STUDY OF DRUG PRODUCT",
+      "url": "https://asean.org/wp-content/uploads/i-Final-ASEAN-Guideline-on-Stability-Study-Drug-Product-R2_uniformed-template.pdf",
+      "date": null,
+      "last_updated": "2025-08-10"
+    },
+    {
+      "title": "Stability considerations for drug-device combination products-21 ...",
+      "url": "https://aapsopen.springeropen.com/articles/10.1186/s41120-023-00078-5",
+      "date": "2023-05-01",
+      "last_updated": "2025-08-04"
+    },
+    {
+      "title": "Quality Guidelines - ICH",
+      "url": "https://www.ich.org/page/quality-guidelines",
+      "date": "2025-01-09",
+      "last_updated": null
+    },
+    {
+      "title": "[PDF] Stability Testing of Pharmaceutical Products",
+      "url": "https://japsonline.com/admin/php/uploads/409_pdf.pdf",
+      "date": "2012-03-17",
+      "last_updated": "2025-08-10"
+    },
+    {
+      "title": "[PDF] Annex 2 Stability testing of active pharmaceutical ingredients and ...",
+      "url": "http://academy.gmp-compliance.org/guidemgr/files/WHO_TRS_953_Annex2.pdf",
+      "date": null,
+      "last_updated": "2025-08-10"
+    }
+  ]
+}

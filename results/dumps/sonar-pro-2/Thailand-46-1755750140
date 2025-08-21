@@ -1,0 +1,83 @@
+sonar-pro
+Requires halal certification for pharmaceutical products.
+{
+  "id": "883bfad2-3563-4119-b787-fb3c7d52a1c0",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"NO\",\"explanation\":\"Thailand does not require halal certification for pharmaceutical products as a regulatory mandate, but it does offer voluntary halal certification for pharmaceuticals, particularly for export and marketing purposes to Muslim consumers[3][4][5].\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750138,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 53,
+    "prompt_tokens": 12,
+    "total_tokens": 65,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://www.nationthailand.com/business/economy/40045799",
+    "https://unissa.edu.bn/journal/index.php/jhst/article/download/664/598",
+    "https://www.halaltimes.com/evolution-of-thai-halal-products-and-their-significance-in-the-usa/",
+    "https://halalfoundation.org/major-halal-certification-companies/",
+    "https://thailand.prd.go.th/en/content/category/detail/id/2078/iid/409724"
+  ],
+  "search_results": [
+    {
+      "title": "Thailand targets halal market with massage and herbal ...",
+      "url": "https://www.nationthailand.com/business/economy/40045799",
+      "date": "2025-01-31",
+      "last_updated": "2025-06-16"
+    },
+    {
+      "title": "[PDF] THE NEED FOR HALAL CERTIFICATION OF MEDICAL DEVICES",
+      "url": "https://unissa.edu.bn/journal/index.php/jhst/article/download/664/598",
+      "date": null,
+      "last_updated": "2025-03-26"
+    },
+    {
+      "title": "Evolution of Thai Halal Products and Their Significance in ...",
+      "url": "https://www.halaltimes.com/evolution-of-thai-halal-products-and-their-significance-in-the-usa/",
+      "date": "2024-05-24",
+      "last_updated": "2025-08-09"
+    },
+    {
+      "title": "List of Major Halal Certification Bodies Globally",
+      "url": "https://halalfoundation.org/major-halal-certification-companies/",
+      "date": "2025-06-20",
+      "last_updated": "2025-06-21"
+    },
+    {
+      "title": "Thailand aims for Global top 5 in Halal food exports",
+      "url": "https://thailand.prd.go.th/en/content/category/detail/id/2078/iid/409724",
+      "date": "2025-07-28",
+      "last_updated": "2025-07-29"
+    }
+  ]
+}

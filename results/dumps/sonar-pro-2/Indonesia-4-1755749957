@@ -1,0 +1,83 @@
+sonar-pro
+Permits stability data submission for pharmaceutical products at 25°C/60% relative humidity (RH) when supported by accelerated stability studies.
+{
+  "id": "32ad0d25-46d3-48b9-b8d2-35b310910670",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"YES\",\"explanation\":\"Indonesia accepts stability data submission at 25°C/60% RH for pharmaceutical products, provided it is supported by long-term and accelerated stability studies in accordance with BPOM guidelines and ASEAN standards[5][2].\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755749955,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 53,
+    "prompt_tokens": 31,
+    "total_tokens": 84,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://www.permitindo.com/news/bpom-health-supplement-stability-testing",
+    "https://www.rsc.org/suppdata/c5/ra/c5ra07716h/c5ra07716h1.pdf",
+    "https://foodcomplianceinternational.com/industry-insight/news/5384-bpom-issues-guidelines-for-stability-testing-of-health-supplements",
+    "https://www.ema.europa.eu/en/documents/scientific-guideline/ich-q-1-r2-stability-testing-new-drug-substances-and-products-step-5_en.pdf",
+    "https://www.artixio.com/post/nadfc-bpom-regulation-of-pharmaceuticals-in-indonesia"
+  ],
+  "search_results": [
+    {
+      "title": "BPOM Mandates Stability Testing for Health Supplements",
+      "url": "https://www.permitindo.com/news/bpom-health-supplement-stability-testing",
+      "date": "2025-05-06",
+      "last_updated": "2025-08-14"
+    },
+    {
+      "title": "[PDF] Annex 2 Stability testing of active pharmaceutical ingredients and ...",
+      "url": "https://www.rsc.org/suppdata/c5/ra/c5ra07716h/c5ra07716h1.pdf",
+      "date": null,
+      "last_updated": "2025-03-27"
+    },
+    {
+      "title": "BPOM issues guidelines for stability testing of health ...",
+      "url": "https://foodcomplianceinternational.com/industry-insight/news/5384-bpom-issues-guidelines-for-stability-testing-of-health-supplements",
+      "date": "2025-05-09",
+      "last_updated": "2025-05-15"
+    },
+    {
+      "title": "[PDF] Q 1 A (R2) Stability Testing of new Drug Substances and Products",
+      "url": "https://www.ema.europa.eu/en/documents/scientific-guideline/ich-q-1-r2-stability-testing-new-drug-substances-and-products-step-5_en.pdf",
+      "date": null,
+      "last_updated": "2025-08-10"
+    },
+    {
+      "title": "NADFC (BPOM) Regulation Of Pharmaceuticals In Indonesia",
+      "url": "https://www.artixio.com/post/nadfc-bpom-regulation-of-pharmaceuticals-in-indonesia",
+      "date": "2025-06-19",
+      "last_updated": "2025-06-25"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+sonar-pro
+Provides a fully digital online submission portal for pharmaceutical product marketing authorization applications.
+{
+  "id": "b90a45c4-395a-47a6-b354-46a5643d2c00",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"PARTIAL\",\"explanation\":\"The Philippines requires electronic portal accounts for regulatory submissions, but while some steps (like application for License to Operate and communication) are supported online, there is no clear evidence of a fully digital online submission portal that encompasses the entire pharmaceutical marketing authorization process with end-to-end digital application and approval; certain procedures and documentation may still require physical or hybrid processes[5][1].\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750201,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 84,
+    "prompt_tokens": 18,
+    "total_tokens": 102,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://cruzmarcelo.com/philippine-department-of-health-issues-guidelines-for-the-registration-of-pharmaceutical-products-and-active-pharmaceutical-ingredients-intended-for-human-use/",
+    "https://www.dmp.no/en/approval-of-medicines/approval-and-follow-up-of-marketing-authorisation-ma/application-for-marketing-authorisation/submission-of-applications",
+    "https://www.pharmatomarket.com/the-philippines-announces-the-launch-of-verification-portal-for-licensed-establishments-and-registered-products-29-september-2020/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC11080122/",
+    "https://www.pacificbridgemedical.com/regulatory-services/pharmaceutical/product-registration/philippines-drug-registration-and-approval-2/"
+  ],
+  "search_results": [
+    {
+      "title": "Philippine Department of Health Issues Guidelines for the ...",
+      "url": "https://cruzmarcelo.com/philippine-department-of-health-issues-guidelines-for-the-registration-of-pharmaceutical-products-and-active-pharmaceutical-ingredients-intended-for-human-use/",
+      "date": "2025-02-04",
+      "last_updated": "2025-02-08"
+    },
+    {
+      "title": "Submission of applications - Norwegian Medical Products ...",
+      "url": "https://www.dmp.no/en/approval-of-medicines/approval-and-follow-up-of-marketing-authorisation-ma/application-for-marketing-authorisation/submission-of-applications",
+      "date": "2023-10-14",
+      "last_updated": "2025-08-21"
+    },
+    {
+      "title": "The Philippines Announces the Launch of Verification Portal for ...",
+      "url": "https://www.pharmatomarket.com/the-philippines-announces-the-launch-of-verification-portal-for-licensed-establishments-and-registered-products-29-september-2020/",
+      "date": "2020-09-29",
+      "last_updated": "2024-10-14"
+    },
+    {
+      "title": "The digital transformation in pharmacy: embracing online ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11080122/",
+      "date": "2024-05-08",
+      "last_updated": "2025-06-15"
+    },
+    {
+      "title": "Philippines Drug Registration and Approval - Pacific Bridge Medical",
+      "url": "https://www.pacificbridgemedical.com/regulatory-services/pharmaceutical/product-registration/philippines-drug-registration-and-approval-2/",
+      "date": "2025-01-28",
+      "last_updated": "2025-07-30"
+    }
+  ]
+}

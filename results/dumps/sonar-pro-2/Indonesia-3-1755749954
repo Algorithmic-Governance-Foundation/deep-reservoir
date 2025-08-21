@@ -1,0 +1,83 @@
+sonar-pro
+Legally requires acceptance of another ASEAN Member State’s (AMS) Certificate of Good Manufacturing Practice (cGMP) for pharmaceutical manufacturers.
+{
+  "id": "b6f4de0d-37ec-46d0-b3c8-db6f8889df64",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"YES\",\"explanation\":\"Indonesia is legally required to accept GMP certificates from other ASEAN Member States for pharmaceutical manufacturers under the ASEAN Mutual Recognition Arrangement on GMP inspection, which obliges all AMS to recognize GMP certificates issued by ASEAN Listed Inspection Services.[3][4]\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755749952,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 63,
+    "prompt_tokens": 32,
+    "total_tokens": 95,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://certease.com/gmp-certification-in-indonesia/",
+    "https://asean.org/wp-content/uploads/images/2013/economic/iai/ASEAN%20Cosmetics%20Directive%20CLMV%20Workshop%20Feb%202013.pdf",
+    "https://globalforum.diaglobal.org/issue/march-2021/harmonization-of-gmp-inspection-and-benefits-to-asean-economic-community/",
+    "https://www.ncbi.nlm.nih.gov/books/NBK555744/",
+    "https://insightof.id/frequently-asked-questions-good-manufacturing-practice-gmp-certificate-for-cosmetics/"
+  ],
+  "search_results": [
+    {
+      "title": "GMP Certification in Indonesia - CERTEASE",
+      "url": "https://certease.com/gmp-certification-in-indonesia/",
+      "date": "2024-05-30",
+      "last_updated": "2025-01-28"
+    },
+    {
+      "title": "Implementing the ASEAN Cosmetics Directive (ACD)",
+      "url": "https://asean.org/wp-content/uploads/images/2013/economic/iai/ASEAN%20Cosmetics%20Directive%20CLMV%20Workshop%20Feb%202013.pdf",
+      "date": null,
+      "last_updated": "2025-04-08"
+    },
+    {
+      "title": "Harmonization of GMP Inspection and Benefits to ASEAN Economic ...",
+      "url": "https://globalforum.diaglobal.org/issue/march-2021/harmonization-of-gmp-inspection-and-benefits-to-asean-economic-community/",
+      "date": null,
+      "last_updated": "2025-08-21"
+    },
+    {
+      "title": "Table of Global Good Manufacturing Practice (GMP ...",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK555744/",
+      "date": "2015-05-18",
+      "last_updated": "2025-05-30"
+    },
+    {
+      "title": "Good Manufacturing Practice (GMP) Certificate for Cosmetics",
+      "url": "https://insightof.id/frequently-asked-questions-good-manufacturing-practice-gmp-certificate-for-cosmetics/",
+      "date": "2025-02-06",
+      "last_updated": "2025-02-13"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+sonar-pro
+Publishes national antimicrobial resistance (AMR) surveillance data related to pharmaceutical products.
+{
+  "id": "cb43b0a2-7138-47dc-b238-c2e5c4848671",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"YES\",\"explanation\":\"Laos publishes national AMR surveillance data: it has established a systematic national AMR surveillance system, shares surveillance data among hospitals, and reports data to international systems like WHO GLASS, with recent initiatives supporting regular data collection and public health reporting.\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750069,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 58,
+    "prompt_tokens": 21,
+    "total_tokens": 79,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC8638151/",
+    "https://ghsindex.org/wp-content/uploads/2021/12/Laos.pdf",
+    "https://www.who.int/laos/our-work/tracking-and-combating-antimicrobial-resistance",
+    "https://www.ivi.int/who-we-are/ivi-and-lao-peoples-democratic-republic/",
+    "https://captura.ivi.int/2025/06/03/strengthening-antimicrobial-use-amu-monitoring/"
+  ],
+  "search_results": [
+    {
+      "title": "Antimicrobial use and resistance data in human and animal sectors ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8638151/",
+      "date": "2021-12-01",
+      "last_updated": "2025-05-25"
+    },
+    {
+      "title": "Laos",
+      "url": "https://ghsindex.org/wp-content/uploads/2021/12/Laos.pdf",
+      "date": null,
+      "last_updated": "2025-04-03"
+    },
+    {
+      "title": "Tracking and combating antimicrobial resistance in Lao People's ...",
+      "url": "https://www.who.int/laos/our-work/tracking-and-combating-antimicrobial-resistance",
+      "date": "2024-11-18",
+      "last_updated": "2025-03-24"
+    },
+    {
+      "title": "IVI and Lao People's Democratic Republic",
+      "url": "https://www.ivi.int/who-we-are/ivi-and-lao-peoples-democratic-republic/",
+      "date": "2022-02-24",
+      "last_updated": "2025-04-16"
+    },
+    {
+      "title": "Strengthening Antimicrobial Use (AMU) Monitoring in Lao PDR",
+      "url": "https://captura.ivi.int/2025/06/03/strengthening-antimicrobial-use-amu-monitoring/",
+      "date": "2025-06-03",
+      "last_updated": "2025-06-18"
+    }
+  ]
+}

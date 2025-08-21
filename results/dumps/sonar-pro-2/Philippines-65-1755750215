@@ -1,0 +1,83 @@
+sonar-pro
+Allows the use of bracketing and matrixing study designs in pharmaceutical product stability testing.
+{
+  "id": "515aba3a-5a1b-4c4c-804f-0057184a81c0",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"YES\",\"explanation\":\"The Philippines, as a member of ASEAN, follows the ASEAN Guideline on Stability Study of Drug Product, which permits the use of bracketing and matrixing in stability study designs if scientifically justified, in line with ICH recommendations.[5][4]\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750213,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 61,
+    "prompt_tokens": 21,
+    "total_tokens": 82,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://humiditycontrol.com/blog/what-is-stability-testing/",
+    "https://aapsopen.springeropen.com/articles/10.1186/s41120-023-00078-5",
+    "https://database.ich.org/sites/default/files/ICH_Q1EWG_Step2_Draft_Guideline_2025_0411.pdf",
+    "https://www.ema.europa.eu/en/documents/scientific-guideline/ich-q-1-d-bracketing-and-matrixing-designs-stability-testing-drug-substances-and-drug-products-step-5_en.pdf",
+    "https://asean.org/wp-content/uploads/i-Final-ASEAN-Guideline-on-Stability-Study-Drug-Product-R2_uniformed-template.pdf"
+  ],
+  "search_results": [
+    {
+      "title": "Stability Testing for Pharmaceuticals & More - Parameter",
+      "url": "https://humiditycontrol.com/blog/what-is-stability-testing/",
+      "date": "2023-02-22",
+      "last_updated": "2025-06-16"
+    },
+    {
+      "title": "Stability considerations for drug-device combination products-21 ...",
+      "url": "https://aapsopen.springeropen.com/articles/10.1186/s41120-023-00078-5",
+      "date": "2023-05-01",
+      "last_updated": "2025-08-04"
+    },
+    {
+      "title": "[PDF] STABILITY TESTING OF DRUG SUBSTANCES AND DRUG ... - ICH",
+      "url": "https://database.ich.org/sites/default/files/ICH_Q1EWG_Step2_Draft_Guideline_2025_0411.pdf",
+      "date": "2025-04-11",
+      "last_updated": "2025-08-10"
+    },
+    {
+      "title": "[PDF] ich-q-1-d-bracketing-and-matrixing-designs-stability-testing-drug ...",
+      "url": "https://www.ema.europa.eu/en/documents/scientific-guideline/ich-q-1-d-bracketing-and-matrixing-designs-stability-testing-drug-substances-and-drug-products-step-5_en.pdf",
+      "date": null,
+      "last_updated": "2025-04-16"
+    },
+    {
+      "title": "[PDF] ASEAN GUIDELINE ON STABILITY STUDY OF DRUG PRODUCT",
+      "url": "https://asean.org/wp-content/uploads/i-Final-ASEAN-Guideline-on-Stability-Study-Drug-Product-R2_uniformed-template.pdf",
+      "date": null,
+      "last_updated": "2025-08-10"
+    }
+  ]
+}

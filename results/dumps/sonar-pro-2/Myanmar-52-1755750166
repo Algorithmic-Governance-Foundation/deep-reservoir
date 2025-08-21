@@ -1,0 +1,83 @@
+sonar-pro
+Provides a fully digital online submission portal for pharmaceutical product marketing authorization applications.
+{
+  "id": "d9835a5c-1966-45aa-8a5b-6a08859152e3",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"PARTIAL\",\"explanation\":\"Myanmar has implemented an electronic submission system for pharmaceutical product registration and related import licensing, but available guidelines and notifications indicate that full digitalization is limited to certain steps (such as e-submission and online fee payments), while some documentation and initial submissions may still require in-person handling, especially for new marketing authorization applications[1][3][5].\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750164,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 79,
+    "prompt_tokens": 18,
+    "total_tokens": 97,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://www.myanmartradeportal.gov.mm/attachment/274/download",
+    "https://www.questjournals.org/jrbm/papers/vol10-issue4/Ser-3/D10042733.pdf",
+    "https://lic-public.wto.org/en/legislations/1165",
+    "https://www.southuniversity.edu/savannah/physician-assistant-ms",
+    "https://lic-public.wto.org/en/product-categories/569/procedure"
+  ],
+  "search_results": [
+    {
+      "title": "[PDF] A Guideline on Drug Registration Application (April,2014)",
+      "url": "https://www.myanmartradeportal.gov.mm/attachment/274/download",
+      "date": null,
+      "last_updated": "2025-04-07"
+    },
+    {
+      "title": "[PDF] A Study of Pharmaceutical Product Registration Process in Myanmar",
+      "url": "https://www.questjournals.org/jrbm/papers/vol10-issue4/Ser-3/D10042733.pdf",
+      "date": "2022-04-28",
+      "last_updated": "2025-08-10"
+    },
+    {
+      "title": "Import Licensing Notification Portal",
+      "url": "https://lic-public.wto.org/en/legislations/1165",
+      "date": "2023-07-14",
+      "last_updated": "2025-07-22"
+    },
+    {
+      "title": "Savannah Master in Physician Assistant (PA) Degree",
+      "url": "https://www.southuniversity.edu/savannah/physician-assistant-ms",
+      "date": "2025-08-19",
+      "last_updated": "2025-08-21"
+    },
+    {
+      "title": "Medicine (pharmaceuticals) - Import Licensing Notification Portal",
+      "url": "https://lic-public.wto.org/en/product-categories/569/procedure",
+      "date": "2025-01-22",
+      "last_updated": "2025-04-08"
+    }
+  ]
+}

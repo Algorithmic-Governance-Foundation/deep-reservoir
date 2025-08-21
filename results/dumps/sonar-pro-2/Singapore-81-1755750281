@@ -1,0 +1,83 @@
+sonar-pro
+Accepts the International Council for Harmonisation (ICH) Common Technical Document (CTD) format for innovator pharmaceutical product registrations.
+{
+  "id": "f9ded3a1-7f34-4d4f-a8fb-84c626b52ddc",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"YES\",\"explanation\":\"Singapore accepts the ICH Common Technical Document (CTD) format for innovator pharmaceutical product registrations, as applications must be submitted in either the ICH CTD or ACTD format per Health Sciences Authority (HSA) guidelines[2][4].\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750279,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 59,
+    "prompt_tokens": 30,
+    "total_tokens": 89,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://www.efpia.eu/media/636610/ectd-white-paper_final-20-dec-21.pdf",
+    "https://www.hsa.gov.sg/docs/default-source/hprg-tpb/guidances/guidance-on-therapeutic-product-registration-in-singapore.pdf?sfvrsn=cd174383_52",
+    "https://www.extedo.com/blog/singapores-transition-to-ectd",
+    "https://www.artixio.com/post/pharmaceutical-regulations-and-registration-in-singapore",
+    "https://gandlscientific.com/knowledge-hub/the-implementation-of-ectd-in-singapore"
+  ],
+  "search_results": [
+    {
+      "title": "[PDF] Global ICH eCTD Adoption - EFPIA",
+      "url": "https://www.efpia.eu/media/636610/ectd-white-paper_final-20-dec-21.pdf",
+      "date": "2021-12-20",
+      "last_updated": "2025-08-10"
+    },
+    {
+      "title": "guidance-on-therapeutic-product-registration-in-singapore. ...",
+      "url": "https://www.hsa.gov.sg/docs/default-source/hprg-tpb/guidances/guidance-on-therapeutic-product-registration-in-singapore.pdf?sfvrsn=cd174383_52",
+      "date": null,
+      "last_updated": "2025-08-12"
+    },
+    {
+      "title": "Singapore's Transition to eCTD - EXTEDO",
+      "url": "https://www.extedo.com/blog/singapores-transition-to-ectd",
+      "date": "2024-04-12",
+      "last_updated": "2025-08-20"
+    },
+    {
+      "title": "Pharmaceutical Regulations and Registration in Singapore",
+      "url": "https://www.artixio.com/post/pharmaceutical-regulations-and-registration-in-singapore",
+      "date": "2025-06-25",
+      "last_updated": "2025-08-06"
+    },
+    {
+      "title": "The Implementation of eCTD in Singapore - G&L Scientific",
+      "url": "https://gandlscientific.com/knowledge-hub/the-implementation-of-ectd-in-singapore",
+      "date": "2024-02-19",
+      "last_updated": "2025-03-22"
+    }
+  ]
+}

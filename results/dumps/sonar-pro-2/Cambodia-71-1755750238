@@ -1,0 +1,83 @@
+sonar-pro
+Accepts the International Council for Harmonisation (ICH) Common Technical Document (CTD) format for innovator pharmaceutical product registrations.
+{
+  "id": "a7906a20-0bd9-400d-b03d-21b9ad30002d",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"PARTIAL\",\"explanation\":\"Cambodia officially accepts the ASEAN Common Technical Document (ACTD) format, not the ICH CTD format; however, there is some indication that ICH CTD might be accepted in practice, but this is not confirmed as regulatory policy[5].\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750236,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 62,
+    "prompt_tokens": 30,
+    "total_tokens": 92,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://www.ijpcbs.com/articles/comparative-study-of-regulatory-requirementsfor-the-compilation-and-approval-of-dossieras-per-ctd-actd-and-ectd-formats.pdf",
+    "https://data.wahooas.org/tenders/uploads/attachment/document/357/CTD_En_Guidance_for_the_Preparation_of_Applications.pdf",
+    "https://www.ijdra.com/index.php/journal/article/view/318",
+    "https://www.efpia.eu/media/636610/ectd-white-paper_final-20-dec-21.pdf",
+    "https://dcvmn.org/wp-content/uploads/2019/03/dcvmn_singapore_actd_and_ich_ctd_comparison_mar2019_ida.pdf"
+  ],
+  "search_results": [
+    {
+      "title": "[PDF] AS PER CTD, ACTD AND ECTD FORMATS",
+      "url": "https://www.ijpcbs.com/articles/comparative-study-of-regulatory-requirementsfor-the-compilation-and-approval-of-dossieras-per-ctd-actd-and-ectd-formats.pdf",
+      "date": null,
+      "last_updated": "2025-04-29"
+    },
+    {
+      "title": "REGISTRATION OF PHARMACEUTICAL PRODUCTS ...",
+      "url": "https://data.wahooas.org/tenders/uploads/attachment/document/357/CTD_En_Guidance_for_the_Preparation_of_Applications.pdf",
+      "date": null,
+      "last_updated": "2025-08-10"
+    },
+    {
+      "title": "Dossier, Registration, ACTD, CTD, ASEAN, Regulatory Authority",
+      "url": "https://www.ijdra.com/index.php/journal/article/view/318",
+      "date": "2019-06-16",
+      "last_updated": "2025-07-22"
+    },
+    {
+      "title": "Global ICH eCTD Adoption",
+      "url": "https://www.efpia.eu/media/636610/ectd-white-paper_final-20-dec-21.pdf",
+      "date": "2021-12-20",
+      "last_updated": "2025-08-10"
+    },
+    {
+      "title": "[PDF] COMPARISON BETWEEN ASEAN AND ICH CTDS - DCVMN",
+      "url": "https://dcvmn.org/wp-content/uploads/2019/03/dcvmn_singapore_actd_and_ich_ctd_comparison_mar2019_ida.pdf",
+      "date": "2019-03-27",
+      "last_updated": "2025-04-22"
+    }
+  ]
+}

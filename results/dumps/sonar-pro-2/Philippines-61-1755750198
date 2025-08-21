@@ -1,0 +1,83 @@
+sonar-pro
+Accepts the International Council for Harmonisation (ICH) Common Technical Document (CTD) format for innovator pharmaceutical product registrations.
+{
+  "id": "82d922aa-9ae4-4e3c-b61a-a6d5e5914990",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"YES\",\"explanation\":\"The Philippines accepts the ICH Common Technical Document (CTD) format for innovator pharmaceutical product registrations, as the Philippines FDA allows submission in either the ICH CTD or ASEAN ACTD format for pharmaceutical registration.[3][4]\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750196,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 57,
+    "prompt_tokens": 30,
+    "total_tokens": 87,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://www.ijpcbs.com/articles/comparative-study-of-regulatory-requirementsfor-the-compilation-and-approval-of-dossieras-per-ctd-actd-and-ectd-formats.pdf",
+    "https://www.ema.europa.eu/en/documents/scientific-guideline/ich-guideline-m4-r4-common-technical-document-ctd-registration-pharmaceuticals-human-use-organisation-ctd-step-5_en.pdf",
+    "https://www.pacificbridgemedical.com/publication/philippines-food-and-drug-administration-philippines-fda/",
+    "https://aapsopen.springeropen.com/articles/10.1186/s41120-024-00102-2",
+    "https://www.ijdra.com/index.php/journal/article/download/669/362"
+  ],
+  "search_results": [
+    {
+      "title": "AS PER CTD, ACTD AND ECTD FORMATS",
+      "url": "https://www.ijpcbs.com/articles/comparative-study-of-regulatory-requirementsfor-the-compilation-and-approval-of-dossieras-per-ctd-actd-and-ectd-formats.pdf",
+      "date": null,
+      "last_updated": "2025-04-29"
+    },
+    {
+      "title": "[PDF] ICH guideline M4 (R4) on common technical document (CTD) for the ...",
+      "url": "https://www.ema.europa.eu/en/documents/scientific-guideline/ich-guideline-m4-r4-common-technical-document-ctd-registration-pharmaceuticals-human-use-organisation-ctd-step-5_en.pdf",
+      "date": null,
+      "last_updated": "2025-08-10"
+    },
+    {
+      "title": "Overview of the Philippines FDA",
+      "url": "https://www.pacificbridgemedical.com/publication/philippines-food-and-drug-administration-philippines-fda/",
+      "date": "2023-12-04",
+      "last_updated": "2025-08-08"
+    },
+    {
+      "title": "Advancements in regulatory agility, regional collaboration, and ...",
+      "url": "https://aapsopen.springeropen.com/articles/10.1186/s41120-024-00102-2",
+      "date": "2024-12-16",
+      "last_updated": null
+    },
+    {
+      "title": "A Comparative Study on Regulatory Requirements for ...",
+      "url": "https://www.ijdra.com/index.php/journal/article/download/669/362",
+      "date": "2024-06-15",
+      "last_updated": "2024-10-01"
+    }
+  ]
+}

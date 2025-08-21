@@ -1,0 +1,83 @@
+sonar-pro
+Provides a fully digital online submission portal for pharmaceutical product marketing authorization applications.
+{
+  "id": "992a9506-9bc3-4126-9cbf-6b50e88df639",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"YES\",\"explanation\":\"Laos provides a fully digital online submission portal for pharmaceutical product marketing authorization applications through the LAOREG system, which allows online applications and assessment for marketing authorization.\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750036,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 41,
+    "prompt_tokens": 18,
+    "total_tokens": 59,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://www.artixio.com/qatar/pharma/regulatory-affairs",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC8483304/",
+    "https://www.laotradeportal.gov.la/en-gb/site/display/41",
+    "https://www.iqvia.com/-/media/iqvia/pdfs/asia-pacific/apac-insight-magazine/iqvia-apac-insight-issue10-vf.pdf",
+    "https://laoreg.online/adm/index.php"
+  ],
+  "search_results": [
+    {
+      "title": "Pharma Regulatory Affairs Services in Qatar - Artixio",
+      "url": "https://www.artixio.com/qatar/pharma/regulatory-affairs",
+      "date": "2025-06-24",
+      "last_updated": "2025-08-06"
+    },
+    {
+      "title": "Implementation of field detection devices for antimalarial ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8483304/",
+      "date": "2021-09-30",
+      "last_updated": "2025-07-09"
+    },
+    {
+      "title": "Regulation Governing Drug Registration 1441/MOH - Home Lao",
+      "url": "https://www.laotradeportal.gov.la/en-gb/site/display/41",
+      "date": null,
+      "last_updated": "2025-07-14"
+    },
+    {
+      "title": "IQVIA APAC Insight",
+      "url": "https://www.iqvia.com/-/media/iqvia/pdfs/asia-pacific/apac-insight-magazine/iqvia-apac-insight-issue10-vf.pdf",
+      "date": null,
+      "last_updated": "2025-01-27"
+    },
+    {
+      "title": "LAOREG ADM - System Access",
+      "url": "https://laoreg.online/adm/index.php",
+      "date": null,
+      "last_updated": null
+    }
+  ]
+}

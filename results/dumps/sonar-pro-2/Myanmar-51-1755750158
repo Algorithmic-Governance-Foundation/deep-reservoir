@@ -1,0 +1,83 @@
+sonar-pro
+Accepts the International Council for Harmonisation (ICH) Common Technical Document (CTD) format for innovator pharmaceutical product registrations.
+{
+  "id": "798c30fa-2783-4ce8-9b99-e2000ccb5851",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"NO\",\"explanation\":\"Myanmar does not officially accept the ICH CTD format for innovator pharmaceutical product registrations; it is not listed among countries using this format, and ASEAN countries including Myanmar typically follow the ACTD format instead.[4][5]\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750156,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 56,
+    "prompt_tokens": 30,
+    "total_tokens": 86,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://www.ijpcbs.com/articles/comparative-study-of-regulatory-requirementsfor-the-compilation-and-approval-of-dossieras-per-ctd-actd-and-ectd-formats.pdf",
+    "https://www.ema.europa.eu/en/documents/scientific-guideline/ich-guideline-m4-r4-common-technical-document-ctd-registration-pharmaceuticals-human-use-organisation-ctd-step-5_en.pdf",
+    "https://jgtps.com/admin/uploads/zhg3fT.pdf",
+    "https://www.ijdra.com/index.php/journal/article/download/510/264",
+    "https://www.ijdra.com/index.php/journal/article/download/442/222"
+  ],
+  "search_results": [
+    {
+      "title": "AS PER CTD, ACTD AND ECTD FORMATS",
+      "url": "https://www.ijpcbs.com/articles/comparative-study-of-regulatory-requirementsfor-the-compilation-and-approval-of-dossieras-per-ctd-actd-and-ectd-formats.pdf",
+      "date": null,
+      "last_updated": "2025-04-29"
+    },
+    {
+      "title": "ICH guideline M4 (R4) on common technical document (CTD ...",
+      "url": "https://www.ema.europa.eu/en/documents/scientific-guideline/ich-guideline-m4-r4-common-technical-document-ctd-registration-pharmaceuticals-human-use-organisation-ctd-step-5_en.pdf",
+      "date": "2021-03-19",
+      "last_updated": "2025-08-10"
+    },
+    {
+      "title": "REGULATORY REQUIREMENTS FOR THE ...",
+      "url": "https://jgtps.com/admin/uploads/zhg3fT.pdf",
+      "date": null,
+      "last_updated": "2025-08-10"
+    },
+    {
+      "title": "Comparative study of Regulatory requirements of ...",
+      "url": "https://www.ijdra.com/index.php/journal/article/download/510/264",
+      "date": "2022-03-15",
+      "last_updated": "2024-12-05"
+    },
+    {
+      "title": "Drug Registration requirements for Pharmaceuticals in ...",
+      "url": "https://www.ijdra.com/index.php/journal/article/download/442/222",
+      "date": "2020-12-15",
+      "last_updated": "2025-01-15"
+    }
+  ]
+}

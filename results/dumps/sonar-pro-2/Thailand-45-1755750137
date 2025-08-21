@@ -1,0 +1,83 @@
+sonar-pro
+Allows the use of bracketing and matrixing study designs in pharmaceutical product stability testing.
+{
+  "id": "f7bb5026-1c5b-49ca-9dbb-1151c69fa1e5",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"YES\",\"explanation\":\"Thailand, as a member of ASEAN, allows bracketing and matrixing designs in pharmaceutical stability studies, as reflected in the ASEAN Guidelines on Stability Study and Shelf-Life, which Thailand follows for regulatory compliance[2].\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750135,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 54,
+    "prompt_tokens": 21,
+    "total_tokens": 75,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://www.artixio.com/post/thailand-fda-regulations-for-pharmaceutical-registration",
+    "https://asean.org/wp-content/uploads/2017/09/ASEAN-Guidelines-on-Stability-and-Shelf-Life-TM-V1.0-with-disclaimer.pdf",
+    "https://humiditycontrol.com/blog/what-is-stability-testing/",
+    "https://www.ema.europa.eu/en/documents/scientific-guideline/ich-q-1-d-bracketing-and-matrixing-designs-stability-testing-drug-substances-and-drug-products-step-5_en.pdf",
+    "https://siip.ac.in/wp-content/uploads/2021/04/stability-testing.pdf"
+  ],
+  "search_results": [
+    {
+      "title": "Thai FDA Pharma Regulations & Registration Process in Thailand",
+      "url": "https://www.artixio.com/post/thailand-fda-regulations-for-pharmaceutical-registration",
+      "date": "2025-08-04",
+      "last_updated": "2025-06-22"
+    },
+    {
+      "title": "[PDF] ASEAN Guidelines on Stability Study and Shelf-Life of Traditional ...",
+      "url": "https://asean.org/wp-content/uploads/2017/09/ASEAN-Guidelines-on-Stability-and-Shelf-Life-TM-V1.0-with-disclaimer.pdf",
+      "date": null,
+      "last_updated": "2025-03-27"
+    },
+    {
+      "title": "Stability Testing for Pharmaceuticals & More - Parameter",
+      "url": "https://humiditycontrol.com/blog/what-is-stability-testing/",
+      "date": "2023-02-22",
+      "last_updated": "2025-06-16"
+    },
+    {
+      "title": "[PDF] ich-q-1-d-bracketing-and-matrixing-designs-stability-testing-drug ...",
+      "url": "https://www.ema.europa.eu/en/documents/scientific-guideline/ich-q-1-d-bracketing-and-matrixing-designs-stability-testing-drug-substances-and-drug-products-step-5_en.pdf",
+      "date": null,
+      "last_updated": "2025-04-16"
+    },
+    {
+      "title": "[PDF] GUIDELINES FOR THE STABILITY TESTING OF ...",
+      "url": "https://siip.ac.in/wp-content/uploads/2021/04/stability-testing.pdf",
+      "date": null,
+      "last_updated": "2025-08-10"
+    }
+  ]
+}

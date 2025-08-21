@@ -1,0 +1,83 @@
+sonar-pro
+Imposes hospital-only distribution restrictions for certain classes of antimicrobial (AM) pharmaceutical products.
+{
+  "id": "bd42531d-899f-4764-abeb-d972fe148120",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"NO\",\"explanation\":\"There is no evidence that Myanmar imposes hospital-only distribution restrictions for certain classes of antimicrobial pharmaceutical products; antibiotics are widely available, including over-the-counter sales without prescription, and no national system restricts their distribution to hospitals only[1][2][4].\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750187,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 60,
+    "prompt_tokens": 22,
+    "total_tokens": 82,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://ghsindex.org/wp-content/uploads/2021/12/Myanmar.pdf",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC8167548/",
+    "https://steps-centre.org/wp-content/uploads/2022/12/Taking-Myanmars-AMR-National-Action-Plan-forward_November2022_2.pdf",
+    "https://researchonline.lshtm.ac.uk/id/eprint/4668293/1/2022_PHP_PhD_Khine%20Zaw_Y-sigs-photos-redacted.pdf",
+    "https://antimicrobialsinsociety.org/essential-reading/negotiating-authoritarian-law-and-disorder/"
+  ],
+  "search_results": [
+    {
+      "title": "[PDF] Myanmar | GHS Index",
+      "url": "https://ghsindex.org/wp-content/uploads/2021/12/Myanmar.pdf",
+      "date": null,
+      "last_updated": "2025-08-21"
+    },
+    {
+      "title": "Decreasing Trends in Antibiotic Consumption in Public Hospitals ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8167548/",
+      "date": "2021-04-20",
+      "last_updated": "2025-06-02"
+    },
+    {
+      "title": "Taking Myanmar's AMR National Action Plan forward - STEPS Centre",
+      "url": "https://steps-centre.org/wp-content/uploads/2022/12/Taking-Myanmars-AMR-National-Action-Plan-forward_November2022_2.pdf",
+      "date": null,
+      "last_updated": "2025-06-27"
+    },
+    {
+      "title": "[PDF] An ethnographic study of medicines, care, and antimicrobial ...",
+      "url": "https://researchonline.lshtm.ac.uk/id/eprint/4668293/1/2022_PHP_PhD_Khine%20Zaw_Y-sigs-photos-redacted.pdf",
+      "date": null,
+      "last_updated": "2024-01-24"
+    },
+    {
+      "title": "Negotiating authoritarian law and (dis)order - Antimicrobials in Society",
+      "url": "https://antimicrobialsinsociety.org/essential-reading/negotiating-authoritarian-law-and-disorder/",
+      "date": null,
+      "last_updated": null
+    }
+  ]
+}

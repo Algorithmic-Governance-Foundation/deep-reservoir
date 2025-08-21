@@ -1,0 +1,83 @@
+sonar-pro
+Requires halal certification for pharmaceutical products.
+{
+  "id": "f48d69be-5e2e-4b69-bcca-2e78c055e4e2",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"NO\",\"explanation\":\"Brunei does not require halal certification for pharmaceutical products; the certification is compulsory only for food businesses, while non-food items such as pharmaceuticals are exempt unless they are oral or consumed products[2].\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750090,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 50,
+    "prompt_tokens": 13,
+    "total_tokens": 63,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://halalfocus.com/brunei-unveils-halal-pharma-guidelines/",
+    "http://news.xinhuanet.com/english/2017-07/14/c_136444795.htm",
+    "https://borneobulletinyearbook.com.bn/halal/",
+    "https://certease.com/halal-certification-in-brunei/",
+    "https://www.halalrc.org/images/Research%20Material/Report/GUIDELINE%20FOR%20HALAL%20CERTIFICATION.pdf"
+  ],
+  "search_results": [
+    {
+      "title": "Brunei unveils Halal pharma guidelines - HalalFocus.com",
+      "url": "https://halalfocus.com/brunei-unveils-halal-pharma-guidelines/",
+      "date": "2010-06-04",
+      "last_updated": "2025-08-21"
+    },
+    {
+      "title": "Brunei's food operators required to apply for Halal ...",
+      "url": "http://news.xinhuanet.com/english/2017-07/14/c_136444795.htm",
+      "date": "2017-07-14",
+      "last_updated": "2025-07-30"
+    },
+    {
+      "title": "HALAL INDUSTRY | BBYB PRIME Borneo Bulletin Yearbook 2025",
+      "url": "https://borneobulletinyearbook.com.bn/halal/",
+      "date": "2024-04-20",
+      "last_updated": "2025-01-24"
+    },
+    {
+      "title": "Halal Certification in Brunei",
+      "url": "https://certease.com/halal-certification-in-brunei/",
+      "date": "2024-10-05",
+      "last_updated": "2024-12-09"
+    },
+    {
+      "title": "[PDF] GUIDELINE FOR HALAL CERTIFICATION",
+      "url": "https://www.halalrc.org/images/Research%20Material/Report/GUIDELINE%20FOR%20HALAL%20CERTIFICATION.pdf",
+      "date": null,
+      "last_updated": "2025-08-20"
+    }
+  ]
+}

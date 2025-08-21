@@ -1,0 +1,83 @@
+sonar-pro
+Specifically mandates the use of a “red dot” symbol on prescription-only pharmaceutical products.
+{
+  "id": "00b29c00-e48c-4274-8085-b0d83107475d",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"NO\",\"explanation\":\"Laos does not specifically mandate a “red dot” symbol on prescription-only pharmaceuticals; labeling laws require special wording in red for dangerous drugs, but make no mention of a red dot symbol for prescription-only medicines[1].\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750058,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 54,
+    "prompt_tokens": 21,
+    "total_tokens": 75,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://www.laotradeportal.gov.la/en-gb/site/display/41",
+    "http://www.tsmia.or.th/RTD2022/Self-CARER_e-book_final.pdf",
+    "http://fdd.gov.la/download/contentfiles/2018-07-18_113527am_Regulation%20on%20Establishment%20on%20Export_Import%20Company.pdf",
+    "https://iris.who.int/bitstream/handle/10665/43080/9241592508.pdf?sequence=1",
+    "https://www.tilleke.com/insights/laos-implements-medical-device-registration-and-notification-requirements/70/"
+  ],
+  "search_results": [
+    {
+      "title": "Regulation Governing Drug Registration 1441/MOH - Home Lao",
+      "url": "https://www.laotradeportal.gov.la/en-gb/site/display/41",
+      "date": null,
+      "last_updated": "2025-07-14"
+    },
+    {
+      "title": "Self-CARER",
+      "url": "http://www.tsmia.or.th/RTD2022/Self-CARER_e-book_final.pdf",
+      "date": "2015-09-17",
+      "last_updated": null
+    },
+    {
+      "title": "[PDF] Lao People's Democratic Republic",
+      "url": "http://fdd.gov.la/download/contentfiles/2018-07-18_113527am_Regulation%20on%20Establishment%20on%20Export_Import%20Company.pdf",
+      "date": null,
+      "last_updated": "2025-04-04"
+    },
+    {
+      "title": "Sources and Prices of Selected Products for the Prevention ...",
+      "url": "https://iris.who.int/bitstream/handle/10665/43080/9241592508.pdf?sequence=1",
+      "date": null,
+      "last_updated": "2025-04-16"
+    },
+    {
+      "title": "Laos Implements Medical Device Registration and Notification ...",
+      "url": "https://www.tilleke.com/insights/laos-implements-medical-device-registration-and-notification-requirements/70/",
+      "date": "2023-12-06",
+      "last_updated": "2025-04-08"
+    }
+  ]
+}

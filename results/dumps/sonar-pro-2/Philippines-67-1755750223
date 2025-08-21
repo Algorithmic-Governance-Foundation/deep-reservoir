@@ -1,0 +1,83 @@
+sonar-pro
+Specifically mandates the use of a “red dot” symbol on prescription-only pharmaceutical products.
+{
+  "id": "846b3c17-f0ca-4477-b4ba-8d24a712a3a3",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"NO\",\"explanation\":\"Current Philippine drug labeling regulations do not specifically mandate the use of a 'red dot' symbol on prescription-only pharmaceutical products; labeling requirements focus instead on generics prominence and detailed information as outlined in Administrative Order No. 55 s. 1988[1].\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750221,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 60,
+    "prompt_tokens": 21,
+    "total_tokens": 81,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://www.slideshare.net/slideshow/ra-55/45401812",
+    "http://www.tsmia.or.th/RTD2022/Self-CARER_e-book_final.pdf",
+    "https://www.fda.gov/food/hfp-constituent-updates/fda-revoke-authorization-use-red-no-3-food-and-ingested-drugs",
+    "https://www.guttmacher.org/sites/default/files/report_pdf/abortion-methodologies.pdf",
+    "https://www.raps.org/news-and-articles/news-articles/2018/1/the-drug-regulatory-landscape-in-the-asean-region"
+  ],
+  "search_results": [
+    {
+      "title": "Ra 55 | PDF | Pharmaceutical Drugs | Medical Health",
+      "url": "https://www.slideshare.net/slideshow/ra-55/45401812",
+      "date": "2015-03-03",
+      "last_updated": "2025-05-01"
+    },
+    {
+      "title": "[PDF] Self-CARER",
+      "url": "http://www.tsmia.or.th/RTD2022/Self-CARER_e-book_final.pdf",
+      "date": "2015-09-17",
+      "last_updated": null
+    },
+    {
+      "title": "Revoking Authorization for the Use of Red No. 3 in Food ...",
+      "url": "https://www.fda.gov/food/hfp-constituent-updates/fda-revoke-authorization-use-red-no-3-food-and-ingested-drugs",
+      "date": "2025-01-15",
+      "last_updated": "2025-06-16"
+    },
+    {
+      "title": "[PDF] Methodologies for Estimating Abortion Incidence and Abortion ...",
+      "url": "https://www.guttmacher.org/sites/default/files/report_pdf/abortion-methodologies.pdf",
+      "date": null,
+      "last_updated": null
+    },
+    {
+      "title": "The Drug Regulatory Landscape in the ASEAN Region",
+      "url": "https://www.raps.org/news-and-articles/news-articles/2018/1/the-drug-regulatory-landscape-in-the-asean-region",
+      "date": "2018-01-30",
+      "last_updated": null
+    }
+  ]
+}

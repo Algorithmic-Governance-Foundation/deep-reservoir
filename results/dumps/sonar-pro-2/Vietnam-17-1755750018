@@ -1,0 +1,83 @@
+sonar-pro
+Specifically mandates the use of a “red dot” symbol on prescription-only pharmaceutical products.
+{
+  "id": "186acec9-4e28-4841-a678-cf0fe162f479",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"NO\",\"explanation\":\"Vietnamese regulations on pharmaceutical labeling, including the latest amendments effective January 2024, do not mandate the use of a 'red dot' symbol to indicate prescription-only drugs; the regulations focus on linguistic requirements, batch identification, and clarity, but do not specify a color-coded or symbolic system for prescription status.[1][5]\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750016,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 75,
+    "prompt_tokens": 21,
+    "total_tokens": 96,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://www.vietnam-briefing.com/doing-business-guide/vietnam/sector-insights/vietnam-updates-regulations-on-pharmaceutical-product-labeling",
+    "https://chicagounbound.uchicago.edu/cgi/viewcontent.cgi?article=2753&context=law_and_economics",
+    "https://vivabcs.com.vn/resources/representative-office/pharmacy-business-establish-representative-office/",
+    "http://www.tsmia.or.th/RTD2022/Self-CARER_e-book_final.pdf",
+    "https://clinregs.niaid.nih.gov/sites/default/files/documents/vietnam/MedLabel_GoogleTranslation.pdf"
+  ],
+  "search_results": [
+    {
+      "title": "Vietnam Updates Regulations on Pharmaceutical Product Labeling",
+      "url": "https://www.vietnam-briefing.com/doing-business-guide/vietnam/sector-insights/vietnam-updates-regulations-on-pharmaceutical-product-labeling",
+      "date": null,
+      "last_updated": "2025-08-21"
+    },
+    {
+      "title": "[PDF] Evaluating and Pricing Health Insurance in Lower- Income Countries",
+      "url": "https://chicagounbound.uchicago.edu/cgi/viewcontent.cgi?article=2753&context=law_and_economics",
+      "date": null,
+      "last_updated": null
+    },
+    {
+      "title": "Pharmacy business shall establish a representative offices",
+      "url": "https://vivabcs.com.vn/resources/representative-office/pharmacy-business-establish-representative-office/",
+      "date": "2023-11-16",
+      "last_updated": "2024-12-14"
+    },
+    {
+      "title": "[PDF] Self-CARER",
+      "url": "http://www.tsmia.or.th/RTD2022/Self-CARER_e-book_final.pdf",
+      "date": "2015-09-17",
+      "last_updated": null
+    },
+    {
+      "title": "[PDF] MINISTRY OF HEALTH ------- SOCIALIST REPUBLIC OF VIETNAM ...",
+      "url": "https://clinregs.niaid.nih.gov/sites/default/files/documents/vietnam/MedLabel_GoogleTranslation.pdf",
+      "date": "2024-05-17",
+      "last_updated": "2025-04-12"
+    }
+  ]
+}

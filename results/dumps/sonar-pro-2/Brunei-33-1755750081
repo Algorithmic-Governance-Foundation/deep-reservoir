@@ -1,0 +1,83 @@
+sonar-pro
+Legally requires acceptance of another ASEAN Member State’s (AMS) Certificate of Good Manufacturing Practice (cGMP) for pharmaceutical manufacturers.
+{
+  "id": "8b942bb3-ca90-412b-a46e-7df4b8d0d931",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"UNKNOWN\",\"explanation\":\"Available sources do not confirm that Brunei legally requires acceptance of another AMS's cGMP certificate for pharmaceutical manufacturers; no direct evidence of a mandatory requirement is found.\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750079,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 42,
+    "prompt_tokens": 33,
+    "total_tokens": 75,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://asean.org/wp-content/uploads/AVG-Revision-2-endorsed-31PPWG.pdf",
+    "https://www.aseanconsumer.org/file/post_image/BRUNEI-FINAL%20REPORT%20-%20Revised%2018Jun2014.pdf",
+    "https://www.pacificbridgemedical.com/regulation/asean-medical-device-pharmaceutical-regulations/",
+    "https://www.giz.de/de/downloads/giz2015-en-Laos_and_the_ASEAN_Economic_Community_-_8__factsheets.pdf",
+    "https://www.trade.gov/country-commercial-guides/brunei-standards-trade"
+  ],
+  "search_results": [
+    {
+      "title": "ASEAN Variation Guideline for Pharmaceutical Product ...",
+      "url": "https://asean.org/wp-content/uploads/AVG-Revision-2-endorsed-31PPWG.pdf",
+      "date": null,
+      "last_updated": "2025-08-10"
+    },
+    {
+      "title": "ROADMAPPING CAPACITY BUILDING NEEDS IN ...",
+      "url": "https://www.aseanconsumer.org/file/post_image/BRUNEI-FINAL%20REPORT%20-%20Revised%2018Jun2014.pdf",
+      "date": null,
+      "last_updated": "2025-04-15"
+    },
+    {
+      "title": "ASEAN Medical Device and Pharmaceutical Regulations",
+      "url": "https://www.pacificbridgemedical.com/regulation/asean-medical-device-pharmaceutical-regulations/",
+      "date": "2018-08-12",
+      "last_updated": "2025-04-21"
+    },
+    {
+      "title": "Lao PDR's Way into the ASEAN Single Market",
+      "url": "https://www.giz.de/de/downloads/giz2015-en-Laos_and_the_ASEAN_Economic_Community_-_8__factsheets.pdf",
+      "date": null,
+      "last_updated": "2025-04-11"
+    },
+    {
+      "title": "Brunei - Standards for Trade",
+      "url": "https://www.trade.gov/country-commercial-guides/brunei-standards-trade",
+      "date": "2024-02-22",
+      "last_updated": "2025-08-21"
+    }
+  ]
+}

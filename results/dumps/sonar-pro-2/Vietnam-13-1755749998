@@ -1,0 +1,83 @@
+sonar-pro
+Legally requires acceptance of another ASEAN Member State’s (AMS) Certificate of Good Manufacturing Practice (cGMP) for pharmaceutical manufacturers.
+{
+  "id": "43db8220-47f9-42ff-81fa-c12d7e571b99",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"NO\",\"explanation\":\"Vietnam does not have a legal requirement to automatically accept another ASEAN Member State’s (AMS) cGMP certificate for pharmaceutical manufacturers; instead, Vietnam recognizes certain international GMP standards (WHO-GMP, EU-GMP, PIC/S-GMP, Japan-GMP, US-cGMP), and may require its own review or inspection of foreign manufacturers, even if an AMS cGMP certificate is provided.[5][2]\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755749996,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 96,
+    "prompt_tokens": 32,
+    "total_tokens": 128,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.008
+    }
+  },
+  "citations": [
+    "http://vietnamlawmagazine.vn/cosmetic-producers-must-meet-cgmp-asean-standards-5253.html",
+    "https://www.pacificbridgemedical.com/news-brief/new-gmp-requirements-for-pharmaceutical-manufacturers-in-vietnam/",
+    "https://longphanpmt.com/en/cosmetics-factory-standards-meet-cgmp-standards/",
+    "https://www.hsa.gov.sg/docs/default-source/hprg/regulatory-updates/update-on-asean-mra-gmp.PDF",
+    "https://hmlf.vn/uncategorized/drug-registration-process-vietnam-guide-foreign-companies-2025/"
+  ],
+  "search_results": [
+    {
+      "title": "Cosmetic producers must meet CGMP-ASEAN standards",
+      "url": "http://vietnamlawmagazine.vn/cosmetic-producers-must-meet-cgmp-asean-standards-5253.html",
+      "date": "2016-03-15",
+      "last_updated": "2025-07-13"
+    },
+    {
+      "title": "New GMP Requirements for Pharmaceutical Manufacturers in Vietnam",
+      "url": "https://www.pacificbridgemedical.com/news-brief/new-gmp-requirements-for-pharmaceutical-manufacturers-in-vietnam/",
+      "date": "2025-01-16",
+      "last_updated": "2025-01-21"
+    },
+    {
+      "title": "Cosmetics Factory Standards Meet CGMP Standards",
+      "url": "https://longphanpmt.com/en/cosmetics-factory-standards-meet-cgmp-standards/",
+      "date": "2025-03-31",
+      "last_updated": "2025-05-15"
+    },
+    {
+      "title": "[PDF] update on asean mra on gmp inspection and gmp conformity ...",
+      "url": "https://www.hsa.gov.sg/docs/default-source/hprg/regulatory-updates/update-on-asean-mra-gmp.PDF",
+      "date": null,
+      "last_updated": "2025-08-21"
+    },
+    {
+      "title": "Drug Registration in Vietnam: Guide for Foreign Companies (P1)",
+      "url": "https://hmlf.vn/uncategorized/drug-registration-process-vietnam-guide-foreign-companies-2025/",
+      "date": "2025-08-02",
+      "last_updated": "2025-08-05"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+sonar-pro
+Specifically mandates the use of a “red dot” symbol on prescription-only pharmaceutical products.
+{
+  "id": "64c0a1dd-c006-4e17-84b6-ebf2b4e3e78a",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"NO\",\"explanation\":\"Malaysia does not specifically mandate the use of a 'red dot' symbol on prescription-only pharmaceutical products; official NPRA drug labeling and registration guidelines make no mention of such a requirement in their latest documentation[1][5].\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750336,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 54,
+    "prompt_tokens": 21,
+    "total_tokens": 75,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://www.npra.gov.my/images/Guidelines_Central/appendix/APPENDIX_9_LABELLING_REQUIREMENTS.pdf",
+    "http://www.tsmia.or.th/RTD2022/Self-CARER_e-book_final.pdf",
+    "https://prioocare.com/2025/05/22/kkm-product-verification-what-you-need-to-know/",
+    "https://www.guttmacher.org/sites/default/files/report_pdf/abortion-methodologies.pdf",
+    "https://www.npra.gov.my/easyarticles/images/users/1153/DRGD%20January%202024/Complete-Drug-Registration-Guidance-Document-DRGD-3rd-Edition-7th-Revision-January-2024.pdf"
+  ],
+  "search_results": [
+    {
+      "title": "[PDF] APPENDIX 9: LABELLING REQUIREMENTS - NPRA",
+      "url": "https://www.npra.gov.my/images/Guidelines_Central/appendix/APPENDIX_9_LABELLING_REQUIREMENTS.pdf",
+      "date": null,
+      "last_updated": "2025-08-10"
+    },
+    {
+      "title": "[PDF] Self-CARER",
+      "url": "http://www.tsmia.or.th/RTD2022/Self-CARER_e-book_final.pdf",
+      "date": "2015-09-17",
+      "last_updated": null
+    },
+    {
+      "title": "KKM Product Verification: What You Need to Know - Prioocare",
+      "url": "https://prioocare.com/2025/05/22/kkm-product-verification-what-you-need-to-know/",
+      "date": "2025-05-22",
+      "last_updated": "2025-05-25"
+    },
+    {
+      "title": "[PDF] Methodologies for Estimating Abortion Incidence and Abortion ...",
+      "url": "https://www.guttmacher.org/sites/default/files/report_pdf/abortion-methodologies.pdf",
+      "date": null,
+      "last_updated": null
+    },
+    {
+      "title": "[PDF] DRUG REGISTRATION GUIDANCE DOCUMENT (DRGD) - NPRA",
+      "url": "https://www.npra.gov.my/easyarticles/images/users/1153/DRGD%20January%202024/Complete-Drug-Registration-Guidance-Document-DRGD-3rd-Edition-7th-Revision-January-2024.pdf",
+      "date": "2024-01-01",
+      "last_updated": "2024-10-17"
+    }
+  ]
+}

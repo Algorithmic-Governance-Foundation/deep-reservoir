@@ -1,0 +1,83 @@
+sonar-pro
+Accepts the International Council for Harmonisation (ICH) Common Technical Document (CTD) format for innovator pharmaceutical product registrations.
+{
+  "id": "8a7dc682-86c4-4c3f-a9ce-cea23fbaa6a9",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"PARTIAL\",\"explanation\":\"Indonesia does not fully adopt the ICH CTD, but instead uses the ASEAN CTD (ACTD), a format derived from and closely aligned with the ICH CTD, for innovator pharmaceutical product registrations.[2]\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755749946,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 57,
+    "prompt_tokens": 30,
+    "total_tokens": 87,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://ijprajournal.com/issue_dcp/A%20Review%20Article%20on%20the%20Common%20Technical%20Document%20CTD%20Regulatory%20Dossier.pdf",
+    "https://international-pharma.com/wp-content/uploads/2017/04/Comparison-of.pdf",
+    "https://www.ijpcbs.com/articles/comparative-study-of-regulatory-requirementsfor-the-compilation-and-approval-of-dossieras-per-ctd-actd-and-ectd-formats.pdf",
+    "https://www.ema.europa.eu/en/documents/scientific-guideline/ich-guideline-m4-r4-common-technical-document-ctd-registration-pharmaceuticals-human-use-organisation-ctd-step-5_en.pdf",
+    "https://jpionline.org/storage/2023/12/IntJPharmInvestigation-14-1-1.pdf"
+  ],
+  "search_results": [
+    {
+      "title": "[PDF] A Review Article on the Common Technical Document (CTD ...",
+      "url": "https://ijprajournal.com/issue_dcp/A%20Review%20Article%20on%20the%20Common%20Technical%20Document%20CTD%20Regulatory%20Dossier.pdf",
+      "date": "2025-05-05",
+      "last_updated": "2025-05-13"
+    },
+    {
+      "title": "Comparison of Marketing Authorisation and its ...",
+      "url": "https://international-pharma.com/wp-content/uploads/2017/04/Comparison-of.pdf",
+      "date": null,
+      "last_updated": "2025-05-08"
+    },
+    {
+      "title": "[PDF] AS PER CTD, ACTD AND ECTD FORMATS",
+      "url": "https://www.ijpcbs.com/articles/comparative-study-of-regulatory-requirementsfor-the-compilation-and-approval-of-dossieras-per-ctd-actd-and-ectd-formats.pdf",
+      "date": null,
+      "last_updated": "2025-04-29"
+    },
+    {
+      "title": "ICH guideline M4 (R4) on common technical document (CTD ...",
+      "url": "https://www.ema.europa.eu/en/documents/scientific-guideline/ich-guideline-m4-r4-common-technical-document-ctd-registration-pharmaceuticals-human-use-organisation-ctd-step-5_en.pdf",
+      "date": "2021-03-19",
+      "last_updated": "2025-08-10"
+    },
+    {
+      "title": "[PDF] A Comparative Study of MIST, BRICS, and ICH Countries",
+      "url": "https://jpionline.org/storage/2023/12/IntJPharmInvestigation-14-1-1.pdf",
+      "date": "2023-12-15",
+      "last_updated": "2025-04-16"
+    }
+  ]
+}

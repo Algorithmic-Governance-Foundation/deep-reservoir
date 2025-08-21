@@ -1,0 +1,83 @@
+sonar-pro
+Targets an average marketing authorization (MA) approval timeline of six months or less for pharmaceutical products.
+{
+  "id": "03fe1487-b9c5-4f0f-963b-d1f85100803a",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"NO\",\"explanation\":\"Cambodia does not target an average marketing authorization approval timeline of six months or less for pharmaceutical products; the typical approval time for generic medicines is around 7 months, with standard applications not meeting a six-month goal, though a fast-track process may approve within 3–4 months for additional fees[1][5].\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750265,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 73,
+    "prompt_tokens": 23,
+    "total_tokens": 96,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://core.ac.uk/download/599695768.pdf",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC9734413/",
+    "https://www.ijdra.com/index.php/journal/article/download/245/138",
+    "https://www.corrs.com.au/site-uploads/images/PDFs/Insights/article-IP-comparative-overview-of-distribution-and-marketing-of-drugs-across-asia-pacific.pdf",
+    "https://credevo.com/articles/2021/03/15/generic-drug-registration-process-in-cambodia/"
+  ],
+  "search_results": [
+    {
+      "title": "A Study of Pharmaceutical Product Registration Process in ...",
+      "url": "https://core.ac.uk/download/599695768.pdf",
+      "date": "2023-08-09",
+      "last_updated": "2024-06-04"
+    },
+    {
+      "title": "Regulatory Pathways Supporting Expedited Drug Development and ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9734413/",
+      "date": "2022-12-03",
+      "last_updated": "2025-05-26"
+    },
+    {
+      "title": "Regulatory requirement for the approval of Generic ...",
+      "url": "https://www.ijdra.com/index.php/journal/article/download/245/138",
+      "date": "2018-06-15",
+      "last_updated": "2025-03-04"
+    },
+    {
+      "title": "[PDF] A comparative overview of Distribution and Marketing of Drugs ...",
+      "url": "https://www.corrs.com.au/site-uploads/images/PDFs/Insights/article-IP-comparative-overview-of-distribution-and-marketing-of-drugs-across-asia-pacific.pdf",
+      "date": null,
+      "last_updated": "2025-08-21"
+    },
+    {
+      "title": "Generic Drug Registration Process In Cambodia",
+      "url": "https://credevo.com/articles/2021/03/15/generic-drug-registration-process-in-cambodia/",
+      "date": "2021-03-15",
+      "last_updated": "2025-08-18"
+    }
+  ]
+}

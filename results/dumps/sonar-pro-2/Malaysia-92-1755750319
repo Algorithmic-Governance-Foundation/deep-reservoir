@@ -1,0 +1,83 @@
+sonar-pro
+Provides a fully digital online submission portal for pharmaceutical product marketing authorization applications.
+{
+  "id": "58b414ff-c045-4738-b89e-8a851d114a1f",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"YES\",\"explanation\":\"Malaysia provides a fully digital online submission portal (the NPRA QUEST3 system) for pharmaceutical product marketing authorization applications, as applicants are required to apply online and submit all necessary documentation through this platform.[1][3][4]\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750317,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 55,
+    "prompt_tokens": 18,
+    "total_tokens": 73,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://www.pacificbridgemedical.com/regulatory-services/pharmaceutical/product-registration/malaysia-drug-registration-and-approval/",
+    "https://portal.mda.gov.my/index.php/announcement/1536-pengumuman-peralihan-kepada-proses-permohonan-pengkelasan-produk-secara-dalam-talian",
+    "https://conventuslaw.com/report/the-framework-of-pharmaceutical-companies-in-malaysia/",
+    "https://www.azmilaw.com/insights/the-legal-framework-of-pharmaceutical-companies-in-malaysia/",
+    "https://npra.gov.my"
+  ],
+  "search_results": [
+    {
+      "title": "Malaysia Drug Registration and Approval - Pacific Bridge Medical",
+      "url": "https://www.pacificbridgemedical.com/regulatory-services/pharmaceutical/product-registration/malaysia-drug-registration-and-approval/",
+      "date": "2025-01-28",
+      "last_updated": "2025-07-31"
+    },
+    {
+      "title": "ANNOUNCEMENT TRANSITION TO FULLY ONLINE PRODUCT ...",
+      "url": "https://portal.mda.gov.my/index.php/announcement/1536-pengumuman-peralihan-kepada-proses-permohonan-pengkelasan-produk-secara-dalam-talian",
+      "date": "2025-03-25",
+      "last_updated": "2025-08-16"
+    },
+    {
+      "title": "The Legal Framework of Pharmaceutical Companies In Malaysia.",
+      "url": "https://conventuslaw.com/report/the-framework-of-pharmaceutical-companies-in-malaysia/",
+      "date": "2023-08-04",
+      "last_updated": "2025-08-13"
+    },
+    {
+      "title": "The Legal Framework of Pharmaceutical Companies in Malaysia",
+      "url": "https://www.azmilaw.com/insights/the-legal-framework-of-pharmaceutical-companies-in-malaysia/",
+      "date": "2023-07-25",
+      "last_updated": "2025-08-18"
+    },
+    {
+      "title": "National Pharmaceutical Regulatory Agency (NPRA) - Home",
+      "url": "https://npra.gov.my",
+      "date": "2024-11-20",
+      "last_updated": "2025-08-21"
+    }
+  ]
+}

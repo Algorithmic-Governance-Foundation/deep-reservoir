@@ -1,0 +1,83 @@
+sonar-pro
+Accepts the International Council for Harmonisation (ICH) Common Technical Document (CTD) format for innovator pharmaceutical product registrations.
+{
+  "id": "00f73d40-da70-4cc2-973c-9eab238d364a",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"YES\",\"explanation\":\"Malaysia accepts the ICH Common Technical Document (CTD) format for innovator pharmaceutical product registrations, as the NPRA requires the registration dossier to follow either the ICH CTD or the ASEAN Common Technical Dossier (ACTD) format.[1]\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750313,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 62,
+    "prompt_tokens": 30,
+    "total_tokens": 92,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://www.rginsight.com/registration-of-drug-product-in-malaysia-2025",
+    "https://gabi-journal.net/regulation-of-biologics-in-malaysia.html",
+    "https://ijprajournal.com/issue_dcp/A%20Review%20Article%20on%20the%20Common%20Technical%20Document%20CTD%20Regulatory%20Dossier.pdf",
+    "https://www.ijpcbs.com/articles/comparative-study-of-regulatory-requirementsfor-the-compilation-and-approval-of-dossieras-per-ctd-actd-and-ectd-formats.pdf",
+    "https://jgtps.com/admin/uploads/zhg3fT.pdf"
+  ],
+  "search_results": [
+    {
+      "title": "Registration Of Drug Product In Malaysia (2025)",
+      "url": "https://www.rginsight.com/registration-of-drug-product-in-malaysia-2025",
+      "date": "2025-06-20",
+      "last_updated": "2025-07-16"
+    },
+    {
+      "title": "Regulation of biologicals in Malaysia - GaBIJ",
+      "url": "https://gabi-journal.net/regulation-of-biologics-in-malaysia.html",
+      "date": "2019-01-30",
+      "last_updated": "2025-08-21"
+    },
+    {
+      "title": "A Review Article on the Common Technical Document ( ...",
+      "url": "https://ijprajournal.com/issue_dcp/A%20Review%20Article%20on%20the%20Common%20Technical%20Document%20CTD%20Regulatory%20Dossier.pdf",
+      "date": "2025-05-05",
+      "last_updated": "2025-05-13"
+    },
+    {
+      "title": "[PDF] AS PER CTD, ACTD AND ECTD FORMATS",
+      "url": "https://www.ijpcbs.com/articles/comparative-study-of-regulatory-requirementsfor-the-compilation-and-approval-of-dossieras-per-ctd-actd-and-ectd-formats.pdf",
+      "date": null,
+      "last_updated": "2025-04-29"
+    },
+    {
+      "title": "REGULATORY REQUIREMENTS FOR THE ...",
+      "url": "https://jgtps.com/admin/uploads/zhg3fT.pdf",
+      "date": null,
+      "last_updated": "2025-08-10"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+sonar-pro
+Permits stability data submission for pharmaceutical products at 25°C/60% relative humidity (RH) when supported by accelerated stability studies.
+{
+  "id": "3e2078a6-d7fa-4964-a8a0-996189afaa81",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"NO\",\"explanation\":\"Laos is classified as a WHO Climatic Zone IVa country, which requires stability data at 30°C/65% RH or higher; data at 25°C/60% RH is not accepted for registration unless specifically allowed by the national authority, and there is no evidence Laos permits this substitution.[3][5]\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750043,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 74,
+    "prompt_tokens": 31,
+    "total_tokens": 105,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://humiditycontrol.com/blog/what-is-stability-testing/",
+    "https://database.ich.org/sites/default/files/Q1F_Stability_Guideline_WHO_2018.pdf",
+    "https://www.pharmoutsourcing.com/Featured-Articles/37672-Regulatory-Strategy-for-Long-Term-Stability-Conditions-to-Support-Submission-in-Zone-IV-Countries/",
+    "https://www.ema.europa.eu/en/documents/scientific-guideline/ich-q-1-r2-stability-testing-new-drug-substances-and-products-step-5_en.pdf",
+    "http://academy.gmp-compliance.org/guidemgr/files/WHO_TRS_953_Annex2.pdf"
+  ],
+  "search_results": [
+    {
+      "title": "Stability Testing for Pharmaceuticals & More",
+      "url": "https://humiditycontrol.com/blog/what-is-stability-testing/",
+      "date": "2023-02-22",
+      "last_updated": "2025-06-16"
+    },
+    {
+      "title": "[PDF] Annex 10 - ICH",
+      "url": "https://database.ich.org/sites/default/files/Q1F_Stability_Guideline_WHO_2018.pdf",
+      "date": null,
+      "last_updated": "2025-08-10"
+    },
+    {
+      "title": "Regulatory Strategy for Long-Term Stability Conditions to ...",
+      "url": "https://www.pharmoutsourcing.com/Featured-Articles/37672-Regulatory-Strategy-for-Long-Term-Stability-Conditions-to-Support-Submission-in-Zone-IV-Countries/",
+      "date": "2011-03-01",
+      "last_updated": "2025-08-21"
+    },
+    {
+      "title": "[PDF] Q 1 A (R2) Stability Testing of new Drug Substances and Products",
+      "url": "https://www.ema.europa.eu/en/documents/scientific-guideline/ich-q-1-r2-stability-testing-new-drug-substances-and-products-step-5_en.pdf",
+      "date": null,
+      "last_updated": "2025-08-10"
+    },
+    {
+      "title": "Annex 2 Stability testing of active pharmaceutical ...",
+      "url": "http://academy.gmp-compliance.org/guidemgr/files/WHO_TRS_953_Annex2.pdf",
+      "date": null,
+      "last_updated": "2025-08-10"
+    }
+  ]
+}
