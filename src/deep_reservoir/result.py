@@ -3,7 +3,7 @@ from typing import List
 from attrs import define
 
 
-class Answer(Enum):
+class Status(Enum):
     YES = "YES"
     NO = "NO"
     PARTIAL = "PARTIAL"
@@ -14,10 +14,10 @@ class Answer(Enum):
 class Result:
     policy: str
     country: str
-    answer: Answer
-    note: str
+    status: Status
+    explanation: str
     sources: List[str]
     dump: str
     
     def __repr__(self) -> str:
-        return f"Result(answer={self.answer!r}, note={self.note!r})"
+        return f"Result(answer={self.status!r}, note={self.explanation!r})"

@@ -3,7 +3,7 @@ from enum import Enum
 from typing import List
 from openai import OpenAI
 from deep_reservoir.researcher import Researcher
-from deep_reservoir.result import Result, Answer
+from deep_reservoir.result import Status, Result
 import json
 
 
@@ -16,7 +16,7 @@ class SonarResearcher(Researcher):
         self.model = model
 
     def go(self, country: str, policy: str) -> Result:
-        prompt = f"Determine whether {country} {policy}\n\nExtract the information and format it as specified in the schema."
+        prompt = f"Determine whether {country} {policy}"
 
         client = OpenAI(
             api_key=os.getenv("PERPLEXITY_API_KEY"),
@@ -36,11 +36,15 @@ class SonarResearcher(Researcher):
                     "schema": {
                         "type": "object",
                         "properties": {
-                            "answer": {
+                            "status": {
                                 "type": "string",
+                                "description": "Status of the policy for the given country",
                                 "enum": ["YES", "NO", "PARTIAL", "UNKNOWN"],
                             },
-                            "explanation": {"type": "string", "maxLength": 200},
+                            "explanation": {
+                                "type": "string",
+                                "description": "1 sentence explanation of the status",
+                            },
                         },
                         "required": ["answer", "explanation"],
                         "additionalProperties": False,
@@ -54,8 +58,8 @@ class SonarResearcher(Researcher):
         if content:
             try:
                 parsed_content = json.loads(content)
-                answer = Answer(parsed_content.get("answer", "UNKNOWN"))
-                note = parsed_content.get("note", "")
+                status = Status(parsed_content.get("status", "UNKNOWN"))
+                explanation = parsed_content.get("explanation", "")
                 sources: List[str] | None = response.model_dump()["citations"]
                 if not sources:
                     sources = []
@@ -67,8 +71,8 @@ class SonarResearcher(Researcher):
         return Result(
             policy=policy,
             country=country,
-            answer=answer,
-            note=note,
+            status=status,
+            explanation=explanation,
             sources=sources,
             dump=response.model_dump_json(indent=2),
         )

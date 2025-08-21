@@ -82,8 +82,8 @@ def write_results(results: List[Result]) -> None:
                 [
                     result.policy,
                     result.country,
-                    result.answer.value,
-                    result.note,
+                    result.status.value,
+                    result.explanation,
                     sources,
                 ]
             )
