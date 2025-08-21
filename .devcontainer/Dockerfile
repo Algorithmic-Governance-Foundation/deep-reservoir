@@ -21,7 +21,7 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # Create a non-root user with sudo privileges
-ARG USERNAME=vscode
+ARG USERNAME=dev
 ARG USER_UID=1000
 ARG USER_GID=$USER_UID
 
@@ -43,15 +43,15 @@ WORKDIR /workspace
 # Switch to non-root user
 USER $USERNAME
 
-# Install uv (fast Python package manager) for the vscode user
+# Install uv (fast Python package manager) for the dev user
 RUN curl -LsSf https://astral.sh/uv/install.sh | sh \
-    && echo 'export PATH="/home/vscode/.local/bin:$PATH"' >> /home/vscode/.bashrc
+    && echo "export PATH=\"/home/$USERNAME/.local/bin:\$PATH\"" >> /home/$USERNAME/.bashrc
 
 # Set up a pretty shell prompt
-RUN echo 'export PS1="\[\033[01;32m\]\u\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ "' >> /home/vscode/.bashrc \
-    && echo 'alias ll="ls -alF"' >> /home/vscode/.bashrc \
-    && echo 'alias la="ls -A"' >> /home/vscode/.bashrc \
-    && echo 'alias l="ls -CF"' >> /home/vscode/.bashrc
+RUN echo "export PS1=\"\\[\\033[01;32m\\]\\u\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \"" >> /home/$USERNAME/.bashrc \
+    && echo 'alias ll="ls -alF"' >> /home/$USERNAME/.bashrc \
+    && echo 'alias la="ls -A"' >> /home/$USERNAME/.bashrc \
+    && echo 'alias l="ls -CF"' >> /home/$USERNAME/.bashrc
 
 # Set default shell to bash
 SHELL ["/bin/bash", "-c"]
