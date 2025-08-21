@@ -30,11 +30,6 @@ RUN groupadd --gid $USER_GID $USERNAME \
     && echo $USERNAME ALL=\(root\) NOPASSWD:ALL > /etc/sudoers.d/$USERNAME \
     && chmod 0440 /etc/sudoers.d/$USERNAME
 
-RUN SNIPPET="export PROMPT_COMMAND='history -a' && export HISTFILE=/commandhistory/.bash_history" \
-  && mkdir /commandhistory \
-  && touch /commandhistory/.bash_history \
-  && chown -R $USERNAME /commandhistory
-  
 # Install Node.js (LTS version)
 RUN curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash - \
     && apt-get install -y nodejs
@@ -53,7 +48,7 @@ RUN curl -LsSf https://astral.sh/uv/install.sh | sh \
     && echo 'export PATH="/home/vscode/.local/bin:$PATH"' >> /home/vscode/.bashrc
 
 # Set up a pretty shell prompt
-RUN echo 'export PS1="\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ "' >> /home/vscode/.bashrc \
+RUN echo 'export PS1="\[\033[01;32m\]\u\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ "' >> /home/vscode/.bashrc \
     && echo 'alias ll="ls -alF"' >> /home/vscode/.bashrc \
     && echo 'alias la="ls -A"' >> /home/vscode/.bashrc \
     && echo 'alias l="ls -CF"' >> /home/vscode/.bashrc
