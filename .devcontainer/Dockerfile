@@ -39,7 +39,7 @@ RUN mkdir -p /workspaces /home/$USERNAME/.claude && \
     chown -R $USERNAME:$USERNAME /workspaces /home/$USERNAME/.claude
 
 # Set working directory
-WORKDIR /workspace
+WORKDIR /workspaces
 
 # Install Claude Code globally
 RUN npm install -g @anthropic-ai/claude-code

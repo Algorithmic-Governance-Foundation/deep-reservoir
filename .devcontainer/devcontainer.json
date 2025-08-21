@@ -34,7 +34,8 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "uv sync",
+	// --link-mode=copy is to supress a warning of not having a proper cache directory
+	"postCreateCommand": "uv sync --link-mode=copy",
 
 	// Configure tool-specific properties.
 	// "customizations": {},
