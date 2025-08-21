@@ -9,7 +9,11 @@ import json
 
 class SonarModel(Enum):
     PRO = "sonar-pro"
-    REASONING_PRO = "sonar-reasoning-pro"
+
+    # Reasoning models don't produce a valid schema
+    # so both reasoning-pro and deep-research need alternative or 2 step approaches
+    # REASONING_PRO = "sonar-reasoning-pro"
+    # DEEP_RESEARCH = "sonar-deep-research"
 
 
 class SonarResearcher(Researcher):
