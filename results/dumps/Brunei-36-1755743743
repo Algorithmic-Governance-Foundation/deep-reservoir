@@ -1,0 +1,83 @@
+sonar-pro
+Requires halal certification for pharmaceutical products.
+{
+  "id": "f7322b9a-b2b6-49ca-ad26-1aa1bc89da36",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"answer\":\"PARTIAL\",\"note\":\"Brunei has established stringent halal guidelines specifically for pharmaceutical products, including medicinal products, traditional medicines, and health supplements, prohibiting non-halal and impure ingredients in products seeking halal certification[1][2][3]. However, while halal certification is mandatory for food products and food businesses, certification for pharmaceutical products appears to be required only for products marketed or labeled as halal, not all pharmaceutical products in general[4]. Non-halal pharmaceutical products (such as non-oral medications and those not intended or advertised as halal) are not legally required to obtain halal certification[4].\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755743741,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 132,
+    "prompt_tokens": 13,
+    "total_tokens": 145,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.002,
+      "request_cost": 0.006,
+      "total_cost": 0.008
+    }
+  },
+  "citations": [
+    "https://halalfocus.com/brunei-unveils-halal-pharma-guidelines/",
+    "https://halalfocus.com/brunei-first-to-establish-halal-pharma-guidelines/",
+    "https://borneobulletinyearbook.com.bn/halal/",
+    "http://news.xinhuanet.com/english/2017-07/14/c_136444795.htm",
+    "https://www.halalrc.org/images/Research%20Material/Report/GUIDELINE%20FOR%20HALAL%20CERTIFICATION.pdf"
+  ],
+  "search_results": [
+    {
+      "title": "Brunei unveils Halal pharma guidelines - HalalFocus.com",
+      "url": "https://halalfocus.com/brunei-unveils-halal-pharma-guidelines/",
+      "date": "2010-06-04",
+      "last_updated": "2025-08-21"
+    },
+    {
+      "title": "Brunei First To Establish Halal Pharma Guidelines - HalalFocus.com",
+      "url": "https://halalfocus.com/brunei-first-to-establish-halal-pharma-guidelines/",
+      "date": "2010-01-12",
+      "last_updated": "2025-08-21"
+    },
+    {
+      "title": "HALAL INDUSTRY | BBYB PRIME Borneo Bulletin Yearbook 2025",
+      "url": "https://borneobulletinyearbook.com.bn/halal/",
+      "date": "2024-04-20",
+      "last_updated": "2025-01-24"
+    },
+    {
+      "title": "Brunei's food operators required to apply for Halal certification",
+      "url": "http://news.xinhuanet.com/english/2017-07/14/c_136444795.htm",
+      "date": "2017-07-14",
+      "last_updated": "2025-07-30"
+    },
+    {
+      "title": "[PDF] GUIDELINE FOR HALAL CERTIFICATION",
+      "url": "https://www.halalrc.org/images/Research%20Material/Report/GUIDELINE%20FOR%20HALAL%20CERTIFICATION.pdf",
+      "date": null,
+      "last_updated": "2025-08-20"
+    }
+  ]
+}

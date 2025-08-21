@@ -1,0 +1,83 @@
+sonar-pro
+Targets an average marketing authorization (MA) approval timeline of six months or less for pharmaceutical products.
+{
+  "id": "e203ab93-2cbb-4a05-b328-60ea061c65f3",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"answer\":\"NO\",\"note\":\"Vietnam does not officially target an average marketing authorization (MA) approval timeline of six months or less for pharmaceutical products. Current regulations stipulate that an MA number should be issued within 12 months of a complete dossier submission, but in practice, approval timelines commonly range from 12 to 30 months[1]. Although recent regulatory updates have shortened timelines for supplemental dossier submissions to six months and aim for greater efficiency[2], these do not translate to a six-month overall approval target. Expedited pathways may exist for drugs already approved by agencies like the FDA or EMA, potentially allowing a faster or streamlined process[5], but no source confirms a national average target timeline of six months or less for standard pharmaceutical product approvals.\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755743652,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 153,
+    "prompt_tokens": 23,
+    "total_tokens": 176,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.002,
+      "request_cost": 0.006,
+      "total_cost": 0.008
+    }
+  },
+  "citations": [
+    "https://www.tilleke.com/sites/default/files/2017_Feb_Marketing_Distribution_Drugs_Vietnam.pdf",
+    "https://patentpanorama.com/blogs/vietnams-new-regulations-on-drug-regulation",
+    "https://www.rginsight.com/registration-of-drug-product-in-vietnam-2025",
+    "https://www.tilleke.com/insights/vietnam-issues-new-regulations-on-drug-registration/7/",
+    "https://www.artixio.com/post/pharmaceutical-regulations-and-registration-in-vietnam"
+  ],
+  "search_results": [
+    {
+      "title": "Distribution and marketing of drugs in Vietnam",
+      "url": "https://www.tilleke.com/sites/default/files/2017_Feb_Marketing_Distribution_Drugs_Vietnam.pdf",
+      "date": null,
+      "last_updated": "2025-08-14"
+    },
+    {
+      "title": "Vietnam's New Regulations on Drug Regulation",
+      "url": "https://patentpanorama.com/blogs/vietnams-new-regulations-on-drug-regulation",
+      "date": "2025-06-05",
+      "last_updated": "2025-07-29"
+    },
+    {
+      "title": "Registration Of Drug Product In Vietnam 2025",
+      "url": "https://www.rginsight.com/registration-of-drug-product-in-vietnam-2025",
+      "date": "2025-05-26",
+      "last_updated": "2025-08-20"
+    },
+    {
+      "title": "Vietnam Issues New Regulations on Drug Registration - ...",
+      "url": "https://www.tilleke.com/insights/vietnam-issues-new-regulations-on-drug-registration/7/",
+      "date": "2025-05-27",
+      "last_updated": "2025-06-04"
+    },
+    {
+      "title": "Vietnam Pharmaceutical Regulations & Drug Registration",
+      "url": "https://www.artixio.com/post/pharmaceutical-regulations-and-registration-in-vietnam",
+      "date": "2025-07-21",
+      "last_updated": "2025-08-06"
+    }
+  ]
+}

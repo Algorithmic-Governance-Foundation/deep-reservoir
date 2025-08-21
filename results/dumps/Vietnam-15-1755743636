@@ -1,0 +1,83 @@
+sonar-pro
+Allows the use of bracketing and matrixing study designs in pharmaceutical product stability testing.
+{
+  "id": "ffbcfe3b-cc92-40b7-9f19-2e532ded9974",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"answer\": \"PARTIAL\",\n  \"note\": \"Vietnam's current pharmaceutical guidelines, including Circular No. 30/2025/TT-BYT and related regulatory documents, do not explicitly mention or prohibit the use of bracketing and matrixing designs in stability testing for drug products[1][5]. There are clear requirements for stability research records to be complete and compliant with recognized pharmacopoeial standards[1][5], but the official adoption of ICH Q1D (which defines bracketing and matrixing) is not confirmed in the publicly available regulations reviewed. Therefore, while use of such designs may be technically possible if well justified and consistent with internationally harmonized approaches, specific allowance or procedures for bracketing and matrixing in Vietnam's regulations remain unconfirmed based on the provided sources. Regulatory consultation is advised for formal applications.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755743634,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 172,
+    "prompt_tokens": 21,
+    "total_tokens": 193,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.003,
+      "request_cost": 0.006,
+      "total_cost": 0.009
+    }
+  },
+  "citations": [
+    "https://www.tilleke.com/insights/vietnam-updates-guidelines-on-drug-quality-standards-testing-and-noncompliance/",
+    "https://www.ema.europa.eu/en/documents/scientific-guideline/ich-q-1-d-bracketing-and-matrixing-designs-stability-testing-drug-substances-and-drug-products-step-5_en.pdf",
+    "https://clinregs.niaid.nih.gov/sites/default/files/documents/vietnam/BioTestReq_GoogleTranslation.pdf",
+    "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/q1d-bracketing-and-matrixing-designs-stability-testing-new-drug-substances-and-products",
+    "https://clinregs.niaid.nih.gov/sites/default/files/documents/vietnam/DrugRgstrtn_GoogleTranslation.pdf"
+  ],
+  "search_results": [
+    {
+      "title": "Vietnam Updates Guidelines on Drug Quality Standards, Testing ...",
+      "url": "https://www.tilleke.com/insights/vietnam-updates-guidelines-on-drug-quality-standards-testing-and-noncompliance/",
+      "date": "2025-07-15",
+      "last_updated": "2025-07-20"
+    },
+    {
+      "title": "[PDF] ich-q-1-d-bracketing-and-matrixing-designs-stability-testing-drug ...",
+      "url": "https://www.ema.europa.eu/en/documents/scientific-guideline/ich-q-1-d-bracketing-and-matrixing-designs-stability-testing-drug-substances-and-drug-products-step-5_en.pdf",
+      "date": null,
+      "last_updated": "2025-04-16"
+    },
+    {
+      "title": "[PDF] 07/2022/TT-BYT SOCIALIST REPUBLIC OF VIETNAM Independence",
+      "url": "https://clinregs.niaid.nih.gov/sites/default/files/documents/vietnam/BioTestReq_GoogleTranslation.pdf",
+      "date": "2024-09-05",
+      "last_updated": "2025-08-13"
+    },
+    {
+      "title": "Q1D Bracketing and Matrixing Designs for Stability Testing of New ...",
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/q1d-bracketing-and-matrixing-designs-stability-testing-new-drug-substances-and-products",
+      "date": "2018-08-24",
+      "last_updated": "2025-08-21"
+    },
+    {
+      "title": "[PDF] circulars - ClinRegs",
+      "url": "https://clinregs.niaid.nih.gov/sites/default/files/documents/vietnam/DrugRgstrtn_GoogleTranslation.pdf",
+      "date": "2024-05-17",
+      "last_updated": "2025-08-14"
+    }
+  ]
+}

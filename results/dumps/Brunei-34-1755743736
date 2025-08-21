@@ -1,0 +1,83 @@
+sonar-pro
+Permits stability data submission for pharmaceutical products at 25°C/60% relative humidity (RH) when supported by accelerated stability studies.
+{
+  "id": "bcae5944-f63f-43c4-acfa-bdb415e710e7",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"answer\":\"UNKNOWN\",\"note\":\"No official Brunei-specific regulatory guideline is cited in the search results. International sources (including ICH Q1A(R2) and EMA guidelines) permit long-term stability data at 25°C/60% RH, supported by accelerated studies, but Zone IV countries—which include many climates similar to Brunei—often require 30°C/75% RH or 30°C/65% RH stability data for submissions. Brunei's exact requirement cannot be confirmed from the provided information. For regulatory certainty, direct reference to Brunei's national authority or published guidelines is necessary.\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755743734,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 124,
+    "prompt_tokens": 32,
+    "total_tokens": 156,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.002,
+      "request_cost": 0.006,
+      "total_cost": 0.008
+    }
+  },
+  "citations": [
+    "https://www.rsc.org/suppdata/c5/ra/c5ra07716h/c5ra07716h1.pdf",
+    "https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-stability-testing-stability-testing-existing-active-substances-and-related-finished-products_en.pdf",
+    "https://www.pharmoutsourcing.com/Featured-Articles/37672-Regulatory-Strategy-for-Long-Term-Stability-Conditions-to-Support-Submission-in-Zone-IV-Countries/",
+    "https://www.ema.europa.eu/en/documents/scientific-guideline/ich-q-1-r2-stability-testing-new-drug-substances-and-products-step-5_en.pdf",
+    "https://humiditycontrol.com/blog/what-is-stability-testing/"
+  ],
+  "search_results": [
+    {
+      "title": "Annex 2 Stability testing of active pharmaceutical ...",
+      "url": "https://www.rsc.org/suppdata/c5/ra/c5ra07716h/c5ra07716h1.pdf",
+      "date": null,
+      "last_updated": "2025-03-27"
+    },
+    {
+      "title": "[PDF] Stability testing of existing active substances and related finished ...",
+      "url": "https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-stability-testing-stability-testing-existing-active-substances-and-related-finished-products_en.pdf",
+      "date": "2023-07-13",
+      "last_updated": "2025-08-10"
+    },
+    {
+      "title": "Regulatory Strategy for Long-Term Stability Conditions to ...",
+      "url": "https://www.pharmoutsourcing.com/Featured-Articles/37672-Regulatory-Strategy-for-Long-Term-Stability-Conditions-to-Support-Submission-in-Zone-IV-Countries/",
+      "date": "2011-03-01",
+      "last_updated": "2025-08-21"
+    },
+    {
+      "title": "[PDF] Q 1 A (R2) Stability Testing of new Drug Substances and Products",
+      "url": "https://www.ema.europa.eu/en/documents/scientific-guideline/ich-q-1-r2-stability-testing-new-drug-substances-and-products-step-5_en.pdf",
+      "date": null,
+      "last_updated": "2025-08-10"
+    },
+    {
+      "title": "Stability Testing for Pharmaceuticals & More",
+      "url": "https://humiditycontrol.com/blog/what-is-stability-testing/",
+      "date": "2023-02-22",
+      "last_updated": "2025-06-16"
+    }
+  ]
+}

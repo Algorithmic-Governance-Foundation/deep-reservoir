@@ -1,0 +1,83 @@
+sonar-pro
+Legally requires acceptance of another ASEAN Member State’s (AMS) Certificate of Good Manufacturing Practice (cGMP) for pharmaceutical manufacturers.
+{
+  "id": "1b5b267b-b3ae-4687-ac20-7231c84bf37e",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"answer\":\"NO\",\"note\":\"Brunei does not legally require automatic acceptance of another ASEAN Member State’s Certificate of Good Manufacturing Practice (cGMP) for pharmaceutical manufacturers. While ASEAN has worked towards harmonization of regulatory standards, including through the ASEAN Common Technical Dossier (ACTD) and discussions of Mutual Recognition Arrangements (MRAs), there is no binding legal requirement obliging Brunei to accept another AMS’s cGMP certificate without conducting its own conformity or risk assessment. Brunei’s regulations currently focus on compliance with national standards, and there is no evidence in the available sources of an operational legal mandate for automatic recognition of cGMP certificates from other ASEAN countries for pharmaceuticals[2][3][5]. Mutual recognition for cosmetics and some other sectors has progressed further, but for pharmaceuticals, each AMS—including Brunei—maintains its own review and registration process[3][2].\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755743728,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 187,
+    "prompt_tokens": 33,
+    "total_tokens": 220,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.003,
+      "request_cost": 0.006,
+      "total_cost": 0.009
+    }
+  },
+  "citations": [
+    "https://asean.org/wp-content/uploads/AVG-Revision-2-endorsed-31PPWG.pdf",
+    "https://www.aseanconsumer.org/file/post_image/BRUNEI-FINAL%20REPORT%20-%20Revised%2018Jun2014.pdf",
+    "https://www.pacificbridgemedical.com/regulation/asean-medical-device-pharmaceutical-regulations/",
+    "https://www.giz.de/de/downloads/giz2015-en-Laos_and_the_ASEAN_Economic_Community_-_8__factsheets.pdf",
+    "https://www.trade.gov/country-commercial-guides/brunei-standards-trade"
+  ],
+  "search_results": [
+    {
+      "title": "ASEAN Variation Guideline for Pharmaceutical Product ...",
+      "url": "https://asean.org/wp-content/uploads/AVG-Revision-2-endorsed-31PPWG.pdf",
+      "date": null,
+      "last_updated": "2025-08-10"
+    },
+    {
+      "title": "ROADMAPPING CAPACITY BUILDING NEEDS IN ...",
+      "url": "https://www.aseanconsumer.org/file/post_image/BRUNEI-FINAL%20REPORT%20-%20Revised%2018Jun2014.pdf",
+      "date": null,
+      "last_updated": "2025-04-15"
+    },
+    {
+      "title": "ASEAN Medical Device and Pharmaceutical Regulations",
+      "url": "https://www.pacificbridgemedical.com/regulation/asean-medical-device-pharmaceutical-regulations/",
+      "date": "2018-08-12",
+      "last_updated": "2025-04-21"
+    },
+    {
+      "title": "Lao PDR's Way into the ASEAN Single Market",
+      "url": "https://www.giz.de/de/downloads/giz2015-en-Laos_and_the_ASEAN_Economic_Community_-_8__factsheets.pdf",
+      "date": null,
+      "last_updated": "2025-04-11"
+    },
+    {
+      "title": "Brunei - Standards for Trade",
+      "url": "https://www.trade.gov/country-commercial-guides/brunei-standards-trade",
+      "date": "2024-02-22",
+      "last_updated": "2025-07-31"
+    }
+  ]
+}

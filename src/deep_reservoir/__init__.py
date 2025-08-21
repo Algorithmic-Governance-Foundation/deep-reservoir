@@ -27,7 +27,7 @@ def main() -> None:
         print(f"Researching ({i}/{total_calls}):\n{country}: {policy}\n")
         research_result = researcher.go(country, policy)
         results.append(research_result)
-        dump_result(index, country, policy, researcher.model.value, research_result)
+        dump_result(i, country, policy, researcher.model.value, research_result)
 
     # End timing and calculate results
     end_time = time.time()

@@ -1,0 +1,83 @@
+sonar-pro
+Specifically mandates the use of a “red dot” symbol on prescription-only pharmaceutical products.
+{
+  "id": "10edb46e-0983-423c-a49a-601e13641823",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"answer\": \"NO\", \"note\": \"There is no clear evidence that Thailand specifically mandates the use of a 'red dot' symbol on prescription-only pharmaceutical products. One source describes a 'red dot' being associated with 'G/POM/specially-controlled medicines' in some contexts[2], but there is no indication from current official regulations or Thai FDA communications that a red dot marking is a nationwide legal requirement for all prescription-only medicines. Most regulatory information focuses on permitting, custom declarations, and labeling rules for medical devices rather than pharmaceutical product packaging[1][5].\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755743795,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 116,
+    "prompt_tokens": 21,
+    "total_tokens": 137,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.002,
+      "request_cost": 0.006,
+      "total_cost": 0.008
+    }
+  },
+  "citations": [
+    "https://www.tatnews.org/2024/11/thailand-fda-issues-traveller-friendly-guidelines-for-importing-personal-health-products/",
+    "http://www.tsmia.or.th/RTD2022/Self-CARER_e-book_final.pdf",
+    "https://www.artixio.com/post/medical-device-regulations-registration-process-in-thailand",
+    "https://msh.org/wp-content/uploads/2025/07/MTP-Malaria-online.pdf",
+    "https://andamanmed.com/thailand-draft-criteria-methods-and-conditions-on-labeling-and-documentation-ifu-for-medical-devices/"
+  ],
+  "search_results": [
+    {
+      "title": "Thailand FDA Issues Traveller-Friendly Guidelines for Importing ...",
+      "url": "https://www.tatnews.org/2024/11/thailand-fda-issues-traveller-friendly-guidelines-for-importing-personal-health-products/",
+      "date": "2024-11-14",
+      "last_updated": "2025-05-07"
+    },
+    {
+      "title": "Self-CARER",
+      "url": "http://www.tsmia.or.th/RTD2022/Self-CARER_e-book_final.pdf",
+      "date": "2015-09-17",
+      "last_updated": null
+    },
+    {
+      "title": "Thailand Medical Device Regulations & Registration Process - Artixio",
+      "url": "https://www.artixio.com/post/medical-device-regulations-registration-process-in-thailand",
+      "date": "2025-06-19",
+      "last_updated": "2025-06-22"
+    },
+    {
+      "title": "Guide for Malaria Commodities Logistic Management System",
+      "url": "https://msh.org/wp-content/uploads/2025/07/MTP-Malaria-online.pdf",
+      "date": null,
+      "last_updated": "2025-07-30"
+    },
+    {
+      "title": "Thailand: (Draft) Criteria, Methods, and Conditions on Labeling and ...",
+      "url": "https://andamanmed.com/thailand-draft-criteria-methods-and-conditions-on-labeling-and-documentation-ifu-for-medical-devices/",
+      "date": "2025-04-18",
+      "last_updated": "2025-04-26"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+sonar-pro
+Permits stability data submission for pharmaceutical products at 25°C/60% relative humidity (RH) when supported by accelerated stability studies.
+{
+  "id": "efd3a071-c8f7-434c-a6f3-1224a7e5075b",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"answer\":\"YES\",\"note\":\"Malaysia allows submission of stability data at 25°C/60% RH, provided this is supported by accelerated (40°C/75% RH) stability studies, and this is in line with both the Malaysian Drug Registration Guidance Document and ASEAN Common Technical Requirements[1][5]. The submitted data should include long-term (25°C/60% RH) and accelerated data from batches manufactured at the proposed site; if deficiencies are found at accelerated conditions, the shelf life is based on long-term data[1][5]. Local guidelines primarily follow ICH/ASEAN standards, which permit this approach.\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755744017,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 129,
+    "prompt_tokens": 31,
+    "total_tokens": 160,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.002,
+      "request_cost": 0.006,
+      "total_cost": 0.008
+    }
+  },
+  "citations": [
+    "https://www.npra.gov.my/easyarticles/images/users/1153/drgd_appendices/APPENDIX-3-Guidelines-on-Registration-of-New-Drug-Products.pdf",
+    "https://www.rsc.org/suppdata/c5/ra/c5ra07716h/c5ra07716h1.pdf",
+    "https://credevo.com/articles/2022/10/05/drug-registration-in-malaysia-regulatory-process-requirements/",
+    "https://www.ema.europa.eu/en/documents/scientific-guideline/ich-q-1-r2-stability-testing-new-drug-substances-and-products-step-5_en.pdf",
+    "https://asean.org/wp-content/uploads/2021/08/ASEAN-Common-Technical-Requirements-ACTR.pdf"
+  ],
+  "search_results": [
+    {
+      "title": "APPENDIX-3-Guidelines-on-Registration-of-New-Drug- ...",
+      "url": "https://www.npra.gov.my/easyarticles/images/users/1153/drgd_appendices/APPENDIX-3-Guidelines-on-Registration-of-New-Drug-Products.pdf",
+      "date": null,
+      "last_updated": "2025-08-14"
+    },
+    {
+      "title": "[PDF] Annex 2 Stability testing of active pharmaceutical ingredients and ...",
+      "url": "https://www.rsc.org/suppdata/c5/ra/c5ra07716h/c5ra07716h1.pdf",
+      "date": null,
+      "last_updated": "2025-03-27"
+    },
+    {
+      "title": "Regulatory For Drug Registration In Malaysia",
+      "url": "https://credevo.com/articles/2022/10/05/drug-registration-in-malaysia-regulatory-process-requirements/",
+      "date": "2022-10-05",
+      "last_updated": "2025-08-18"
+    },
+    {
+      "title": "[PDF] Q 1 A (R2) Stability Testing of new Drug Substances and Products",
+      "url": "https://www.ema.europa.eu/en/documents/scientific-guideline/ich-q-1-r2-stability-testing-new-drug-substances-and-products-step-5_en.pdf",
+      "date": null,
+      "last_updated": "2025-08-10"
+    },
+    {
+      "title": "ASEAN Common Technical Requirements (ACTR)",
+      "url": "https://asean.org/wp-content/uploads/2021/08/ASEAN-Common-Technical-Requirements-ACTR.pdf",
+      "date": null,
+      "last_updated": "2025-08-10"
+    }
+  ]
+}

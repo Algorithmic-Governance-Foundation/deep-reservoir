@@ -1,0 +1,83 @@
+sonar-pro
+Publishes national antimicrobial resistance (AMR) surveillance data related to pharmaceutical products.
+{
+  "id": "eea47e66-026e-4c0e-9f4a-608684cad84b",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"answer\":\"PARTIAL\",\"note\":\"Cambodia has implemented a *national laboratory-based AMR surveillance system* since 2018, collecting data including pathogen and antimicrobial susceptibility information across sentinel sites and submitting these to GLASS, the WHO’s global surveillance system[2][5]. These surveillance data cover resistance patterns in both human and food-animal sectors and inform government action on AMR[1][2][3][5]. However, publicly available surveillance reports with detailed, product-specific pharmaceutical data (i.e., resistance data directly linked to individual pharmaceutical products) are not explicitly confirmed in the sources, and such granularity may be limited. The published surveillance focuses mainly on priority pathogens and their susceptibility profiles but does not clearly provide regular publicly released, product-specific AMR data related to all pharmaceutical products.\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755743952,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 162,
+    "prompt_tokens": 21,
+    "total_tokens": 183,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.002,
+      "request_cost": 0.006,
+      "total_cost": 0.008
+    }
+  },
+  "citations": [
+    "https://pubmed.ncbi.nlm.nih.gov/31176035/",
+    "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2023.1332423/full",
+    "https://www.fao.org/fao-who-codexalimentarius/news-and-events/news-details/hu/c/1733551/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC8210153/",
+    "https://rr-asia.woah.org/app/uploads/2025/04/antimicrobial-resistance-SURVEILLANCE.pdf"
+  ],
+  "search_results": [
+    {
+      "title": "Antimicrobial resistance in Cambodia: a review - PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31176035/",
+      "date": "2019-08-05",
+      "last_updated": "2025-08-05"
+    },
+    {
+      "title": "The barriers and facilitators of implementing a national laboratory ...",
+      "url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2023.1332423/full",
+      "date": "2023-12-20",
+      "last_updated": "2025-04-25"
+    },
+    {
+      "title": "ACT / Surveillance study in Cambodia reveals need for urgent action",
+      "url": "https://www.fao.org/fao-who-codexalimentarius/news-and-events/news-details/hu/c/1733551/",
+      "date": "2025-02-18",
+      "last_updated": "2025-08-17"
+    },
+    {
+      "title": "Public knowledge, attitudes and practices surrounding antibiotic use ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8210153/",
+      "date": "2021-02-03",
+      "last_updated": "2025-05-27"
+    },
+    {
+      "title": "[PDF] Antimicrobial Resistance Surveillance - WOAH - Asia",
+      "url": "https://rr-asia.woah.org/app/uploads/2025/04/antimicrobial-resistance-SURVEILLANCE.pdf",
+      "date": null,
+      "last_updated": "2025-05-06"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+sonar-pro
+Accepts the International Council for Harmonisation (ICH) Common Technical Document (CTD) format for innovator pharmaceutical product registrations.
+{
+  "id": "f7b3ca45-30e5-4875-82b3-b8466824d719",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"answer\":\"YES\",\"note\":\"Thailand accepts the International Council for Harmonisation (ICH) Common Technical Document (CTD) format for innovator pharmaceutical product registrations. According to multiple authoritative sources, the Thai FDA requires applicants to submit either an ASEAN Common Technical Dossier (ACTD) or the ICH CTD for new modern drug registration[1][5]. Both these formats are recognized, and the ICH CTD—being the international standard—is explicitly listed as an accepted format for innovator (new) pharmaceutical products[1][5].\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755743765,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 113,
+    "prompt_tokens": 30,
+    "total_tokens": 143,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.002,
+      "request_cost": 0.006,
+      "total_cost": 0.008
+    }
+  },
+  "citations": [
+    "https://pharmaboardroom.com/legal-reports/the-pharma-legal-handbook-thailand/",
+    "https://ijprajournal.com/issue_dcp/A%20Review%20Article%20on%20the%20Common%20Technical%20Document%20CTD%20Regulatory%20Dossier.pdf",
+    "https://www.freyrsolutions.com/blog/thailand-moving-forward-to-ectd-submissions",
+    "https://international-pharma.com/wp-content/uploads/2017/04/Comparison-of.pdf",
+    "https://www.chameleon-pharma.com/the-pillars-of-control-approaching-thailands-national-drug-framework-and-otc-rx-drug-registration-process/"
+  ],
+  "search_results": [
+    {
+      "title": "The Pharma Legal Handbook: Thailand",
+      "url": "https://pharmaboardroom.com/legal-reports/the-pharma-legal-handbook-thailand/",
+      "date": "2024-11-18",
+      "last_updated": "2025-02-06"
+    },
+    {
+      "title": "[PDF] A Review Article on the Common Technical Document (CTD ...",
+      "url": "https://ijprajournal.com/issue_dcp/A%20Review%20Article%20on%20the%20Common%20Technical%20Document%20CTD%20Regulatory%20Dossier.pdf",
+      "date": "2025-05-05",
+      "last_updated": "2025-05-13"
+    },
+    {
+      "title": "Thailand Moving Forward to eCTD Submissions",
+      "url": "https://www.freyrsolutions.com/blog/thailand-moving-forward-to-ectd-submissions",
+      "date": "2015-09-30",
+      "last_updated": "2024-09-18"
+    },
+    {
+      "title": "[PDF] Comparison of Marketing Authorisation and its Requirements for ...",
+      "url": "https://international-pharma.com/wp-content/uploads/2017/04/Comparison-of.pdf",
+      "date": null,
+      "last_updated": "2025-05-08"
+    },
+    {
+      "title": "Thai's Rx & OTC registration",
+      "url": "https://www.chameleon-pharma.com/the-pillars-of-control-approaching-thailands-national-drug-framework-and-otc-rx-drug-registration-process/",
+      "date": "2025-04-15",
+      "last_updated": "2025-04-16"
+    }
+  ]
+}

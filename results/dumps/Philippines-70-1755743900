@@ -1,0 +1,83 @@
+sonar-pro
+Publishes national antimicrobial resistance (AMR) surveillance data related to pharmaceutical products.
+{
+  "id": "7068de85-67af-4101-91d2-eab56b9c7e7f",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"answer\": \"YES\", \"note\": \"The Philippines publishes national antimicrobial resistance (AMR) surveillance data related to pharmaceutical products. The Antimicrobial Resistance Surveillance Program (ARSP) regularly collects, analyzes, and publishes annual reports on AMR trends, which are disseminated to local, national, and international stakeholders[2][4]. These reports include resistance trends for key pathogen–antibiotic (pharmaceutical product) combinations, and the data inform both clinical guidelines and national formulary decisions[2]. The program uses laboratory-based surveillance and incorporates both phenotypic and genomic data to track resistance mechanisms and trends at the national level[1][3].\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755743898,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 137,
+    "prompt_tokens": 21,
+    "total_tokens": 158,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.002,
+      "request_cost": 0.006,
+      "total_cost": 0.008
+    }
+  },
+  "citations": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7264328/",
+    "https://www.nature.com/articles/s41467-020-16322-5",
+    "https://www.sanger.ac.uk/news_item/genomic-surveillance-of-antibiotic-resistance-in-the-philippines-established/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC9220349/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC9831596/"
+  ],
+  "search_results": [
+    {
+      "title": "Integrating whole-genome sequencing within the National ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7264328/",
+      "date": "2020-06-01",
+      "last_updated": "2025-06-01"
+    },
+    {
+      "title": "Integrating whole-genome sequencing within the National ...",
+      "url": "https://www.nature.com/articles/s41467-020-16322-5",
+      "date": "2020-06-01",
+      "last_updated": "2025-03-20"
+    },
+    {
+      "title": "Genomic surveillance of antibiotic resistance in the Philippines ...",
+      "url": "https://www.sanger.ac.uk/news_item/genomic-surveillance-of-antibiotic-resistance-in-the-philippines-established/",
+      "date": "2020-06-08",
+      "last_updated": "2024-10-05"
+    },
+    {
+      "title": "A Qualitative Study on the Design and Implementation ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9220349/",
+      "date": "2022-06-17",
+      "last_updated": "2025-07-12"
+    },
+    {
+      "title": "Operational challenges of the Philippine Antimicrobial Resistance ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9831596/",
+      "date": "2022-08-25",
+      "last_updated": "2024-10-23"
+    }
+  ]
+}

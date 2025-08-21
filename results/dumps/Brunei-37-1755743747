@@ -1,0 +1,83 @@
+sonar-pro
+Specifically mandates the use of a “red dot” symbol on prescription-only pharmaceutical products.
+{
+  "id": "0251c04b-72f7-4fc5-9504-d2bcaf596a41",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"answer\":\"UNKNOWN\",\"note\":\"There is no evidence in the available sources to suggest that Brunei specifically mandates the use of a 'red dot' symbol on prescription-only pharmaceutical products. None of the reviewed regulatory documents or guidelines from Brunei mention such a requirement, and the source that mentions a 'red dot' appears not to pertain to Brunei[2]. Accordingly, it cannot be confirmed that this mandate exists in Brunei based on current information.\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755743745,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 93,
+    "prompt_tokens": 22,
+    "total_tokens": 115,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://moh.gov.bn/wp-content/uploads/2024/10/Brunei-Darussalam-Pharmacovigilance-Guidelines-31.7.18.pdf",
+    "http://www.tsmia.or.th/RTD2022/Self-CARER_e-book_final.pdf",
+    "https://www.agc.gov.bn/AGC%20Images/LAWS/ACT_PDF/M/CHAPTER%20285%20RG%201.pdf",
+    "https://www.annualreports.com/HostedData/AnnualReportArchive/d/NASDAQ_DCPH_2020.pdf",
+    "https://www.trade.gov/country-commercial-guides/brunei-labeling-and-marking-requirements"
+  ],
+  "search_results": [
+    {
+      "title": "[PDF] BRUNEI DARUSSALAM PHARMACOVIGILANCE GUIDELINES:",
+      "url": "https://moh.gov.bn/wp-content/uploads/2024/10/Brunei-Darussalam-Pharmacovigilance-Guidelines-31.7.18.pdf",
+      "date": null,
+      "last_updated": "2025-08-13"
+    },
+    {
+      "title": "[PDF] Self-CARER",
+      "url": "http://www.tsmia.or.th/RTD2022/Self-CARER_e-book_final.pdf",
+      "date": "2015-09-17",
+      "last_updated": null
+    },
+    {
+      "title": "[PDF] MEDICINES (CHAPTER 285) MEDICINES (COSMETIC PRODUCTS ...",
+      "url": "https://www.agc.gov.bn/AGC%20Images/LAWS/ACT_PDF/M/CHAPTER%20285%20RG%201.pdf",
+      "date": null,
+      "last_updated": "2025-07-13"
+    },
+    {
+      "title": "[PDF] DECIPHERA PHARMACEUTICALS, INC. - Annual Reports",
+      "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/NASDAQ_DCPH_2020.pdf",
+      "date": "2021-02-09",
+      "last_updated": "2024-01-19"
+    },
+    {
+      "title": "Brunei - Labeling and Marking Requirements",
+      "url": "https://www.trade.gov/country-commercial-guides/brunei-labeling-and-marking-requirements",
+      "date": null,
+      "last_updated": "2025-08-13"
+    }
+  ]
+}

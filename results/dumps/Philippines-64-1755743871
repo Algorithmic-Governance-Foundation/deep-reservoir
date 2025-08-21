@@ -1,0 +1,83 @@
+sonar-pro
+Permits stability data submission for pharmaceutical products at 25°C/60% relative humidity (RH) when supported by accelerated stability studies.
+{
+  "id": "9f7b7f0f-c701-484a-9144-ebffbb64ff9f",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"answer\":\"NO\",\"note\":\"The Philippines, as an ASEAN member, generally follows the ASEAN Guidelines on Stability Study, which require long-term stability data at 30°C/75% RH for products intended for Climatic Zone IVa (including the Philippines). The ASEAN guideline states that if submitted data is based on less stressful conditions like 25°C/60% RH, it must be accompanied by supportive data at the specified higher conditions[5]. Accelerated stability studies (e.g., 40°C/75% RH) are intended to supplement but not replace real-time/long-term data at the required conditions. Therefore, submission of stability data solely at 25°C/60% RH, even with accelerated data, is not sufficient for the Philippines unless specifically justified and accepted case-by-case by the regulatory authority, which is not the general rule[5].\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755743869,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 177,
+    "prompt_tokens": 31,
+    "total_tokens": 208,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.003,
+      "request_cost": 0.006,
+      "total_cost": 0.009
+    }
+  },
+  "citations": [
+    "https://database.ich.org/sites/default/files/ICH_Q1EWG_Step2_Draft_Guideline_2025_0411.pdf",
+    "https://database.ich.org/sites/default/files/Q1F_Stability_Guideline_WHO_2018.pdf",
+    "http://academy.gmp-compliance.org/guidemgr/files/WHO_TRS_953_Annex2.pdf",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC11858995/",
+    "https://asean.org/wp-content/uploads/i-Final-ASEAN-Guideline-on-Stability-Study-Drug-Product-R2_uniformed-template.pdf"
+  ],
+  "search_results": [
+    {
+      "title": "STABILITY TESTING OF DRUG SUBSTANCES AND ...",
+      "url": "https://database.ich.org/sites/default/files/ICH_Q1EWG_Step2_Draft_Guideline_2025_0411.pdf",
+      "date": "2025-04-11",
+      "last_updated": "2025-08-10"
+    },
+    {
+      "title": "Annex 10",
+      "url": "https://database.ich.org/sites/default/files/Q1F_Stability_Guideline_WHO_2018.pdf",
+      "date": null,
+      "last_updated": "2025-08-10"
+    },
+    {
+      "title": "Annex 2 Stability testing of active pharmaceutical ...",
+      "url": "http://academy.gmp-compliance.org/guidemgr/files/WHO_TRS_953_Annex2.pdf",
+      "date": null,
+      "last_updated": "2025-08-10"
+    },
+    {
+      "title": "Accelerated Predictive Stability Testing",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11858995/",
+      "date": "2025-01-25",
+      "last_updated": "2025-07-08"
+    },
+    {
+      "title": "i-Final-ASEAN-Guideline-on-Stability-Study-Drug-Product- ...",
+      "url": "https://asean.org/wp-content/uploads/i-Final-ASEAN-Guideline-on-Stability-Study-Drug-Product-R2_uniformed-template.pdf",
+      "date": null,
+      "last_updated": "2025-08-10"
+    }
+  ]
+}

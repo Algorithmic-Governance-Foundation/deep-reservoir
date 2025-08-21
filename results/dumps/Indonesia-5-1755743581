@@ -1,0 +1,83 @@
+sonar-pro
+Allows the use of bracketing and matrixing study designs in pharmaceutical product stability testing.
+{
+  "id": "e1e3a657-e24e-4748-bcb1-3be2107df9aa",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"answer\":\"YES\",\"note\":\"Indonesia allows the use of bracketing and matrixing study designs in pharmaceutical product stability testing. The latest BPOM Regulation No. 6 of 2025 aligns Indonesia’s requirements with the ASEAN Guideline on Stability Study and Shelf Life of Health Supplements, which explicitly states that reduced designs such as bracketing and matrixing can be applied to stability testing when scientifically justified[1][2][3][5]. Thus, these approaches are permissible for both health supplements and, by alignment with ASEAN guidelines, for pharmaceutical products, provided proper scientific reasoning and documentation are provided.\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755743579,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 124,
+    "prompt_tokens": 21,
+    "total_tokens": 145,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.002,
+      "request_cost": 0.006,
+      "total_cost": 0.008
+    }
+  },
+  "citations": [
+    "https://www.permitindo.com/news/bpom-health-supplement-stability-testing",
+    "https://asean.org/wp-content/uploads/2017/09/ASEAN-Guidelines-on-Stability-and-Shelf-Life-TM-V1.0-with-disclaimer.pdf",
+    "https://foodcomplianceinternational.com/industry-insight/news/5384-bpom-issues-guidelines-for-stability-testing-of-health-supplements",
+    "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/q1d-bracketing-and-matrixing-designs-stability-testing-new-drug-substances-and-products",
+    "https://food.chemlinked.com/database/view/5830"
+  ],
+  "search_results": [
+    {
+      "title": "BPOM Mandates Stability Testing for Health Supplements",
+      "url": "https://www.permitindo.com/news/bpom-health-supplement-stability-testing",
+      "date": "2025-05-06",
+      "last_updated": "2025-08-14"
+    },
+    {
+      "title": "annex v asean guidelines on stability study and shelf-life of ...",
+      "url": "https://asean.org/wp-content/uploads/2017/09/ASEAN-Guidelines-on-Stability-and-Shelf-Life-TM-V1.0-with-disclaimer.pdf",
+      "date": null,
+      "last_updated": "2025-03-27"
+    },
+    {
+      "title": "BPOM issues guidelines for stability testing of health supplements",
+      "url": "https://foodcomplianceinternational.com/industry-insight/news/5384-bpom-issues-guidelines-for-stability-testing-of-health-supplements",
+      "date": "2025-05-09",
+      "last_updated": "2025-05-15"
+    },
+    {
+      "title": "Q1D Bracketing and Matrixing Designs for Stability Testing ...",
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/q1d-bracketing-and-matrixing-designs-stability-testing-new-drug-substances-and-products",
+      "date": "2018-08-24",
+      "last_updated": "2025-08-18"
+    },
+    {
+      "title": "BPOM Regulation No. 6 of 2025 on Guidelines for Stability Testing ...",
+      "url": "https://food.chemlinked.com/database/view/5830",
+      "date": "2025-03-20",
+      "last_updated": "2025-03-25"
+    }
+  ]
+}

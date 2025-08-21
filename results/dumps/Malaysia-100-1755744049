@@ -1,0 +1,83 @@
+sonar-pro
+Publishes national antimicrobial resistance (AMR) surveillance data related to pharmaceutical products.
+{
+  "id": "e4ec6af2-26bb-4fc0-be6a-bfaacb6d2718",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"answer\":\"YES\",\"note\":\"Malaysia publishes national AMR surveillance data related to pharmaceutical products, primarily through the National Surveillance of Antibiotic Resistance (NSAR) reports. These reports analyze data from hospital microbiology laboratories across the country, tracking resistance patterns in clinical isolates and providing detailed statistics on antimicrobial resistance trends relevant to pharmaceuticals[1][2][5]. The NSAR is coordinated by the Institute for Medical Research under the Ministry of Health and has been operational for over two decades, with regular publication of surveillance data, most recently in 2023[1]. The program specifically covers resistance to antibiotics (pharmaceutical products) used in clinical settings, with data supporting public health action and policy development[1][2].\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755744047,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 149,
+    "prompt_tokens": 21,
+    "total_tokens": 170,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.002,
+      "request_cost": 0.006,
+      "total_cost": 0.008
+    }
+  },
+  "citations": [
+    "https://library.nih.gov.my/e-doc/imr/nsar-2023.pdf",
+    "https://www.dvs.gov.my/dvs/resources/user_1/2020/KAV/AMR/MyAP_AMR.pdf",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC10764260/",
+    "https://asean.org/wp-content/uploads/2023/02/Rapid-Assessment-of-the-Regulatory-Measures-in-Combating-Antimicrobial-Resistance-AMR-in-the-ASEAN-Region_-Feb-2023-OK-1.pdf",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC8573254/"
+  ],
+  "search_results": [
+    {
+      "title": "[PDF] National Antibiotic Resistance Surveillance Report 2023",
+      "url": "https://library.nih.gov.my/e-doc/imr/nsar-2023.pdf",
+      "date": null,
+      "last_updated": "2025-04-26"
+    },
+    {
+      "title": "[PDF] Malaysian Action Plan on Antimicrobial Resistance (MyAp – AMR)",
+      "url": "https://www.dvs.gov.my/dvs/resources/user_1/2020/KAV/AMR/MyAP_AMR.pdf",
+      "date": null,
+      "last_updated": "2025-07-28"
+    },
+    {
+      "title": "Assessing the national antibiotic surveillance data to identify burden ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10764260/",
+      "date": "2023-11-30",
+      "last_updated": "2024-10-27"
+    },
+    {
+      "title": "[PDF] Rapid Assessment of the Regulatory Measures in Combating ...",
+      "url": "https://asean.org/wp-content/uploads/2023/02/Rapid-Assessment-of-the-Regulatory-Measures-in-Combating-Antimicrobial-Resistance-AMR-in-the-ASEAN-Region_-Feb-2023-OK-1.pdf",
+      "date": null,
+      "last_updated": "2025-04-01"
+    },
+    {
+      "title": "OneHealth Approaches Contribute Towards Antimicrobial Resistance",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8573254/",
+      "date": "2021-10-25",
+      "last_updated": "2025-07-10"
+    }
+  ]
+}

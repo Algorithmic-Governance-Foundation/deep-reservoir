@@ -1,0 +1,83 @@
+sonar-pro
+Accepts the International Council for Harmonisation (ICH) Common Technical Document (CTD) format for innovator pharmaceutical product registrations.
+{
+  "id": "52f57955-c676-4226-9c00-8f8f3edc2b62",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"answer\":\"YES\",\"note\":\"Vietnam accepts the ICH Common Technical Document (CTD) format for innovator pharmaceutical product registrations. According to Official Letter 21508/QLD-ĐK and current regulations, if a product's dossier cannot be arranged according to the ASEAN Common Technical Dossier (ACTD), the ICH-CTD format is allowed, especially for new chemical drugs and biological products[1][5]. This is confirmed by recent regulatory guidance and practical instructions for dossier submissions, which specify that technical documents may be prepared in either ACTD or ICH-CTD format[5].\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755743611,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 126,
+    "prompt_tokens": 30,
+    "total_tokens": 156,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.002,
+      "request_cost": 0.006,
+      "total_cost": 0.008
+    }
+  },
+  "citations": [
+    "https://vnras.com/the-official-letter-21508-qld-dk-guideline-applying-actd-dossier-ich-ctd-dossier/",
+    "https://international-pharma.com/wp-content/uploads/2017/04/Comparison-of.pdf",
+    "https://dohapharma.com/pharmaceuticals/",
+    "https://globallawexperts.com/drug-registration-process-in-vietnam-part-i-guide-for-foreign-companies-2025/",
+    "https://solispharm.com/2025/04/14/imported-drug-registration-in-vietnam/"
+  ],
+  "search_results": [
+    {
+      "title": "The official letter 21508/QLD-ĐK about guideline on ...",
+      "url": "https://vnras.com/the-official-letter-21508-qld-dk-guideline-applying-actd-dossier-ich-ctd-dossier/",
+      "date": "2018-02-08",
+      "last_updated": "2025-04-13"
+    },
+    {
+      "title": "[PDF] Comparison of Marketing Authorisation and its Requirements for ...",
+      "url": "https://international-pharma.com/wp-content/uploads/2017/04/Comparison-of.pdf",
+      "date": null,
+      "last_updated": "2025-05-08"
+    },
+    {
+      "title": "Pharmaceuticals",
+      "url": "https://dohapharma.com/pharmaceuticals/",
+      "date": "2020-05-06",
+      "last_updated": "2025-03-28"
+    },
+    {
+      "title": "Drug Registration Process In Vietnam (Part I) : Guide For Foreign ...",
+      "url": "https://globallawexperts.com/drug-registration-process-in-vietnam-part-i-guide-for-foreign-companies-2025/",
+      "date": "2025-08-01",
+      "last_updated": "2025-08-19"
+    },
+    {
+      "title": "Imported Drug Registration in Vietnam - SOLISPHARM Co., LTD",
+      "url": "https://solispharm.com/2025/04/14/imported-drug-registration-in-vietnam/",
+      "date": "2025-04-14",
+      "last_updated": "2025-04-29"
+    }
+  ]
+}

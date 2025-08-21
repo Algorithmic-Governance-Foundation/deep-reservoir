@@ -1,0 +1,83 @@
+sonar-pro
+Legally requires acceptance of another ASEAN Member State’s (AMS) Certificate of Good Manufacturing Practice (cGMP) for pharmaceutical manufacturers.
+{
+  "id": "c5ebd628-28df-4470-8f41-1d0f7092bcfd",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"answer\":\"PARTIAL\",\"note\":\"Laos participates in the ASEAN Mutual Recognition Arrangement (MRA) on Good Manufacturing Practice (GMP) Inspection for medicinal products, which aims to facilitate mutual acceptance of GMP certificates among ASEAN Member States for finished dosage forms[1][3][5]. The MRA is considered an obligatory requirement for ASEAN member countries[5]. However, implementation details—such as whether Laos' national regulatory process legally mandates automatic acceptance of another ASEAN member’s cGMP certificate without additional scrutiny—are not explicit in provided sources[1][5]. In practice, member states may retain some regulatory discretion or additional requirements, so while mutual recognition is the objective, legal automatic acceptance by Laos is not fully confirmed by the available evidence.\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755743679,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 156,
+    "prompt_tokens": 32,
+    "total_tokens": 188,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.002,
+      "request_cost": 0.006,
+      "total_cost": 0.008
+    }
+  },
+  "citations": [
+    "http://www.fdd.gov.la/fullnews_en.php?newsID=94",
+    "https://asean.org/wp-content/uploads/images/2013/economic/iai/ASEAN%20Cosmetics%20Directive%20CLMV%20Workshop%20Feb%202013.pdf",
+    "https://globalforum.diaglobal.org/issue/september-2018/regulatory-harmonization-and-recognition-continue-in-asean/",
+    "https://jicwels.or.jp/files/CountryReports/medicine/2012(H24)_%E5%BF%85%E9%A0%88%E5%8C%BB%E8%96%AC%E5%93%81%E8%A3%BD%E9%80%A0%E5%93%81%E8%B3%AA%E7%AE%A1%E7%90%86%EF%BC%88GMP%EF%BC%89.pdf",
+    "https://asean.org/wp-content/uploads/2022/12/ASEAN-Pharmaceutical-Regulatory-Policy-Sample-Print-REV-20122022-.pdf"
+  ],
+  "search_results": [
+    {
+      "title": "Food & Drug Department, Ministry of Health, Lao PDR.",
+      "url": "http://www.fdd.gov.la/fullnews_en.php?newsID=94",
+      "date": "2017-06-20",
+      "last_updated": "2024-10-14"
+    },
+    {
+      "title": "[PDF] Implementing the ASEAN Cosmetics Directive (ACD)",
+      "url": "https://asean.org/wp-content/uploads/images/2013/economic/iai/ASEAN%20Cosmetics%20Directive%20CLMV%20Workshop%20Feb%202013.pdf",
+      "date": null,
+      "last_updated": "2025-04-08"
+    },
+    {
+      "title": "Regulatory Harmonization and Recognition Continue in ASEAN",
+      "url": "https://globalforum.diaglobal.org/issue/september-2018/regulatory-harmonization-and-recognition-continue-in-asean/",
+      "date": null,
+      "last_updated": "2025-08-20"
+    },
+    {
+      "title": "[PDF] Good Manufacturing Practical (GMP) and Inspection - Coun",
+      "url": "https://jicwels.or.jp/files/CountryReports/medicine/2012(H24)_%E5%BF%85%E9%A0%88%E5%8C%BB%E8%96%AC%E5%93%81%E8%A3%BD%E9%80%A0%E5%93%81%E8%B3%AA%E7%AE%A1%E7%90%86%EF%BC%88GMP%EF%BC%89.pdf",
+      "date": null,
+      "last_updated": "2024-01-30"
+    },
+    {
+      "title": "[PDF] ASEAN Pharmaceutical Regulatory Policy",
+      "url": "https://asean.org/wp-content/uploads/2022/12/ASEAN-Pharmaceutical-Regulatory-Policy-Sample-Print-REV-20122022-.pdf",
+      "date": null,
+      "last_updated": "2025-08-10"
+    }
+  ]
+}

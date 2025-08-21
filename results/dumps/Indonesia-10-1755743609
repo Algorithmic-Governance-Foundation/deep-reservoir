@@ -1,0 +1,83 @@
+sonar-pro
+Publishes national antimicrobial resistance (AMR) surveillance data related to pharmaceutical products.
+{
+  "id": "12061c34-f304-4f05-8ae3-0aac2714541d",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"answer\":\"YES\",\"note\":\"Indonesia publishes national antimicrobial resistance (AMR) surveillance data. In February 2025, the Ministry of Health launched the country's first national AMR survey on bloodstream infections, covering 80 hospitals and 30 laboratories, with results coordinated with the WHO[1]. Indonesia also conducts monitoring and evaluation of its National Action Plan for AMR (NAP AMR) and publicly reports on these results, as demonstrated by the evaluation releases in September 2024[3][5]. The surveillance systems focus primarily on the prevalence of AMR in pathogens and related health outcomes, but while these reports are linked to the impact of pharmaceutical products (antimicrobials), the published surveillance data is generally focused on resistance patterns rather than surveillance of the pharmaceutical products themselves.\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755743607,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 162,
+    "prompt_tokens": 21,
+    "total_tokens": 183,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.002,
+      "request_cost": 0.006,
+      "total_cost": 0.008
+    }
+  },
+  "citations": [
+    "https://www.who.int/indonesia/news/detail/13-02-2025-indonesia-launches-groundbreaking-national-amr-survey-on-bloodstream-infections",
+    "https://www.who.int/about/accountability/results/who-results-report-2020-mtr/country-story/2020/indonisia-amr",
+    "https://www.fao.org/indonesia/news/detail/evaluation-of-the-2020-2024-nap-amr--positive-results-in-antimicrobial-resistance-control/en",
+    "https://www.flemingfund.org/app/uploads/59f148b0482cda160087e29b9a5a21a0.pdf",
+    "https://www.who.int/indonesia/news/detail/03-09-2024-evaluation-of-ran-pra-2020-2024--control-of-antimicrobial-resistance-achieves-positive-results"
+  ],
+  "search_results": [
+    {
+      "title": "Indonesia launches groundbreaking national AMR survey ...",
+      "url": "https://www.who.int/indonesia/news/detail/13-02-2025-indonesia-launches-groundbreaking-national-amr-survey-on-bloodstream-infections",
+      "date": "2025-02-13",
+      "last_updated": "2025-02-13"
+    },
+    {
+      "title": "WHO monitoring and supporting progress to combat antimicrobial ...",
+      "url": "https://www.who.int/about/accountability/results/who-results-report-2020-mtr/country-story/2020/indonisia-amr",
+      "date": null,
+      "last_updated": "2025-08-03"
+    },
+    {
+      "title": "Evaluation of the 2020-2024 NAP AMR: positive results in ...",
+      "url": "https://www.fao.org/indonesia/news/detail/evaluation-of-the-2020-2024-nap-amr--positive-results-in-antimicrobial-resistance-control/en",
+      "date": "2024-09-03",
+      "last_updated": "2025-02-15"
+    },
+    {
+      "title": "[PDF] Indonesia - Fleming Fund",
+      "url": "https://www.flemingfund.org/app/uploads/59f148b0482cda160087e29b9a5a21a0.pdf",
+      "date": null,
+      "last_updated": "2025-05-17"
+    },
+    {
+      "title": "Evaluation of RAN PRA 2020-2024: Control ...",
+      "url": "https://www.who.int/indonesia/news/detail/03-09-2024-evaluation-of-ran-pra-2020-2024--control-of-antimicrobial-resistance-achieves-positive-results",
+      "date": "2024-09-03",
+      "last_updated": "2024-09-04"
+    }
+  ]
+}

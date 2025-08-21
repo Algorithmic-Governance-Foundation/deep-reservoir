@@ -1,0 +1,83 @@
+sonar-pro
+Requires halal certification for pharmaceutical products.
+{
+  "id": "aa22226b-94ca-4132-ac0e-2f5759de6ae0",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"answer\":\"PARTIAL\",\"note\":\"Cambodia has established a halal certification process primarily aimed at food businesses, restaurants, and exports, regulated by the Commission for Examination of Halal Products and various industry partners[1][5]. Official references make clear that halal certification applies to foodstuffs and related products, but there is no explicit evidence in the provided sources that Cambodia currently requires halal certification for pharmaceutical products as a legal or regulatory condition[5]. While global trends and industry reports highlight growing demand and voluntary adoption of halal certification for pharmaceuticals in many markets[3][4], Cambodia's public halal policy and certification efforts have not specifically mandated it for pharmaceuticals as of August 2025. Companies may choose to seek voluntary halal certification to access Muslim markets, but this does not equate to a government requirement[3].\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755743936,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 172,
+    "prompt_tokens": 12,
+    "total_tokens": 184,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.003,
+      "request_cost": 0.006,
+      "total_cost": 0.009
+    }
+  },
+  "citations": [
+    "https://www.ccfdg.gov.kh/en/commission-committee/new-title-3/",
+    "https://www.halaltimes.com/turkey-agrees-to-help-develop-cambodias-halal-industry/",
+    "https://ic-halal.com/industries/pharma/",
+    "https://www.halaltimes.com/malaysia-urges-cambodia-to-harness-the-potential-of-halal-ecosystem/",
+    "https://seasia.co/2025/08/04/cambodias-halal-market-a-promising-future-with-government-support"
+  ],
+  "search_results": [
+    {
+      "title": "Commission for Examination of Halal Products in Cambodia",
+      "url": "https://www.ccfdg.gov.kh/en/commission-committee/new-title-3/",
+      "date": null,
+      "last_updated": "2025-07-27"
+    },
+    {
+      "title": "Turkey Agrees to Help Develop Cambodia`s Halal Industry",
+      "url": "https://www.halaltimes.com/turkey-agrees-to-help-develop-cambodias-halal-industry/",
+      "date": "2024-10-19",
+      "last_updated": "2024-12-30"
+    },
+    {
+      "title": "Pharma",
+      "url": "https://ic-halal.com/industries/pharma/",
+      "date": "2024-11-11",
+      "last_updated": "2024-12-15"
+    },
+    {
+      "title": "Malaysia Urges Cambodia to Harness the Potential of Halal ...",
+      "url": "https://www.halaltimes.com/malaysia-urges-cambodia-to-harness-the-potential-of-halal-ecosystem/",
+      "date": "2024-09-08",
+      "last_updated": "2024-11-11"
+    },
+    {
+      "title": "Cambodia's Halal Market: A Promising Future with ...",
+      "url": "https://seasia.co/2025/08/04/cambodias-halal-market-a-promising-future-with-government-support",
+      "date": "2025-08-04",
+      "last_updated": "2025-08-04"
+    }
+  ]
+}

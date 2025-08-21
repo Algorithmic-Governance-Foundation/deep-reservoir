@@ -1,0 +1,83 @@
+sonar-pro
+Specifically mandates the use of a “red dot” symbol on prescription-only pharmaceutical products.
+{
+  "id": "74fa940e-bc21-463f-bbf6-3a61081a046b",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"answer\":\"NO\",\"note\":\"No evidence was found in the official Cambodian 'Law on Drug Management' or related regulatory texts to indicate that Cambodia specifically mandates the use of a 'red dot' symbol on prescription-only pharmaceutical products. None of the available sources, including Cambodian government documents and reviews of ASEAN pharmaceutical regulations, mention such a requirement[1][5]. Although some ASEAN countries use color codes or symbols to indicate prescription status, there is no indication that Cambodia has adopted the 'red dot' system.\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755743939,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 106,
+    "prompt_tokens": 21,
+    "total_tokens": 127,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.002,
+      "request_cost": 0.006,
+      "total_cost": 0.008
+    }
+  },
+  "citations": [
+    "https://cdc.gov.kh/wp-content/uploads/2022/04/Law-on-Drug-Management_full-text_961209.pdf",
+    "https://chicagounbound.uchicago.edu/cgi/viewcontent.cgi?article=2753&context=law_and_economics",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC9508725/",
+    "http://www.tsmia.or.th/RTD2022/Self-CARER_e-book_final.pdf",
+    "https://www.raps.org/news-and-articles/news-articles/2018/1/the-drug-regulatory-landscape-in-the-asean-region"
+  ],
+  "search_results": [
+    {
+      "title": "[PDF] Law on Drugs Control, Eng",
+      "url": "https://cdc.gov.kh/wp-content/uploads/2022/04/Law-on-Drug-Management_full-text_961209.pdf",
+      "date": null,
+      "last_updated": "2024-02-27"
+    },
+    {
+      "title": "[PDF] Evaluating and Pricing Health Insurance in Lower- Income Countries",
+      "url": "https://chicagounbound.uchicago.edu/cgi/viewcontent.cgi?article=2753&context=law_and_economics",
+      "date": null,
+      "last_updated": null
+    },
+    {
+      "title": "Traditional Khmer Medicine and its role in wildlife use in modern ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9508725/",
+      "date": "2022-09-24",
+      "last_updated": "2025-07-25"
+    },
+    {
+      "title": "[PDF] Self-CARER",
+      "url": "http://www.tsmia.or.th/RTD2022/Self-CARER_e-book_final.pdf",
+      "date": "2015-09-17",
+      "last_updated": null
+    },
+    {
+      "title": "The Drug Regulatory Landscape in the ASEAN Region | RAPS",
+      "url": "https://www.raps.org/news-and-articles/news-articles/2018/1/the-drug-regulatory-landscape-in-the-asean-region",
+      "date": "2018-01-30",
+      "last_updated": null
+    }
+  ]
+}

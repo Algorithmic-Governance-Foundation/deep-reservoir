@@ -1,0 +1,83 @@
+sonar-pro
+Legally requires acceptance of another ASEAN Member State’s (AMS) Certificate of Good Manufacturing Practice (cGMP) for pharmaceutical manufacturers.
+{
+  "id": "f5bb0b63-8f0d-40ca-bb6d-e252cf31b313",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"answer\":\"YES\",\"note\":\"Malaysia is legally required to accept and recognize another ASEAN Member State’s Certificate of Good Manufacturing Practice (cGMP) for pharmaceutical manufacturers, provided the certificate is issued by the ASEAN Listed Inspection Services (LIS) as stipulated under the ASEAN Sectoral Mutual Recognition Arrangement (MRA) on GMP Inspection[2][3][4]. This requirement is specified in Article 8 (Obligations) of the MRA, which Malaysia signed in 2009, mandating mutual recognition of GMP certificates and avoiding duplication of inspections within ASEAN member states for finished medicinal products[2][4]. Malaysian regulatory guidance documents confirm implementation of this obligation through recognition of GMP evidence from ASEAN LIS[1][3].\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755744012,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 159,
+    "prompt_tokens": 32,
+    "total_tokens": 191,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.002,
+      "request_cost": 0.006,
+      "total_cost": 0.008
+    }
+  },
+  "citations": [
+    "https://npra.gov.my/easyarticles/images/users/1133/2023%20Mar/Guidance-Document---Foreign-GMP-Inspection_9th-Edition.pdf",
+    "https://globalforum.diaglobal.org/issue/march-2021/harmonization-of-gmp-inspection-and-benefits-to-asean-economic-community/",
+    "https://www.npra.gov.my/index.php/my/regulation-basic",
+    "https://gabi-journal.net/a-review-of-international-initiatives-on-pharmaceutical-regulatory-reliance-and-recognition.html",
+    "https://credevo.com/articles/2022/10/05/drug-registration-in-malaysia-regulatory-process-requirements/"
+  ],
+  "search_results": [
+    {
+      "title": "Guidance-Document---Foreign-GMP- ...",
+      "url": "https://npra.gov.my/easyarticles/images/users/1133/2023%20Mar/Guidance-Document---Foreign-GMP-Inspection_9th-Edition.pdf",
+      "date": null,
+      "last_updated": "2025-04-13"
+    },
+    {
+      "title": "Harmonization of GMP Inspection and Benefits to ASEAN ...",
+      "url": "https://globalforum.diaglobal.org/issue/march-2021/harmonization-of-gmp-inspection-and-benefits-to-asean-economic-community/",
+      "date": null,
+      "last_updated": "2025-08-21"
+    },
+    {
+      "title": "Regulation Basic",
+      "url": "https://www.npra.gov.my/index.php/my/regulation-basic",
+      "date": "2025-04-04",
+      "last_updated": "2025-04-04"
+    },
+    {
+      "title": "A review of international initiatives on pharmaceutical ...",
+      "url": "https://gabi-journal.net/a-review-of-international-initiatives-on-pharmaceutical-regulatory-reliance-and-recognition.html",
+      "date": "2024-11-18",
+      "last_updated": "2025-08-20"
+    },
+    {
+      "title": "Regulatory For Drug Registration In Malaysia",
+      "url": "https://credevo.com/articles/2022/10/05/drug-registration-in-malaysia-regulatory-process-requirements/",
+      "date": "2022-10-05",
+      "last_updated": "2025-08-18"
+    }
+  ]
+}

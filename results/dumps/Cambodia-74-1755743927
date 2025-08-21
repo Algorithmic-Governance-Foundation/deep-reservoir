@@ -1,0 +1,83 @@
+sonar-pro
+Permits stability data submission for pharmaceutical products at 25°C/60% relative humidity (RH) when supported by accelerated stability studies.
+{
+  "id": "9dd18db9-06a2-4a4d-bb20-284a54a1cd51",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"answer\":\"UNKNOWN\",\"note\":\"There is no direct evidence in the provided search results specifying Cambodia's regulatory stance on permitting stability data submission for pharmaceutical products at 25°C/60% RH when supported by accelerated studies. The ICH and WHO guidelines—which are widely referenced by many countries—permit long-term stability studies at either 25°C/60% RH or 30°C/65% RH, with accelerated studies at 40°C/75% RH supporting shelf-life extrapolation as long as no significant change occurs under accelerated conditions[1][4][5]. However, official Cambodian regulatory documentation is not present in the search results. Manufacturers should consult Cambodia’s National Regulatory Authority to confirm if the ICH approach is accepted locally, as some countries may have specific requirements or only accept data at 30°C/75% RH reflecting their climatic zone.\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755743925,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 174,
+    "prompt_tokens": 31,
+    "total_tokens": 205,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.003,
+      "request_cost": 0.006,
+      "total_cost": 0.009
+    }
+  },
+  "citations": [
+    "https://humiditycontrol.com/blog/what-is-stability-testing/",
+    "https://www.zamra.co.zm/wp-content/uploads/2023/05/Marketing-Authorisation-STABILITY-GUIDELINES.pdf",
+    "https://www.labmanager.com/stability-testing-of-pharmaceuticals-procedures-and-best-practices-33944",
+    "https://www.ema.europa.eu/en/documents/scientific-guideline/ich-q-1-r2-stability-testing-new-drug-substances-and-products-step-5_en.pdf",
+    "https://www.rsc.org/suppdata/c5/ra/c5ra07716h/c5ra07716h1.pdf"
+  ],
+  "search_results": [
+    {
+      "title": "Stability Testing for Pharmaceuticals & More - Parameter",
+      "url": "https://humiditycontrol.com/blog/what-is-stability-testing/",
+      "date": "2023-02-22",
+      "last_updated": "2025-06-16"
+    },
+    {
+      "title": "ANNEX 11 * Guidelines for stability testing of ...",
+      "url": "https://www.zamra.co.zm/wp-content/uploads/2023/05/Marketing-Authorisation-STABILITY-GUIDELINES.pdf",
+      "date": null,
+      "last_updated": "2025-04-14"
+    },
+    {
+      "title": "Stability Testing of Pharmaceuticals: Procedures and Best Practices",
+      "url": "https://www.labmanager.com/stability-testing-of-pharmaceuticals-procedures-and-best-practices-33944",
+      "date": "2025-05-06",
+      "last_updated": "2025-06-15"
+    },
+    {
+      "title": "ich-q-1-r2-stability-testing-new-drug-substances-and-products ...",
+      "url": "https://www.ema.europa.eu/en/documents/scientific-guideline/ich-q-1-r2-stability-testing-new-drug-substances-and-products-step-5_en.pdf",
+      "date": null,
+      "last_updated": "2025-08-10"
+    },
+    {
+      "title": "[PDF] Annex 2 Stability testing of active pharmaceutical ingredients and ...",
+      "url": "https://www.rsc.org/suppdata/c5/ra/c5ra07716h/c5ra07716h1.pdf",
+      "date": null,
+      "last_updated": "2025-03-27"
+    }
+  ]
+}

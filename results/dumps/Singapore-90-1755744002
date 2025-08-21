@@ -1,0 +1,83 @@
+sonar-pro
+Publishes national antimicrobial resistance (AMR) surveillance data related to pharmaceutical products.
+{
+  "id": "738cf158-03e4-4373-aef9-a16d939eaecb",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"answer\":\"YES\",\"note\":\"Singapore publishes national antimicrobial resistance (AMR) surveillance data related to pharmaceutical products through its recurring 'One Health Report on Antimicrobial Utilisation and Resistance.' This report covers both AMR data and antimicrobial utilisation (sales and usage), integrating information from human healthcare, agriculture, food production, and environmental sectors[1][2][5]. The data are produced collaboratively by government agencies and are submitted to global surveillance systems (such as WHO GLASS), providing comprehensive insight into trends in resistance and antimicrobial consumption nationally, including pharmaceutical products[1][5].\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755744000,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 122,
+    "prompt_tokens": 21,
+    "total_tokens": 143,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.002,
+      "request_cost": 0.006,
+      "total_cost": 0.008
+    }
+  },
+  "citations": [
+    "https://www.ncid.sg/Health-Professionals/Documents/One%20Health%20Report%20on%20Antimicrobial%20Utilisation%20and%20Resistance%202021.pdf",
+    "https://www.ncid.sg/Health-Professionals/Documents/One%20Health%20Report%20on%20Antimicrobial%20Utilisation%20and%20Resistance%202019.pdf",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC6963657/",
+    "https://www.asianfisheriessociety.org/publication/downloadfile.php?id=1332&file=Y0dSbUx6QTBPREF4TWpnd01ERTJNRGc0T1RVeU1ESXVjR1Jt",
+    "https://www.cda.gov.sg/professionals/antimicrobial-resistance/amrco-nsap/"
+  ],
+  "search_results": [
+    {
+      "title": "One Health Antimicrobial Resistance Workgroup, Singapore",
+      "url": "https://www.ncid.sg/Health-Professionals/Documents/One%20Health%20Report%20on%20Antimicrobial%20Utilisation%20and%20Resistance%202021.pdf",
+      "date": null,
+      "last_updated": "2025-08-20"
+    },
+    {
+      "title": "One Health Antimicrobial Resistance Workgroup, Singapore",
+      "url": "https://www.ncid.sg/Health-Professionals/Documents/One%20Health%20Report%20on%20Antimicrobial%20Utilisation%20and%20Resistance%202019.pdf",
+      "date": null,
+      "last_updated": "2024-03-02"
+    },
+    {
+      "title": "Combating Antimicrobial Resistance in Singapore",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6963657/",
+      "date": "2019-10-29",
+      "last_updated": "2025-07-10"
+    },
+    {
+      "title": "Singapore's National Action Plan on Antimicrobial ...",
+      "url": "https://www.asianfisheriessociety.org/publication/downloadfile.php?id=1332&file=Y0dSbUx6QTBPREF4TWpnd01ERTJNRGc0T1RVeU1ESXVjR1Jt",
+      "date": null,
+      "last_updated": "2025-05-30"
+    },
+    {
+      "title": "How AMRCO implements the NSAP on AMR",
+      "url": "https://www.cda.gov.sg/professionals/antimicrobial-resistance/amrco-nsap/",
+      "date": "2025-04-16",
+      "last_updated": "2025-07-09"
+    }
+  ]
+}

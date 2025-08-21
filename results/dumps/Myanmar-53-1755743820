@@ -1,0 +1,83 @@
+sonar-pro
+Legally requires acceptance of another ASEAN Member State’s (AMS) Certificate of Good Manufacturing Practice (cGMP) for pharmaceutical manufacturers.
+{
+  "id": "b897818c-8b2b-47e8-b72c-2b3bf214b681",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"answer\":\"PARTIAL\",\"note\":\"Myanmar does not appear to be legally required to accept another ASEAN Member State’s Certificate of Good Manufacturing Practice (cGMP) for pharmaceutical manufacturers, as mutual recognition arrangements (MRAs) for GMP within ASEAN are still in differing stages of implementation and not yet fully obligatory for all AMS[1][4]. Existing Myanmar regulations require their own site inspections and licensing processes for manufacturer approval[3], with no explicit legal mandate to accept foreign cGMP certificates from other AMS. However, regional harmonization efforts such as the ASEAN GMP MRA aim to move toward mutual recognition, but these are not currently mandatory or fully applied in Myanmar[1][4].\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755743818,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 145,
+    "prompt_tokens": 32,
+    "total_tokens": 177,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.002,
+      "request_cost": 0.006,
+      "total_cost": 0.008
+    }
+  },
+  "citations": [
+    "https://asean.org/wp-content/uploads/2022/12/ASEAN-Pharmaceutical-Regulatory-Policy-Sample-Print-REV-20122022-.pdf",
+    "https://asean.org/wp-content/uploads/images/2013/economic/iai/ASEAN%20Cosmetics%20Directive%20CLMV%20Workshop%20Feb%202013.pdf",
+    "https://www.fda.gov.tw/tc/includes/GetFile.ashx?id=f636695447956123279&type=4",
+    "https://www.ncbi.nlm.nih.gov/books/NBK555744/",
+    "https://www.pacificbridgemedical.com/regulation/asean-medical-device-pharmaceutical-regulations/"
+  ],
+  "search_results": [
+    {
+      "title": "[PDF] ASEAN Pharmaceutical Regulatory Policy",
+      "url": "https://asean.org/wp-content/uploads/2022/12/ASEAN-Pharmaceutical-Regulatory-Policy-Sample-Print-REV-20122022-.pdf",
+      "date": null,
+      "last_updated": "2025-08-10"
+    },
+    {
+      "title": "Implementing the ASEAN Cosmetics Directive (ACD)",
+      "url": "https://asean.org/wp-content/uploads/images/2013/economic/iai/ASEAN%20Cosmetics%20Directive%20CLMV%20Workshop%20Feb%202013.pdf",
+      "date": null,
+      "last_updated": "2025-04-08"
+    },
+    {
+      "title": "[PDF] Drug Regulations in Myanmar",
+      "url": "https://www.fda.gov.tw/tc/includes/GetFile.ashx?id=f636695447956123279&type=4",
+      "date": null,
+      "last_updated": "2025-03-25"
+    },
+    {
+      "title": "Table of Global Good Manufacturing Practice (GMP ...",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK555744/",
+      "date": "2015-05-18",
+      "last_updated": "2025-05-30"
+    },
+    {
+      "title": "ASEAN Medical Device and Pharmaceutical Regulations",
+      "url": "https://www.pacificbridgemedical.com/regulation/asean-medical-device-pharmaceutical-regulations/",
+      "date": "2018-08-12",
+      "last_updated": "2025-04-21"
+    }
+  ]
+}

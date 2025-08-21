@@ -1,0 +1,83 @@
+sonar-pro
+Legally requires acceptance of another ASEAN Member State’s (AMS) Certificate of Good Manufacturing Practice (cGMP) for pharmaceutical manufacturers.
+{
+  "id": "e472956d-2b8e-418e-9421-5128201d2bf0",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"answer\":\"YES\",\"note\":\"Singapore is legally required to accept another ASEAN Member State’s (AMS) Certificate of Good Manufacturing Practice (cGMP) for pharmaceutical manufacturers, provided the certificate and inspection report are issued by an ASEAN Listed Inspection Service (LIS) under the ASEAN Mutual Recognition Arrangement (MRA) on GMP Inspection. All AMS, including Singapore, are obliged to recognize and accept such certificates without duplicating GMP inspections within each other's territory[2][5]. This is incorporated in the regulatory framework of Singapore’s Health Sciences Authority (HSA)[2][5][1]. However, HSA reserves the right to further inspect if there are specific regulatory concerns[3]. Certificates from non-LIS sources or third-party schemes are not accepted[4].\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755743967,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 162,
+    "prompt_tokens": 32,
+    "total_tokens": 194,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.002,
+      "request_cost": 0.006,
+      "total_cost": 0.009
+    }
+  },
+  "citations": [
+    "https://apac-asia.com/images/achievements/pdf/14th/22_Presentation%20from%20Kim%20Mi%20Hng,%20NPRA.pdf",
+    "https://www.hsa.gov.sg/docs/default-source/hprg/regulatory-updates/update-on-asean-mra-gmp.PDF",
+    "https://www.hsa.gov.sg/therapeutic-products/register/gmp-conformity-assessment",
+    "https://insightplus.bakermckenzie.com/bm/healthcare-life-sciences/singapore-health-sciences-authority-updates-guidance-on-implementation-of-good-manufacturing-practice-gmp-evidence-for-drug-substance-ds-manufacturers",
+    "https://globalforum.diaglobal.org/issue/march-2021/harmonization-of-gmp-inspection-and-benefits-to-asean-economic-community/"
+  ],
+  "search_results": [
+    {
+      "title": "[PDF] ASEAN MRA for GMP Inspection - APAC",
+      "url": "https://apac-asia.com/images/achievements/pdf/14th/22_Presentation%20from%20Kim%20Mi%20Hng,%20NPRA.pdf",
+      "date": null,
+      "last_updated": "2025-05-28"
+    },
+    {
+      "title": "UPDATE ON ASEAN MRA ON GMP INSPECTION AND ...",
+      "url": "https://www.hsa.gov.sg/docs/default-source/hprg/regulatory-updates/update-on-asean-mra-gmp.PDF",
+      "date": null,
+      "last_updated": "2025-08-01"
+    },
+    {
+      "title": "Good Manufacturing Practice (GMP) conformity assessment of ... - HSA",
+      "url": "https://www.hsa.gov.sg/therapeutic-products/register/gmp-conformity-assessment",
+      "date": "2024-12-31",
+      "last_updated": "2025-03-25"
+    },
+    {
+      "title": "Singapore: Health Sciences Authority updates guidance on ...",
+      "url": "https://insightplus.bakermckenzie.com/bm/healthcare-life-sciences/singapore-health-sciences-authority-updates-guidance-on-implementation-of-good-manufacturing-practice-gmp-evidence-for-drug-substance-ds-manufacturers",
+      "date": "2024-10-28",
+      "last_updated": "2025-01-19"
+    },
+    {
+      "title": "Harmonization of GMP Inspection and Benefits to ASEAN Economic ...",
+      "url": "https://globalforum.diaglobal.org/issue/march-2021/harmonization-of-gmp-inspection-and-benefits-to-asean-economic-community/",
+      "date": null,
+      "last_updated": "2025-08-21"
+    }
+  ]
+}

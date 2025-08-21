@@ -1,0 +1,83 @@
+sonar-pro
+Publishes national antimicrobial resistance (AMR) surveillance data related to pharmaceutical products.
+{
+  "id": "104e4e0c-3de6-4278-b136-e3e7e8eeb8bc",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"answer\":\"PARTIAL\",\"note\":\"Laos has established a national AMR surveillance system and publishes aggregate AMR surveillance data, including regular sharing among hospitals, laboratories, and with the WHO GLASS system[3]. However, there is evidence of gaps in systematic surveillance and a paucity of detailed, publicly available national AMR data directly related to pharmaceutical products (specific antibiotic resistance data tied to particular medicines)[1]. Although mechanisms for collecting and sharing AMR and antimicrobial use data have improved, granular national surveillance reports focused explicitly on pharmaceutical products are limited or not routinely published for public access[1][3][5].\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755743711,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 128,
+    "prompt_tokens": 21,
+    "total_tokens": 149,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.002,
+      "request_cost": 0.006,
+      "total_cost": 0.008
+    }
+  },
+  "citations": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC8638151/",
+    "https://ghsindex.org/wp-content/uploads/2021/12/Laos.pdf",
+    "https://www.who.int/laos/our-work/tracking-and-combating-antimicrobial-resistance",
+    "https://www.who.int/laos/news/detail/11-07-2018-the-launch-of-the-antimicrobial-resistance-surveillance-program-in-lao-people-s-democratic-republic",
+    "https://captura.ivi.int/2025/06/03/strengthening-antimicrobial-use-amu-monitoring/"
+  ],
+  "search_results": [
+    {
+      "title": "Antimicrobial use and resistance data in human ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8638151/",
+      "date": "2021-12-01",
+      "last_updated": "2025-05-25"
+    },
+    {
+      "title": "[PDF] Laos - GHS Index",
+      "url": "https://ghsindex.org/wp-content/uploads/2021/12/Laos.pdf",
+      "date": null,
+      "last_updated": "2025-04-03"
+    },
+    {
+      "title": "Tracking and combating antimicrobial resistance",
+      "url": "https://www.who.int/laos/our-work/tracking-and-combating-antimicrobial-resistance",
+      "date": "2024-11-18",
+      "last_updated": "2025-03-24"
+    },
+    {
+      "title": "The launch of the Antimicrobial Resistance Surveillance program in ...",
+      "url": "https://www.who.int/laos/news/detail/11-07-2018-the-launch-of-the-antimicrobial-resistance-surveillance-program-in-lao-people-s-democratic-republic",
+      "date": "2018-07-11",
+      "last_updated": "2025-08-15"
+    },
+    {
+      "title": "Strengthening Antimicrobial Use (AMU) Monitoring in Lao PDR",
+      "url": "https://captura.ivi.int/2025/06/03/strengthening-antimicrobial-use-amu-monitoring/",
+      "date": "2025-06-03",
+      "last_updated": "2025-06-18"
+    }
+  ]
+}

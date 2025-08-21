@@ -1,0 +1,83 @@
+sonar-pro
+Targets an average marketing authorization (MA) approval timeline of six months or less for pharmaceutical products.
+{
+  "id": "d60f6d07-f284-404c-b77b-ebea35be8869",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"answer\":\"PARTIAL\",\"note\":\"Indonesia does target an average MA approval timeline of six months (approximately 130 working days) or less, but only for specific categories of drugs. For most pharmaceutical products:\\n\\n- **Priority drugs** (including orphan, pandemic, and public health drugs) and urgent products have approval timelines of **less than 150 working days** (about 6-7 months) and in some cases even below 100 working days (about 5 months)[5][3].\\n- **Generic drugs requiring bioequivalence data**: up to **150 working days** (about 7 months)[5][3].\\n- **New chemical entities, biologics, or innovative drugs**: up to **300 working days** (over 13 months)[5][3][1].\\n\\nWhile select urgent and priority categories align with a six-month or less target, standard new drug applications typically exceed this timeframe, indicating six months or less is not the universal standard target for all pharmaceutical products in Indonesia.\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755743598,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 214,
+    "prompt_tokens": 23,
+    "total_tokens": 237,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.003,
+      "request_cost": 0.006,
+      "total_cost": 0.009
+    }
+  },
+  "citations": [
+    "https://www.pacificbridgemedical.com/publication/indonesias-national-agency-of-drug-and-food-control-bpom/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC9734413/",
+    "https://credevo.com/articles/2021/05/25/drug-registration-process-in-indonesia/",
+    "https://www.raps.org/news-and-articles/news-articles/2018/1/the-drug-regulatory-landscape-in-the-asean-region",
+    "https://www.artixio.com/post/nadfc-bpom-regulation-of-pharmaceuticals-in-indonesia"
+  ],
+  "search_results": [
+    {
+      "title": "Indonesia's National Agency of Drug and Food Control (BPOM)",
+      "url": "https://www.pacificbridgemedical.com/publication/indonesias-national-agency-of-drug-and-food-control-bpom/",
+      "date": "2023-11-16",
+      "last_updated": "2025-07-31"
+    },
+    {
+      "title": "Regulatory Pathways Supporting Expedited Drug ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9734413/",
+      "date": "2022-12-03",
+      "last_updated": "2025-05-26"
+    },
+    {
+      "title": "Drug Registration Process In Indonesia | Credevo Articles",
+      "url": "https://credevo.com/articles/2021/05/25/drug-registration-process-in-indonesia/",
+      "date": "2021-05-25",
+      "last_updated": "2025-06-16"
+    },
+    {
+      "title": "The Drug Regulatory Landscape in the ASEAN Region",
+      "url": "https://www.raps.org/news-and-articles/news-articles/2018/1/the-drug-regulatory-landscape-in-the-asean-region",
+      "date": "2018-01-30",
+      "last_updated": null
+    },
+    {
+      "title": "NADFC (BPOM) Regulation Of Pharmaceuticals In Indonesia - Artixio",
+      "url": "https://www.artixio.com/post/nadfc-bpom-regulation-of-pharmaceuticals-in-indonesia",
+      "date": "2025-06-19",
+      "last_updated": "2025-06-25"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+sonar-pro
+Allows the use of bracketing and matrixing study designs in pharmaceutical product stability testing.
+{
+  "id": "8712a894-98db-4140-bdd6-7eec45abde46",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"answer\":\"UNKNOWN\",\"note\":\"There is no publicly available evidence confirming that Laos specifically allows or prohibits the use of bracketing and matrixing study designs in pharmaceutical product stability testing. While Laos has issued new regulations on biopharmaceuticals as of early 2025, these documents do not address the specific stability study methodologies permitted[5]. In many countries, including those referencing ICH guidelines, bracketing and matrixing designs are allowed with justification, but there is no specific information confirming Laos’ stance on these ICH Q1D-based approaches[2][4]. It is recommended to consult directly with the Laos Ministry of Health or local regulatory consultants for authoritative guidance.\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755743691,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 136,
+    "prompt_tokens": 21,
+    "total_tokens": 157,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.002,
+      "request_cost": 0.006,
+      "total_cost": 0.008
+    }
+  },
+  "citations": [
+    "https://humiditycontrol.com/blog/what-is-stability-testing/",
+    "https://www.ema.europa.eu/en/documents/scientific-guideline/ich-q-1-d-bracketing-and-matrixing-designs-stability-testing-drug-substances-and-drug-products-step-5_en.pdf",
+    "https://siip.ac.in/wp-content/uploads/2021/04/stability-testing.pdf",
+    "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/q1d-bracketing-and-matrixing-designs-stability-testing-new-drug-substances-and-products",
+    "https://www.tilleke.com/insights/laos-new-regulation-on-biopharmaceuticals-gene-therapy-and-stem-cells/"
+  ],
+  "search_results": [
+    {
+      "title": "Stability Testing for Pharmaceuticals & More",
+      "url": "https://humiditycontrol.com/blog/what-is-stability-testing/",
+      "date": "2023-02-22",
+      "last_updated": "2025-06-16"
+    },
+    {
+      "title": "[PDF] ich-q-1-d-bracketing-and-matrixing-designs-stability-testing-drug ...",
+      "url": "https://www.ema.europa.eu/en/documents/scientific-guideline/ich-q-1-d-bracketing-and-matrixing-designs-stability-testing-drug-substances-and-drug-products-step-5_en.pdf",
+      "date": null,
+      "last_updated": "2025-04-16"
+    },
+    {
+      "title": "GUIDELINES FOR THE STABILITY TESTING OF ...",
+      "url": "https://siip.ac.in/wp-content/uploads/2021/04/stability-testing.pdf",
+      "date": null,
+      "last_updated": "2025-08-10"
+    },
+    {
+      "title": "Q1D Bracketing and Matrixing Designs for Stability Testing of New ...",
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/q1d-bracketing-and-matrixing-designs-stability-testing-new-drug-substances-and-products",
+      "date": "2018-08-24",
+      "last_updated": "2025-08-21"
+    },
+    {
+      "title": "Laos' New Regulation on Biopharmaceuticals, Gene ...",
+      "url": "https://www.tilleke.com/insights/laos-new-regulation-on-biopharmaceuticals-gene-therapy-and-stem-cells/",
+      "date": "2025-03-07",
+      "last_updated": "2025-03-12"
+    }
+  ]
+}

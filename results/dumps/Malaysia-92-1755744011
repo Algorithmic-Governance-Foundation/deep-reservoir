@@ -1,0 +1,83 @@
+sonar-pro
+Provides a fully digital online submission portal for pharmaceutical product marketing authorization applications.
+{
+  "id": "d773998e-98fe-4706-b0c4-a50b53a310a5",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"answer\":\"YES\",\"note\":\"Malaysia provides a fully digital online submission portal for pharmaceutical product marketing authorization applications. Applicants are required to apply online through the NPRA's QUEST3 platform for pharmaceutical registration, and licensing applications are also processed through the NPRA online portal[1][4]. The process is managed by the National Pharmaceutical Regulatory Agency (NPRA) and submissions, communications, and notifications are handled electronically[1][4][5].\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755744009,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 90,
+    "prompt_tokens": 18,
+    "total_tokens": 108,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://www.pacificbridgemedical.com/regulatory-services/pharmaceutical/product-registration/malaysia-drug-registration-and-approval/",
+    "https://portal.mda.gov.my/index.php/announcement/1536-pengumuman-peralihan-kepada-proses-permohonan-pengkelasan-produk-secara-dalam-talian",
+    "https://prioocare.com/ultimate-guide-to-kkm-approval-in-malaysia/",
+    "https://www.azmilaw.com/insights/the-legal-framework-of-pharmaceutical-companies-in-malaysia/",
+    "https://www.npra.gov.my/index.php/en/"
+  ],
+  "search_results": [
+    {
+      "title": "Malaysia Drug Registration and Approval - Pacific Bridge Medical",
+      "url": "https://www.pacificbridgemedical.com/regulatory-services/pharmaceutical/product-registration/malaysia-drug-registration-and-approval/",
+      "date": "2025-01-28",
+      "last_updated": "2025-07-31"
+    },
+    {
+      "title": "ANNOUNCEMENT TRANSITION TO FULLY ONLINE ...",
+      "url": "https://portal.mda.gov.my/index.php/announcement/1536-pengumuman-peralihan-kepada-proses-permohonan-pengkelasan-produk-secara-dalam-talian",
+      "date": "2025-03-25",
+      "last_updated": "2025-08-16"
+    },
+    {
+      "title": "Ultimate Guide to KKM Approval in Malaysia - Prioocare",
+      "url": "https://prioocare.com/ultimate-guide-to-kkm-approval-in-malaysia/",
+      "date": "2025-05-18",
+      "last_updated": null
+    },
+    {
+      "title": "The Legal Framework of Pharmaceutical Companies in ...",
+      "url": "https://www.azmilaw.com/insights/the-legal-framework-of-pharmaceutical-companies-in-malaysia/",
+      "date": "2023-07-25",
+      "last_updated": "2025-08-18"
+    },
+    {
+      "title": "National Pharmaceutical Regulatory Agency (NPRA) - Home",
+      "url": "https://www.npra.gov.my/index.php/en/",
+      "date": "2024-11-20",
+      "last_updated": "2025-08-18"
+    }
+  ]
+}

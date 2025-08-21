@@ -1,0 +1,83 @@
+sonar-pro
+Allows the use of bracketing and matrixing study designs in pharmaceutical product stability testing.
+{
+  "id": "06e0216c-4fd2-4aad-93cd-bab8b4bbae5c",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"answer\":\"YES\",\"note\":\"Malaysia allows the use of bracketing and matrixing study designs in pharmaceutical product stability testing, in line with ASEAN guidelines[4][3]. These reduced designs—where either the extremes of design factors (bracketing) or selected combinations (matrixing) are tested—are permitted to justify testing frequencies or sample variants, provided protocols and scientific rationale are clearly documented and justified in the registration dossier[4][3].\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755744020,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 92,
+    "prompt_tokens": 21,
+    "total_tokens": 113,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://www.artixio.com/post/pharmaceutical-regulations-and-registration-in-malaysia",
+    "https://www.ema.europa.eu/en/documents/scientific-guideline/ich-q-1-d-bracketing-and-matrixing-designs-stability-testing-drug-substances-and-drug-products-step-5_en.pdf",
+    "https://www.pacificbridgemedical.com/ufaq/what-are-the-requirements-for-stability-studies-in-drug-registration-in-malaysia/",
+    "https://asean.org/wp-content/uploads/2017/09/ASEAN-Guidelines-on-Stability-and-Shelf-Life-HS-V1.0-with-disclaimer.pdf",
+    "https://siip.ac.in/wp-content/uploads/2021/04/stability-testing.pdf"
+  ],
+  "search_results": [
+    {
+      "title": "Pharmaceutical Regulations and Registration in Malaysia - Artixio",
+      "url": "https://www.artixio.com/post/pharmaceutical-regulations-and-registration-in-malaysia",
+      "date": "2025-06-19",
+      "last_updated": "2025-06-22"
+    },
+    {
+      "title": "ich-q-1-d-bracketing-and-matrixing-designs-stability-testing ...",
+      "url": "https://www.ema.europa.eu/en/documents/scientific-guideline/ich-q-1-d-bracketing-and-matrixing-designs-stability-testing-drug-substances-and-drug-products-step-5_en.pdf",
+      "date": null,
+      "last_updated": "2025-04-16"
+    },
+    {
+      "title": "Malaysia Drug Stability Study Requirements - Pacific Bridge Medical",
+      "url": "https://www.pacificbridgemedical.com/ufaq/what-are-the-requirements-for-stability-studies-in-drug-registration-in-malaysia/",
+      "date": "2025-02-02",
+      "last_updated": "2025-02-13"
+    },
+    {
+      "title": "annex v asean guidelines on stability study and shelf-life of ...",
+      "url": "https://asean.org/wp-content/uploads/2017/09/ASEAN-Guidelines-on-Stability-and-Shelf-Life-HS-V1.0-with-disclaimer.pdf",
+      "date": null,
+      "last_updated": "2025-08-10"
+    },
+    {
+      "title": "[PDF] GUIDELINES FOR THE STABILITY TESTING OF ...",
+      "url": "https://siip.ac.in/wp-content/uploads/2021/04/stability-testing.pdf",
+      "date": null,
+      "last_updated": "2025-08-10"
+    }
+  ]
+}

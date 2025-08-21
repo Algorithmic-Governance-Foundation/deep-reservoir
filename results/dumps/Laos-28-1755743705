@@ -1,0 +1,83 @@
+sonar-pro
+Targets an average marketing authorization (MA) approval timeline of six months or less for pharmaceutical products.
+{
+  "id": "09b5c2f9-15ea-4b9d-bccd-efe183fb5faf",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"answer\":\"YES\",\"note\":\"Laos targets an average marketing authorization (MA) approval timeline of approximately six months for pharmaceutical products once the Food and Drug Department (FDD) confirms the application and receives all necessary supporting documents[1]. The drug registration committee is required to decide within 180 days (six months), which aligns with the specified timeline[1].\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755743703,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 75,
+    "prompt_tokens": 23,
+    "total_tokens": 98,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://credevo.com/articles/2021/04/25/generic-drug-approval-process-in-laos/",
+    "https://efpia.eu/media/636822/root-cause-unavailability-delays-cra-report-april-2022-final.pdf",
+    "https://www.tilleke.com/insights/laos-implements-medical-device-registration-and-notification-requirements/26/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7214660/",
+    "https://www.ijdra.com/index.php/journal/article/download/158/77"
+  ],
+  "search_results": [
+    {
+      "title": "Generic Drug Approval Process In Laos",
+      "url": "https://credevo.com/articles/2021/04/25/generic-drug-approval-process-in-laos/",
+      "date": "2021-04-25",
+      "last_updated": "2025-07-14"
+    },
+    {
+      "title": "[PDF] The root cause of unavailability and delay to innovative medicines",
+      "url": "https://efpia.eu/media/636822/root-cause-unavailability-delays-cra-report-april-2022-final.pdf",
+      "date": null,
+      "last_updated": "2025-08-10"
+    },
+    {
+      "title": "Laos Implements Medical Device Registration and ...",
+      "url": "https://www.tilleke.com/insights/laos-implements-medical-device-registration-and-notification-requirements/26/",
+      "date": "2023-12-06",
+      "last_updated": "2025-04-13"
+    },
+    {
+      "title": "Regulatory Affairs 101: Introduction to Expedited Regulatory Pathways",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7214660/",
+      "date": "2020-02-06",
+      "last_updated": "2025-06-15"
+    },
+    {
+      "title": "regulatory requirements & marketing authorization of ...",
+      "url": "https://www.ijdra.com/index.php/journal/article/download/158/77",
+      "date": null,
+      "last_updated": "2025-03-24"
+    }
+  ]
+}

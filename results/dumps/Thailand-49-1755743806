@@ -1,0 +1,83 @@
+sonar-pro
+Imposes hospital-only distribution restrictions for certain classes of antimicrobial (AM) pharmaceutical products.
+{
+  "id": "c5bed0b8-4080-42d5-abaa-5318ee22d0b7",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"answer\":\"NO\",\"note\":\"Thailand does not impose hospital-only distribution restrictions for most classes of antimicrobial pharmaceutical products. Most antibiotics in Thailand are classified as 'dangerous drugs' that can be dispensed by pharmacists in community pharmacies without a prescription, although some specific antibiotics have been reclassified as 'specially controlled' drugs requiring a prescription. There is no evidence in the provided sources that certain antimicrobials are restricted exclusively for distribution in hospitals only; rather, the majority remain widely available at retail pharmacies[2][3][5].\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755743804,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 112,
+    "prompt_tokens": 22,
+    "total_tokens": 134,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.002,
+      "request_cost": 0.006,
+      "total_cost": 0.008
+    }
+  },
+  "citations": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC8944558/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC5791780/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC8381094/",
+    "https://orca.cardiff.ac.uk/id/eprint/137072/1/2020SisiraDonsamakPhD.pdf",
+    "https://iris.who.int/bitstream/handle/10665/380437/9789290229971-eng.pdf?sequence=1&isAllowed=y"
+  ],
+  "search_results": [
+    {
+      "title": "Impact of Antibiotic Authorisation at Three Provincial ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8944558/",
+      "date": "2022-03-07",
+      "last_updated": "2025-06-21"
+    },
+    {
+      "title": "Antibiotic distribution channels in Thailand: results of key-informant ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5791780/",
+      "date": "2018-01-02",
+      "last_updated": "2024-10-26"
+    },
+    {
+      "title": "Thailand's national strategic plan on antimicrobial resistance",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8381094/",
+      "date": "2021-07-01",
+      "last_updated": "2025-07-12"
+    },
+    {
+      "title": "[PDF] Sisira Donsamak - -ORCA - Cardiff University",
+      "url": "https://orca.cardiff.ac.uk/id/eprint/137072/1/2020SisiraDonsamakPhD.pdf",
+      "date": null,
+      "last_updated": "2025-04-04"
+    },
+    {
+      "title": "Mainstreaming antimicrobial resistance interventions into ...",
+      "url": "https://iris.who.int/bitstream/handle/10665/380437/9789290229971-eng.pdf?sequence=1&isAllowed=y",
+      "date": "2024-05-17",
+      "last_updated": "2025-02-16"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+sonar-pro
+Imposes hospital-only distribution restrictions for certain classes of antimicrobial (AM) pharmaceutical products.
+{
+  "id": "17296048-2663-470c-9ece-8909a71158b3",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"answer\":\"NO\",\"note\":\"There is no evidence that Myanmar imposes hospital-only distribution restrictions for certain classes of antimicrobial pharmaceutical products. Available sources indicate widespread over-the-counter antibiotic sales without prescription and inconsistent or weak regulatory enforcement[3][4]. Myanmar's legislation does not specify hospital-only restrictions for specific antimicrobial categories; instead, accessibility is generally high in both public and private sectors with informal distribution channels prevalent[3][4].\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755743844,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 87,
+    "prompt_tokens": 22,
+    "total_tokens": 109,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://solve.mit.edu/challenges/trinity-challenge-amr/solutions/85892",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC8167548/",
+    "https://ghsindex.org/wp-content/uploads/2021/12/Myanmar.pdf",
+    "https://researchonline.lshtm.ac.uk/id/eprint/4668293/1/2022_PHP_PhD_Khine%20Zaw_Y-sigs-photos-redacted.pdf",
+    "https://steps-centre.org/wp-content/uploads/2022/12/Taking-Myanmars-AMR-National-Action-Plan-forward_November2022_2.pdf"
+  ],
+  "search_results": [
+    {
+      "title": "Antimicrobial Usage Unveiled: Exploring its Impact on ...",
+      "url": "https://solve.mit.edu/challenges/trinity-challenge-amr/solutions/85892",
+      "date": "2024-02-26",
+      "last_updated": "2025-06-25"
+    },
+    {
+      "title": "Decreasing Trends in Antibiotic Consumption in Public ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8167548/",
+      "date": "2021-04-20",
+      "last_updated": "2025-06-02"
+    },
+    {
+      "title": "Myanmar",
+      "url": "https://ghsindex.org/wp-content/uploads/2021/12/Myanmar.pdf",
+      "date": null,
+      "last_updated": "2025-07-30"
+    },
+    {
+      "title": "An ethnographic study of medicines, care, and ...",
+      "url": "https://researchonline.lshtm.ac.uk/id/eprint/4668293/1/2022_PHP_PhD_Khine%20Zaw_Y-sigs-photos-redacted.pdf",
+      "date": null,
+      "last_updated": "2024-01-24"
+    },
+    {
+      "title": "Taking Myanmar's AMR National Action Plan forward",
+      "url": "https://steps-centre.org/wp-content/uploads/2022/12/Taking-Myanmars-AMR-National-Action-Plan-forward_November2022_2.pdf",
+      "date": null,
+      "last_updated": "2025-06-27"
+    }
+  ]
+}
