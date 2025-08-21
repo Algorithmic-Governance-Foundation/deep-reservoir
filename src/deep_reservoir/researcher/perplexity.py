@@ -10,32 +10,24 @@ import json
 class SonarModel(Enum):
     PRO = "sonar-pro"
 
-    # Currently broken
-    # DEEP_RESEARCH = "sonar-deep-research"
-
 
 class SonarResearcher(Researcher):
     def __init__(self, model: SonarModel):
         self.model = model
 
     def go(self, country: str, policy: str) -> Result:
-        prompt = f"Determine whether {country} {policy}"
+        prompt = f"Determine whether {country} {policy}\n\nExtract the information and format it as specified in the schema."
 
         client = OpenAI(
             api_key=os.getenv("PERPLEXITY_API_KEY"),
             base_url="https://api.perplexity.ai",
         )
 
-        # extra_body = None
-        # if self.model == SonarModel.DEEP_RESEARCH:
-        #     extra_body = {"reasoning_effort": "low"}
-
         response = client.chat.completions.create(
             model=self.model.value,
             messages=[
                 {"role": "user", "content": prompt},
             ],
-            # extra_body=extra_body,
             response_format={
                 "type": "json_schema",
                 "json_schema": {
@@ -48,9 +40,9 @@ class SonarResearcher(Researcher):
                                 "type": "string",
                                 "enum": ["YES", "NO", "PARTIAL", "UNKNOWN"],
                             },
-                            "note": {"type": "string"},
+                            "explanation": {"type": "string", "maxLength": 200},
                         },
-                        "required": ["answer", "note"],
+                        "required": ["answer", "explanation"],
                         "additionalProperties": False,
                     },
                 },
