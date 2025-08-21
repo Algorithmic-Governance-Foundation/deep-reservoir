@@ -1,11 +1,12 @@
 from typing import List
 from dotenv import load_dotenv
+from itertools import product
 import csv
 import time
+import os
 
 from deep_reservoir.researcher.perplexity import SonarModel, SonarResearcher
 from deep_reservoir.result import Result
-from itertools import product
 
 
 def main() -> None:
@@ -48,6 +49,7 @@ def main() -> None:
 def dump_result(
     index: int, country: str, policy: str, model: str, result: Result
 ) -> None:
+    os.makedirs("./results/dumps", exist_ok=True)
     unique_timestamp = int(time.time())
     with open(f"./results/dumps/{country}-{index}-{unique_timestamp}", "w") as f:
         f.write(f"{model}\n{policy}\n{result.dump}")
