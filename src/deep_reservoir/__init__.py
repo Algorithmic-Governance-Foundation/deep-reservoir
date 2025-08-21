@@ -19,14 +19,15 @@ def main() -> None:
     print(f"Starting research for {total_calls} combinations")
     print(f"Countries: {len(countries)}")
     print(f"Policies: {len(policies)}")
+    print()
     start_time = time.time()
 
     results = []
     for i, (country, policy) in enumerate(product(countries, policies), 1):
-        print(f"Researching ({i}/{total_calls}):\n{country}{policy}\n\n")
+        print(f"Researching ({i}/{total_calls}):\n{country}: {policy}\n")
         research_result = researcher.go(country, policy)
         results.append(research_result)
-        dump_result(country, policy, researcher.model.value, research_result)
+        dump_result(index, country, policy, researcher.model.value, research_result)
 
     # End timing and calculate results
     end_time = time.time()
@@ -44,9 +45,11 @@ def main() -> None:
     write_results(results)
 
 
-def dump_result(country: str, policy: str, model: str, result: Result) -> None:
+def dump_result(
+    index: int, country: str, policy: str, model: str, result: Result
+) -> None:
     unique_timestamp = int(time.time())
-    with open(f"./results/dumps/{country}-{policy}-{unique_timestamp}", "w") as f:
+    with open(f"./results/dumps/{country}-{index}-{unique_timestamp}", "w") as f:
         f.write(f"{model}\n{policy}\n{result.dump}")
 
 
