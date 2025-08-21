@@ -32,7 +32,7 @@ class SonarResearcher(Researcher):
             messages=[
                 {"role": "user", "content": prompt},
             ],
-            extra_body=extra_body,
+            # extra_body=extra_body,
             response_format={
                 "type": "json_schema",
                 "json_schema": {
