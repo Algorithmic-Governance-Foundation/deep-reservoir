@@ -27,22 +27,44 @@ class OpenAIResearcher(Researcher):
             api_key=os.getenv("OPENAI_API_KEY"),
         )
 
-        response = client.responses.parse(
+        response = client.responses.create(
             model=self.model.value,
             tools=[{"type": "web_search_preview"}],
-            reasoning={"effort": "low"},
-            text={"verbosity": "low"},
+            # reasoning={"effort": "low"},
+            # text={"verbosity": "low"},
             input=[
                 {
                     "role": "developer",
-                    "content": "Act as a helpful research assistant and answer questions clearly and concisely.",
+                    "content": "Act as a helpful research assistant who can search the web and answer questions clearly and concisely",
                 },
                 {"role": "user", "content": prompt},
             ],
-            text_format=QueryResponse,
+            text={
+                "format": {
+                    "type": "json_schema",
+                    "name": "research_response",
+                    "schema": {
+                        "type": "object",
+                        "strict": True,
+                        "properties": {
+                            "status": {
+                                "type": "string",
+                                "description": "Status of the policy for the given country",
+                                "enum": ["YES", "NO", "PARTIAL", "UNKNOWN"],
+                            },
+                            "explanation": {
+                                "type": "string",
+                                "description": "1 sentence explanation of the status",
+                            },
+                        },
+                        "required": ["status", "explanation"],
+                        "additionalProperties": False,
+                    },
+                }
+            },
         )
 
-        content = response.output_parsed
+        content = response
 
         if content:
             try:

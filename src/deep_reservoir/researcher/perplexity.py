@@ -51,7 +51,7 @@ class SonarResearcher(Researcher):
                                 "description": "1 sentence explanation of the status",
                             },
                         },
-                        "required": ["answer", "explanation"],
+                        "required": ["status", "explanation"],
                         "additionalProperties": False,
                     },
                 },
