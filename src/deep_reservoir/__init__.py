@@ -5,6 +5,7 @@ import csv
 import time
 import os
 
+from deep_reservoir.researcher.openai import OpenAIModel, OpenAIResearcher
 from deep_reservoir.researcher.perplexity import SonarModel, SonarResearcher
 from deep_reservoir.result import Result
 
@@ -14,7 +15,8 @@ def main() -> None:
     countries = read_countries()
     policies = read_policies()
 
-    researcher = SonarResearcher(SonarModel.PRO)
+    # researcher = SonarResearcher(SonarModel.PRO)
+    researcher = OpenAIResearcher(OpenAIModel.GPT_5)
 
     total_calls = len(countries) * len(policies)
     print(f"Starting research for {total_calls} combinations")
@@ -29,6 +31,7 @@ def main() -> None:
         research_result = researcher.go(country, policy)
         results.append(research_result)
         dump_result(i, country, policy, researcher.model.value, research_result)
+        break
 
     # End timing and calculate results
     end_time = time.time()
