@@ -11,7 +11,8 @@
 				"ms-python.python",
 				"charliermarsh.ruff",
 				"eamodio.gitlens",
-				"tamasfe.even-better-toml"
+				"tamasfe.even-better-toml",
+				"fill-labs.dependi"
 			],
 			"settings": {
 				"python.analysis.typeCheckingMode": "standard",
