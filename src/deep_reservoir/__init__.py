@@ -14,7 +14,7 @@ def main() -> None:
     countries = read_countries()
     policies = read_policies()
 
-    researcher = SonarResearcher(SonarModel.REASONING_PRO)
+    researcher = SonarResearcher(SonarModel.PRO)
 
     total_calls = len(countries) * len(policies)
     print(f"Starting research for {total_calls} combinations")

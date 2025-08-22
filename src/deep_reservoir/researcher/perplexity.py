@@ -2,9 +2,14 @@ import os
 from enum import Enum
 from typing import List
 from openai import OpenAI
+from pydantic import BaseModel, Field
 from deep_reservoir.researcher import Researcher
 from deep_reservoir.result import Status, Result
-import json
+
+
+class QueryResponse(BaseModel):
+    status: Status = Field(description="Status of the policy for the given country")
+    explanation: str = Field(description="1 sentence explanation of the status")
 
 
 class SonarModel(Enum):
@@ -38,22 +43,7 @@ class SonarResearcher(Researcher):
                 "json_schema": {
                     "name": "query_response",
                     "strict": True,
-                    "schema": {
-                        "type": "object",
-                        "properties": {
-                            "status": {
-                                "type": "string",
-                                "description": "Status of the policy for the given country",
-                                "enum": ["YES", "NO", "PARTIAL", "UNKNOWN"],
-                            },
-                            "explanation": {
-                                "type": "string",
-                                "description": "1 sentence explanation of the status",
-                            },
-                        },
-                        "required": ["answer", "explanation"],
-                        "additionalProperties": False,
-                    },
+                    "schema": QueryResponse.model_json_schema(),
                 },
             },
         )
@@ -62,13 +52,13 @@ class SonarResearcher(Researcher):
 
         if content:
             try:
-                parsed_content = json.loads(content)
-                status = Status(parsed_content.get("status", "UNKNOWN"))
-                explanation = parsed_content.get("explanation", "")
+                parsed_content = QueryResponse.model_validate_json(content)
+                status = parsed_content.status
+                explanation = parsed_content.explanation
                 sources: List[str] | None = response.model_dump()["citations"]
                 if not sources:
                     sources = []
-            except (json.JSONDecodeError, ValueError):
+            except Exception:
                 raise ValueError("Unable to parse Perplexity Result", content)
         else:
             raise ValueError("Unable to parse Perplexity Result", content)
