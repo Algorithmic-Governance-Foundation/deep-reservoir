@@ -9,7 +9,10 @@ from deep_reservoir.result import Status, Result
 
 class QueryResponse(BaseModel):
     status: Status = Field(description="Status of the policy for the given country")
-    explanation: str = Field(description="1 sentence explanation of the status")
+    explanation: str = Field(
+        description="1 sentence explanation of the status with citations"
+    )
+    sources: List[str] = Field(description="A list of URLs cited in the explanation")
 
 
 class OpenAIModel(Enum):
@@ -29,48 +32,31 @@ class OpenAIResearcher(Researcher):
             api_key=os.getenv("OPENAI_API_KEY"),
         )
 
-        response = client.chat.completions.create(
+        response = client.responses.parse(
             model=self.model.value,
-            messages=[
+            tools=[{"type": "web_search_preview"}],
+            input=[
                 {
                     "role": "developer",
                     "content": "Act as a helpful research assistant who can search the web and answer questions clearly and concisely",
                 },
                 {"role": "user", "content": prompt},
             ],
-            response_format={
-                "type": "json_schema",
-                "json_schema": {
-                    "name": "query_response",
-                    "strict": True,
-                    "schema": {
-                        "type": "object",
-                        "properties": {
-                            "status": {
-                                "type": "string",
-                                "description": "Status of the policy for the given country",
-                                "enum": ["YES", "NO", "PARTIAL", "UNKNOWN"],
-                            },
-                            "explanation": {
-                                "type": "string",
-                                "description": "1 sentence explanation of the status",
-                            },
-                        },
-                        "required": ["status", "explanation"],
-                        "additionalProperties": False,
-                    },
-                },
-            },
+            text_format=QueryResponse,
         )
 
-        with open("cat3.json", "w") as f:
-            f.write(response.model_dump_json(indent=2))
+        content = response.output_parsed
+
+        if not content:
+            raise ValueError(
+                "Failed to parse openai output", response.model_dump_json()
+            )
 
         return Result(
             policy=policy,
             country=country,
-            status=Status.UNKNOWN,
-            explanation="",
-            sources=[],
+            status=content.status,
+            explanation=content.explanation,
+            sources=content.sources,
             dump=response.model_dump_json(indent=2),
         )
