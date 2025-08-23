@@ -14,6 +14,8 @@ class QueryResponse(BaseModel):
 
 class OpenAIModel(Enum):
     GPT_5 = "gpt-5"
+    GPT_4_1 = "gpt-4.1"
+    GPT_4O_SEARCH_PREVIEW = "gpt-4o-search-preview"
 
 
 class OpenAIResearcher(Researcher):
@@ -27,25 +29,22 @@ class OpenAIResearcher(Researcher):
             api_key=os.getenv("OPENAI_API_KEY"),
         )
 
-        response = client.responses.create(
+        response = client.chat.completions.create(
             model=self.model.value,
-            tools=[{"type": "web_search_preview"}],
-            # reasoning={"effort": "low"},
-            # text={"verbosity": "low"},
-            input=[
+            messages=[
                 {
                     "role": "developer",
                     "content": "Act as a helpful research assistant who can search the web and answer questions clearly and concisely",
                 },
                 {"role": "user", "content": prompt},
             ],
-            text={
-                "format": {
-                    "type": "json_schema",
-                    "name": "research_response",
+            response_format={
+                "type": "json_schema",
+                "json_schema": {
+                    "name": "query_response",
+                    "strict": True,
                     "schema": {
                         "type": "object",
-                        "strict": True,
                         "properties": {
                             "status": {
                                 "type": "string",
@@ -60,38 +59,18 @@ class OpenAIResearcher(Researcher):
                         "required": ["status", "explanation"],
                         "additionalProperties": False,
                     },
-                }
+                },
             },
         )
 
-        content = response
-
-        if content:
-            try:
-                status = content.status
-                explanation = content.explanation
-                sources: List[str] = []
-
-                # Extract sources from annotations in the output
-                for output_item in response.output:
-                    if output_item.type == "message":
-                        for content_item in output_item.content:
-                            if content_item.type == "output_text":
-                                for annotation in content_item.annotations:
-                                    if annotation.type == "url_citation":
-                                        url = annotation.url
-                                        if url:
-                                            sources.append(url)
-            except Exception:
-                raise ValueError("Unable to parse OpenAI Result", content)
-        else:
-            raise ValueError("Unable to parse OpenAI Result", content)
+        with open("cat3.json", "w") as f:
+            f.write(response.model_dump_json(indent=2))
 
         return Result(
             policy=policy,
             country=country,
-            status=status,
-            explanation=explanation,
-            sources=sources,
+            status=Status.UNKNOWN,
+            explanation="",
+            sources=[],
             dump=response.model_dump_json(indent=2),
         )
