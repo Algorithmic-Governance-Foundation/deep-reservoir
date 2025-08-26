@@ -30,6 +30,10 @@ RUN groupadd --gid $USER_GID $USERNAME \
     && echo $USERNAME ALL=\(root\) NOPASSWD:ALL > /etc/sudoers.d/$USERNAME \
     && chmod 0440 /etc/sudoers.d/$USERNAME
 
+# Create workspace and config directories and set permissions
+RUN mkdir -p /workspaces /home/$USERNAME/.claude /usr/lib/node_modules && \
+    chown -R $USERNAME:$USERNAME /workspaces /home/$USERNAME/.claude /usr/lib/node_modules
+
 # Install Node.js (LTS version)
 RUN curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash - \
     && apt-get install -y nodejs
@@ -37,14 +41,11 @@ RUN curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash - \
 # Install Claude Code globally
 RUN npm install -g @anthropic-ai/claude-code
 
-# Create workspace and config directories and set permissions
-RUN mkdir -p /workspaces /home/$USERNAME/.claude && \
-    chown -R $USERNAME:$USERNAME /workspaces /home/$USERNAME/.claude /usr/lib/node_modules
+# Install Gemini CLI globally
+RUN npm install -g @google/gemini-cli
 
 # Set working directory
 WORKDIR /workspaces
-
-
 
 # Switch to non-root user
 USER $USERNAME

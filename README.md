@@ -18,13 +18,14 @@ Outputs are at `/results/`
 1. Install [uv](https://docs.astral.sh/uv/getting-started/installation/)
 2. You can run the application via `uv run deep-reservoir`
 
-### Method 2: Docker (w/ vscode)
-This will give you a full environment setup with `uv`, and [`claude-code`](https://www.anthropic.com/claude-code) installed
+### Method 2: Docker Devcontainers (w/ vscode)
+[Devcontainer](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) setup for easily reproducible dev environments.
+Comes with [Claude Code (paid)](https://www.anthropic.com/claude-code) and [Gemini CLI (free)](https://google-gemini.github.io/gemini-cli/) as terminal assistants.
 
 1. Have Docker or Docker Desktop Installed
 2. Use vscode
 3. CTRL + SHIFT + P and run `Dev Containers: Rebuild and Reopen in Container`
-4. You should now have a fully set up environment, no other installations requried
+4. You should now have a fully set up environment, no other installations required
 5. `uv run deep-reservoir` to run the application
 
 
