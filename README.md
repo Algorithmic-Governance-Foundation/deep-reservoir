@@ -28,15 +28,19 @@ This will give you a full environment setup with `uv`, and [`claude-code`](https
 5. `uv run deep-reservoir` to run the application
 
 
-<!-- ## Installation
+## Installation (TODO)
 
+### Via pip
+You might be able to `pip install -e .` as an option too for installing. 
+
+### Via uv
 1. Install [uv](https://docs.astral.sh/uv/getting-started/installation/)
 2. Run `uv build --wheel`
 3. Try `uv tool install ./dist/deep_reservoir-0.1.0-py3-none-any.whl`
 4. If you see a warning about `PATH` run the recommended command: `uv tool update-shell`
 5. You should now be able to run `deep-reservoir`
 
-Note there's also `pip install -e .` as an option too for installing.
--->
+
+
 
 
