@@ -12,7 +12,8 @@
 				"charliermarsh.ruff",
 				"eamodio.gitlens",
 				"tamasfe.even-better-toml",
-				"fill-labs.dependi"
+				"fill-labs.dependi",
+				"google.gemini-cli-vscode-ide-companion"
 			],
 			"settings": {
 				"python.analysis.typeCheckingMode": "standard",
