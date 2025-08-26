@@ -1,0 +1,149 @@
+gpt-4.1
+Requires halal certification for pharmaceutical products.
+{
+  "id": "resp_68ad8ed4e11c81a395fff58a6f491a3102c1ff465b2f7969",
+  "created_at": 1756204756.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-4.1-2025-04-14",
+  "object": "response",
+  "output": [
+    {
+      "id": "ws_68ad8ed55dbc81a38698f927e8bea22e02c1ff465b2f7969",
+      "action": {
+        "query": "Philippines halal certification requirement for pharmaceutical products",
+        "type": "search"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "msg_68ad8ed8ee5881a3bcdeb5011dd6050b02c1ff465b2f7969",
+      "content": [
+        {
+          "annotations": [],
+          "text": "{\"status\":\"NO\",\"explanation\":\"The Philippines does not mandate halal certification for pharmaceutical products; however, manufacturers seeking to cater to Muslim consumers or export to Muslim-majority countries often obtain certification voluntarily.\",\"sources\":[\"https://en.wikipedia.org/wiki/Halal_certification_in_the_Philippines\",\"https://www.aseanbriefing.com/news/philippines-sets-up-national-halal-office-to-boost-global-trade/\"]} ",
+          "type": "output_text",
+          "logprobs": [],
+          "parsed": {
+            "status": "NO",
+            "explanation": "The Philippines does not mandate halal certification for pharmaceutical products; however, manufacturers seeking to cater to Muslim consumers or export to Muslim-majority countries often obtain certification voluntarily.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Halal_certification_in_the_Philippines",
+              "https://www.aseanbriefing.com/news/philippines-sets-up-national-halal-office-to-boost-global-trade/"
+            ]
+          }
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_p": 1.0,
+  "background": false,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "reasoning": {
+    "effort": null,
+    "generate_summary": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "name": "QueryResponse",
+      "schema_": {
+        "$defs": {
+          "Status": {
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          }
+        },
+        "properties": {
+          "status": {
+            "description": "Status of the policy for the given country",
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          },
+          "explanation": {
+            "description": "1 sentence explanation of the status with citations",
+            "title": "Explanation",
+            "type": "string"
+          },
+          "sources": {
+            "description": "A list of URLs cited in the explanation",
+            "items": {
+              "type": "string"
+            },
+            "title": "Sources",
+            "type": "array"
+          }
+        },
+        "required": [
+          "status",
+          "explanation",
+          "sources"
+        ],
+        "title": "QueryResponse",
+        "type": "object",
+        "additionalProperties": false
+      },
+      "type": "json_schema",
+      "description": null,
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 487,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 109,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 596
+  },
+  "user": null,
+  "store": true
+}

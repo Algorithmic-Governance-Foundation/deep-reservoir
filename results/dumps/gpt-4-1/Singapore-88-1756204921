@@ -1,0 +1,140 @@
+gpt-4.1
+Targets an average marketing authorization (MA) approval timeline of six months or less for pharmaceutical products.
+{
+  "id": "resp_68ad8f77579c819e89728da98e2d83550d845fa5b09de573",
+  "created_at": 1756204919.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-4.1-2025-04-14",
+  "object": "response",
+  "output": [
+    {
+      "id": "msg_68ad8f7803ec819eaab028bc23f07f6d0d845fa5b09de573",
+      "content": [
+        {
+          "annotations": [],
+          "text": "{\"status\":\"YES\",\"explanation\":\"The Health Sciences Authority (HSA) of Singapore targets a timeline of 120 working days (approximately six months) for the evaluation of new drug applications under its standard route, with expedited routes available for priority medicines.\",\"sources\":[\"https://www.hsa.gov.sg/therapeutic-products/regulatory-overview/overview\",\"https://www.hsa.gov.sg/therapeutic-products/registration/overview#registration_routes\"]}",
+          "type": "output_text",
+          "logprobs": [],
+          "parsed": {
+            "status": "YES",
+            "explanation": "The Health Sciences Authority (HSA) of Singapore targets a timeline of 120 working days (approximately six months) for the evaluation of new drug applications under its standard route, with expedited routes available for priority medicines.",
+            "sources": [
+              "https://www.hsa.gov.sg/therapeutic-products/regulatory-overview/overview",
+              "https://www.hsa.gov.sg/therapeutic-products/registration/overview#registration_routes"
+            ]
+          }
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_p": 1.0,
+  "background": false,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "reasoning": {
+    "effort": null,
+    "generate_summary": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "name": "QueryResponse",
+      "schema_": {
+        "$defs": {
+          "Status": {
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          }
+        },
+        "properties": {
+          "status": {
+            "description": "Status of the policy for the given country",
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          },
+          "explanation": {
+            "description": "1 sentence explanation of the status with citations",
+            "title": "Explanation",
+            "type": "string"
+          },
+          "sources": {
+            "description": "A list of URLs cited in the explanation",
+            "items": {
+              "type": "string"
+            },
+            "title": "Sources",
+            "type": "array"
+          }
+        },
+        "required": [
+          "status",
+          "explanation",
+          "sources"
+        ],
+        "title": "QueryResponse",
+        "type": "object",
+        "additionalProperties": false
+      },
+      "type": "json_schema",
+      "description": null,
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 499,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 99,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 598
+  },
+  "user": null,
+  "store": true
+}

@@ -1,0 +1,156 @@
+gpt-4.1
+Requires halal certification for pharmaceutical products.
+{
+  "id": "resp_68ad8d24b57c819c93c936c85e452ea00fb63dd5c4ae34c5",
+  "created_at": 1756204324.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-4.1-2025-04-14",
+  "object": "response",
+  "output": [
+    {
+      "id": "ws_68ad8d2540f8819cafa374463013d3ea0fb63dd5c4ae34c5",
+      "action": {
+        "query": "Does Indonesia require halal certification for pharmaceutical products?",
+        "type": "search"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "msg_68ad8d28c93c819c97ced769a99fbf180fb63dd5c4ae34c5",
+      "content": [
+        {
+          "annotations": [
+            {
+              "end_index": 394,
+              "start_index": 248,
+              "title": "Ask The Expert Part 1 – From Regulations To Certification Challenges Of Halal Medicines | Lembaga Pemeriksa Halal (LPH) LPPOM Sertifikasi Halal",
+              "type": "url_citation",
+              "url": "https://halalmui.org/en/ask-the-expert-part-1-from-regulations-to-certification-challenges-of-halal-medicines/?utm_source=openai"
+            }
+          ],
+          "text": "{\"status\":\"YES\",\"explanation\":\"Indonesia mandates halal certification for pharmaceutical products, with specific deadlines for different categories, such as traditional medicines by October 17, 2026, and over-the-counter drugs by October 17, 2029. ([halalmui.org](https://halalmui.org/en/ask-the-expert-part-1-from-regulations-to-certification-challenges-of-halal-medicines/?utm_source=openai))\",\"sources\":[\"https://halalmui.org/en/ask-the-expert-part-1-from-regulations-to-certification-challenges-of-halal-medicines/\"]} ",
+          "type": "output_text",
+          "logprobs": [],
+          "parsed": {
+            "status": "YES",
+            "explanation": "Indonesia mandates halal certification for pharmaceutical products, with specific deadlines for different categories, such as traditional medicines by October 17, 2026, and over-the-counter drugs by October 17, 2029. ([halalmui.org](https://halalmui.org/en/ask-the-expert-part-1-from-regulations-to-certification-challenges-of-halal-medicines/?utm_source=openai))",
+            "sources": [
+              "https://halalmui.org/en/ask-the-expert-part-1-from-regulations-to-certification-challenges-of-halal-medicines/"
+            ]
+          }
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_p": 1.0,
+  "background": false,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "reasoning": {
+    "effort": null,
+    "generate_summary": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "name": "QueryResponse",
+      "schema_": {
+        "$defs": {
+          "Status": {
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          }
+        },
+        "properties": {
+          "status": {
+            "description": "Status of the policy for the given country",
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          },
+          "explanation": {
+            "description": "1 sentence explanation of the status with citations",
+            "title": "Explanation",
+            "type": "string"
+          },
+          "sources": {
+            "description": "A list of URLs cited in the explanation",
+            "items": {
+              "type": "string"
+            },
+            "title": "Sources",
+            "type": "array"
+          }
+        },
+        "required": [
+          "status",
+          "explanation",
+          "sources"
+        ],
+        "title": "QueryResponse",
+        "type": "object",
+        "additionalProperties": false
+      },
+      "type": "json_schema",
+      "description": null,
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 487,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 636
+  },
+  "user": null,
+  "store": true
+}

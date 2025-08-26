@@ -1,8 +1,8 @@
 gpt-4.1
 Provides a fully digital online submission portal for pharmaceutical product marketing authorization applications.
 {
-  "id": "resp_68a91d4b752081a39167eac6d3c5f42a01fc5d835340f3bb",
-  "created_at": 1755913547.0,
+  "id": "resp_68ad8df09f3c81948c7a840fa00ce946084e6529cd2bc39b",
+  "created_at": 1756204528.0,
   "error": null,
   "incomplete_details": null,
   "instructions": null,
@@ -11,27 +11,27 @@ Provides a fully digital online submission portal for pharmaceutical product mar
   "object": "response",
   "output": [
     {
-      "id": "ws_68a91d4bef0481a3b5e0d138a86a288a01fc5d835340f3bb",
+      "id": "ws_68ad8df15eb0819485868d73177f4884084e6529cd2bc39b",
       "action": {
-        "query": "Indonesia pharmaceutical product marketing authorization online submission portal",
+        "query": "Brunei digital online submission portal for pharmaceutical product marketing authorization",
         "type": "search"
       },
       "status": "completed",
       "type": "web_search_call"
     },
     {
-      "id": "msg_68a91d503d7881a3a91f152024ac7d2601fc5d835340f3bb",
+      "id": "msg_68ad8df477f08194afcf6de0f81bf993084e6529cd2bc39b",
       "content": [
         {
           "annotations": [],
-          "text": "{\"status\":\"YES\",\"explanation\":\"Indonesia's National Agency of Drug and Food Control (BPOM) provides a fully digital online submission portal for pharmaceutical product marketing authorization applications through the e-BPOM system.\",\"sources\":[\"https://registrasiobat.pom.go.id/en\"]} ",
+          "text": "{\"status\":\"NO\",\"explanation\":\"Brunei does not provide a fully digital online submission portal for pharmaceutical product marketing authorization applications; submissions are made by appointment at the Department of Pharmaceutical Services.\",\"sources\":[\"https://moh.gov.bn/services/pharmary-services/\"]} ",
           "type": "output_text",
           "logprobs": [],
           "parsed": {
-            "status": "YES",
-            "explanation": "Indonesia's National Agency of Drug and Food Control (BPOM) provides a fully digital online submission portal for pharmaceutical product marketing authorization applications through the e-BPOM system.",
+            "status": "NO",
+            "explanation": "Brunei does not provide a fully digital online submission portal for pharmaceutical product marketing authorization applications; submissions are made by appointment at the Department of Pharmaceutical Services.",
             "sources": [
-              "https://registrasiobat.pom.go.id/en"
+              "https://moh.gov.bn/services/pharmary-services/"
             ]
           }
         }
@@ -133,7 +133,7 @@ Provides a fully digital online submission portal for pharmaceutical product mar
   "top_logprobs": 0,
   "truncation": "disabled",
   "usage": {
-    "input_tokens": 473,
+    "input_tokens": 495,
     "input_tokens_details": {
       "cached_tokens": 0
     },
@@ -141,7 +141,7 @@ Provides a fully digital online submission portal for pharmaceutical product mar
     "output_tokens_details": {
       "reasoning_tokens": 0
     },
-    "total_tokens": 550
+    "total_tokens": 572
   },
   "user": null,
   "store": true

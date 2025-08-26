@@ -1,0 +1,141 @@
+gpt-4.1
+Specifically mandates the use of a “red dot” symbol on prescription-only pharmaceutical products.
+{
+  "id": "resp_68ad8e55acec819f91c8b9ed45fc42900d85f60637fe751e",
+  "created_at": 1756204629.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-4.1-2025-04-14",
+  "object": "response",
+  "output": [
+    {
+      "id": "msg_68ad8e5642c4819fb65d2859459702c60d85f60637fe751e",
+      "content": [
+        {
+          "annotations": [],
+          "text": "{\"status\":\"NO\",\"explanation\":\"Thailand does not specifically mandate the use of a 'red dot' symbol on prescription-only pharmaceutical products; rather, prescription and non-prescription drugs are generally differentiated by their labels and corresponding categories such as 'dangerous drugs' and 'special-control drugs.'\",\"sources\":[\"https://www.fda.moph.go.th/sites/oss/SitePages/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%A0%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%81%E0%B8%B3%E0%B8%AB%E0%B8%99%E0%B8%94.aspx\",\"https://www.trade.gov/country-commercial-guides/thailand-pharmaceuticals\",\"https://ap.fftc.org.tw/article/3121\"]}",
+          "type": "output_text",
+          "logprobs": [],
+          "parsed": {
+            "status": "NO",
+            "explanation": "Thailand does not specifically mandate the use of a 'red dot' symbol on prescription-only pharmaceutical products; rather, prescription and non-prescription drugs are generally differentiated by their labels and corresponding categories such as 'dangerous drugs' and 'special-control drugs.'",
+            "sources": [
+              "https://www.fda.moph.go.th/sites/oss/SitePages/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%A0%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%81%E0%B8%B3%E0%B8%AB%E0%B8%99%E0%B8%94.aspx",
+              "https://www.trade.gov/country-commercial-guides/thailand-pharmaceuticals",
+              "https://ap.fftc.org.tw/article/3121"
+            ]
+          }
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_p": 1.0,
+  "background": false,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "reasoning": {
+    "effort": null,
+    "generate_summary": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "name": "QueryResponse",
+      "schema_": {
+        "$defs": {
+          "Status": {
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          }
+        },
+        "properties": {
+          "status": {
+            "description": "Status of the policy for the given country",
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          },
+          "explanation": {
+            "description": "1 sentence explanation of the status with citations",
+            "title": "Explanation",
+            "type": "string"
+          },
+          "sources": {
+            "description": "A list of URLs cited in the explanation",
+            "items": {
+              "type": "string"
+            },
+            "title": "Sources",
+            "type": "array"
+          }
+        },
+        "required": [
+          "status",
+          "explanation",
+          "sources"
+        ],
+        "title": "QueryResponse",
+        "type": "object",
+        "additionalProperties": false
+      },
+      "type": "json_schema",
+      "description": null,
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 497,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 229,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 726
+  },
+  "user": null,
+  "store": true
+}

@@ -1,0 +1,141 @@
+gpt-4.1
+Imposes hospital-only distribution restrictions for certain classes of antimicrobial (AM) pharmaceutical products.
+{
+  "id": "resp_68ad8f34bf5881908115543d05b36dd50dc06e34ce079bc2",
+  "created_at": 1756204852.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-4.1-2025-04-14",
+  "object": "response",
+  "output": [
+    {
+      "id": "msg_68ad8f358d248190aeb58a852ba9b6510dc06e34ce079bc2",
+      "content": [
+        {
+          "annotations": [],
+          "text": "{\"status\":\"NO\",\"explanation\":\"There is no evidence that Cambodia has specific hospital-only distribution restrictions for certain classes of antimicrobial pharmaceutical products, as the country's regulations mainly focus on prescription requirements and authorized importers rather than restricting certain antimicrobials to hospital use only.\",\"sources\":[\"https://apps.who.int/medicinedocs/documents/s23440en/s23440en.pdf\",\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7482090/\",\"https://apps.who.int/iris/handle/10665/330706\"]}",
+          "type": "output_text",
+          "logprobs": [],
+          "parsed": {
+            "status": "NO",
+            "explanation": "There is no evidence that Cambodia has specific hospital-only distribution restrictions for certain classes of antimicrobial pharmaceutical products, as the country's regulations mainly focus on prescription requirements and authorized importers rather than restricting certain antimicrobials to hospital use only.",
+            "sources": [
+              "https://apps.who.int/medicinedocs/documents/s23440en/s23440en.pdf",
+              "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7482090/",
+              "https://apps.who.int/iris/handle/10665/330706"
+            ]
+          }
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_p": 1.0,
+  "background": false,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "reasoning": {
+    "effort": null,
+    "generate_summary": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "name": "QueryResponse",
+      "schema_": {
+        "$defs": {
+          "Status": {
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          }
+        },
+        "properties": {
+          "status": {
+            "description": "Status of the policy for the given country",
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          },
+          "explanation": {
+            "description": "1 sentence explanation of the status with citations",
+            "title": "Explanation",
+            "type": "string"
+          },
+          "sources": {
+            "description": "A list of URLs cited in the explanation",
+            "items": {
+              "type": "string"
+            },
+            "title": "Sources",
+            "type": "array"
+          }
+        },
+        "required": [
+          "status",
+          "explanation",
+          "sources"
+        ],
+        "title": "QueryResponse",
+        "type": "object",
+        "additionalProperties": false
+      },
+      "type": "json_schema",
+      "description": null,
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 497,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 123,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 620
+  },
+  "user": null,
+  "store": true
+}

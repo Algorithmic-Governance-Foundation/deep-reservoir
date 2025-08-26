@@ -1,0 +1,150 @@
+gpt-4.1
+Publishes national antimicrobial resistance (AMR) surveillance data related to pharmaceutical products.
+{
+  "id": "resp_68ad8da6527c81a0b01530b658b5b1550a0a1818123c879d",
+  "created_at": 1756204454.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-4.1-2025-04-14",
+  "object": "response",
+  "output": [
+    {
+      "id": "ws_68ad8da6c1e881a0a77acd32c41ae8d60a0a1818123c879d",
+      "action": {
+        "query": "Vietnam national antimicrobial resistance (AMR) surveillance data publication pharmaceutical products",
+        "type": "search"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "msg_68ad8da8a00081a0b09add438013a97f0a0a1818123c879d",
+      "content": [
+        {
+          "annotations": [],
+          "text": "{\"status\":\"PARTIAL\",\"explanation\":\"Vietnam has established national AMR surveillance systems and publishes data on antimicrobial use and resistance in both human and animal health sectors, but comprehensive, publicly accessible national reports specifically related to pharmaceutical products are limited.\",\"sources\":[\"https://pmc.ncbi.nlm.nih.gov/articles/PMC11331946/\",\"https://pmc.ncbi.nlm.nih.gov/articles/PMC8298034/\",\"https://www.cdc.gov/globalhealth/healthprotection/fieldupdates/winter-2017/vietnam-tracks-bacteria.html\"]} ",
+          "type": "output_text",
+          "logprobs": [],
+          "parsed": {
+            "status": "PARTIAL",
+            "explanation": "Vietnam has established national AMR surveillance systems and publishes data on antimicrobial use and resistance in both human and animal health sectors, but comprehensive, publicly accessible national reports specifically related to pharmaceutical products are limited.",
+            "sources": [
+              "https://pmc.ncbi.nlm.nih.gov/articles/PMC11331946/",
+              "https://pmc.ncbi.nlm.nih.gov/articles/PMC8298034/",
+              "https://www.cdc.gov/globalhealth/healthprotection/fieldupdates/winter-2017/vietnam-tracks-bacteria.html"
+            ]
+          }
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_p": 1.0,
+  "background": false,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "reasoning": {
+    "effort": null,
+    "generate_summary": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "name": "QueryResponse",
+      "schema_": {
+        "$defs": {
+          "Status": {
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          }
+        },
+        "properties": {
+          "status": {
+            "description": "Status of the policy for the given country",
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          },
+          "explanation": {
+            "description": "1 sentence explanation of the status with citations",
+            "title": "Explanation",
+            "type": "string"
+          },
+          "sources": {
+            "description": "A list of URLs cited in the explanation",
+            "items": {
+              "type": "string"
+            },
+            "title": "Sources",
+            "type": "array"
+          }
+        },
+        "required": [
+          "status",
+          "explanation",
+          "sources"
+        ],
+        "title": "QueryResponse",
+        "type": "object",
+        "additionalProperties": false
+      },
+      "type": "json_schema",
+      "description": null,
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 496,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 141,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 637
+  },
+  "user": null,
+  "store": true
+}

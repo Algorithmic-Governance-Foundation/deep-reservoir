@@ -1,0 +1,140 @@
+gpt-4.1
+Targets an average marketing authorization (MA) approval timeline of six months or less for pharmaceutical products.
+{
+  "id": "resp_68ad8d33bcf4819e91f3a8aeddc2ce9104e44275c8043810",
+  "created_at": 1756204339.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-4.1-2025-04-14",
+  "object": "response",
+  "output": [
+    {
+      "id": "msg_68ad8d346f1c819e944a57ce23db454304e44275c8043810",
+      "content": [
+        {
+          "annotations": [],
+          "text": "{\"status\":\"NO\",\"explanation\":\"Indonesia does not publicly target an average marketing authorization (MA) approval timeline of six months or less; the official timeline for new drug registrations is typically around 100 to 300 working days (about 5 to 15 months), depending on the product type and completeness of dossier submissions.\",\"sources\":[\"https://www.regdesk.co/indonesia-dossier-requirements-and-registration-process/\",\"https://www.npra.gov.my/easyarticles/images/users/1043/files/4_Overview_DrugRegistration_Indonesia.pdf\"]}",
+          "type": "output_text",
+          "logprobs": [],
+          "parsed": {
+            "status": "NO",
+            "explanation": "Indonesia does not publicly target an average marketing authorization (MA) approval timeline of six months or less; the official timeline for new drug registrations is typically around 100 to 300 working days (about 5 to 15 months), depending on the product type and completeness of dossier submissions.",
+            "sources": [
+              "https://www.regdesk.co/indonesia-dossier-requirements-and-registration-process/",
+              "https://www.npra.gov.my/easyarticles/images/users/1043/files/4_Overview_DrugRegistration_Indonesia.pdf"
+            ]
+          }
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_p": 1.0,
+  "background": false,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "reasoning": {
+    "effort": null,
+    "generate_summary": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "name": "QueryResponse",
+      "schema_": {
+        "$defs": {
+          "Status": {
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          }
+        },
+        "properties": {
+          "status": {
+            "description": "Status of the policy for the given country",
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          },
+          "explanation": {
+            "description": "1 sentence explanation of the status with citations",
+            "title": "Explanation",
+            "type": "string"
+          },
+          "sources": {
+            "description": "A list of URLs cited in the explanation",
+            "items": {
+              "type": "string"
+            },
+            "title": "Sources",
+            "type": "array"
+          }
+        },
+        "required": [
+          "status",
+          "explanation",
+          "sources"
+        ],
+        "title": "QueryResponse",
+        "type": "object",
+        "additionalProperties": false
+      },
+      "type": "json_schema",
+      "description": null,
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 499,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 120,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 619
+  },
+  "user": null,
+  "store": true
+}

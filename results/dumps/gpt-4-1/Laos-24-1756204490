@@ -1,0 +1,140 @@
+gpt-4.1
+Permits stability data submission for pharmaceutical products at 25°C/60% relative humidity (RH) when supported by accelerated stability studies.
+{
+  "id": "resp_68ad8dc89190819db3ba4bbb2fd332a20bcc3bf9a0ac5e03",
+  "created_at": 1756204488.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-4.1-2025-04-14",
+  "object": "response",
+  "output": [
+    {
+      "id": "msg_68ad8dc91b9c819db419b7fe48df77140bcc3bf9a0ac5e03",
+      "content": [
+        {
+          "annotations": [],
+          "text": "{\"status\":\"YES\",\"explanation\":\"Laos permits stability data submission for pharmaceutical products at 25°C/60% RH when supported by accelerated stability studies, in line with ASEAN Common Technical Dossier (ACTD) and ASEAN Guidelines for the Stability of Drug Products, to which Laos adheres as an ASEAN member state.\",\"sources\":[\"https://www.asean.org/wp-content/uploads/images/2013/february/pharmaceuticals/Appendix-1.pdf\",\"https://www.fda.gov.la/index.php/regulations/registration.html\"]}",
+          "type": "output_text",
+          "logprobs": [],
+          "parsed": {
+            "status": "YES",
+            "explanation": "Laos permits stability data submission for pharmaceutical products at 25°C/60% RH when supported by accelerated stability studies, in line with ASEAN Common Technical Dossier (ACTD) and ASEAN Guidelines for the Stability of Drug Products, to which Laos adheres as an ASEAN member state.",
+            "sources": [
+              "https://www.asean.org/wp-content/uploads/images/2013/february/pharmaceuticals/Appendix-1.pdf",
+              "https://www.fda.gov.la/index.php/regulations/registration.html"
+            ]
+          }
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_p": 1.0,
+  "background": false,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "reasoning": {
+    "effort": null,
+    "generate_summary": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "name": "QueryResponse",
+      "schema_": {
+        "$defs": {
+          "Status": {
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          }
+        },
+        "properties": {
+          "status": {
+            "description": "Status of the policy for the given country",
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          },
+          "explanation": {
+            "description": "1 sentence explanation of the status with citations",
+            "title": "Explanation",
+            "type": "string"
+          },
+          "sources": {
+            "description": "A list of URLs cited in the explanation",
+            "items": {
+              "type": "string"
+            },
+            "title": "Sources",
+            "type": "array"
+          }
+        },
+        "required": [
+          "status",
+          "explanation",
+          "sources"
+        ],
+        "title": "QueryResponse",
+        "type": "object",
+        "additionalProperties": false
+      },
+      "type": "json_schema",
+      "description": null,
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 507,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 116,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 623
+  },
+  "user": null,
+  "store": true
+}

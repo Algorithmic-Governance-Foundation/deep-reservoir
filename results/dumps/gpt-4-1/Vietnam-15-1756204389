@@ -1,0 +1,148 @@
+gpt-4.1
+Allows the use of bracketing and matrixing study designs in pharmaceutical product stability testing.
+{
+  "id": "resp_68ad8d5d94dc81938a3bd5d795d0de5b0b5684e9967f859e",
+  "created_at": 1756204381.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-4.1-2025-04-14",
+  "object": "response",
+  "output": [
+    {
+      "id": "ws_68ad8d5ed7948193ba1a6be7313815d00b5684e9967f859e",
+      "action": {
+        "query": "Vietnam pharmaceutical stability testing bracketing matrixing guidelines",
+        "type": "search"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "msg_68ad8d62d9708193ae3410ab57ad6b1c0b5684e9967f859e",
+      "content": [
+        {
+          "annotations": [],
+          "text": "{\"status\":\"YES\",\"explanation\":\"Vietnam, as a member of the Association of Southeast Asian Nations (ASEAN), follows the ASEAN guidelines on stability studies, which permit the use of bracketing and matrixing study designs in pharmaceutical product stability testing.\",\"sources\":[\"https://paperzz.com/doc/9443062/asean-guideline-on-stability-study-of-drug\"]} ",
+          "type": "output_text",
+          "logprobs": [],
+          "parsed": {
+            "status": "YES",
+            "explanation": "Vietnam, as a member of the Association of Southeast Asian Nations (ASEAN), follows the ASEAN guidelines on stability studies, which permit the use of bracketing and matrixing study designs in pharmaceutical product stability testing.",
+            "sources": [
+              "https://paperzz.com/doc/9443062/asean-guideline-on-stability-study-of-drug"
+            ]
+          }
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_p": 1.0,
+  "background": false,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "reasoning": {
+    "effort": null,
+    "generate_summary": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "name": "QueryResponse",
+      "schema_": {
+        "$defs": {
+          "Status": {
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          }
+        },
+        "properties": {
+          "status": {
+            "description": "Status of the policy for the given country",
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          },
+          "explanation": {
+            "description": "1 sentence explanation of the status with citations",
+            "title": "Explanation",
+            "type": "string"
+          },
+          "sources": {
+            "description": "A list of URLs cited in the explanation",
+            "items": {
+              "type": "string"
+            },
+            "title": "Sources",
+            "type": "array"
+          }
+        },
+        "required": [
+          "status",
+          "explanation",
+          "sources"
+        ],
+        "title": "QueryResponse",
+        "type": "object",
+        "additionalProperties": false
+      },
+      "type": "json_schema",
+      "description": null,
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 498,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 99,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 597
+  },
+  "user": null,
+  "store": true
+}

@@ -1,0 +1,149 @@
+gpt-4.1
+Permits stability data submission for pharmaceutical products at 25°C/60% relative humidity (RH) when supported by accelerated stability studies.
+{
+  "id": "resp_68ad8f9c42a48194b88bea844d1ccd2c0b19caf7c76df87a",
+  "created_at": 1756204956.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-4.1-2025-04-14",
+  "object": "response",
+  "output": [
+    {
+      "id": "ws_68ad8f9ce57c8194897fe1e045a39dda0b19caf7c76df87a",
+      "action": {
+        "query": "Malaysia policy stability data submission 25°C 60% RH pharmaceutical products",
+        "type": "search"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "msg_68ad8fa13d4c8194b76705e0104964ee0b19caf7c76df87a",
+      "content": [
+        {
+          "annotations": [],
+          "text": "{\"status\":\"NO\",\"explanation\":\"Malaysia requires stability data at 30°C ± 2°C/75% RH ± 5% RH for pharmaceutical products, and does not accept data at 25°C/60% RH, even if supported by accelerated stability studies.\",\"sources\":[\"https://www.stabilitystudies.in/asean-stability-guidelines-and-their-implementation-a-regulatory-overview/\",\"https://npra.gov.my/index.php/en/component/content/article/94-industries/prescription/1487-step-1-pre-submission-of-application-preparation?Itemid=437\"]} ",
+          "type": "output_text",
+          "logprobs": [],
+          "parsed": {
+            "status": "NO",
+            "explanation": "Malaysia requires stability data at 30°C ± 2°C/75% RH ± 5% RH for pharmaceutical products, and does not accept data at 25°C/60% RH, even if supported by accelerated stability studies.",
+            "sources": [
+              "https://www.stabilitystudies.in/asean-stability-guidelines-and-their-implementation-a-regulatory-overview/",
+              "https://npra.gov.my/index.php/en/component/content/article/94-industries/prescription/1487-step-1-pre-submission-of-application-preparation?Itemid=437"
+            ]
+          }
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_p": 1.0,
+  "background": false,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "reasoning": {
+    "effort": null,
+    "generate_summary": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "name": "QueryResponse",
+      "schema_": {
+        "$defs": {
+          "Status": {
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          }
+        },
+        "properties": {
+          "status": {
+            "description": "Status of the policy for the given country",
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          },
+          "explanation": {
+            "description": "1 sentence explanation of the status with citations",
+            "title": "Explanation",
+            "type": "string"
+          },
+          "sources": {
+            "description": "A list of URLs cited in the explanation",
+            "items": {
+              "type": "string"
+            },
+            "title": "Sources",
+            "type": "array"
+          }
+        },
+        "required": [
+          "status",
+          "explanation",
+          "sources"
+        ],
+        "title": "QueryResponse",
+        "type": "object",
+        "additionalProperties": false
+      },
+      "type": "json_schema",
+      "description": null,
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 507,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 150,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 657
+  },
+  "user": null,
+  "store": true
+}

@@ -1,0 +1,150 @@
+gpt-4.1
+Targets an average marketing authorization (MA) approval timeline of six months or less for pharmaceutical products.
+{
+  "id": "resp_68ad8edfe2e0819e8f1de9041ed291490b225a08fc56751d",
+  "created_at": 1756204767.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-4.1-2025-04-14",
+  "object": "response",
+  "output": [
+    {
+      "id": "ws_68ad8ee05f6c819eac6078c2270f18b50b225a08fc56751d",
+      "action": {
+        "query": "Philippines pharmaceutical marketing authorization approval timeline",
+        "type": "search"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "msg_68ad8ee2e834819ebe528ff9419a97790b225a08fc56751d",
+      "content": [
+        {
+          "annotations": [],
+          "text": "{\"status\":\"PARTIAL\",\"explanation\":\"The Philippines' Food and Drug Administration (FDA) has implemented measures to expedite the approval process for pharmaceutical products, aiming to reduce timelines to 45 days for generic drugs and 30 to 45 working days for new drugs under specific review pathways, but the standard approval process for new drugs may still exceed six months.\",\"sources\":[\"https://pco.gov.ph/news_releases/fda-to-shorten-review-approval-process-of-generic-drugs-from-120-days-to-45-days/\",\"https://trade.gov/market-intelligence/philippines-pharmaceuticals\",\"https://www.scribd.com/document/676930245/FDA-Circular-No-2022-004\"]} ",
+          "type": "output_text",
+          "logprobs": [],
+          "parsed": {
+            "status": "PARTIAL",
+            "explanation": "The Philippines' Food and Drug Administration (FDA) has implemented measures to expedite the approval process for pharmaceutical products, aiming to reduce timelines to 45 days for generic drugs and 30 to 45 working days for new drugs under specific review pathways, but the standard approval process for new drugs may still exceed six months.",
+            "sources": [
+              "https://pco.gov.ph/news_releases/fda-to-shorten-review-approval-process-of-generic-drugs-from-120-days-to-45-days/",
+              "https://trade.gov/market-intelligence/philippines-pharmaceuticals",
+              "https://www.scribd.com/document/676930245/FDA-Circular-No-2022-004"
+            ]
+          }
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_p": 1.0,
+  "background": false,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "reasoning": {
+    "effort": null,
+    "generate_summary": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "name": "QueryResponse",
+      "schema_": {
+        "$defs": {
+          "Status": {
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          }
+        },
+        "properties": {
+          "status": {
+            "description": "Status of the policy for the given country",
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          },
+          "explanation": {
+            "description": "1 sentence explanation of the status with citations",
+            "title": "Explanation",
+            "type": "string"
+          },
+          "sources": {
+            "description": "A list of URLs cited in the explanation",
+            "items": {
+              "type": "string"
+            },
+            "title": "Sources",
+            "type": "array"
+          }
+        },
+        "required": [
+          "status",
+          "explanation",
+          "sources"
+        ],
+        "title": "QueryResponse",
+        "type": "object",
+        "additionalProperties": false
+      },
+      "type": "json_schema",
+      "description": null,
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 499,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 165,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 664
+  },
+  "user": null,
+  "store": true
+}

@@ -1,8 +1,8 @@
 gpt-4.1
-Accepts the International Council for Harmonisation (ICH) Common Technical Document (CTD) format for innovator pharmaceutical product registrations.
+Permits stability data submission for pharmaceutical products at 25°C/60% relative humidity (RH) when supported by accelerated stability studies.
 {
-  "id": "resp_68a91d43a57c8194a4db171c26b1db2300dd35a02843ebdb",
-  "created_at": 1755913539.0,
+  "id": "resp_68ad8d59f7e8819dba33e0e5076921230a32ed7e34333c02",
+  "created_at": 1756204377.0,
   "error": null,
   "incomplete_details": null,
   "instructions": null,
@@ -11,28 +11,19 @@ Accepts the International Council for Harmonisation (ICH) Common Technical Docum
   "object": "response",
   "output": [
     {
-      "id": "ws_68a91d4454d08194ac366faa6da399be00dd35a02843ebdb",
-      "action": {
-        "query": "Indonesia acceptance of ICH Common Technical Document (CTD) format for pharmaceutical product registration",
-        "type": "search"
-      },
-      "status": "completed",
-      "type": "web_search_call"
-    },
-    {
-      "id": "msg_68a91d4868f0819492f97e3c5537cd3f00dd35a02843ebdb",
+      "id": "msg_68ad8d5abb8c819d9c21640b1ada970c0a32ed7e34333c02",
       "content": [
         {
           "annotations": [],
-          "text": "{\"status\":\"YES\",\"explanation\":\"Indonesia accepts both the ICH Common Technical Document (CTD) and the ASEAN Common Technical Dossier (ACTD) formats for innovator pharmaceutical product registrations.\",\"sources\":[\"https://www.artixio.com/post/indonesia-drug-pharmaceutical-regulations-registration\",\"https://pdf4pro.com/view/biofarma-experience-with-asean-ctd-fb586.html\"]} ",
+          "text": "{\"status\":\"NO\",\"explanation\":\"Vietnam generally requires stability data for pharmaceutical products to be submitted based on the country's climatic zone, which is Zone IVb (30°C/75% RH), not 25°C/60% RH; therefore, data at 25°C/60% RH is not accepted as the primary condition, even if supported by accelerated studies.\",\"sources\":[\"https://echa.europa.eu/documents/10162/22816030/8_ws_ric_pharmaceutical_en.pdf/8f8baa6f-bdc7-128e-2ac9-c6b54edfd922\",\"https://vnrhc.gov.vn/wp-content/uploads/2020/02/Circular-32-2018-TT-BYT.pdf\"]}",
           "type": "output_text",
           "logprobs": [],
           "parsed": {
-            "status": "YES",
-            "explanation": "Indonesia accepts both the ICH Common Technical Document (CTD) and the ASEAN Common Technical Dossier (ACTD) formats for innovator pharmaceutical product registrations.",
+            "status": "NO",
+            "explanation": "Vietnam generally requires stability data for pharmaceutical products to be submitted based on the country's climatic zone, which is Zone IVb (30°C/75% RH), not 25°C/60% RH; therefore, data at 25°C/60% RH is not accepted as the primary condition, even if supported by accelerated studies.",
             "sources": [
-              "https://www.artixio.com/post/indonesia-drug-pharmaceutical-regulations-registration",
-              "https://pdf4pro.com/view/biofarma-experience-with-asean-ctd-fb586.html"
+              "https://echa.europa.eu/documents/10162/22816030/8_ws_ric_pharmaceutical_en.pdf/8f8baa6f-bdc7-128e-2ac9-c6b54edfd922",
+              "https://vnrhc.gov.vn/wp-content/uploads/2020/02/Circular-32-2018-TT-BYT.pdf"
             ]
           }
         }
@@ -134,15 +125,15 @@ Accepts the International Council for Harmonisation (ICH) Common Technical Docum
   "top_logprobs": 0,
   "truncation": "disabled",
   "usage": {
-    "input_tokens": 485,
+    "input_tokens": 507,
     "input_tokens_details": {
       "cached_tokens": 0
     },
-    "output_tokens": 116,
+    "output_tokens": 161,
     "output_tokens_details": {
       "reasoning_tokens": 0
     },
-    "total_tokens": 601
+    "total_tokens": 668
   },
   "user": null,
   "store": true

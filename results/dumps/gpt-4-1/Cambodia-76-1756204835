@@ -1,0 +1,149 @@
+gpt-4.1
+Requires halal certification for pharmaceutical products.
+{
+  "id": "resp_68ad8f1cfa7c8194b0b33336cb29d15b0dd9d417d02e4da2",
+  "created_at": 1756204829.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-4.1-2025-04-14",
+  "object": "response",
+  "output": [
+    {
+      "id": "ws_68ad8f1db9bc81948540b8a04a5fe7f70dd9d417d02e4da2",
+      "action": {
+        "query": "Cambodia halal certification requirements for pharmaceutical products",
+        "type": "search"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "msg_68ad8f1fa3b081948846a2563fc70d140dd9d417d02e4da2",
+      "content": [
+        {
+          "annotations": [],
+          "text": "{\"status\":\"UNKNOWN\",\"explanation\":\"Cambodia has established a halal certification system primarily for food products, but specific requirements for pharmaceutical products are not clearly defined in the available sources.\",\"sources\":[\"https://www.ccfdg.gov.kh/en/about-ccf/department-of-halal/\",\"https://www.khmertimeskh.com/112276/cambodia-launches-halal-certification-and-label/\"]} ",
+          "type": "output_text",
+          "logprobs": [],
+          "parsed": {
+            "status": "UNKNOWN",
+            "explanation": "Cambodia has established a halal certification system primarily for food products, but specific requirements for pharmaceutical products are not clearly defined in the available sources.",
+            "sources": [
+              "https://www.ccfdg.gov.kh/en/about-ccf/department-of-halal/",
+              "https://www.khmertimeskh.com/112276/cambodia-launches-halal-certification-and-label/"
+            ]
+          }
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_p": 1.0,
+  "background": false,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "reasoning": {
+    "effort": null,
+    "generate_summary": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "name": "QueryResponse",
+      "schema_": {
+        "$defs": {
+          "Status": {
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          }
+        },
+        "properties": {
+          "status": {
+            "description": "Status of the policy for the given country",
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          },
+          "explanation": {
+            "description": "1 sentence explanation of the status with citations",
+            "title": "Explanation",
+            "type": "string"
+          },
+          "sources": {
+            "description": "A list of URLs cited in the explanation",
+            "items": {
+              "type": "string"
+            },
+            "title": "Sources",
+            "type": "array"
+          }
+        },
+        "required": [
+          "status",
+          "explanation",
+          "sources"
+        ],
+        "title": "QueryResponse",
+        "type": "object",
+        "additionalProperties": false
+      },
+      "type": "json_schema",
+      "description": null,
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 487,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 591
+  },
+  "user": null,
+  "store": true
+}

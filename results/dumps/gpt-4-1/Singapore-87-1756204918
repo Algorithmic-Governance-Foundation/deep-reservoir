@@ -1,0 +1,156 @@
+gpt-4.1
+Specifically mandates the use of a “red dot” symbol on prescription-only pharmaceutical products.
+{
+  "id": "resp_68ad8f6d01188197be4b2833b0ccd4bb0fd4c814b980e506",
+  "created_at": 1756204909.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-4.1-2025-04-14",
+  "object": "response",
+  "output": [
+    {
+      "id": "ws_68ad8f6dc0388197b2325783666e15580fd4c814b980e506",
+      "action": {
+        "query": "Singapore red dot symbol prescription-only pharmaceutical products regulation",
+        "type": "search"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "msg_68ad8f70ebfc8197837f2143a15f53760fd4c814b980e506",
+      "content": [
+        {
+          "annotations": [
+            {
+              "end_index": 516,
+              "start_index": 395,
+              "title": "How therapeutic products are regulated by HSA",
+              "type": "url_citation",
+              "url": "https://www.hsa.gov.sg/consumer-safety/articles/details/therapeutic-products-regulation?utm_source=openai"
+            }
+          ],
+          "text": "{\"status\":\"NO\",\"explanation\":\"Singapore does not mandate the use of a 'red dot' symbol on prescription-only pharmaceutical products. The Health Sciences Authority (HSA) regulates therapeutic products through classifications such as Prescription-Only Medicines (POM), Pharmacy-Only Medicines (P), and General Sale List (GSL) medicines, but there is no requirement for a 'red dot' symbol on POMs. ([hsa.gov.sg](https://www.hsa.gov.sg/consumer-safety/articles/details/therapeutic-products-regulation?utm_source=openai))\",\"sources\":[\"https://www.hsa.gov.sg/consumer-safety/articles/details/therapeutic-products-regulation\"]} ",
+          "type": "output_text",
+          "logprobs": [],
+          "parsed": {
+            "status": "NO",
+            "explanation": "Singapore does not mandate the use of a 'red dot' symbol on prescription-only pharmaceutical products. The Health Sciences Authority (HSA) regulates therapeutic products through classifications such as Prescription-Only Medicines (POM), Pharmacy-Only Medicines (P), and General Sale List (GSL) medicines, but there is no requirement for a 'red dot' symbol on POMs. ([hsa.gov.sg](https://www.hsa.gov.sg/consumer-safety/articles/details/therapeutic-products-regulation?utm_source=openai))",
+            "sources": [
+              "https://www.hsa.gov.sg/consumer-safety/articles/details/therapeutic-products-regulation"
+            ]
+          }
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_p": 1.0,
+  "background": false,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "reasoning": {
+    "effort": null,
+    "generate_summary": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "name": "QueryResponse",
+      "schema_": {
+        "$defs": {
+          "Status": {
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          }
+        },
+        "properties": {
+          "status": {
+            "description": "Status of the policy for the given country",
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          },
+          "explanation": {
+            "description": "1 sentence explanation of the status with citations",
+            "title": "Explanation",
+            "type": "string"
+          },
+          "sources": {
+            "description": "A list of URLs cited in the explanation",
+            "items": {
+              "type": "string"
+            },
+            "title": "Sources",
+            "type": "array"
+          }
+        },
+        "required": [
+          "status",
+          "explanation",
+          "sources"
+        ],
+        "title": "QueryResponse",
+        "type": "object",
+        "additionalProperties": false
+      },
+      "type": "json_schema",
+      "description": null,
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 497,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 162,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 659
+  },
+  "user": null,
+  "store": true
+}

@@ -1,0 +1,148 @@
+gpt-4.1
+Publishes national antimicrobial resistance (AMR) surveillance data related to pharmaceutical products.
+{
+  "id": "resp_68ad8f814c74819385dc1b0fbc7937c6013aac5c1843c86e",
+  "created_at": 1756204929.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-4.1-2025-04-14",
+  "object": "response",
+  "output": [
+    {
+      "id": "ws_68ad8f8209fc81939256a6d6583d7fdc013aac5c1843c86e",
+      "action": {
+        "query": "Singapore national antimicrobial resistance (AMR) surveillance data publication",
+        "type": "search"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "msg_68ad8f852eb88193ba266dd2cb5c1221013aac5c1843c86e",
+      "content": [
+        {
+          "annotations": [],
+          "text": "{\"status\":\"YES\",\"explanation\":\"Singapore publishes national antimicrobial resistance (AMR) surveillance data related to pharmaceutical products through its biennial One Health Report on Antimicrobial Utilisation and Resistance, which includes data on antimicrobial utilisation and resistance across human, animal, food, and environmental sectors.\",\"sources\":[\"https://www.moh.gov.sg/others/resources-and-statistics/one-health-report-on-antimicrobial-utilisation-and-resistance-2021\"]} ",
+          "type": "output_text",
+          "logprobs": [],
+          "parsed": {
+            "status": "YES",
+            "explanation": "Singapore publishes national antimicrobial resistance (AMR) surveillance data related to pharmaceutical products through its biennial One Health Report on Antimicrobial Utilisation and Resistance, which includes data on antimicrobial utilisation and resistance across human, animal, food, and environmental sectors.",
+            "sources": [
+              "https://www.moh.gov.sg/others/resources-and-statistics/one-health-report-on-antimicrobial-utilisation-and-resistance-2021"
+            ]
+          }
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_p": 1.0,
+  "background": false,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "reasoning": {
+    "effort": null,
+    "generate_summary": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "name": "QueryResponse",
+      "schema_": {
+        "$defs": {
+          "Status": {
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          }
+        },
+        "properties": {
+          "status": {
+            "description": "Status of the policy for the given country",
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          },
+          "explanation": {
+            "description": "1 sentence explanation of the status with citations",
+            "title": "Explanation",
+            "type": "string"
+          },
+          "sources": {
+            "description": "A list of URLs cited in the explanation",
+            "items": {
+              "type": "string"
+            },
+            "title": "Sources",
+            "type": "array"
+          }
+        },
+        "required": [
+          "status",
+          "explanation",
+          "sources"
+        ],
+        "title": "QueryResponse",
+        "type": "object",
+        "additionalProperties": false
+      },
+      "type": "json_schema",
+      "description": null,
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 496,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 115,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 611
+  },
+  "user": null,
+  "store": true
+}

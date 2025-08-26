@@ -1,0 +1,156 @@
+gpt-4.1
+Legally requires acceptance of another ASEAN Member State’s (AMS) Certificate of Good Manufacturing Practice (cGMP) for pharmaceutical manufacturers.
+{
+  "id": "resp_68ad8ebb749881969b3bd78efb6db5a102d8c387cdbc3d0d",
+  "created_at": 1756204731.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-4.1-2025-04-14",
+  "object": "response",
+  "output": [
+    {
+      "id": "ws_68ad8ebc93488196848f302c369bbed002d8c387cdbc3d0d",
+      "action": {
+        "query": "Philippines acceptance of other ASEAN Member State cGMP certificate pharmaceuticals",
+        "type": "search"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "msg_68ad8ec03710819685f4f5bdff14b05102d8c387cdbc3d0d",
+      "content": [
+        {
+          "annotations": [
+            {
+              "end_index": 468,
+              "start_index": 227,
+              "title": "Ministry of Foreign Affairs Singapore - Philippines FDA included in list of ASEAN Inspection Services",
+              "type": "url_citation",
+              "url": "https://www.mfa.gov.sg/Overseas-Mission/Ministry-of-Foreign-Affairs---Permanent-Mission-of-the-Republic-of-Singapore/Latest-News-in-ASEAN/2020/01/Philippines-FDA-included-in-list-of-ASEAN-Inspection-Services?utm_source=openai"
+            }
+          ],
+          "text": "{\"status\":\"YES\",\"explanation\":\"The Philippines is legally obligated to accept GMP certificates and inspection reports issued by ASEAN Listed Inspection Services under the ASEAN Mutual Recognition Arrangement on GMP Inspection. ([mfa.gov.sg](https://www.mfa.gov.sg/Overseas-Mission/Ministry-of-Foreign-Affairs---Permanent-Mission-of-the-Republic-of-Singapore/Latest-News-in-ASEAN/2020/01/Philippines-FDA-included-in-list-of-ASEAN-Inspection-Services?utm_source=openai))\",\"sources\":[\"https://www.mfa.gov.sg/Overseas-Mission/Ministry-of-Foreign-Affairs---Permanent-Mission-of-the-Republic-of-Singapore/Latest-News-in-ASEAN/2020/01/Philippines-FDA-included-in-list-of-ASEAN-Inspection-Services\"]} ",
+          "type": "output_text",
+          "logprobs": [],
+          "parsed": {
+            "status": "YES",
+            "explanation": "The Philippines is legally obligated to accept GMP certificates and inspection reports issued by ASEAN Listed Inspection Services under the ASEAN Mutual Recognition Arrangement on GMP Inspection. ([mfa.gov.sg](https://www.mfa.gov.sg/Overseas-Mission/Ministry-of-Foreign-Affairs---Permanent-Mission-of-the-Republic-of-Singapore/Latest-News-in-ASEAN/2020/01/Philippines-FDA-included-in-list-of-ASEAN-Inspection-Services?utm_source=openai))",
+            "sources": [
+              "https://www.mfa.gov.sg/Overseas-Mission/Ministry-of-Foreign-Affairs---Permanent-Mission-of-the-Republic-of-Singapore/Latest-News-in-ASEAN/2020/01/Philippines-FDA-included-in-list-of-ASEAN-Inspection-Services"
+            ]
+          }
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_p": 1.0,
+  "background": false,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "reasoning": {
+    "effort": null,
+    "generate_summary": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "name": "QueryResponse",
+      "schema_": {
+        "$defs": {
+          "Status": {
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          }
+        },
+        "properties": {
+          "status": {
+            "description": "Status of the policy for the given country",
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          },
+          "explanation": {
+            "description": "1 sentence explanation of the status with citations",
+            "title": "Explanation",
+            "type": "string"
+          },
+          "sources": {
+            "description": "A list of URLs cited in the explanation",
+            "items": {
+              "type": "string"
+            },
+            "title": "Sources",
+            "type": "array"
+          }
+        },
+        "required": [
+          "status",
+          "explanation",
+          "sources"
+        ],
+        "title": "QueryResponse",
+        "type": "object",
+        "additionalProperties": false
+      },
+      "type": "json_schema",
+      "description": null,
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 507,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 206,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 713
+  },
+  "user": null,
+  "store": true
+}

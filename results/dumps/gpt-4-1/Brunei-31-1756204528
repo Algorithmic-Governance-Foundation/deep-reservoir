@@ -1,0 +1,148 @@
+gpt-4.1
+Accepts the International Council for Harmonisation (ICH) Common Technical Document (CTD) format for innovator pharmaceutical product registrations.
+{
+  "id": "resp_68ad8dead8c88196bf18d4dc7452d6e6059e075c9cdd6ac5",
+  "created_at": 1756204522.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-4.1-2025-04-14",
+  "object": "response",
+  "output": [
+    {
+      "id": "ws_68ad8deb8a44819698338d858119764c059e075c9cdd6ac5",
+      "action": {
+        "query": "Brunei acceptance of ICH CTD format for pharmaceutical product registration",
+        "type": "search"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "msg_68ad8dede6148196bd9492a03614a875059e075c9cdd6ac5",
+      "content": [
+        {
+          "annotations": [],
+          "text": "{\"status\":\"PARTIAL\",\"explanation\":\"Brunei, as a member of ASEAN, primarily accepts the ASEAN Common Technical Dossier (ACTD) format for pharmaceutical product registrations, which is similar to the ICH CTD but tailored to regional requirements.\",\"sources\":[\"https://www.productlifegroup.com/introduction-asean-common-technical-dossier-actd-pharmaceutical-registration/\"]} ",
+          "type": "output_text",
+          "logprobs": [],
+          "parsed": {
+            "status": "PARTIAL",
+            "explanation": "Brunei, as a member of ASEAN, primarily accepts the ASEAN Common Technical Dossier (ACTD) format for pharmaceutical product registrations, which is similar to the ICH CTD but tailored to regional requirements.",
+            "sources": [
+              "https://www.productlifegroup.com/introduction-asean-common-technical-dossier-actd-pharmaceutical-registration/"
+            ]
+          }
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_p": 1.0,
+  "background": false,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "reasoning": {
+    "effort": null,
+    "generate_summary": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "name": "QueryResponse",
+      "schema_": {
+        "$defs": {
+          "Status": {
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          }
+        },
+        "properties": {
+          "status": {
+            "description": "Status of the policy for the given country",
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          },
+          "explanation": {
+            "description": "1 sentence explanation of the status with citations",
+            "title": "Explanation",
+            "type": "string"
+          },
+          "sources": {
+            "description": "A list of URLs cited in the explanation",
+            "items": {
+              "type": "string"
+            },
+            "title": "Sources",
+            "type": "array"
+          }
+        },
+        "required": [
+          "status",
+          "explanation",
+          "sources"
+        ],
+        "title": "QueryResponse",
+        "type": "object",
+        "additionalProperties": false
+      },
+      "type": "json_schema",
+      "description": null,
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 507,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 611
+  },
+  "user": null,
+  "store": true
+}

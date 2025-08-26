@@ -1,0 +1,156 @@
+gpt-4.1
+Legally requires acceptance of another ASEAN Member State’s (AMS) Certificate of Good Manufacturing Practice (cGMP) for pharmaceutical manufacturers.
+{
+  "id": "resp_68ad8f4ed5788192a90c08665e01c54400e07177aba9e397",
+  "created_at": 1756204878.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-4.1-2025-04-14",
+  "object": "response",
+  "output": [
+    {
+      "id": "ws_68ad8f4f52ec8192a32745721435554000e07177aba9e397",
+      "action": {
+        "query": "Singapore acceptance of ASEAN Member State Certificate of Good Manufacturing Practice (cGMP) pharmaceutical",
+        "type": "search"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "msg_68ad8f5415a481928edbd73225fe91ec00e07177aba9e397",
+      "content": [
+        {
+          "annotations": [
+            {
+              "end_index": 488,
+              "start_index": 281,
+              "title": "2009 ASEAN Sectoral Mutual Recognition Agreement on Good Manufacturing Practice (GMP) Inspection of Manufacturers of Medicinal Products - Centre for International Law",
+              "type": "url_citation",
+              "url": "https://cil.nus.edu.sg/databasecil/2009-asean-sectoral-mutual-recognition-agreement-on-good-manufacturing-practice-gmp-inspection-of-manufacturers-of-medicinal-products/?utm_source=openai"
+            }
+          ],
+          "text": "{\"status\":\"YES\",\"explanation\":\"Singapore is legally obligated to accept Good Manufacturing Practice (GMP) certificates and inspection reports from ASEAN Member States' Listed Inspection Services under the 2009 ASEAN Sectoral Mutual Recognition Arrangement (MRA) on GMP Inspection. ([cil.nus.edu.sg](https://cil.nus.edu.sg/databasecil/2009-asean-sectoral-mutual-recognition-agreement-on-good-manufacturing-practice-gmp-inspection-of-manufacturers-of-medicinal-products/?utm_source=openai))\",\"sources\":[\"https://cil.nus.edu.sg/databasecil/2009-asean-sectoral-mutual-recognition-agreement-on-good-manufacturing-practice-gmp-inspection-of-manufacturers-of-medicinal-products/\"]} ",
+          "type": "output_text",
+          "logprobs": [],
+          "parsed": {
+            "status": "YES",
+            "explanation": "Singapore is legally obligated to accept Good Manufacturing Practice (GMP) certificates and inspection reports from ASEAN Member States' Listed Inspection Services under the 2009 ASEAN Sectoral Mutual Recognition Arrangement (MRA) on GMP Inspection. ([cil.nus.edu.sg](https://cil.nus.edu.sg/databasecil/2009-asean-sectoral-mutual-recognition-agreement-on-good-manufacturing-practice-gmp-inspection-of-manufacturers-of-medicinal-products/?utm_source=openai))",
+            "sources": [
+              "https://cil.nus.edu.sg/databasecil/2009-asean-sectoral-mutual-recognition-agreement-on-good-manufacturing-practice-gmp-inspection-of-manufacturers-of-medicinal-products/"
+            ]
+          }
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_p": 1.0,
+  "background": false,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "reasoning": {
+    "effort": null,
+    "generate_summary": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "name": "QueryResponse",
+      "schema_": {
+        "$defs": {
+          "Status": {
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          }
+        },
+        "properties": {
+          "status": {
+            "description": "Status of the policy for the given country",
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          },
+          "explanation": {
+            "description": "1 sentence explanation of the status with citations",
+            "title": "Explanation",
+            "type": "string"
+          },
+          "sources": {
+            "description": "A list of URLs cited in the explanation",
+            "items": {
+              "type": "string"
+            },
+            "title": "Sources",
+            "type": "array"
+          }
+        },
+        "required": [
+          "status",
+          "explanation",
+          "sources"
+        ],
+        "title": "QueryResponse",
+        "type": "object",
+        "additionalProperties": false
+      },
+      "type": "json_schema",
+      "description": null,
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 507,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 186,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 693
+  },
+  "user": null,
+  "store": true
+}

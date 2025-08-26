@@ -1,0 +1,156 @@
+gpt-4.1
+Legally requires acceptance of another ASEAN Member State’s (AMS) Certificate of Good Manufacturing Practice (cGMP) for pharmaceutical manufacturers.
+{
+  "id": "resp_68ad8df84ee481a0a2850da14f77938308c6b7f5deb06417",
+  "created_at": 1756204536.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-4.1-2025-04-14",
+  "object": "response",
+  "output": [
+    {
+      "id": "ws_68ad8df8e9b881a0a7d0dfdf54574b1b08c6b7f5deb06417",
+      "action": {
+        "query": "Brunei acceptance of ASEAN Member State cGMP certificate for pharmaceuticals",
+        "type": "search"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "msg_68ad8dfba4b881a0a706b1459b1d5f2a08c6b7f5deb06417",
+      "content": [
+        {
+          "annotations": [
+            {
+              "end_index": 420,
+              "start_index": 291,
+              "title": "FDA THAI : Food and Drug Administration, Thailand",
+              "type": "url_citation",
+              "url": "https://en.fda.moph.go.th/international-relation/category/cat-international-cooperation/?utm_source=openai"
+            }
+          ],
+          "text": "{\"status\":\"NO\",\"explanation\":\"Brunei has not ratified the ASEAN Mutual Recognition Arrangement (MRA) for Good Manufacturing Practice (GMP) Inspection of Manufacturers of Medicinal Products, and therefore does not legally require acceptance of another ASEAN Member State's cGMP certificates. ([en.fda.moph.go.th](https://en.fda.moph.go.th/international-relation/category/cat-international-cooperation/?utm_source=openai))\",\"sources\":[\"https://en.fda.moph.go.th/international-relation/category/cat-international-cooperation/\"]} ",
+          "type": "output_text",
+          "logprobs": [],
+          "parsed": {
+            "status": "NO",
+            "explanation": "Brunei has not ratified the ASEAN Mutual Recognition Arrangement (MRA) for Good Manufacturing Practice (GMP) Inspection of Manufacturers of Medicinal Products, and therefore does not legally require acceptance of another ASEAN Member State's cGMP certificates. ([en.fda.moph.go.th](https://en.fda.moph.go.th/international-relation/category/cat-international-cooperation/?utm_source=openai))",
+            "sources": [
+              "https://en.fda.moph.go.th/international-relation/category/cat-international-cooperation/"
+            ]
+          }
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_p": 1.0,
+  "background": false,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "reasoning": {
+    "effort": null,
+    "generate_summary": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "name": "QueryResponse",
+      "schema_": {
+        "$defs": {
+          "Status": {
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          }
+        },
+        "properties": {
+          "status": {
+            "description": "Status of the policy for the given country",
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          },
+          "explanation": {
+            "description": "1 sentence explanation of the status with citations",
+            "title": "Explanation",
+            "type": "string"
+          },
+          "sources": {
+            "description": "A list of URLs cited in the explanation",
+            "items": {
+              "type": "string"
+            },
+            "title": "Sources",
+            "type": "array"
+          }
+        },
+        "required": [
+          "status",
+          "explanation",
+          "sources"
+        ],
+        "title": "QueryResponse",
+        "type": "object",
+        "additionalProperties": false
+      },
+      "type": "json_schema",
+      "description": null,
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 508,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 651
+  },
+  "user": null,
+  "store": true
+}

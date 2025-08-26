@@ -1,0 +1,148 @@
+gpt-4.1
+Legally requires acceptance of another ASEAN Member State’s (AMS) Certificate of Good Manufacturing Practice (cGMP) for pharmaceutical manufacturers.
+{
+  "id": "resp_68ad8d531c1c81a0b1eb2a2d2085d13b0133e34cc039210b",
+  "created_at": 1756204371.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-4.1-2025-04-14",
+  "object": "response",
+  "output": [
+    {
+      "id": "ws_68ad8d53b13881a0b0a695e712b1bdce0133e34cc039210b",
+      "action": {
+        "query": "Vietnam acceptance of ASEAN Member State cGMP certificate pharmaceutical",
+        "type": "search"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "msg_68ad8d5662bc81a08ece90c70c4d797c0133e34cc039210b",
+      "content": [
+        {
+          "annotations": [],
+          "text": "{\"status\":\"PARTIAL\",\"explanation\":\"Vietnam has agreed to recognize cGMP certificates from certain ASEAN Member States under the ASEAN Mutual Recognition Arrangement (MRA), but this recognition is limited to certificates issued by four specific ASEAN inspection services: the Singapore Health Sciences Authority, the Malaysia National Pharmaceutical Control Bureau, the Indonesia National Agency for Drug and Food Control, and the Food and Drug Administration (FDA) of Thailand.\",\"sources\":[\"https://en.vietnamplus.vn/asean-imposes-tighter-medicine-and-pharmaceutical-management-post73233.vnp\"]} ",
+          "type": "output_text",
+          "logprobs": [],
+          "parsed": {
+            "status": "PARTIAL",
+            "explanation": "Vietnam has agreed to recognize cGMP certificates from certain ASEAN Member States under the ASEAN Mutual Recognition Arrangement (MRA), but this recognition is limited to certificates issued by four specific ASEAN inspection services: the Singapore Health Sciences Authority, the Malaysia National Pharmaceutical Control Bureau, the Indonesia National Agency for Drug and Food Control, and the Food and Drug Administration (FDA) of Thailand.",
+            "sources": [
+              "https://en.vietnamplus.vn/asean-imposes-tighter-medicine-and-pharmaceutical-management-post73233.vnp"
+            ]
+          }
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_p": 1.0,
+  "background": false,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "reasoning": {
+    "effort": null,
+    "generate_summary": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "name": "QueryResponse",
+      "schema_": {
+        "$defs": {
+          "Status": {
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          }
+        },
+        "properties": {
+          "status": {
+            "description": "Status of the policy for the given country",
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          },
+          "explanation": {
+            "description": "1 sentence explanation of the status with citations",
+            "title": "Explanation",
+            "type": "string"
+          },
+          "sources": {
+            "description": "A list of URLs cited in the explanation",
+            "items": {
+              "type": "string"
+            },
+            "title": "Sources",
+            "type": "array"
+          }
+        },
+        "required": [
+          "status",
+          "explanation",
+          "sources"
+        ],
+        "title": "QueryResponse",
+        "type": "object",
+        "additionalProperties": false
+      },
+      "type": "json_schema",
+      "description": null,
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 507,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 135,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 642
+  },
+  "user": null,
+  "store": true
+}

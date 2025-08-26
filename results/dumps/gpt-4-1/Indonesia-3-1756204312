@@ -1,0 +1,149 @@
+gpt-4.1
+Legally requires acceptance of another ASEAN Member State’s (AMS) Certificate of Good Manufacturing Practice (cGMP) for pharmaceutical manufacturers.
+{
+  "id": "resp_68ad8d121584819e8ea8ee68c9878f43068e3d5b4d644cdf",
+  "created_at": 1756204306.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-4.1-2025-04-14",
+  "object": "response",
+  "output": [
+    {
+      "id": "ws_68ad8d12be3c819e89c16e68f7fe37e1068e3d5b4d644cdf",
+      "action": {
+        "query": "Indonesia acceptance of other ASEAN Member State cGMP certificate pharmaceutical legal requirement",
+        "type": "search"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "msg_68ad8d1539f4819ebb3388bde48965d3068e3d5b4d644cdf",
+      "content": [
+        {
+          "annotations": [],
+          "text": "{\"status\":\"YES\",\"explanation\":\"Indonesia is legally required to accept cGMP certificates from other ASEAN Member States under the ASEAN Mutual Recognition Arrangement (MRA) on GMP Inspection for Manufacturers of Medicinal Products, which mandates mutual recognition of GMP inspection reports and certificates among member countries.\",\"sources\":[\"https://en.vietnamplus.vn/asean-imposes-tighter-medicine-and-pharmaceutical-management-post73233.vnp\",\"https://asianews.network/indonesia-approves-asean-deals-on-food-safety-building-materials-manufacturing/\"]} ",
+          "type": "output_text",
+          "logprobs": [],
+          "parsed": {
+            "status": "YES",
+            "explanation": "Indonesia is legally required to accept cGMP certificates from other ASEAN Member States under the ASEAN Mutual Recognition Arrangement (MRA) on GMP Inspection for Manufacturers of Medicinal Products, which mandates mutual recognition of GMP inspection reports and certificates among member countries.",
+            "sources": [
+              "https://en.vietnamplus.vn/asean-imposes-tighter-medicine-and-pharmaceutical-management-post73233.vnp",
+              "https://asianews.network/indonesia-approves-asean-deals-on-food-safety-building-materials-manufacturing/"
+            ]
+          }
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_p": 1.0,
+  "background": false,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "reasoning": {
+    "effort": null,
+    "generate_summary": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "name": "QueryResponse",
+      "schema_": {
+        "$defs": {
+          "Status": {
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          }
+        },
+        "properties": {
+          "status": {
+            "description": "Status of the policy for the given country",
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          },
+          "explanation": {
+            "description": "1 sentence explanation of the status with citations",
+            "title": "Explanation",
+            "type": "string"
+          },
+          "sources": {
+            "description": "A list of URLs cited in the explanation",
+            "items": {
+              "type": "string"
+            },
+            "title": "Sources",
+            "type": "array"
+          }
+        },
+        "required": [
+          "status",
+          "explanation",
+          "sources"
+        ],
+        "title": "QueryResponse",
+        "type": "object",
+        "additionalProperties": false
+      },
+      "type": "json_schema",
+      "description": null,
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 507,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 647
+  },
+  "user": null,
+  "store": true
+}

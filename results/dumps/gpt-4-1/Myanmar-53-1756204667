@@ -1,0 +1,148 @@
+gpt-4.1
+Legally requires acceptance of another ASEAN Member State’s (AMS) Certificate of Good Manufacturing Practice (cGMP) for pharmaceutical manufacturers.
+{
+  "id": "resp_68ad8e7250e8819c9acd60f25c6688070eaa7c6f6b8d1cc1",
+  "created_at": 1756204658.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-4.1-2025-04-14",
+  "object": "response",
+  "output": [
+    {
+      "id": "ws_68ad8e72cadc819c9233aaa380d66f8c0eaa7c6f6b8d1cc1",
+      "action": {
+        "query": "Myanmar acceptance of ASEAN Member State cGMP certificate for pharmaceutical manufacturers",
+        "type": "search"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "msg_68ad8e7732f4819c9f753aef08def6480eaa7c6f6b8d1cc1",
+      "content": [
+        {
+          "annotations": [],
+          "text": "{\"status\":\"PARTIAL\",\"explanation\":\"Myanmar is a signatory to the ASEAN Mutual Recognition Arrangement (MRA) on Good Manufacturing Practice (GMP) Inspection, which obliges member states to recognize GMP certificates issued by ASEAN Listed Inspection Services (LIS); however, Myanmar's Food and Drug Administration (FDA) is not currently listed as an ASEAN LIS, so it may not be legally required to accept GMP certificates from other ASEAN member states.\",\"sources\":[\"https://globalforum.diaglobal.org/issue/march-2021/harmonization-of-gmp-inspection-and-benefits-to-asean-economic-community/\"]} ",
+          "type": "output_text",
+          "logprobs": [],
+          "parsed": {
+            "status": "PARTIAL",
+            "explanation": "Myanmar is a signatory to the ASEAN Mutual Recognition Arrangement (MRA) on Good Manufacturing Practice (GMP) Inspection, which obliges member states to recognize GMP certificates issued by ASEAN Listed Inspection Services (LIS); however, Myanmar's Food and Drug Administration (FDA) is not currently listed as an ASEAN LIS, so it may not be legally required to accept GMP certificates from other ASEAN member states.",
+            "sources": [
+              "https://globalforum.diaglobal.org/issue/march-2021/harmonization-of-gmp-inspection-and-benefits-to-asean-economic-community/"
+            ]
+          }
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_p": 1.0,
+  "background": false,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "reasoning": {
+    "effort": null,
+    "generate_summary": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "name": "QueryResponse",
+      "schema_": {
+        "$defs": {
+          "Status": {
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          }
+        },
+        "properties": {
+          "status": {
+            "description": "Status of the policy for the given country",
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          },
+          "explanation": {
+            "description": "1 sentence explanation of the status with citations",
+            "title": "Explanation",
+            "type": "string"
+          },
+          "sources": {
+            "description": "A list of URLs cited in the explanation",
+            "items": {
+              "type": "string"
+            },
+            "title": "Sources",
+            "type": "array"
+          }
+        },
+        "required": [
+          "status",
+          "explanation",
+          "sources"
+        ],
+        "title": "QueryResponse",
+        "type": "object",
+        "additionalProperties": false
+      },
+      "type": "json_schema",
+      "description": null,
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 507,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 152,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 659
+  },
+  "user": null,
+  "store": true
+}

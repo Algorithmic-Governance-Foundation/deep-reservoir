@@ -1,0 +1,140 @@
+gpt-4.1
+Permits stability data submission for pharmaceutical products at 25°C/60% relative humidity (RH) when supported by accelerated stability studies.
+{
+  "id": "resp_68ad8ec5548c819093253e032ba826150e6eed6c4fd70032",
+  "created_at": 1756204741.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-4.1-2025-04-14",
+  "object": "response",
+  "output": [
+    {
+      "id": "msg_68ad8ec62b008190a17691e1431176fa0e6eed6c4fd70032",
+      "content": [
+        {
+          "annotations": [],
+          "text": "{\"status\":\"NO\",\"explanation\":\"The Philippines requires stability data for pharmaceutical products to be provided at 30°C/75% RH for Zone IVb conditions, and data at 25°C/60% RH is generally not accepted as sufficient unless otherwise justified; accelerated data alone is not adequate.\",\"sources\":[\"https://ww2.fda.gov.ph/attachments/article/942851/Annex%20G-Guideline%20for%20Stability%20Data%20Requirement%20of%20Pharmaceutical%20Products.pdf\",\"https://www.pharmaguideline.com/2012/02/stability-study-zones-and-conditions.html\"]}",
+          "type": "output_text",
+          "logprobs": [],
+          "parsed": {
+            "status": "NO",
+            "explanation": "The Philippines requires stability data for pharmaceutical products to be provided at 30°C/75% RH for Zone IVb conditions, and data at 25°C/60% RH is generally not accepted as sufficient unless otherwise justified; accelerated data alone is not adequate.",
+            "sources": [
+              "https://ww2.fda.gov.ph/attachments/article/942851/Annex%20G-Guideline%20for%20Stability%20Data%20Requirement%20of%20Pharmaceutical%20Products.pdf",
+              "https://www.pharmaguideline.com/2012/02/stability-study-zones-and-conditions.html"
+            ]
+          }
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_p": 1.0,
+  "background": false,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "reasoning": {
+    "effort": null,
+    "generate_summary": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "name": "QueryResponse",
+      "schema_": {
+        "$defs": {
+          "Status": {
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          }
+        },
+        "properties": {
+          "status": {
+            "description": "Status of the policy for the given country",
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          },
+          "explanation": {
+            "description": "1 sentence explanation of the status with citations",
+            "title": "Explanation",
+            "type": "string"
+          },
+          "sources": {
+            "description": "A list of URLs cited in the explanation",
+            "items": {
+              "type": "string"
+            },
+            "title": "Sources",
+            "type": "array"
+          }
+        },
+        "required": [
+          "status",
+          "explanation",
+          "sources"
+        ],
+        "title": "QueryResponse",
+        "type": "object",
+        "additionalProperties": false
+      },
+      "type": "json_schema",
+      "description": null,
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 507,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 141,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 648
+  },
+  "user": null,
+  "store": true
+}

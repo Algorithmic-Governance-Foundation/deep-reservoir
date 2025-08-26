@@ -1,0 +1,149 @@
+gpt-4.1
+Targets an average marketing authorization (MA) approval timeline of six months or less for pharmaceutical products.
+{
+  "id": "resp_68ad8f29e8648194bbb33defb77e517a0ea071a3fb3915ae",
+  "created_at": 1756204842.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-4.1-2025-04-14",
+  "object": "response",
+  "output": [
+    {
+      "id": "ws_68ad8f2adb948194b9cad9d29e28b9920ea071a3fb3915ae",
+      "action": {
+        "query": "Cambodia pharmaceutical marketing authorization approval timeline",
+        "type": "search"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "msg_68ad8f2e50288194a3bbe6efa7a9186d0ea071a3fb3915ae",
+      "content": [
+        {
+          "annotations": [],
+          "text": "{\"status\":\"NO\",\"explanation\":\"Cambodia does not target an average marketing authorization approval timeline of six months or less for pharmaceutical products; the process typically takes between 6 to 12 months, depending on factors such as the number of applications received and the workload of the Ministry of Health.\",\"sources\":[\"https://credevo.com/articles/2021/03/15/generic-drug-registration-process-in-cambodia/\",\"https://www.trade.gov/index.php/healthcare-resource-guide-cambodia\"]} ",
+          "type": "output_text",
+          "logprobs": [],
+          "parsed": {
+            "status": "NO",
+            "explanation": "Cambodia does not target an average marketing authorization approval timeline of six months or less for pharmaceutical products; the process typically takes between 6 to 12 months, depending on factors such as the number of applications received and the workload of the Ministry of Health.",
+            "sources": [
+              "https://credevo.com/articles/2021/03/15/generic-drug-registration-process-in-cambodia/",
+              "https://www.trade.gov/index.php/healthcare-resource-guide-cambodia"
+            ]
+          }
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_p": 1.0,
+  "background": false,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "reasoning": {
+    "effort": null,
+    "generate_summary": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "name": "QueryResponse",
+      "schema_": {
+        "$defs": {
+          "Status": {
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          }
+        },
+        "properties": {
+          "status": {
+            "description": "Status of the policy for the given country",
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          },
+          "explanation": {
+            "description": "1 sentence explanation of the status with citations",
+            "title": "Explanation",
+            "type": "string"
+          },
+          "sources": {
+            "description": "A list of URLs cited in the explanation",
+            "items": {
+              "type": "string"
+            },
+            "title": "Sources",
+            "type": "array"
+          }
+        },
+        "required": [
+          "status",
+          "explanation",
+          "sources"
+        ],
+        "title": "QueryResponse",
+        "type": "object",
+        "additionalProperties": false
+      },
+      "type": "json_schema",
+      "description": null,
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 499,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 123,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 622
+  },
+  "user": null,
+  "store": true
+}

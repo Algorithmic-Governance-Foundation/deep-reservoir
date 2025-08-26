@@ -1,0 +1,140 @@
+gpt-4.1
+Provides a fully digital online submission portal for pharmaceutical product marketing authorization applications.
+{
+  "id": "resp_68ad8d4f86788192898cd76e44a86d0b0e8235f5499799bb",
+  "created_at": 1756204367.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-4.1-2025-04-14",
+  "object": "response",
+  "output": [
+    {
+      "id": "msg_68ad8d5017ac81929a79acc42f7cedec0e8235f5499799bb",
+      "content": [
+        {
+          "annotations": [],
+          "text": "{\"status\":\"YES\",\"explanation\":\"Vietnam provides a fully digital online submission portal for pharmaceutical product marketing authorization applications through its National Single Window (NSW) system, which allows electronic submissions and processing of dossiers.\",\"sources\":[\"https://www.moh.gov.vn/web/ministry-of-health/official-documents/-/asset_publisher/0vUvWnUPuayR/content/official-letter-no-8728-byt-qd-2020-on-receiving-electronic-dossiers-for-drugs-registration\",\"https://asemconnectvietnam.gov.vn/default.aspx?ID1=2&ZID1=10&ID8=103062\"]}",
+          "type": "output_text",
+          "logprobs": [],
+          "parsed": {
+            "status": "YES",
+            "explanation": "Vietnam provides a fully digital online submission portal for pharmaceutical product marketing authorization applications through its National Single Window (NSW) system, which allows electronic submissions and processing of dossiers.",
+            "sources": [
+              "https://www.moh.gov.vn/web/ministry-of-health/official-documents/-/asset_publisher/0vUvWnUPuayR/content/official-letter-no-8728-byt-qd-2020-on-receiving-electronic-dossiers-for-drugs-registration",
+              "https://asemconnectvietnam.gov.vn/default.aspx?ID1=2&ZID1=10&ID8=103062"
+            ]
+          }
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_p": 1.0,
+  "background": false,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "reasoning": {
+    "effort": null,
+    "generate_summary": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "name": "QueryResponse",
+      "schema_": {
+        "$defs": {
+          "Status": {
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          }
+        },
+        "properties": {
+          "status": {
+            "description": "Status of the policy for the given country",
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          },
+          "explanation": {
+            "description": "1 sentence explanation of the status with citations",
+            "title": "Explanation",
+            "type": "string"
+          },
+          "sources": {
+            "description": "A list of URLs cited in the explanation",
+            "items": {
+              "type": "string"
+            },
+            "title": "Sources",
+            "type": "array"
+          }
+        },
+        "required": [
+          "status",
+          "explanation",
+          "sources"
+        ],
+        "title": "QueryResponse",
+        "type": "object",
+        "additionalProperties": false
+      },
+      "type": "json_schema",
+      "description": null,
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 494,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 138,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 632
+  },
+  "user": null,
+  "store": true
+}

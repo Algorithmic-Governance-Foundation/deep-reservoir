@@ -1,0 +1,140 @@
+gpt-4.1
+Allows the use of bracketing and matrixing study designs in pharmaceutical product stability testing.
+{
+  "id": "resp_68ad8e498edc81a3b0eef62ce3ce23d60a050d23556792ab",
+  "created_at": 1756204617.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-4.1-2025-04-14",
+  "object": "response",
+  "output": [
+    {
+      "id": "msg_68ad8e4a5e7881a3a86ff68367c5e95a0a050d23556792ab",
+      "content": [
+        {
+          "annotations": [],
+          "text": "{\"status\":\"YES\",\"explanation\":\"Thailand allows the use of bracketing and matrixing designs for stability testing of pharmaceutical products, provided justification is submitted and approved by the Thai FDA, based on ASEAN Common Technical Dossier (ACTD) guidelines which Thailand adheres to.\",\"sources\":[\"https://www.fda.moph.go.th/sites/oss/SitePages/FDA_Doc.aspx?foot=%E0%B8%A2%E0%B8%B2%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88/ACTD%20Guideline%20Version%204.pdf\",\"https://www.who.int/docs/default-source/searo/tha/health-system-development/document-1-asean-harmonization.pdf\"]}",
+          "type": "output_text",
+          "logprobs": [],
+          "parsed": {
+            "status": "YES",
+            "explanation": "Thailand allows the use of bracketing and matrixing designs for stability testing of pharmaceutical products, provided justification is submitted and approved by the Thai FDA, based on ASEAN Common Technical Dossier (ACTD) guidelines which Thailand adheres to.",
+            "sources": [
+              "https://www.fda.moph.go.th/sites/oss/SitePages/FDA_Doc.aspx?foot=%E0%B8%A2%E0%B8%B2%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88/ACTD%20Guideline%20Version%204.pdf",
+              "https://www.who.int/docs/default-source/searo/tha/health-system-development/document-1-asean-harmonization.pdf"
+            ]
+          }
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_p": 1.0,
+  "background": false,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "reasoning": {
+    "effort": null,
+    "generate_summary": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "name": "QueryResponse",
+      "schema_": {
+        "$defs": {
+          "Status": {
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          }
+        },
+        "properties": {
+          "status": {
+            "description": "Status of the policy for the given country",
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          },
+          "explanation": {
+            "description": "1 sentence explanation of the status with citations",
+            "title": "Explanation",
+            "type": "string"
+          },
+          "sources": {
+            "description": "A list of URLs cited in the explanation",
+            "items": {
+              "type": "string"
+            },
+            "title": "Sources",
+            "type": "array"
+          }
+        },
+        "required": [
+          "status",
+          "explanation",
+          "sources"
+        ],
+        "title": "QueryResponse",
+        "type": "object",
+        "additionalProperties": false
+      },
+      "type": "json_schema",
+      "description": null,
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 498,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 166,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 664
+  },
+  "user": null,
+  "store": true
+}

@@ -1,0 +1,149 @@
+gpt-4.1
+Publishes national antimicrobial resistance (AMR) surveillance data related to pharmaceutical products.
+{
+  "id": "resp_68ad8ea674548196898e51de476923a30120690329df08a0",
+  "created_at": 1756204710.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-4.1-2025-04-14",
+  "object": "response",
+  "output": [
+    {
+      "id": "ws_68ad8ea71bf88196a3f56a2d19655f9b0120690329df08a0",
+      "action": {
+        "query": "Myanmar national antimicrobial resistance surveillance data pharmaceutical products",
+        "type": "search"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "msg_68ad8eaa5fc081968e95d1dddd479a580120690329df08a0",
+      "content": [
+        {
+          "annotations": [],
+          "text": "{\"status\":\"PARTIAL\",\"explanation\":\"Myanmar has implemented a national AMR surveillance program in central hospitals and veterinary diagnostic laboratories, but comprehensive, publicly available national AMR surveillance data related to pharmaceutical products is limited.\",\"sources\":[\"https://pmc.ncbi.nlm.nih.gov/articles/PMC8315476/\",\"https://www.informea.org/en/content/legislation/myanmar-national-action-plan-containment-antimicrobial-resistance-2017-2022\"]} ",
+          "type": "output_text",
+          "logprobs": [],
+          "parsed": {
+            "status": "PARTIAL",
+            "explanation": "Myanmar has implemented a national AMR surveillance program in central hospitals and veterinary diagnostic laboratories, but comprehensive, publicly available national AMR surveillance data related to pharmaceutical products is limited.",
+            "sources": [
+              "https://pmc.ncbi.nlm.nih.gov/articles/PMC8315476/",
+              "https://www.informea.org/en/content/legislation/myanmar-national-action-plan-containment-antimicrobial-resistance-2017-2022"
+            ]
+          }
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_p": 1.0,
+  "background": false,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "reasoning": {
+    "effort": null,
+    "generate_summary": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "name": "QueryResponse",
+      "schema_": {
+        "$defs": {
+          "Status": {
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          }
+        },
+        "properties": {
+          "status": {
+            "description": "Status of the policy for the given country",
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          },
+          "explanation": {
+            "description": "1 sentence explanation of the status with citations",
+            "title": "Explanation",
+            "type": "string"
+          },
+          "sources": {
+            "description": "A list of URLs cited in the explanation",
+            "items": {
+              "type": "string"
+            },
+            "title": "Sources",
+            "type": "array"
+          }
+        },
+        "required": [
+          "status",
+          "explanation",
+          "sources"
+        ],
+        "title": "QueryResponse",
+        "type": "object",
+        "additionalProperties": false
+      },
+      "type": "json_schema",
+      "description": null,
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 496,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 115,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 611
+  },
+  "user": null,
+  "store": true
+}

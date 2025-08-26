@@ -1,8 +1,8 @@
 gpt-4.1
 Legally requires acceptance of another ASEAN Member State’s (AMS) Certificate of Good Manufacturing Practice (cGMP) for pharmaceutical manufacturers.
 {
-  "id": "resp_68a91d5297dc8192b465e18fa9fce3ed0ac69b7829d975d1",
-  "created_at": 1755913554.0,
+  "id": "resp_68ad8dbd925c8194817ddb5fc9fc02740ccb1c70316048d5",
+  "created_at": 1756204477.0,
   "error": null,
   "incomplete_details": null,
   "instructions": null,
@@ -11,27 +11,27 @@ Legally requires acceptance of another ASEAN Member State’s (AMS) Certificate 
   "object": "response",
   "output": [
     {
-      "id": "ws_68a91d5321508192b69fa43b76ffa0510ac69b7829d975d1",
+      "id": "ws_68ad8dbe39b48194850afad57c4221880ccb1c70316048d5",
       "action": {
-        "query": "Indonesia acceptance of ASEAN Member State cGMP certificate pharmaceuticals",
+        "query": "Laos legal requirement acceptance ASEAN member state Certificate of Good Manufacturing Practice pharmaceutical manufacturers",
         "type": "search"
       },
       "status": "completed",
       "type": "web_search_call"
     },
     {
-      "id": "msg_68a91d551fb08192a301c46f95a838260ac69b7829d975d1",
+      "id": "msg_68ad8dc3d0088194a0344070602c49990ccb1c70316048d5",
       "content": [
         {
           "annotations": [],
-          "text": "{\"status\":\"YES\",\"explanation\":\"Indonesia, as a signatory to the ASEAN Mutual Recognition Arrangement (MRA) on Good Manufacturing Practice (GMP) Inspection for Manufacturers of Medicinal Products, is legally required to accept GMP certificates issued by recognized ASEAN inspection services without duplicating inspections.\",\"sources\":[\"https://en.vietnamplus.vn/asean-imposes-tighter-medicine-and-pharmaceutical-management-post73233.vnp\"]} ",
+          "text": "{\"status\":\"PARTIAL\",\"explanation\":\"Laos is a signatory to the ASEAN Mutual Recognition Arrangement (MRA) on GMP Inspection, which obliges member states to recognize GMP certificates from ASEAN Listed Inspection Services (LIS), but as of 2021, only five ASEAN member states have been included in the ASEAN Register of LIS, and Laos is not among them.\",\"sources\":[\"https://globalforum.diaglobal.org/issue/march-2021/harmonization-of-gmp-inspection-and-benefits-to-asean-economic-community/\"]} ",
           "type": "output_text",
           "logprobs": [],
           "parsed": {
-            "status": "YES",
-            "explanation": "Indonesia, as a signatory to the ASEAN Mutual Recognition Arrangement (MRA) on Good Manufacturing Practice (GMP) Inspection for Manufacturers of Medicinal Products, is legally required to accept GMP certificates issued by recognized ASEAN inspection services without duplicating inspections.",
+            "status": "PARTIAL",
+            "explanation": "Laos is a signatory to the ASEAN Mutual Recognition Arrangement (MRA) on GMP Inspection, which obliges member states to recognize GMP certificates from ASEAN Listed Inspection Services (LIS), but as of 2021, only five ASEAN member states have been included in the ASEAN Register of LIS, and Laos is not among them.",
             "sources": [
-              "https://en.vietnamplus.vn/asean-imposes-tighter-medicine-and-pharmaceutical-management-post73233.vnp"
+              "https://globalforum.diaglobal.org/issue/march-2021/harmonization-of-gmp-inspection-and-benefits-to-asean-economic-community/"
             ]
           }
         }
@@ -133,15 +133,15 @@ Legally requires acceptance of another ASEAN Member State’s (AMS) Certificate 
   "top_logprobs": 0,
   "truncation": "disabled",
   "usage": {
-    "input_tokens": 486,
+    "input_tokens": 507,
     "input_tokens_details": {
       "cached_tokens": 0
     },
-    "output_tokens": 110,
+    "output_tokens": 140,
     "output_tokens_details": {
       "reasoning_tokens": 0
     },
-    "total_tokens": 596
+    "total_tokens": 647
   },
   "user": null,
   "store": true
