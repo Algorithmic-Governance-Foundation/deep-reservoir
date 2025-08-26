@@ -1,0 +1,386 @@
+gpt-5
+Accepts the International Council for Harmonisation (ICH) Common Technical Document (CTD) format for innovator pharmaceutical product registrations.
+{
+  "id": "resp_68a91ccba2c481a0a1878d7033c396b701c0fb13c4d77742",
+  "created_at": 1755913419.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5-2025-08-07",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_68a91ccbfde481a0927115804d7f29d401c0fb13c4d77742",
+      "summary": [],
+      "type": "reasoning",
+      "content": null,
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "ws_68a91ccfdc2081a0a8a378ee14bebc0201c0fb13c4d77742",
+      "action": {
+        "query": "Indonesia ACTD guideline BPOM dossier format CTD",
+        "type": "search"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_68a91cd2f71c81a08b144ffd0018754e01c0fb13c4d77742",
+      "summary": [],
+      "type": "reasoning",
+      "content": null,
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "ws_68a91cd6b48881a0a33fdc49a0c4a4ab01c0fb13c4d77742",
+      "action": {
+        "query": "Peraturan Kepala BPOM 2011 registrasi obat ACTD HK.03.1.23.10.11.08481",
+        "type": "search"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_68a91cd9817081a0b7003a74b865722701c0fb13c4d77742",
+      "summary": [],
+      "type": "reasoning",
+      "content": null,
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "ws_68a91cdc26f081a093ae8a0d919f2c5901c0fb13c4d77742",
+      "action": {
+        "query": null,
+        "type": "search"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_68a91cdd140881a0a34107af0211200d01c0fb13c4d77742",
+      "summary": [],
+      "type": "reasoning",
+      "content": null,
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "ws_68a91cddd72481a082cbc6a64fcf54ca01c0fb13c4d77742",
+      "action": {
+        "query": "Peraturan BPOM Nomor 24 Tahun 2017 Kriteria dan Tata Laksana Registrasi Obat PDF",
+        "type": "search"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_68a91ce0665c81a0b39198ed3a6e44cd01c0fb13c4d77742",
+      "summary": [],
+      "type": "reasoning",
+      "content": null,
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "ws_68a91ce13ccc81a09d641798778c6e1401c0fb13c4d77742",
+      "action": {
+        "query": null,
+        "type": "search"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_68a91ce38f1c81a0a55c581d0a21d7fd01c0fb13c4d77742",
+      "summary": [],
+      "type": "reasoning",
+      "content": null,
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "ws_68a91ce3d2c881a09b050d3a530ee05c01c0fb13c4d77742",
+      "action": {
+        "query": null,
+        "type": "search"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_68a91ce5022881a09c8c13093f33d56001c0fb13c4d77742",
+      "summary": [],
+      "type": "reasoning",
+      "content": null,
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "ws_68a91ce5593881a0ac035b60cc0236cf01c0fb13c4d77742",
+      "action": {
+        "query": null,
+        "type": "search"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_68a91ce7d33c81a0a8131f371145e2be01c0fb13c4d77742",
+      "summary": [],
+      "type": "reasoning",
+      "content": null,
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "ws_68a91ce9630881a09f6a816ee7c495e401c0fb13c4d77742",
+      "action": {
+        "query": "site:bpom.go.id ACTD",
+        "type": "search"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_68a91ceb211c81a0a4ddecccc656643601c0fb13c4d77742",
+      "summary": [],
+      "type": "reasoning",
+      "content": null,
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "ws_68a91cf1344c81a0b540e7260586768d01c0fb13c4d77742",
+      "action": {
+        "query": "site:jdih.pom.go.id CTD registrasi obat",
+        "type": "search"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_68a91cf4af9c81a087f36212f0399bd601c0fb13c4d77742",
+      "summary": [],
+      "type": "reasoning",
+      "content": null,
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "ws_68a91cf6710881a08d73a1a9772e20e601c0fb13c4d77742",
+      "action": {
+        "query": "Indonesia CTD format acceptable innovator drugs",
+        "type": "search"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_68a91cf98e4881a0b9abfc6d99fb8a7001c0fb13c4d77742",
+      "summary": [],
+      "type": "reasoning",
+      "content": null,
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "ws_68a91cfd5f2881a0ac81c8f02a23786c01c0fb13c4d77742",
+      "action": {
+        "query": "Lampiran Peraturan Kepala BPOM 24 Tahun 2017 ACTD Part II Part III Part IV",
+        "type": "search"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_68a91d005c7c81a09be3c91398314edc01c0fb13c4d77742",
+      "summary": [],
+      "type": "reasoning",
+      "content": null,
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "ws_68a91d07a50881a09dfd14f92a43dc8701c0fb13c4d77742",
+      "action": {
+        "query": null,
+        "type": "search"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_68a91d087fd481a0af9bcf8fc678c49701c0fb13c4d77742",
+      "summary": [],
+      "type": "reasoning",
+      "content": null,
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "ws_68a91d08f33481a0af4096e9819802fa01c0fb13c4d77742",
+      "action": {
+        "query": null,
+        "type": "search"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_68a91d09845081a09c9737c0d5730d6d01c0fb13c4d77742",
+      "summary": [],
+      "type": "reasoning",
+      "content": null,
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "ws_68a91d0a797081a081d31655b58a36f201c0fb13c4d77742",
+      "action": {
+        "query": "\"Dokumen registrasi\" disusun sesuai dengan format ASEAN Common Technical Dossier (ACTD) Peraturan Kepala 24 2017",
+        "type": "search"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_68a91d0d882c81a0bb918dd1120dfd6101c0fb13c4d77742",
+      "summary": [],
+      "type": "reasoning",
+      "content": null,
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_68a91d1e6fd881a08197ccdc890b372001c0fb13c4d77742",
+      "content": [
+        {
+          "annotations": [],
+          "text": "{\"status\":\"YES\",\"explanation\":\"Yes—Indonesia’s BPOM requires ACTD for drug dossiers but Regulation 24/2017 explicitly allows submission in the ICH CTD format (with Part I/Module 1 adapted to Indonesian requirements), so CTD is accepted for innovator products. citeturn11view0turn10search1\",\"sources\":[\"https://peraturan.bpk.go.id/Details/220387/perka-bpom-no-24-tahun-2017\",\"https://studylib.net/doc/25501110/peraturan-kepala-badan-pengawas-obat-dan-makanan-republik-indonesia-nomor-24-tahun-2017-tentang-kriteria-dan-tata-laksana-registrasi-obat\"]}",
+          "type": "output_text",
+          "logprobs": [],
+          "parsed": {
+            "status": "YES",
+            "explanation": "Yes—Indonesia’s BPOM requires ACTD for drug dossiers but Regulation 24/2017 explicitly allows submission in the ICH CTD format (with Part I/Module 1 adapted to Indonesian requirements), so CTD is accepted for innovator products. citeturn11view0turn10search1",
+            "sources": [
+              "https://peraturan.bpk.go.id/Details/220387/perka-bpom-no-24-tahun-2017",
+              "https://studylib.net/doc/25501110/peraturan-kepala-badan-pengawas-obat-dan-makanan-republik-indonesia-nomor-24-tahun-2017-tentang-kriteria-dan-tata-laksana-registrasi-obat"
+            ]
+          }
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_p": 1.0,
+  "background": false,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "auto",
+  "status": "completed",
+  "text": {
+    "format": {
+      "name": "QueryResponse",
+      "schema_": {
+        "$defs": {
+          "Status": {
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          }
+        },
+        "properties": {
+          "status": {
+            "description": "Status of the policy for the given country",
+            "enum": [
+              "YES",
+              "NO",
+              "PARTIAL",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          },
+          "explanation": {
+            "description": "1 sentence explanation of the status with citations",
+            "title": "Explanation",
+            "type": "string"
+          },
+          "sources": {
+            "description": "A list of URLs cited in the explanation",
+            "items": {
+              "type": "string"
+            },
+            "title": "Sources",
+            "type": "array"
+          }
+        },
+        "required": [
+          "status",
+          "explanation",
+          "sources"
+        ],
+        "title": "QueryResponse",
+        "type": "object",
+        "additionalProperties": false
+      },
+      "type": "json_schema",
+      "description": null,
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 378470,
+    "input_tokens_details": {
+      "cached_tokens": 340480
+    },
+    "output_tokens": 3381,
+    "output_tokens_details": {
+      "reasoning_tokens": 3200
+    },
+    "total_tokens": 381851
+  },
+  "user": null,
+  "store": true
+}

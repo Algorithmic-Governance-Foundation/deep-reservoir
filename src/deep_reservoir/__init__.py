@@ -16,7 +16,7 @@ def main() -> None:
     policies = read_policies()
 
     # researcher = SonarResearcher(SonarModel.PRO)
-    researcher = OpenAIResearcher(OpenAIModel.GPT_5)
+    researcher = OpenAIResearcher(OpenAIModel.GPT_4_1)
 
     total_calls = len(countries) * len(policies)
     print(f"Starting research for {total_calls} combinations")
@@ -31,7 +31,9 @@ def main() -> None:
         research_result = researcher.go(country, policy)
         results.append(research_result)
         dump_result(i, country, policy, researcher.model.value, research_result)
-        break
+
+        if i >= 3:
+            break
 
     # End timing and calculate results
     end_time = time.time()
