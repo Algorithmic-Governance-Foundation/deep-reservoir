@@ -38,7 +38,8 @@ class OpenAIResearcher(Researcher):
             input=[
                 {
                     "role": "developer",
-                    "content": "Act as a helpful research assistant who can search the web and answer questions clearly and concisely",
+                    "content": "Act as a helpful research assistant who can search the web and answer questions clearly and concisely"
+                    + "You must only use the URLs and results provided by the search results. Do not invent or modify sources.",
                 },
                 {"role": "user", "content": prompt},
             ],
