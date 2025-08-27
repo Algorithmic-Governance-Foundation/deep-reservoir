@@ -1,0 +1,198 @@
+gpt-4o-mini
+Provides a fully digital online submission portal for pharmaceutical product marketing authorization applications.
+{
+  "first_pass": {
+    "id": "chatcmpl-0fe0a539-3a7a-4310-9783-70edb02be6fa",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Yes, Indonesia provides a fully digital online submission portal for pharmaceutical product marketing authorization applications. The Indonesian Food and Drug Authority (Badan Pengawas Obat dan Makanan, or BPOM) has implemented an electronic registration system known as e-Registration. This system allows applicants to submit their marketing authorization applications online, streamlining the process and enhancing efficiency. ([registrasiobat.pom.go.id](https://registrasiobat.pom.go.id/en?utm_source=openai))\n\nAdditionally, the Indonesian government has integrated various licensing processes through the Online Single Submission (OSS) system. This system serves as a unified platform for business licensing, including those related to pharmaceutical products. The OSS system underwent significant upgrades with the introduction of the Risk-Based Approach (RBA) in August 2021, further improving the licensing process for pharmaceutical products. ([stage.pharma.kalyna.dev](https://stage.pharma.kalyna.dev/legal-reports/the-pharma-legal-handbook-indonesia/?utm_source=openai))\n\nFurthermore, in July 2024, the Ministry of Health introduced the Single Submission (SSm) system for licensing Narcotics, Psychotropic, and Precursor (NPP) pharmaceutical products. This system integrates applications from the National Single Window (LNSW), BPOM, and the Ministry of Health, aiming to accelerate the licensing process for NPP commodities. ([farmalkes.kemkes.go.id](https://farmalkes.kemkes.go.id/en/2024/07/penguatan-pengendalian-ekspor-dan-impor-perizinan-komoditi-npp-kemenkes-ri-sosialisasikan-implementasi-single-submission/?utm_source=openai))\n\nThese digital platforms collectively facilitate the online submission and processing of pharmaceutical product marketing authorization applications in Indonesia. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 512,
+                "start_index": 429,
+                "title": "BPOM - Home",
+                "url": "https://registrasiobat.pom.go.id/en?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1080,
+                "start_index": 951,
+                "title": "The Pharma Legal Handbook: Indonesia - PharmaBoardroom",
+                "url": "https://stage.pharma.kalyna.dev/legal-reports/the-pharma-legal-handbook-indonesia/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1645,
+                "start_index": 1436,
+                "title": "Penguatan Pengendalian Ekspor dan Impor perizinan Komoditi NPP: Kemenkes RI Sosialisasikan Implementasi Single Submission | Direktorat Jenderal Kefarmasian dan Alat Kesehatan",
+                "url": "https://farmalkes.kemkes.go.id/en/2024/07/penguatan-pengendalian-ekspor-dan-impor-perizinan-komoditi-npp-kemenkes-ri-sosialisasikan-implementasi-single-submission/?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756269095,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 364,
+      "prompt_tokens": 64,
+      "total_tokens": 428,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8a2d91cc81a08fd127fbb8a0197d066e5447c8bddf94",
+    "created_at": 1756269101.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8a2e152081a0ae70e7f77638b6ed066e5447c8bddf94",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"YES\",\"explanation\":\"Indonesia provides a fully digital online submission portal for pharmaceutical product marketing authorization applications through its e-Registration system and the Online Single Submission platform.\",\"sources\":[\"https://registrasiobat.pom.go.id/en?utm_source=openai\",\"https://stage.pharma.kalyna.dev/legal-reports/the-pharma-legal-handbook-indonesia/?utm_source=openai\",\"https://farmalkes.kemkes.go.id/en/2024/07/penguatan-pengendalian-ekspor-dan-impor-perizinan-komoditi-npp-kemenkes-ri-sosialisasikan-implementasi-single-submission/?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "YES",
+              "explanation": "Indonesia provides a fully digital online submission portal for pharmaceutical product marketing authorization applications through its e-Registration system and the Online Single Submission platform.",
+              "sources": [
+                "https://registrasiobat.pom.go.id/en?utm_source=openai",
+                "https://stage.pharma.kalyna.dev/legal-reports/the-pharma-legal-handbook-indonesia/?utm_source=openai",
+                "https://farmalkes.kemkes.go.id/en/2024/07/penguatan-pengendalian-ekspor-dan-impor-perizinan-komoditi-npp-kemenkes-ri-sosialisasikan-implementasi-single-submission/?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1561,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 140,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1701
+    },
+    "user": null,
+    "store": true
+  }
+}

@@ -1,0 +1,188 @@
+gpt-4o-mini
+Legally requires acceptance of another ASEAN Member State’s (AMS) Certificate of Good Manufacturing Practice (cGMP) for pharmaceutical manufacturers.
+{
+  "first_pass": {
+    "id": "chatcmpl-31bfa8c4-c0b6-4ee7-9a79-8e0f114df212",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Indonesia is a signatory to the ASEAN Sectoral Mutual Recognition Arrangement (MRA) on Good Manufacturing Practice (GMP) Inspection of Manufacturers of Medicinal Products, adopted on April 10, 2009. ([cil.nus.edu.sg](https://cil.nus.edu.sg/databasecil/2009-asean-sectoral-mutual-recognition-agreement-on-good-manufacturing-practice-gmp-inspection-of-manufacturers-of-medicinal-products/?utm_source=openai)) This agreement aims to facilitate the mutual recognition of GMP inspection reports and certificates among ASEAN member states, thereby reducing redundant inspections and promoting the free flow of medicinal products within the region.\n\nUnder this MRA, Indonesia is obligated to accept GMP inspection reports and certificates issued by other ASEAN member states' designated inspection services, provided these reports meet the agreed-upon standards and criteria. The designated inspection services include:\n\n- Badan Pengawas Obat dan Makanan (BPOM) of Indonesia\n- Health Sciences Authority of Singapore\n- National Pharmaceutical Control Bureau of Malaysia\n- Food and Drug Administration of Thailand\n\nThis mutual recognition is intended to streamline the regulatory process, minimize trade barriers, and enhance the competitiveness of ASEAN's pharmaceutical sector. ([en.vietnamplus.vn](https://en.vietnamplus.vn/asean-imposes-tighter-medicine-and-pharmaceutical-management-post73233.vnp?utm_source=openai))\n\nHowever, the implementation of this MRA is subject to each member state's domestic regulations and procedures. While Indonesia has signed the agreement, the actual acceptance of another ASEAN member state's GMP certificate may depend on specific national regulations and the alignment of inspection standards. Therefore, it is advisable for pharmaceutical manufacturers to consult with Indonesia's regulatory authorities, such as BPOM, to understand the current requirements and procedures for accepting GMP certificates from other ASEAN member states. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 406,
+                "start_index": 199,
+                "title": "2009 ASEAN Sectoral Mutual Recognition Agreement on Good Manufacturing Practice (GMP) Inspection of Manufacturers of Medicinal Products - Centre for International Law",
+                "url": "https://cil.nus.edu.sg/databasecil/2009-asean-sectoral-mutual-recognition-agreement-on-good-manufacturing-practice-gmp-inspection-of-manufacturers-of-medicinal-products/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1412,
+                "start_index": 1271,
+                "title": "ASEAN imposes tighter medicine and pharmaceutical management | Vietnam+ (VietnamPlus)",
+                "url": "https://en.vietnamplus.vn/asean-imposes-tighter-medicine-and-pharmaceutical-management-post73233.vnp?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756269105,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 369,
+      "prompt_tokens": 77,
+      "total_tokens": 446,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8a3750508191bc789b66f62918b60fb17719fb6306eb",
+    "created_at": 1756269111.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8a38003c8191b6718e04be00aebd0fb17719fb6306eb",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"PARTIAL\",\"explanation\":\"Indonesia is obligated to accept cGMP certificates from other ASEAN member states under the ASEAN MRA on GMP, but actual acceptance may vary based on national regulations and alignment of inspection standards.\",\"sources\":[\"https://cil.nus.edu.sg/databasecil/2009-asean-sectoral-mutual-recognition-agreement-on-good-manufacturing-practice-gmp-inspection-of-manufacturers-of-medicinal-products/?utm_source=openai\",\"https://en.vietnamplus.vn/asean-imposes-tighter-medicine-and-pharmaceutical-management-post73233.vnp?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "PARTIAL",
+              "explanation": "Indonesia is obligated to accept cGMP certificates from other ASEAN member states under the ASEAN MRA on GMP, but actual acceptance may vary based on national regulations and alignment of inspection standards.",
+              "sources": [
+                "https://cil.nus.edu.sg/databasecil/2009-asean-sectoral-mutual-recognition-agreement-on-good-manufacturing-practice-gmp-inspection-of-manufacturers-of-medicinal-products/?utm_source=openai",
+                "https://en.vietnamplus.vn/asean-imposes-tighter-medicine-and-pharmaceutical-management-post73233.vnp?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1497,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 130,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1627
+    },
+    "user": null,
+    "store": true
+  }
+}
