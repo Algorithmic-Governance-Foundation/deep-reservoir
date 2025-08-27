@@ -1,0 +1,188 @@
+gpt-4o-mini
+Requires halal certification for pharmaceutical products.
+{
+  "first_pass": {
+    "id": "chatcmpl-2b50fbe4-4a73-4d79-bdf5-242f0c291b12",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Vietnam has established the Vietnam Halal Certification Authority (HALCERT) under the Vietnam Certification Centre (QUACERT) to oversee Halal certification activities. HALCERT's primary focus is on products and services that directly impact Muslim consumers, such as food, beverages, and cosmetics. The authority's role includes managing certification processes, conducting research, disseminating Halal standards, organizing training, and fostering international cooperation. ([halcert.most.gov.vn](https://halcert.most.gov.vn/en/?utm_source=openai))\n\nAs of now, there is no specific regulation or requirement mandating Halal certification for pharmaceutical products in Vietnam. The Halal certification process is voluntary and primarily driven by businesses aiming to access the Muslim market. For instance, companies like Lam Dong Pharmaceutical Joint Stock Company (Ladophar) have pursued Halal certification to expand their export opportunities to Muslim-majority countries. ([vietnamnews.vn](https://vietnamnews.vn/economy/1689525/local-herbal-company-becomes-halal-certified.html?utm_source=openai))\n\nIn summary, while Vietnam has established a Halal certification authority, Halal certification for pharmaceutical products is not currently a mandatory requirement. It remains a voluntary process pursued by companies seeking to enter Halal markets. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 551,
+                "start_index": 477,
+                "title": "Homepage - Viet Nam Halal",
+                "url": "https://halcert.most.gov.vn/en/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1107,
+                "start_index": 981,
+                "title": "Local herbal company becomes Halal-certified",
+                "url": "https://vietnamnews.vn/economy/1689525/local-herbal-company-becomes-halal-certified.html?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756269652,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 255,
+      "prompt_tokens": 57,
+      "total_tokens": 312,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8c5911a8819291b59b74281e4d5009caf1497fecb47a",
+    "created_at": 1756269657.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8c59513c8192a17fd144be0769f509caf1497fecb47a",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"NO\",\"explanation\":\"Vietnam does not require halal certification for pharmaceutical products; it is a voluntary process for companies aiming to access Muslim markets.\",\"sources\":[\"https://halcert.most.gov.vn/en/?utm_source=openai\",\"https://vietnamnews.vn/economy/1689525/local-herbal-company-becomes-halal-certified.html?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "NO",
+              "explanation": "Vietnam does not require halal certification for pharmaceutical products; it is a voluntary process for companies aiming to access Muslim markets.",
+              "sources": [
+                "https://halcert.most.gov.vn/en/?utm_source=openai",
+                "https://vietnamnews.vn/economy/1689525/local-herbal-company-becomes-halal-certified.html?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1179,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 79,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1258
+    },
+    "user": null,
+    "store": true
+  }
+}

@@ -1,0 +1,207 @@
+gpt-4o-mini
+Publishes national antimicrobial resistance (AMR) surveillance data related to pharmaceutical products.
+{
+  "first_pass": {
+    "id": "chatcmpl-2994dca9-8408-4624-adb3-6361f12d7019",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Vietnam has established a national surveillance system to monitor antimicrobial resistance (AMR) in both human and animal health sectors. The Ministry of Health initiated the Vietnam National Antimicrobial Resistance Surveillance System (VINA-RES) in 2016, involving 16 hospitals nationwide. This system tracks and reports levels of healthcare-associated bloodstream infections and urinary tract infections. ([cdc.gov](https://www.cdc.gov/globalhealth/healthprotection/fieldupdates/winter-2017/vietnam-tracks-bacteria.html?utm_source=openai))\n\nIn 2023, Vietnam introduced the National Strategy on Antimicrobial Resistance Prevention and Control (2023\u20132030), with a vision towards 2045. This strategy aims to enhance surveillance, promote responsible antibiotic use, and improve public awareness about the consequences of antibiotic misuse in humans and animals. ([who.int](https://www.who.int/vietnam/news/detail/20-11-2023-everyone-has-a-responsibility-to-prevent-antimicrobial-resistance-in-viet-nam?utm_source=openai))\n\nWhile these efforts indicate a commitment to AMR surveillance, the availability of specific data related to pharmaceutical products is not clearly documented in the provided sources. The national strategy emphasizes the need for comprehensive surveillance systems, including monitoring antibiotic use and resistance patterns. However, it does not explicitly state the publication of detailed surveillance data concerning pharmaceutical products. ([who.int](https://www.who.int/vietnam/news/detail/20-11-2023-everyone-has-a-responsibility-to-prevent-antimicrobial-resistance-in-viet-nam?utm_source=openai))\n\nAdditionally, a scoping review highlighted that private medical facilities are notably absent from the national surveillance network, and the role of the private sector in AMR surveillance remains limited. ([link.springer.com](https://link.springer.com/article/10.1186/s12982-024-00174-1?utm_source=openai))\n\nIn summary, while Vietnam has established a national AMR surveillance system and developed strategies to combat AMR, the explicit publication of surveillance data related to pharmaceutical products is not clearly documented in the available sources. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 542,
+                "start_index": 408,
+                "title": "Vietnam Tracks Multi-drug Resistant Bacteria | Division of Global Health Protection | Global Health | CDC",
+                "url": "https://www.cdc.gov/globalhealth/healthprotection/fieldupdates/winter-2017/vietnam-tracks-bacteria.html?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1021,
+                "start_index": 862,
+                "title": "Everyone has a responsibility to prevent Antimicrobial Resistance in Viet Nam",
+                "url": "https://www.who.int/vietnam/news/detail/20-11-2023-everyone-has-a-responsibility-to-prevent-antimicrobial-resistance-in-viet-nam?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1628,
+                "start_index": 1469,
+                "title": "Everyone has a responsibility to prevent Antimicrobial Resistance in Viet Nam",
+                "url": "https://www.who.int/vietnam/news/detail/20-11-2023-everyone-has-a-responsibility-to-prevent-antimicrobial-resistance-in-viet-nam?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1937,
+                "start_index": 1836,
+                "title": "A scoping review on best practices of antibiotic resistance control in the private health sector and a case study in Vietnam | Discover Public Health",
+                "url": "https://link.springer.com/article/10.1186/s12982-024-00174-1?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756269684,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 440,
+      "prompt_tokens": 66,
+      "total_tokens": 506,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8c79607c819fa7d7c4aaf6ff9505087088b05581bd01",
+    "created_at": 1756269689.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8c79e0a8819fb4307e7ea8da2bb5087088b05581bd01",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"PARTIAL\",\"explanation\":\"Vietnam has a national AMR surveillance system, but there is no clear documentation regarding the publication of surveillance data specifically related to pharmaceutical products.\",\"sources\":[\"https://www.cdc.gov/globalhealth/healthprotection/fieldupdates/winter-2017/vietnam-tracks-bacteria.html?utm_source=openai\",\"https://www.who.int/vietnam/news/detail/20-11-2023-everyone-has-a-responsibility-to-prevent-antimicrobial-resistance-in-viet-nam?utm_source=openai\",\"https://link.springer.com/article/10.1186/s12982-024-00174-1?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "PARTIAL",
+              "explanation": "Vietnam has a national AMR surveillance system, but there is no clear documentation regarding the publication of surveillance data specifically related to pharmaceutical products.",
+              "sources": [
+                "https://www.cdc.gov/globalhealth/healthprotection/fieldupdates/winter-2017/vietnam-tracks-bacteria.html?utm_source=openai",
+                "https://www.who.int/vietnam/news/detail/20-11-2023-everyone-has-a-responsibility-to-prevent-antimicrobial-resistance-in-viet-nam?utm_source=openai",
+                "https://link.springer.com/article/10.1186/s12982-024-00174-1?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1829,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 147,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1976
+    },
+    "user": null,
+    "store": true
+  }
+}

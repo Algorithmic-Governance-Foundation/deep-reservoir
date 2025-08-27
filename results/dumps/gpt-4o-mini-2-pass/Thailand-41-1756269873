@@ -1,0 +1,188 @@
+gpt-4o-mini
+Accepts the International Council for Harmonisation (ICH) Common Technical Document (CTD) format for innovator pharmaceutical product registrations.
+{
+  "first_pass": {
+    "id": "chatcmpl-7ee3c86a-078e-49e1-9f49-012d518d9981",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Thailand accepts the International Council for Harmonisation (ICH) Common Technical Document (CTD) format for the registration of innovator pharmaceutical products. According to the Thai Food and Drug Administration (FDA), applicants can submit drug registration documents in either the ASEAN Common Technical Dossier (ACTD) or the ICH CTD format. ([en.fda.moph.go.th](https://en.fda.moph.go.th/entrepreneurs-medicines/how-to-apply-for-drug-pproval-01/?utm_source=openai))\n\nThe ACTD is a standardized format developed by the Association of Southeast Asian Nations (ASEAN) for pharmaceutical registrations. While Thailand accepts both ACTD and ICH CTD formats, the choice between them may depend on the nature of the product and the applicant's preference. For innovator pharmaceutical products, the ICH CTD format is typically preferred due to its alignment with international standards.\n\nIt's important to note that Thailand also accepts electronic submissions in the eCTD format, which is the electronic version of the ICH CTD. ([docest.com](https://docest.com/doc/384729/food-and-drug-administration-thailand-bureau-of-drug-control?utm_source=openai))\n\nIn summary, Thailand accepts the ICH CTD format for innovator pharmaceutical product registrations, and applicants have the option to submit their dossiers in either the ICH CTD or ACTD format. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 472,
+                "start_index": 348,
+                "title": "FDA THAI : Food and Drug Administration, Thailand",
+                "url": "https://en.fda.moph.go.th/entrepreneurs-medicines/how-to-apply-for-drug-pproval-01/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1154,
+                "start_index": 1030,
+                "title": "Food and Drug Administration Thailand Bureau of Drug Control - Docest",
+                "url": "https://docest.com/doc/384729/food-and-drug-administration-thailand-bureau-of-drug-control?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756269865,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 289,
+      "prompt_tokens": 76,
+      "total_tokens": 365,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8d2f5c38819e89fe030d5f5b9e89016570f56f93f826",
+    "created_at": 1756269871.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8d2fac8c819e8e907b4d065bdf42016570f56f93f826",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"YES\",\"explanation\":\"Thailand accepts the ICH Common Technical Document (CTD) format for innovator pharmaceutical product registrations, allowing submissions in both ICH CTD and ASEAN ACTD formats according to the Thai FDA.\",\"sources\":[\"https://en.fda.moph.go.th/entrepreneurs-medicines/how-to-apply-for-drug-pproval-01/?utm_source=openai\",\"https://docest.com/doc/384729/food-and-drug-administration-thailand-bureau-of-drug-control?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "YES",
+              "explanation": "Thailand accepts the ICH Common Technical Document (CTD) format for innovator pharmaceutical product registrations, allowing submissions in both ICH CTD and ASEAN ACTD formats according to the Thai FDA.",
+              "sources": [
+                "https://en.fda.moph.go.th/entrepreneurs-medicines/how-to-apply-for-drug-pproval-01/?utm_source=openai",
+                "https://docest.com/doc/384729/food-and-drug-administration-thailand-bureau-of-drug-control?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1297,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 115,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1412
+    },
+    "user": null,
+    "store": true
+  }
+}

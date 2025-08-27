@@ -1,0 +1,188 @@
+gpt-4o-mini
+Targets an average marketing authorization (MA) approval timeline of six months or less for pharmaceutical products.
+{
+  "first_pass": {
+    "id": "chatcmpl-b0ee83b2-9dbd-44b1-8c71-001f5fec4628",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Malaysia's National Pharmaceutical Regulatory Agency (NPRA) has established specific target timelines for the evaluation of pharmaceutical product registration applications. These timelines vary based on the type of product and the evaluation pathway chosen. For instance, the standard evaluation for new chemical entities and biologics is set at 245 working days, while the abbreviated evaluation for generics with a single active ingredient is targeted at 116 working days. ([pharmacy.moh.gov.my](https://pharmacy.moh.gov.my/en/content/clients-charter.html?utm_source=openai))\n\nIn practice, the overall approval time, encompassing both agency and applicant durations, has been observed to be longer than these targets. A study analyzing 24 new active substances approved by NPRA in 2019 found a median overall approval time of 399 calendar days, with an interquartile range of 275 to 472 days. ([link.springer.com](https://link.springer.com/article/10.1007/s43441-025-00846-3?utm_source=openai))\n\nTherefore, while Malaysia's NPRA sets ambitious targets for pharmaceutical product approval timelines, actual approval durations often exceed these targets, making an average approval time of six months or less unlikely. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 578,
+                "start_index": 476,
+                "title": "Clients' Charter | Pharmaceutical Services Programme",
+                "url": "https://pharmacy.moh.gov.my/en/content/clients-charter.html?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 997,
+                "start_index": 896,
+                "title": "Assessing the Malaysian Regulatory Process for Medicinal Product Approval: An OpERA Methodology and Standardized Reporting Approach | Therapeutic Innovation & Regulatory Science",
+                "url": "https://link.springer.com/article/10.1007/s43441-025-00846-3?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756270367,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 247,
+      "prompt_tokens": 69,
+      "total_tokens": 316,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8f23436481a188b3f0862128769b00e1df87086b431a",
+    "created_at": 1756270371.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8f23ae3481a19092474c036a12ae00e1df87086b431a",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"NO\",\"explanation\":\"Malaysia's NPRA targets are set at 245 working days for new chemical entities and biologics, with actual approval times exceeding these, such as a median of 399 calendar days observed in practice.\",\"sources\":[\"https://pharmacy.moh.gov.my/en/content/clients-charter.html?utm_source=openai\",\"https://link.springer.com/article/10.1007/s43441-025-00846-3?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "NO",
+              "explanation": "Malaysia's NPRA targets are set at 245 working days for new chemical entities and biologics, with actual approval times exceeding these, such as a median of 399 calendar days observed in practice.",
+              "sources": [
+                "https://pharmacy.moh.gov.my/en/content/clients-charter.html?utm_source=openai",
+                "https://link.springer.com/article/10.1007/s43441-025-00846-3?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1201,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 101,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1302
+    },
+    "user": null,
+    "store": true
+  }
+}

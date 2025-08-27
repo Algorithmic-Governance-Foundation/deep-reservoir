@@ -1,0 +1,217 @@
+gpt-4o-mini
+Publishes national antimicrobial resistance (AMR) surveillance data related to pharmaceutical products.
+{
+  "first_pass": {
+    "id": "chatcmpl-85afa46a-75b7-4bb2-b366-77fa153db1c3",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Thailand has made significant strides in monitoring antimicrobial resistance (AMR) and the consumption of antimicrobial agents across various sectors. The National Antimicrobial Resistance Surveillance Center (NARST) has been operational since 1998, focusing on human health. However, by 2017, it covered only 92 out of the country's 1,027 hospitals, indicating limited national coverage. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5537745/?utm_source=openai))\n\nIn response to the growing AMR threat, Thailand developed its National Strategic Plan on Antimicrobial Resistance (NSP-AMR) for 2017\u20132021, aiming to reduce AMR-related morbidity, mortality, and economic impact. A key component of this plan was the establishment of an integrated AMR surveillance system under the One Health approach, encompassing human, animal, and environmental sectors. This initiative led to the creation of a national integrated surveillance network, standardizing protocols across these sectors. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8381094/?utm_source=openai))\n\nThe Health Policy and Systems Research on Antimicrobial Resistance (HPSR-AMR) Network, established in 2015, further supports evidence-informed AMR policies in Thailand. This multidisciplinary network employs the One Health approach, integrating data from human, animal, plant, and environmental sectors. It has been instrumental in publishing Thailand's One Health Reports on Antimicrobial Consumption and Antimicrobial Resistance, providing comprehensive data on AMR trends and antimicrobial use. ([ihppthaigov.net](https://www.ihppthaigov.net/research/antimicrobial-resistance?utm_source=openai))\n\nIn 2023, Thailand launched the \"Thailand One Health Dashboard on Antimicrobial Resistance,\" a web-based platform that visualizes AMR and antimicrobial consumption data across humans, animals, and the environment. This dashboard aims to enhance data accessibility and inform policy decisions. ([pmac2023.com](https://pmac2023.com/specialEvent/4/details?utm_source=openai))\n\nDespite these advancements, challenges remain in fully integrating surveillance data across sectors and ensuring comprehensive coverage. Efforts are ongoing to strengthen laboratory capacities, harmonize data collection methods, and improve data sharing among stakeholders to enhance the effectiveness of AMR surveillance in Thailand. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8381094/?utm_source=openai)) ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 482,
+                "start_index": 389,
+                "title": "Antimicrobial resistance: from global agenda to national strategic plan, Thailand - PMC",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5537745/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1095,
+                "start_index": 1002,
+                "title": "Thailand's national strategic plan on antimicrobial resistance: progress and challenges - PMC",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8381094/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1695,
+                "start_index": 1595,
+                "title": "Antimicrobial Resistance (AMR)",
+                "url": "https://www.ihppthaigov.net/research/antimicrobial-resistance?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 2068,
+                "start_index": 1989,
+                "title": "PMAC | Special Event",
+                "url": "https://pmac2023.com/specialEvent/4/details?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 2498,
+                "start_index": 2405,
+                "title": "Thailand's national strategic plan on antimicrobial resistance: progress and challenges - PMC",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8381094/?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756269962,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 524,
+      "prompt_tokens": 66,
+      "total_tokens": 590,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8d8f9c0881a1b950297676bda26a00f19dc4691ca78c",
+    "created_at": 1756269967.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8d8ffca881a1a1d99765017a268100f19dc4691ca78c",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"PARTIAL\",\"explanation\":\"Thailand publishes some antimicrobial resistance (AMR) surveillance data but faces challenges in full national coverage and integration across sectors.\",\"sources\":[\"https://pmc.ncbi.nlm.nih.gov/articles/PMC5537745/?utm_source=openai\",\"https://pmc.ncbi.nlm.nih.gov/articles/PMC8381094/?utm_source=openai\",\"https://www.ihppthaigov.net/research/antimicrobial-resistance?utm_source=openai\",\"https://pmac2023.com/specialEvent/4/details?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "PARTIAL",
+              "explanation": "Thailand publishes some antimicrobial resistance (AMR) surveillance data but faces challenges in full national coverage and integration across sectors.",
+              "sources": [
+                "https://pmc.ncbi.nlm.nih.gov/articles/PMC5537745/?utm_source=openai",
+                "https://pmc.ncbi.nlm.nih.gov/articles/PMC8381094/?utm_source=openai",
+                "https://www.ihppthaigov.net/research/antimicrobial-resistance?utm_source=openai",
+                "https://pmac2023.com/specialEvent/4/details?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1991,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 123,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2114
+    },
+    "user": null,
+    "store": true
+  }
+}

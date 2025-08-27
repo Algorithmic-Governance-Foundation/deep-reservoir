@@ -1,0 +1,206 @@
+gpt-4o-mini
+Imposes hospital-only distribution restrictions for certain classes of antimicrobial (AM) pharmaceutical products.
+{
+  "first_pass": {
+    "id": "chatcmpl-4db51619-2472-4c2c-b166-7d34100c8822",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Indonesia has established regulations to control the distribution of antimicrobial (AM) pharmaceutical products, particularly antibiotics, to mitigate antimicrobial resistance (AMR). According to Indonesian law, antibiotics are classified as prescription-only drugs and are permitted to be sold exclusively in pharmacies. Drug stores are prohibited from dispensing antibiotics, and kiosks are only allowed to sell over-the-counter medications such as vitamins and paracetamol. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2914770/?utm_source=openai))\n\nDespite these regulations, studies have found that antibiotics are often available over-the-counter in pharmacies and are sold in street kiosks in Indonesian cities. A cross-sectional study in Surabaya revealed that 75% of kiosks sold antibiotics, and all pharmacies dispensed antibiotics without prescription. This widespread availability raises concerns about the effectiveness of existing distribution restrictions and their role in promoting AMR. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2914770/?utm_source=openai))\n\nTo address these challenges, the Indonesian government has implemented several initiatives. In 2017, the Ministry of Health adopted a national action plan to combat AMR, aligning with World Health Organization (WHO) guidelines. This plan aims to improve public and healthcare professionals' awareness of AMR and strengthen the enforcement of regulations on antimicrobial post-marketing surveillance. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8499417/?utm_source=openai))\n\nAdditionally, Minister of Health Regulation No. 8 of 2015 mandates that every hospital must have an antimicrobial control program as an accreditation requirement. However, the implementation of this program has been slow, with only a few large hospitals fully adopting it. Challenges include ineffective communication, limited human resources, budget constraints, and insufficient guidelines in some hospitals. ([researchgate.net](https://www.researchgate.net/publication/386849301_Antimicrobial_Policy_in_Indonesia_within_the_One_Health_Context_Literature_Analysis_and_Implementation_Challenges?utm_source=openai))\n\nIn summary, while Indonesia has established regulations to restrict the distribution of certain classes of antimicrobial pharmaceutical products to hospitals, the enforcement of these regulations faces significant challenges. The availability of antibiotics without prescription in pharmacies and kiosks indicates that hospital-only distribution restrictions are not fully implemented or enforced. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 570,
+                "start_index": 477,
+                "title": "Cross-sectional study of availability and pharmaceutical quality of antibiotics requested with or without prescription (Over The Counter) in Surabaya, Indonesia - PMC",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2914770/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1116,
+                "start_index": 1023,
+                "title": "Cross-sectional study of availability and pharmaceutical quality of antibiotics requested with or without prescription (Over The Counter) in Surabaya, Indonesia - PMC",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2914770/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1611,
+                "start_index": 1518,
+                "title": "Community pharmacies, drug stores, and antibiotic dispensing in Indonesia: a qualitative study - PMC",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8499417/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 2228,
+                "start_index": 2024,
+                "title": "(PDF) Antimicrobial Policy in Indonesia within the One Health Context: Literature Analysis and Implementation Challenges",
+                "url": "https://www.researchgate.net/publication/386849301_Antimicrobial_Policy_in_Indonesia_within_the_One_Health_Context_Literature_Analysis_and_Implementation_Challenges?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756269582,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 493,
+      "prompt_tokens": 67,
+      "total_tokens": 560,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8c13d21c819384377d92993486c80709044d3b7e7c99",
+    "created_at": 1756269587.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8c148a44819391a0c4a4833ff0e30709044d3b7e7c99",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"PARTIAL\",\"explanation\":\"Indonesia has regulations that classify antibiotics as prescription-only and restrict their sale to pharmacies, yet enforcement is lacking as they are often available over-the-counter in pharmacies and kiosks, undermining the effectiveness of the policy ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2914770/?utm_source=openai), [researchgate.net](https://www.researchgate.net/publication/386849301_Antimicrobial_Policy_in_Indonesia_within_the_One_Health_Context_Literature_Analysis_and_Implementation_Challenges?utm_source=openai)).\",\"sources\":[\"https://pmc.ncbi.nlm.nih.gov/articles/PMC2914770/?utm_source=openai\",\"https://www.researchgate.net/publication/386849301_Antimicrobial_Policy_in_Indonesia_within_the_One_Health_Context_Literature_Analysis_and_Implementation_Challenges?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "PARTIAL",
+              "explanation": "Indonesia has regulations that classify antibiotics as prescription-only and restrict their sale to pharmacies, yet enforcement is lacking as they are often available over-the-counter in pharmacies and kiosks, undermining the effectiveness of the policy ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC2914770/?utm_source=openai), [researchgate.net](https://www.researchgate.net/publication/386849301_Antimicrobial_Policy_in_Indonesia_within_the_One_Health_Context_Literature_Analysis_and_Implementation_Challenges?utm_source=openai)).",
+              "sources": [
+                "https://pmc.ncbi.nlm.nih.gov/articles/PMC2914770/?utm_source=openai",
+                "https://www.researchgate.net/publication/386849301_Antimicrobial_Policy_in_Indonesia_within_the_One_Health_Context_Literature_Analysis_and_Implementation_Challenges?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1916,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 206,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2122
+    },
+    "user": null,
+    "store": true
+  }
+}

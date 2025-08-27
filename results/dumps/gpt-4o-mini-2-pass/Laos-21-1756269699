@@ -1,0 +1,197 @@
+gpt-4o-mini
+Accepts the International Council for Harmonisation (ICH) Common Technical Document (CTD) format for innovator pharmaceutical product registrations.
+{
+  "first_pass": {
+    "id": "chatcmpl-8cd62129-54a7-4639-8665-b8885ed936c9",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Laos, as a member of the Association of Southeast Asian Nations (ASEAN), adheres to the ASEAN Common Technical Dossier (ACTD) format for pharmaceutical product registrations. The ACTD is a standardized format developed by ASEAN member countries to streamline the registration process for pharmaceuticals intended for human use. ([productlifegroup.com](https://www.productlifegroup.com/introduction-asean-common-technical-dossier-actd-pharmaceutical-registration/?utm_source=openai))\n\nThe ACTD consists of four parts:\n\n- **Part I**: Administrative data\n- **Part II**: Quality (Pharmaceutical documentation)\n- **Part III**: Nonclinical Study Reports\n- **Part IV**: Clinical Study Reports\n\nThis structure is similar to the International Council for Harmonisation (ICH) Common Technical Document (CTD) format, which is widely used in regions such as the European Union, Japan, and the United States. However, the ACTD is specifically tailored to meet the regulatory requirements of ASEAN countries, including Laos. ([productlifegroup.com](https://www.productlifegroup.com/introduction-asean-common-technical-dossier-actd-pharmaceutical-registration/?utm_source=openai))\n\nFor innovator pharmaceutical products, Laos accepts submissions in the ICH CTD format. This acceptance allows for the use of a standardized dossier format that aligns with international practices, facilitating the registration process for new drugs and ensuring consistency in the evaluation of quality, safety, and efficacy data. ([en.fda.moph.go.th](https://en.fda.moph.go.th/our-services-new/our-services-pharmaceutical-product-registration-and-approval?utm_source=openai))\n\nIn summary, while Laos primarily utilizes the ACTD format for pharmaceutical registrations, it also accepts the ICH CTD format for innovator products, providing flexibility for applicants to choose the most appropriate format for their submissions. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 482,
+                "start_index": 328,
+                "title": "Introduction to the ASEAN Common Technical Dossier (ACTD) for Pharmaceutical Registration",
+                "url": "https://www.productlifegroup.com/introduction-asean-common-technical-dossier-actd-pharmaceutical-registration/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1165,
+                "start_index": 1011,
+                "title": "Introduction to the ASEAN Common Technical Dossier (ACTD) for Pharmaceutical Registration",
+                "url": "https://www.productlifegroup.com/introduction-asean-common-technical-dossier-actd-pharmaceutical-registration/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1643,
+                "start_index": 1498,
+                "title": "FDA THAI : Food and Drug Administration, Thailand",
+                "url": "https://en.fda.moph.go.th/our-services-new/our-services-pharmaceutical-product-registration-and-approval?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756269692,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 382,
+      "prompt_tokens": 76,
+      "total_tokens": 458,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8c8105b8819eae94e169a318cb510345a68b5a37f3f3",
+    "created_at": 1756269697.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8c817610819e906eeea65a30ab760345a68b5a37f3f3",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"YES\",\"explanation\":\"Laos accepts the ICH CTD format for innovator pharmaceutical product registrations, alongside its primary use of the ASEAN Common Technical Dossier (ACTD) format, thus allowing flexibility in submission formats.\",\"sources\":[\"https://www.productlifegroup.com/introduction-asean-common-technical-dossier-actd-pharmaceutical-registration/?utm_source=openai\",\"https://en.fda.moph.go.th/our-services-new/our-services-pharmaceutical-product-registration-and-approval?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "YES",
+              "explanation": "Laos accepts the ICH CTD format for innovator pharmaceutical product registrations, alongside its primary use of the ASEAN Common Technical Dossier (ACTD) format, thus allowing flexibility in submission formats.",
+              "sources": [
+                "https://www.productlifegroup.com/introduction-asean-common-technical-dossier-actd-pharmaceutical-registration/?utm_source=openai",
+                "https://en.fda.moph.go.th/our-services-new/our-services-pharmaceutical-product-registration-and-approval?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1577,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 110,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1687
+    },
+    "user": null,
+    "store": true
+  }
+}

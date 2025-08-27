@@ -1,0 +1,197 @@
+gpt-4o-mini
+Accepts the International Council for Harmonisation (ICH) Common Technical Document (CTD) format for innovator pharmaceutical product registrations.
+{
+  "first_pass": {
+    "id": "chatcmpl-851d892c-803d-445b-82ad-4156f3ece8f9",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Myanmar does not accept the International Council for Harmonisation (ICH) Common Technical Document (CTD) format for innovator pharmaceutical product registrations. Instead, Myanmar requires the submission of a dossier in the ASEAN Common Technical Dossier (ACTD) format for all pharmaceutical product registrations. ([rginsight.com](https://www.rginsight.com/registration-of-drug-product-in-myanmar-2025?utm_source=openai))\n\nThe ACTD format is a standardized structure developed by the Association of Southeast Asian Nations (ASEAN) to streamline the registration process across member countries, including Myanmar. This format consists of four parts:\n\n- **Part I**: Administrative Data\n- **Part II**: Quality Documentation\n- **Part III**: Non-Clinical Study Reports\n- **Part IV**: Clinical Study Reports\n\nEach part is organized to facilitate the evaluation of the pharmaceutical product's safety, efficacy, and quality. ([pharmatutor.org](https://www.pharmatutor.org/articles/registration-dossier-pharmaceuticals?utm_source=openai))\n\nFor innovator pharmaceutical products, Myanmar requires the submission of a complete ACTD dossier, which includes comprehensive data on the product's quality, non-clinical, and clinical aspects. The registration process is managed by the Food and Drug Administration (FDA) Myanmar under the Ministry of Health. Applications must be submitted by a locally licensed company authorized to act as the Marketing Authorization Holder (MAH). ([rginsight.com](https://www.rginsight.com/registration-of-drug-product-in-myanmar-2025?utm_source=openai))\n\nIn summary, Myanmar does not accept the ICH CTD format for innovator pharmaceutical product registrations. Instead, it mandates the use of the ACTD format for all pharmaceutical product registrations. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 424,
+                "start_index": 317,
+                "title": "Registration Of Drug Product In Myanmar 2025 | RG Insight",
+                "url": "https://www.rginsight.com/registration-of-drug-product-in-myanmar-2025?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1034,
+                "start_index": 922,
+                "title": "REGISTRATION DOSSIER OF PHARMACEUTICALS | PharmaTutor",
+                "url": "https://www.pharmatutor.org/articles/registration-dossier-pharmaceuticals?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1578,
+                "start_index": 1471,
+                "title": "Registration Of Drug Product In Myanmar 2025 | RG Insight",
+                "url": "https://www.rginsight.com/registration-of-drug-product-in-myanmar-2025?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756269970,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 363,
+      "prompt_tokens": 76,
+      "total_tokens": 439,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8d9722f8819eaea274642f78c0d90381f45636726123",
+    "created_at": 1756269975.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8d977d30819eb33000d11b1f0bc20381f45636726123",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"NO\",\"explanation\":\"Myanmar does not accept the ICH CTD format for innovator pharmaceutical product registrations, requiring instead the ASEAN Common Technical Dossier (ACTD) format.\",\"sources\":[\"https://www.rginsight.com/registration-of-drug-product-in-myanmar-2025?utm_source=openai\",\"https://www.pharmatutor.org/articles/registration-dossier-pharmaceuticals?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "NO",
+              "explanation": "Myanmar does not accept the ICH CTD format for innovator pharmaceutical product registrations, requiring instead the ASEAN Common Technical Dossier (ACTD) format.",
+              "sources": [
+                "https://www.rginsight.com/registration-of-drug-product-in-myanmar-2025?utm_source=openai",
+                "https://www.pharmatutor.org/articles/registration-dossier-pharmaceuticals?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1525,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 91,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1616
+    },
+    "user": null,
+    "store": true
+  }
+}

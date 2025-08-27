@@ -1,0 +1,198 @@
+gpt-4o-mini
+Requires halal certification for pharmaceutical products.
+{
+  "first_pass": {
+    "id": "chatcmpl-47d15e02-a447-4f5d-8c12-6bd2204cb801",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Yes, Brunei requires halal certification for pharmaceutical products. The Ministry of Religious Affairs (MoRA) has established guidelines for the manufacturing and handling of halal medicinal products, traditional medicines, and health supplements. These guidelines ensure that such products comply with Islamic law, prohibiting the use of non-halal substances and requiring facilities to maintain contamination-free standards. ([mofe.gov.bn](https://mofe.gov.bn/SitePages/HALAL%20STANDARD.aspx?utm_source=openai))\n\nIn 2010, Brunei became the first country to issue halal pharmaceutical guidelines, positioning itself as a leader in the halal industry. ([halalfocus.net](https://halalfocus.net/brunei-first-to-establish-halal-pharma-guidelines/?utm_source=openai)) Companies like Simpor Pharma have been established to meet this demand, producing halal-certified pharmaceutical products for both local and international markets. ([simporpharma.com](https://simporpharma.com/contents/about_us_profile_story.html?utm_source=openai))\n\nTherefore, obtaining halal certification is mandatory for pharmaceutical products in Brunei to ensure they meet the country's religious and regulatory standards. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 514,
+                "start_index": 428,
+                "title": "Ministry of Finance and Economy - HALAL STANDARD",
+                "url": "https://mofe.gov.bn/SitePages/HALAL%20STANDARD.aspx?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 764,
+                "start_index": 653,
+                "title": "Brunei First To Establish Halal Pharma Guidelines - HalalFocus.net - Daily Halal Market News",
+                "url": "https://halalfocus.net/brunei-first-to-establish-halal-pharma-guidelines/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1030,
+                "start_index": 929,
+                "title": "Simpor Pharma",
+                "url": "https://simporpharma.com/contents/about_us_profile_story.html?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756269813,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 233,
+      "prompt_tokens": 58,
+      "total_tokens": 291,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8cf9df14819c914490449068e18506f8c6e940b55060",
+    "created_at": 1756269817.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8cfacb24819c85dd249cce75c54106f8c6e940b55060",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"YES\",\"explanation\":\"Brunei requires halal certification for pharmaceutical products, as established by guidelines from the Ministry of Religious Affairs which ensure compliance with Islamic law.\",\"sources\":[\"https://mofe.gov.bn/SitePages/HALAL%20STANDARD.aspx?utm_source=openai\",\"https://halalfocus.net/brunei-first-to-establish-halal-pharma-guidelines/?utm_source=openai\",\"https://simporpharma.com/contents/about_us_profile_story.html?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "YES",
+              "explanation": "Brunei requires halal certification for pharmaceutical products, as established by guidelines from the Ministry of Religious Affairs which ensure compliance with Islamic law.",
+              "sources": [
+                "https://mofe.gov.bn/SitePages/HALAL%20STANDARD.aspx?utm_source=openai",
+                "https://halalfocus.net/brunei-first-to-establish-halal-pharma-guidelines/?utm_source=openai",
+                "https://simporpharma.com/contents/about_us_profile_story.html?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1226,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 105,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1331
+    },
+    "user": null,
+    "store": true
+  }
+}

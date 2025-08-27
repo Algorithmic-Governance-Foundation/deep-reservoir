@@ -1,0 +1,187 @@
+gpt-4o-mini
+Targets an average marketing authorization (MA) approval timeline of six months or less for pharmaceutical products.
+{
+  "first_pass": {
+    "id": "chatcmpl-557ba7e0-7791-4ffd-b818-a73acd7dee96",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Cambodia's pharmaceutical marketing authorization (MA) approval timeline varies based on the type of product and the completeness of the application. For generic drugs, the approval process typically takes between 6 to 12 months. This duration can extend up to a year, depending on the number of applications received and the workload of the Ministry of Health. ([credevo.com](https://credevo.com/articles/2021/03/15/generic-drug-registration-process-in-cambodia/?utm_source=openai))\n\nThe Department of Drugs and Food (DDF) under the Ministry of Health is responsible for overseeing the quality, safety, and effectiveness of pharmaceutical products in Cambodia. The DDF comprises five bureaus, including the Registration and Cosmetics Bureau, which handles the registration of all drugs entering the country. ([credevo.com](https://credevo.com/articles/2021/03/15/generic-drug-registration-process-in-cambodia/?utm_source=openai))\n\nGiven these timelines, Cambodia does not target an average MA approval period of six months or less for pharmaceutical products. The process is more likely to extend beyond six months, especially for generic drugs. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 483,
+                "start_index": 362,
+                "title": "Generic Drug Registration Process In Cambodia | Credevo Articles",
+                "url": "https://credevo.com/articles/2021/03/15/generic-drug-registration-process-in-cambodia/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 930,
+                "start_index": 809,
+                "title": "Generic Drug Registration Process In Cambodia | Credevo Articles",
+                "url": "https://credevo.com/articles/2021/03/15/generic-drug-registration-process-in-cambodia/?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756270187,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 236,
+      "prompt_tokens": 69,
+      "total_tokens": 305,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8e7042b4819e937bbca6d36685ac0edb7d0a0d7a8bc3",
+    "created_at": 1756270192.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8e70b220819e8b2e2f880a72544a0edb7d0a0d7a8bc3",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"NO\",\"explanation\":\"Cambodia does not target an average marketing authorization approval period of six months or less for pharmaceutical products, as the approval process for generic drugs typically takes between 6 to 12 months.\",\"sources\":[\"https://credevo.com/articles/2021/03/15/generic-drug-registration-process-in-cambodia/?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "NO",
+              "explanation": "Cambodia does not target an average marketing authorization approval period of six months or less for pharmaceutical products, as the approval process for generic drugs typically takes between 6 to 12 months.",
+              "sources": [
+                "https://credevo.com/articles/2021/03/15/generic-drug-registration-process-in-cambodia/?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1171,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 79,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1250
+    },
+    "user": null,
+    "store": true
+  }
+}

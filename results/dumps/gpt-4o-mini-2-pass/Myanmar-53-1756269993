@@ -1,0 +1,187 @@
+gpt-4o-mini
+Legally requires acceptance of another ASEAN Member State’s (AMS) Certificate of Good Manufacturing Practice (cGMP) for pharmaceutical manufacturers.
+{
+  "first_pass": {
+    "id": "chatcmpl-d379cd9f-35aa-4736-81ab-bfaa722f648d",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Myanmar is a signatory to the ASEAN Sectoral Mutual Recognition Arrangement (MRA) for Good Manufacturing Practice (GMP) Inspection of Manufacturers of Medicinal Products, which was signed by all ASEAN Economic Ministers in April 2009. ([globalforum.diaglobal.org](https://globalforum.diaglobal.org/issue/march-2021/harmonization-of-gmp-inspection-and-benefits-to-asean-economic-community/?utm_source=openai)) This legally binding agreement mandates that all ASEAN Member States (AMS), including Myanmar, recognize and accept GMP certificates and inspection reports issued by other AMS that have been listed as ASEAN Listed Inspection Services (LIS). The MRA aims to avoid duplication of GMP inspections within ASEAN, thereby facilitating trade and ensuring the quality of medicinal products across the region.\n\nThe MRA specifies that AMS are obligated to operate a GMP inspection framework equivalent to the Pharmaceutical Inspection Co-operation Scheme (PIC/S) standards. By 2012, all AMS were required to implement a PIC/S-equivalent GMP inspection framework. ([globalforum.diaglobal.org](https://globalforum.diaglobal.org/issue/march-2021/harmonization-of-gmp-inspection-and-benefits-to-asean-economic-community/?utm_source=openai)) This harmonization effort is intended to streamline regulatory processes and enhance the competitiveness of ASEAN in the global pharmaceutical market.\n\nTherefore, Myanmar is legally required to accept the GMP certificates and inspection reports from other ASEAN Member States that meet the criteria set forth in the MRA. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 408,
+                "start_index": 235,
+                "title": "Harmonization of GMP Inspection and Benefits to ASEAN Economic Community",
+                "url": "https://globalforum.diaglobal.org/issue/march-2021/harmonization-of-gmp-inspection-and-benefits-to-asean-economic-community/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1235,
+                "start_index": 1062,
+                "title": "Harmonization of GMP Inspection and Benefits to ASEAN Economic Community",
+                "url": "https://globalforum.diaglobal.org/issue/march-2021/harmonization-of-gmp-inspection-and-benefits-to-asean-economic-community/?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756269987,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 308,
+      "prompt_tokens": 77,
+      "total_tokens": 385,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8da78d58819d9e384f97c1fd83090180402d4ded795c",
+    "created_at": 1756269991.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8da7fd78819dbfa4685661bf4ea10180402d4ded795c",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"YES\",\"explanation\":\"Myanmar is legally required to accept GMP certificates and inspection reports from other ASEAN Member States as per the ASEAN Sectoral Mutual Recognition Arrangement (MRA) for Good Manufacturing Practice, signed in 2009.\",\"sources\":[\"https://globalforum.diaglobal.org/issue/march-2021/harmonization-of-gmp-inspection-and-benefits-to-asean-economic-community/?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "YES",
+              "explanation": "Myanmar is legally required to accept GMP certificates and inspection reports from other ASEAN Member States as per the ASEAN Sectoral Mutual Recognition Arrangement (MRA) for Good Manufacturing Practice, signed in 2009.",
+              "sources": [
+                "https://globalforum.diaglobal.org/issue/march-2021/harmonization-of-gmp-inspection-and-benefits-to-asean-economic-community/?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1341,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 90,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1431
+    },
+    "user": null,
+    "store": true
+  }
+}

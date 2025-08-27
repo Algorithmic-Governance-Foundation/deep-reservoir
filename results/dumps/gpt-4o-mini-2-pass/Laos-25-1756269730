@@ -1,0 +1,187 @@
+gpt-4o-mini
+Allows the use of bracketing and matrixing study designs in pharmaceutical product stability testing.
+{
+  "first_pass": {
+    "id": "chatcmpl-dc9d8b90-50f9-4929-a926-d7a5877896d7",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Laos, as a member of the Association of Southeast Asian Nations (ASEAN), adheres to the ASEAN Guidelines on Stability Study of Drug Products. These guidelines permit the use of bracketing and matrixing designs in stability testing, provided certain conditions are met.\n\n**Bracketing Design:**\n\nBracketing involves testing only the extreme values of certain factors, such as strength or container size, under the assumption that the stability of intermediate levels is represented by the extremes. For example, if a product is available in three strengths (e.g., 50 mg, 75 mg, and 100 mg) and three container sizes (e.g., 15 ml, 100 ml, and 500 ml), testing might be conducted only on the 15 ml and 500 ml containers, with the stability of the 100 ml container inferred from these extremes. ([paperzz.com](https://paperzz.com/doc/9443062/asean-guideline-on-stability-study-of-drug?utm_source=openai))\n\n**Matrixing Design:**\n\nMatrixing involves testing a selected subset of all possible samples at specified time points, with different subsets tested at subsequent time points. This approach assumes that the stability of each subset represents the stability of all samples at a given time point. For instance, in a product with multiple strengths and container sizes, matrixing might involve testing only certain combinations at each time point, thereby reducing the number of tests required. ([paperzz.com](https://paperzz.com/doc/9443062/asean-guideline-on-stability-study-of-drug?utm_source=openai))\n\n**Implementation in Laos:**\n\nWhile the ASEAN guidelines provide a framework for the application of bracketing and matrixing designs, the specific implementation in Laos may vary. The Lao Food and Drug Department (LFDD) is responsible for regulating pharmaceutical products in Laos. To determine the current acceptance and specific requirements for bracketing and matrixing in stability testing, it is advisable to consult the LFDD directly or refer to the latest national regulations and guidelines.\n\nIn summary, Laos allows the use of bracketing and matrixing study designs in pharmaceutical product stability testing, in line with ASEAN guidelines, provided that the conditions for their application are met. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 899,
+                "start_index": 790,
+                "title": "ASEAN guideline on stability study of drug",
+                "url": "https://paperzz.com/doc/9443062/asean-guideline-on-stability-study-of-drug?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1501,
+                "start_index": 1392,
+                "title": "ASEAN guideline on stability study of drug",
+                "url": "https://paperzz.com/doc/9443062/asean-guideline-on-stability-study-of-drug?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756269722,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 455,
+      "prompt_tokens": 68,
+      "total_tokens": 523,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8ca02bd0819685bc6481abd794120e781b183f669627",
+    "created_at": 1756269728.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8ca0ab288196b8c82963e4524e110e781b183f669627",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"YES\",\"explanation\":\"Laos permits the use of bracketing and matrixing study designs in pharmaceutical product stability testing according to the ASEAN guidelines, provided specific conditions are met.\",\"sources\":[\"https://paperzz.com/doc/9443062/asean-guideline-on-stability-study-of-drug?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "YES",
+              "explanation": "Laos permits the use of bracketing and matrixing study designs in pharmaceutical product stability testing according to the ASEAN guidelines, provided specific conditions are met.",
+              "sources": [
+                "https://paperzz.com/doc/9443062/asean-guideline-on-stability-study-of-drug?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1614,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 71,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1685
+    },
+    "user": null,
+    "store": true
+  }
+}

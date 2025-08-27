@@ -1,0 +1,188 @@
+gpt-4o-mini
+Permits stability data submission for pharmaceutical products at 25°C/60% relative humidity (RH) when supported by accelerated stability studies.
+{
+  "first_pass": {
+    "id": "chatcmpl-38fb6224-dd54-4090-80f4-e1f71010f201",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "In Malaysia, the National Pharmaceutical Regulatory Agency (NPRA) adheres to the ASEAN Stability Guidelines for pharmaceutical product submissions. These guidelines specify that long-term stability studies should be conducted at 30\u00b0C \u00b1 2\u00b0C with 75% relative humidity (RH) \u00b1 5%, and accelerated stability studies at 40\u00b0C \u00b1 2\u00b0C with 75% RH \u00b1 5%. ([npra.gov.my](https://npra.gov.my/index.php/en/component/content/article/94-industries/prescription/1487-step-1-pre-submission-of-application-preparation?Itemid=437&utm_source=openai))\n\nWhile the ASEAN guidelines do not explicitly mention the use of 25\u00b0C/60% RH for stability data submission, they do allow for alternative testing conditions if scientifically justified. For instance, if a product is intended for storage at lower temperatures, accelerated testing can be conducted at 25\u00b0C \u00b1 2\u00b0C with 60% RH \u00b1 5%. ([scribd.com](https://www.scribd.com/document/457681671/ASEAN-GUIDELINE-ON-STABILITY-STUDY-OF-DRUG-PRODUCT-docx?utm_source=openai))\n\nTherefore, if a pharmaceutical product is intended for storage at 25\u00b0C/60% RH, and this is supported by accelerated stability studies conducted under these conditions, it is possible to submit stability data at 25\u00b0C/60% RH to the NPRA. However, it is essential to provide comprehensive scientific justification and ensure that all regulatory requirements are met. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 529,
+                "start_index": 344,
+                "title": "NPRA",
+                "url": "https://npra.gov.my/index.php/en/component/content/article/94-industries/prescription/1487-step-1-pre-submission-of-application-preparation?Itemid=437&utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 990,
+                "start_index": 859,
+                "title": "Asean Guideline On Stability Study of Drug Product | PDF | Topical Medication | Shelf Life",
+                "url": "https://www.scribd.com/document/457681671/ASEAN-GUIDELINE-ON-STABILITY-STUDY-OF-DRUG-PRODUCT-docx?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756270334,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 315,
+      "prompt_tokens": 77,
+      "total_tokens": 392,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8f03847881a29eace776938ea12b0a7964d09496389e",
+    "created_at": 1756270340.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8f04f1a081a2a0ab6fc3c0294c9b0a7964d09496389e",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"PARTIAL\",\"explanation\":\"Malaysia allows submission of stability data at 25\u00b0C/60% RH if supported by scientifically justified accelerated stability studies conducted under those conditions, despite the primary guidelines specifying other conditions.\",\"sources\":[\"https://npra.gov.my/index.php/en/component/content/article/94-industries/prescription/1487-step-1-pre-submission-of-application-preparation?Itemid=437&utm_source=openai\",\"https://www.scribd.com/document/457681671/ASEAN-GUIDELINE-ON-STABILITY-STUDY-OF-DRUG-PRODUCT-docx?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "PARTIAL",
+              "explanation": "Malaysia allows submission of stability data at 25\u00b0C/60% RH if supported by scientifically justified accelerated stability studies conducted under those conditions, despite the primary guidelines specifying other conditions.",
+              "sources": [
+                "https://npra.gov.my/index.php/en/component/content/article/94-industries/prescription/1487-step-1-pre-submission-of-application-preparation?Itemid=437&utm_source=openai",
+                "https://www.scribd.com/document/457681671/ASEAN-GUIDELINE-ON-STABILITY-STUDY-OF-DRUG-PRODUCT-docx?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1363,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 133,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1496
+    },
+    "user": null,
+    "store": true
+  }
+}

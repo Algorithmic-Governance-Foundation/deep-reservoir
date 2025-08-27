@@ -1,0 +1,188 @@
+gpt-4o-mini
+Specifically mandates the use of a “red dot” symbol on prescription-only pharmaceutical products.
+{
+  "first_pass": {
+    "id": "chatcmpl-b42b8e77-ee62-40ee-bfb4-228bd9845dfb",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Vietnam's regulations on pharmaceutical labeling do not specifically mandate the use of a \"red dot\" symbol on prescription-only pharmaceutical products. Instead, the Ministry of Health has established guidelines that require certain symbols and text to be included on drug labels to indicate prescription status. According to Circular No. 01/2018/TT-BYT, which took effect on June 1, 2018, the following requirements apply to prescription drugs:\n\n- **On the label of the secondary package**: The symbol \"Rx\" must be placed on the upper left corner of the drug name, accompanied by the text \"Thu\u1ed1c k\u00ea \u0111\u01a1n\" (\"Prescription drugs\").\n\n- **On the package insert**: The symbol \"Rx\" should be positioned on the upper left corner of the drug name, with the text \"Thu\u1ed1c n\u00e0y ch\u1ec9 d\u00f9ng theo \u0111\u01a1n thu\u1ed1c\" (\"This drug is taken with prescription only\").\n\nThese specifications are detailed in Article 24 of Circular No. 01/2018/TT-BYT. ([english.luatvietnam.vn](https://english.luatvietnam.vn/circular-no-01-2018-tt-byt-dated-january-18-2018-of-the-ministry-of-health-on-labeling-and-package-inserts-of-drugs-and-medicinal-ingredients-158447-doc1.html?utm_source=openai))\n\nAdditionally, Circular No. 06/2016/TT-BYT, which preceded Circular No. 01/2018/TT-BYT, also outlined similar labeling requirements for prescription drugs, emphasizing the inclusion of the \"Rx\" symbol and corresponding text on labels and package inserts. ([english.luatvietnam.vn](https://english.luatvietnam.vn/circular-no-06-2016-tt-byt-dated-march-08-2016-of-the-ministry-of-health-on-drug-labeling-103717-doc1.html?utm_source=openai))\n\nTherefore, while Vietnam's regulations do not specifically require a \"red dot\" symbol, they do mandate the use of the \"Rx\" symbol along with specific text to clearly identify prescription-only pharmaceutical products. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1152,
+                "start_index": 917,
+                "title": "Circular 01/2018/TT-BYT of Ministry of Health date issued 18/01/2018",
+                "url": "https://english.luatvietnam.vn/circular-no-01-2018-tt-byt-dated-january-18-2018-of-the-ministry-of-health-on-labeling-and-package-inserts-of-drugs-and-medicinal-ingredients-158447-doc1.html?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1591,
+                "start_index": 1408,
+                "title": "Circular 06/2016/TT-BYT of Ministry of Health date issued 08/03/2016",
+                "url": "https://english.luatvietnam.vn/circular-no-06-2016-tt-byt-dated-march-08-2016-of-the-ministry-of-health-on-drug-labeling-103717-doc1.html?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756269659,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 428,
+      "prompt_tokens": 67,
+      "total_tokens": 495,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8c60af40819cae68a8abda0819a50c43e492791f4ef6",
+    "created_at": 1756269664.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8c6103bc819c8aa0307caee74b690c43e492791f4ef6",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"NO\",\"explanation\":\"Vietnam's regulations do not mandate the use of a red dot symbol on prescription drugs; instead, the 'Rx' symbol must be used along with specific labeling requirements to indicate prescription status (Circular No. 01/2018/TT-BYT).\",\"sources\":[\"https://english.luatvietnam.vn/circular-no-01-2018-tt-byt-dated-january-18-2018-of-the-ministry-of-health-on-labeling-and-package-inserts-of-drugs-and-medicinal-ingredients-158447-doc1.html?utm_source=openai\",\"https://english.luatvietnam.vn/circular-no-06-2016-tt-byt-dated-march-08-2016-of-the-ministry-of-health-on-drug-labeling-103717-doc1.html?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "NO",
+              "explanation": "Vietnam's regulations do not mandate the use of a red dot symbol on prescription drugs; instead, the 'Rx' symbol must be used along with specific labeling requirements to indicate prescription status (Circular No. 01/2018/TT-BYT).",
+              "sources": [
+                "https://english.luatvietnam.vn/circular-no-01-2018-tt-byt-dated-january-18-2018-of-the-ministry-of-health-on-labeling-and-package-inserts-of-drugs-and-medicinal-ingredients-158447-doc1.html?utm_source=openai",
+                "https://english.luatvietnam.vn/circular-no-06-2016-tt-byt-dated-march-08-2016-of-the-ministry-of-health-on-drug-labeling-103717-doc1.html?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1648,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 178,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1826
+    },
+    "user": null,
+    "store": true
+  }
+}

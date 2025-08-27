@@ -1,0 +1,206 @@
+gpt-4o-mini
+Provides a fully digital online submission portal for pharmaceutical product marketing authorization applications.
+{
+  "first_pass": {
+    "id": "chatcmpl-0f143d59-c00b-4378-9742-f90da60c8148",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Yes, Cambodia provides a fully digital online submission portal for pharmaceutical product marketing authorization applications through the Cambodia Pharmaceutical Online Registration System (CamPORS). Launched by the Ministry of Health (MoH) in 2019, CamPORS serves as a digital one-stop window for registering the import and use of pharmaceutical products, aiming to expedite registration procedures for new pharmaceuticals and medical devices. ([eurocham-advocacy-compass.com](https://www.eurocham-advocacy-compass.com/online-pharmaceutical-registration-platform-ref6072/?utm_source=openai))\n\nTo utilize CamPORS, businesses must first apply for access to the online system. Once granted access, they can submit applications for registration of pharmaceutical products, medical devices, and cosmetics, along with the required supporting documents. Upon successful registration, the MoH issues pharmaceutical product registration certificates to individual companies. ([eurocham-advocacy-compass.com](https://www.eurocham-advocacy-compass.com/online-pharmaceutical-registration-platform-ref6072/?utm_source=openai))\n\nDespite the digital nature of CamPORS, some users have reported challenges with the platform's usability, particularly in document uploading, and discrepancies between registration statuses on the platform and information from MoH officials. These issues have raised concerns about the platform's effectiveness in streamlining the registration process. ([eurocham-advocacy-compass.com](https://www.eurocham-advocacy-compass.com/online-pharmaceutical-registration-platform-ref6072/?utm_source=openai))\n\nIn addition to CamPORS, the National Health Products Quality Control Center offers an online sample submission system for product quality analysis and technical documentation. This system facilitates the submission of product samples and related documents for quality control purposes. ([nhqconlineregistration.nhqc.org.kh](https://nhqconlineregistration.nhqc.org.kh/?utm_source=openai))\n\nOverall, while Cambodia has implemented digital platforms for pharmaceutical product registration and quality control, the effectiveness and user experience of these systems may vary. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 594,
+                "start_index": 447,
+                "title": "Online Pharmaceutical Registration Platform REF#6072 | EuroCham WhiteBook",
+                "url": "https://www.eurocham-advocacy-compass.com/online-pharmaceutical-registration-platform-ref6072/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1116,
+                "start_index": 969,
+                "title": "Online Pharmaceutical Registration Platform REF#6072 | EuroCham WhiteBook",
+                "url": "https://www.eurocham-advocacy-compass.com/online-pharmaceutical-registration-platform-ref6072/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1618,
+                "start_index": 1471,
+                "title": "Online Pharmaceutical Registration Platform REF#6072 | EuroCham WhiteBook",
+                "url": "https://www.eurocham-advocacy-compass.com/online-pharmaceutical-registration-platform-ref6072/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 2007,
+                "start_index": 1906,
+                "title": "NHQC-Online Sample Submission",
+                "url": "https://nhqconlineregistration.nhqc.org.kh/?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756270143,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 423,
+      "prompt_tokens": 64,
+      "total_tokens": 487,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8e43d1188191a04af28a17163b6a0006f4736142d891",
+    "created_at": 1756270147.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8e44788481918c97e9fda0e53c6c0006f4736142d891",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"YES\",\"explanation\":\"Cambodia provides a fully digital online submission portal for pharmaceutical product marketing authorization applications through the Cambodia Pharmaceutical Online Registration System (CamPORS), launched in 2019 by the Ministry of Health.\",\"sources\":[\"https://www.eurocham-advocacy-compass.com/online-pharmaceutical-registration-platform-ref6072/?utm_source=openai\",\"https://nhqconlineregistration.nhqc.org.kh/?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "YES",
+              "explanation": "Cambodia provides a fully digital online submission portal for pharmaceutical product marketing authorization applications through the Cambodia Pharmaceutical Online Registration System (CamPORS), launched in 2019 by the Ministry of Health.",
+              "sources": [
+                "https://www.eurocham-advocacy-compass.com/online-pharmaceutical-registration-platform-ref6072/?utm_source=openai",
+                "https://nhqconlineregistration.nhqc.org.kh/?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1720,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 98,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1818
+    },
+    "user": null,
+    "store": true
+  }
+}

@@ -1,0 +1,198 @@
+gpt-4o-mini
+Provides a fully digital online submission portal for pharmaceutical product marketing authorization applications.
+{
+  "first_pass": {
+    "id": "chatcmpl-4c44320a-d4b3-4b0d-99ed-7bdf8e01cc1d",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Yes, Thailand provides a fully digital online submission portal for pharmaceutical product marketing authorization applications through its Integrated Regulatory Information Management System (ThaiRIMS). This system facilitates the submission and management of drug registration applications, including those for new drugs and generics, in compliance with the ASEAN Common Technical Dossier (ACTD) or ICH Common Technical Dossier (CTD) formats. ([thairims.fda.moph.go.th](https://thairims.fda.moph.go.th/user/index.php?utm_source=openai))\n\nIn June 2024, the Thai FDA established the Drug E-Submission Service Center (DESS) to enhance the efficiency of granting permissions to pharmaceutical entrepreneurs. The center operates during both official and unofficial working hours and offers training rooms to build entrepreneurs' capacity. This initiative aims to provide faster access to quality pharmaceutical products by enabling electronic submissions of drug registration applications in formats such as ICH eCTD, NeeS (ThaiRIMS system), and Skynet or RimPhar systems. ([en.fda.moph.go.th](https://en.fda.moph.go.th/news/the-open-of-drug-e-submission-service-center-a-new-stage-of-the-thai-fda/?utm_source=openai))\n\nAdditionally, Thailand accepts electronic Common Technical Document (eCTD) submissions, which is the standard format for regulatory submissions in major markets like the US, Europe, and Japan. This adoption facilitates easier access, navigation, and management of product application files, streamlining the regulatory review process. ([globalforum.diaglobal.org](https://globalforum.diaglobal.org/issue/september-2022/digitalization-in-the-asean-pharmaceuticals-market/?utm_source=openai))\n\nTherefore, Thailand's ThaiRIMS system and the Drug E-Submission Service Center collectively provide a comprehensive digital platform for the online submission of pharmaceutical product marketing authorization applications. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 538,
+                "start_index": 445,
+                "title": "THAIRIMS APPLICANTS",
+                "url": "https://thairims.fda.moph.go.th/user/index.php?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1215,
+                "start_index": 1070,
+                "title": "FDA THAI : Food and Drug Administration, Thailand",
+                "url": "https://en.fda.moph.go.th/news/the-open-of-drug-e-submission-service-center-a-new-stage-of-the-thai-fda/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1707,
+                "start_index": 1552,
+                "title": "Digitalization in the ASEAN Pharmaceuticals Market",
+                "url": "https://globalforum.diaglobal.org/issue/september-2022/digitalization-in-the-asean-pharmaceuticals-market/?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756269873,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 378,
+      "prompt_tokens": 64,
+      "total_tokens": 442,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8d366b68819e8792ddadf109655d05720e81fc2885c3",
+    "created_at": 1756269878.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8d36cb38819e8af17efb31e4b57205720e81fc2885c3",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"YES\",\"explanation\":\"Thailand provides a fully digital online submission portal for pharmaceutical product marketing authorization applications through its Integrated Regulatory Information Management System (ThaiRIMS) and the Drug E-Submission Service Center (DESS).\",\"sources\":[\"https://thairims.fda.moph.go.th/user/index.php?utm_source=openai\",\"https://en.fda.moph.go.th/news/the-open-of-drug-e-submission-service-center-a-new-stage-of-the-thai-fda/?utm_source=openai\",\"https://globalforum.diaglobal.org/issue/september-2022/digitalization-in-the-asean-pharmaceuticals-market/?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "YES",
+              "explanation": "Thailand provides a fully digital online submission portal for pharmaceutical product marketing authorization applications through its Integrated Regulatory Information Management System (ThaiRIMS) and the Drug E-Submission Service Center (DESS).",
+              "sources": [
+                "https://thairims.fda.moph.go.th/user/index.php?utm_source=openai",
+                "https://en.fda.moph.go.th/news/the-open-of-drug-e-submission-service-center-a-new-stage-of-the-thai-fda/?utm_source=openai",
+                "https://globalforum.diaglobal.org/issue/september-2022/digitalization-in-the-asean-pharmaceuticals-market/?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1542,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 138,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1680
+    },
+    "user": null,
+    "store": true
+  }
+}

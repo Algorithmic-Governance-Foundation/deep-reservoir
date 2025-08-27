@@ -1,0 +1,208 @@
+gpt-4o-mini
+Imposes hospital-only distribution restrictions for certain classes of antimicrobial (AM) pharmaceutical products.
+{
+  "first_pass": {
+    "id": "chatcmpl-91d5345c-22bf-491e-a1bf-16ea04506e72",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Laos has implemented several measures to regulate the distribution and use of antimicrobial pharmaceutical products, particularly focusing on hospital settings. The Revised National Medicine Policy outlines that only registered products included in the Lao Essential Medicine List are procured for the public sector, emphasizing quality control and appropriate distribution. ([laotradeportal.gov.la](https://www.laotradeportal.gov.la/en-gb/site/display/252?utm_source=openai))\n\nIn 2024, the Ministry of Public Health announced plans to decentralize medicine procurement to provinces starting in 2025. This shift aims to address challenges such as medicine shortages in state hospitals and delays in the Ministry's bidding process. The decentralization is intended to streamline procurement and distribution, ensuring that hospitals have timely access to necessary medications. ([laotiantimes.com](https://laotiantimes.com/2024/12/04/laos-to-decentralize-medicine-procurement-to-provinces-starting-in-2025/?utm_source=openai))\n\nRegarding antimicrobial resistance (AMR), Laos has developed a National AMR Strategic Plan (2019\u20132023) and established a National AMR Committee to oversee its implementation. The plan includes strengthening the antimicrobial distribution control system for both human and animal use, with future actions focusing on restricting certain antimicrobials to prescription-only status. ([thelancet.com](https://www.thelancet.com/journals/lanwpc/article/PIIS2666-6065%2820%2930084-5/fulltext?utm_source=openai))\n\nAdditionally, a 2012 survey in five southern provinces of Laos investigated the availability and quality of antibiotics sold in the private sector. The study found that while all analyzed samples contained the stated active pharmaceutical ingredient, 19.6% were substandard, with antibiotic content outside the acceptable range. This highlights ongoing concerns about the quality of antimicrobial products in the country. ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/35137095/?utm_source=openai))\n\nIn summary, Laos has implemented policies to regulate the distribution of antimicrobial products, particularly in hospital settings, and is actively working to address challenges related to procurement, distribution, and antimicrobial resistance. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 476,
+                "start_index": 375,
+                "title": "The Revised National Medicine Policy",
+                "url": "https://www.laotradeportal.gov.la/en-gb/site/display/252?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1025,
+                "start_index": 877,
+                "title": "Laos to Decentralize Medicine Procurement to Provinces Starting in 2025 - Laotian Times",
+                "url": "https://laotiantimes.com/2024/12/04/laos-to-decentralize-medicine-procurement-to-provinces-starting-in-2025/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1531,
+                "start_index": 1407,
+                "title": "An analysis of national action plans on antimicrobial resistance in Southeast Asia using a governance framework approach - The Lancet Regional Health \u2013 Western Pacific",
+                "url": "https://www.thelancet.com/journals/lanwpc/article/PIIS2666-6065%2820%2930084-5/fulltext?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 2043,
+                "start_index": 1955,
+                "title": "A random survey of the prevalence of falsified and substandard antibiotics in the Lao PDR - PubMed",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/35137095/?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756269750,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 455,
+      "prompt_tokens": 67,
+      "total_tokens": 522,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8cbcbaf08192ada7adf4e8bc663b098a4e274aa4f084",
+    "created_at": 1756269756.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8cbd5da48192a829cec76ec2fe45098a4e274aa4f084",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"PARTIAL\",\"explanation\":\"Laos has implemented regulations that restrict the distribution of certain antimicrobial products to hospital settings, but there are ongoing plans to strengthen these controls, particularly regarding prescription-only status, which is not fully in place yet.\",\"sources\":[\"https://www.laotradeportal.gov.la/en-gb/site/display/252?utm_source=openai\",\"https://laotiantimes.com/2024/12/04/laos-to-decentralize-medicine-procurement-to-provinces-starting-in-2025/?utm_source=openai\",\"https://www.thelancet.com/journals/lanwpc/article/PIIS2666-6065%2820%2930084-5/fulltext?utm_source=openai\",\"https://pubmed.ncbi.nlm.nih.gov/35137095/?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "PARTIAL",
+              "explanation": "Laos has implemented regulations that restrict the distribution of certain antimicrobial products to hospital settings, but there are ongoing plans to strengthen these controls, particularly regarding prescription-only status, which is not fully in place yet.",
+              "sources": [
+                "https://www.laotradeportal.gov.la/en-gb/site/display/252?utm_source=openai",
+                "https://laotiantimes.com/2024/12/04/laos-to-decentralize-medicine-procurement-to-provinces-starting-in-2025/?utm_source=openai",
+                "https://www.thelancet.com/journals/lanwpc/article/PIIS2666-6065%2820%2930084-5/fulltext?utm_source=openai",
+                "https://pubmed.ncbi.nlm.nih.gov/35137095/?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1833,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 178,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2011
+    },
+    "user": null,
+    "store": true
+  }
+}

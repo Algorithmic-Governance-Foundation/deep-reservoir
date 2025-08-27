@@ -1,0 +1,198 @@
+gpt-4o-mini
+Publishes national antimicrobial resistance (AMR) surveillance data related to pharmaceutical products.
+{
+  "first_pass": {
+    "id": "chatcmpl-ca7e0c34-1672-4e5d-9e66-44b21d7c9614",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Yes, Malaysia publishes national antimicrobial resistance (AMR) surveillance data related to pharmaceutical products. The Ministry of Health Malaysia has established several surveillance programs to monitor antimicrobial utilization and resistance patterns across the country.\n\nOne of the key initiatives is the National Surveillance on Antimicrobial Utilisation (NSAU), which began in 2001. This program collects data on the usage of selected antibiotics and antifungals in hospitals and health clinics. The surveillance has expanded over the years to include major Ministry of Health hospitals, university hospitals, military hospitals, private hospitals with more than 100 beds, and health clinics with resident Family Medicine Specialists. The data collected is reported using standardized usage density rates, based on the World Health Organization\u2019s Anatomical Therapeutic Chemical standards for 'defined daily doses' (DDDs), allowing for comparisons at state, national, and regional levels. ([sites.google.com](https://sites.google.com/moh.gov.my/nag/information/antimicrobial-utilisation-data?utm_source=openai))\n\nIn addition to the NSAU, Malaysia conducts the National Surveillance of Antibiotic Resistance (NSAR), coordinated by the Institute for Medical Research (IMR). This program monitors antibiotic resistance patterns in various pathogens across multiple hospitals in Malaysia. Reports from NSAR are available for the years 2015 through 2017, with archived reports dating back to 2002. ([imr.moh.gov.my](https://imr.moh.gov.my/en/corporate-info/organisation-chart/75-english-content/national-collaboration/1469-nsar-main?utm_source=openai))\n\nFurthermore, Malaysia has developed the Malaysian Antimicrobial Resistance Surveillance System (MARSS), which aims to strengthen AMR surveillance and laboratory capacities in hospital settings. This system is part of the country's broader efforts to combat AMR, including the implementation of the Malaysian Action Plan on Antimicrobial Resistance (MyAP-AMR) 2022-2026. ([who.int](https://www.who.int/westernpacific/newsroom/feature-stories/item/who-supports-the-strengthening-of-malaysia-s-antimicrobial-resistance-surveillance-and-laboratory-capacities-in-hospital-settings?utm_source=openai))\n\nThese initiatives reflect Malaysia's commitment to monitoring and addressing AMR through comprehensive surveillance of antimicrobial utilization and resistance patterns. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1120,
+                "start_index": 998,
+                "title": "National Antimicrobial Guideline (NAG), Ministry of Health Malaysia - ANTIMICROBIAL UTILISATION DATA",
+                "url": "https://sites.google.com/moh.gov.my/nag/information/antimicrobial-utilisation-data?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1656,
+                "start_index": 1502,
+                "title": "Institute for Medical Research, Malaysia - National Surveillance of Antimicrobial Resistance, Malaysia",
+                "url": "https://imr.moh.gov.my/en/corporate-info/organisation-chart/75-english-content/national-collaboration/1469-nsar-main?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 2253,
+                "start_index": 2028,
+                "title": "WHO supports the strengthening of Malaysia\u2019s antimicrobial resistance surveillance and laboratory capacities in hospital settings",
+                "url": "https://www.who.int/westernpacific/newsroom/feature-stories/item/who-supports-the-strengthening-of-malaysia-s-antimicrobial-resistance-surveillance-and-laboratory-capacities-in-hospital-settings?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756270381,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 471,
+      "prompt_tokens": 66,
+      "total_tokens": 537,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8f36f4f48193aa280a0dab1435870590992fffc3a6a3",
+    "created_at": 1756270391.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8f378e1081938b55cd078df61a020590992fffc3a6a3",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"YES\",\"explanation\":\"Malaysia publishes national antimicrobial resistance (AMR) surveillance data related to pharmaceutical products through various programs, such as the National Surveillance on Antimicrobial Utilisation (NSAU) and the National Surveillance of Antibiotic Resistance (NSAR), which monitor utilization and resistance patterns across the country.\",\"sources\":[\"https://sites.google.com/moh.gov.my/nag/information/antimicrobial-utilisation-data?utm_source=openai\",\"https://imr.moh.gov.my/en/corporate-info/organisation-chart/75-english-content/national-collaboration/1469-nsar-main?utm_source=openai\",\"https://www.who.int/westernpacific/newsroom/feature-stories/item/who-supports-the-strengthening-of-malaysia-s-antimicrobial-resistance-surveillance-and-laboratory-capacities-in-hospital-settings?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "YES",
+              "explanation": "Malaysia publishes national antimicrobial resistance (AMR) surveillance data related to pharmaceutical products through various programs, such as the National Surveillance on Antimicrobial Utilisation (NSAU) and the National Surveillance of Antibiotic Resistance (NSAR), which monitor utilization and resistance patterns across the country.",
+              "sources": [
+                "https://sites.google.com/moh.gov.my/nag/information/antimicrobial-utilisation-data?utm_source=openai",
+                "https://imr.moh.gov.my/en/corporate-info/organisation-chart/75-english-content/national-collaboration/1469-nsar-main?utm_source=openai",
+                "https://www.who.int/westernpacific/newsroom/feature-stories/item/who-supports-the-strengthening-of-malaysia-s-antimicrobial-resistance-surveillance-and-laboratory-capacities-in-hospital-settings?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1795,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 185,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1980
+    },
+    "user": null,
+    "store": true
+  }
+}

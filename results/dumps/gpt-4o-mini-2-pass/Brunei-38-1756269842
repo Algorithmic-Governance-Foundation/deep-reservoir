@@ -1,0 +1,188 @@
+gpt-4o-mini
+Targets an average marketing authorization (MA) approval timeline of six months or less for pharmaceutical products.
+{
+  "first_pass": {
+    "id": "chatcmpl-78e49bbd-fa5b-4559-a7ef-547fa4c3dc67",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Brunei's pharmaceutical product registration process involves several stages, with varying timelines depending on the type of product. For generic products, the assessment by the Product Regulation Team and Drug Registration Committee (DRC) takes approximately 132 working days, while for new chemical entities, vaccines, and biologics, it extends to 246 working days. Following this, the Brunei Darussalam Medicines Control Authority (BDMCA) endorses the product within 45 working days. Therefore, the total time from application submission to marketing authorization ranges from about 177 to 291 working days, which translates to approximately 8.5 to 14 months. ([moh.gov.bn](https://moh.gov.bn/SitePages/Registration%20Medical%20Product.aspx?utm_source=openai))\n\nThis timeline is significantly longer than the six-month target. However, during the COVID-19 pandemic, Brunei implemented regulatory agilities, accepting administrative documents without requiring a full registration dossier for certain products. This expedited the approval process, allowing for approvals in less than a month. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10664654/?utm_source=openai))\n\nIn summary, under standard procedures, Brunei's pharmaceutical marketing authorization process exceeds a six-month timeline. While the country has demonstrated flexibility during emergencies, there is no consistent evidence of a standard six-month target for approval. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 764,
+                "start_index": 664,
+                "title": "Ministry of Health - Registration Medical Product",
+                "url": "https://moh.gov.bn/SitePages/Registration%20Medical%20Product.aspx?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1190,
+                "start_index": 1096,
+                "title": "Regulatory agilities impacting review timelines for Pfizer/BioNTech\u2019s BNT162b2 mRNA COVID-19 vaccine: a retrospective study - PMC",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10664654/?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756269830,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 290,
+      "prompt_tokens": 70,
+      "total_tokens": 360,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8d100fc08195a227d46d7c8689aa05c2f9da450b05ae",
+    "created_at": 1756269840.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8d10f9bc819582064438482a675b05c2f9da450b05ae",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"NO\",\"explanation\":\"Brunei's average pharmaceutical product approval timeline exceeds six months, specifically ranging from approximately 8.5 to 14 months under standard procedures, without a consistent six-month target for approvals.\",\"sources\":[\"https://moh.gov.bn/SitePages/Registration%20Medical%20Product.aspx?utm_source=openai\",\"https://pmc.ncbi.nlm.nih.gov/articles/PMC10664654/?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "NO",
+              "explanation": "Brunei's average pharmaceutical product approval timeline exceeds six months, specifically ranging from approximately 8.5 to 14 months under standard procedures, without a consistent six-month target for approvals.",
+              "sources": [
+                "https://moh.gov.bn/SitePages/Registration%20Medical%20Product.aspx?utm_source=openai",
+                "https://pmc.ncbi.nlm.nih.gov/articles/PMC10664654/?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1288,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 95,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1383
+    },
+    "user": null,
+    "store": true
+  }
+}

@@ -1,0 +1,225 @@
+gpt-4o-mini
+Provides a fully digital online submission portal for pharmaceutical product marketing authorization applications.
+{
+  "first_pass": {
+    "id": "chatcmpl-7c65ee90-df52-4f6c-89fd-6a6ee85e9e67",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Yes, Malaysia provides a fully digital online submission portal for pharmaceutical product marketing authorization applications through the QUEST3+ system, managed by the National Pharmaceutical Regulatory Agency (NPRA). ([npra.gov.my](https://npra.gov.my/index.php/my/submission-main-page?utm_source=openai))\n\n**Key Features of the QUEST3+ System:**\n\n- **Online Application:** Applicants must register for a QUEST membership and obtain a USB Token containing a User Digital Certificate to access the system. ([npra.gov.my](https://npra.gov.my/index.php/my/submission-main-page?utm_source=openai))\n\n- **Secure Transactions:** The USB Token ensures secure login and data submission, facilitating online transactions for product registration, variations, licensing, and renewals. ([npra.gov.my](https://npra.gov.my/index.php/my/submission-main-page?utm_source=openai))\n\n- **Application Process:**\n  - **Pre-Submission:** Applicants determine the product category (e.g., new drug, biologic, generic) and prepare the necessary documentation.\n  - **Submission:** Applications are submitted via the QUEST3+ system, which includes online application forms for different product categories. ([npra.gov.my](https://npra.gov.my/index.php/my/submission-main-page?utm_source=openai))\n  - **Evaluation:** The NPRA conducts a thorough review of the submitted dossier, focusing on safety, efficacy, and quality.\n  - **Decision:** The DCA (Drug Control Authority) approves or rejects the application, and the decision is communicated to the product registration holder. ([practiceguides.chambers.com](https://practiceguides.chambers.com/practice-guides/life-sciences-2024/malaysia?utm_source=openai))\n\n- **Fees and Payment:** Application fees must be paid via the QUEST3+ system using FPX, credit card, or official bank instruments. Each application requires a separate payment, and once submitted and accepted, fees are non-refundable. ([pacificbridgemedical.com](https://www.pacificbridgemedical.com/uncategorized/drug-registration-in-malaysia/?utm_source=openai))\n\nThis digital system streamlines the registration process, enhancing efficiency and transparency for pharmaceutical product marketing authorization in Malaysia. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 309,
+                "start_index": 221,
+                "title": "Generic Submission",
+                "url": "https://npra.gov.my/index.php/my/submission-main-page?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 597,
+                "start_index": 509,
+                "title": "Generic Submission",
+                "url": "https://npra.gov.my/index.php/my/submission-main-page?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 866,
+                "start_index": 778,
+                "title": "Generic Submission",
+                "url": "https://npra.gov.my/index.php/my/submission-main-page?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1271,
+                "start_index": 1183,
+                "title": "Generic Submission",
+                "url": "https://npra.gov.my/index.php/my/submission-main-page?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1684,
+                "start_index": 1554,
+                "title": "Life Sciences 2024 - Malaysia | Global Practice Guides | Chambers and Partners",
+                "url": "https://practiceguides.chambers.com/practice-guides/life-sciences-2024/malaysia?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 2050,
+                "start_index": 1921,
+                "title": "Drug Registration in Malaysia: A Comprehensive Guide",
+                "url": "https://www.pacificbridgemedical.com/uncategorized/drug-registration-in-malaysia/?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756270305,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 461,
+      "prompt_tokens": 64,
+      "total_tokens": 525,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8ef00bb081a08db6fe54e11e0e6a0ff7d068a6796d65",
+    "created_at": 1756270320.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8ef0510081a084fe340e3c8e38b70ff7d068a6796d65",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"YES\",\"explanation\":\"Malaysia provides a fully digital online submission portal for pharmaceutical product marketing authorization applications through the QUEST3+ system managed by the National Pharmaceutical Regulatory Agency (NPRA).\",\"sources\":[\"https://npra.gov.my/index.php/my/submission-main-page?utm_source=openai\",\"https://practiceguides.chambers.com/practice-guides/life-sciences-2024/malaysia?utm_source=openai\",\"https://www.pacificbridgemedical.com/uncategorized/drug-registration-in-malaysia/?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "YES",
+              "explanation": "Malaysia provides a fully digital online submission portal for pharmaceutical product marketing authorization applications through the QUEST3+ system managed by the National Pharmaceutical Regulatory Agency (NPRA).",
+              "sources": [
+                "https://npra.gov.my/index.php/my/submission-main-page?utm_source=openai",
+                "https://practiceguides.chambers.com/practice-guides/life-sciences-2024/malaysia?utm_source=openai",
+                "https://www.pacificbridgemedical.com/uncategorized/drug-registration-in-malaysia/?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1921,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 118,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2039
+    },
+    "user": null,
+    "store": true
+  }
+}

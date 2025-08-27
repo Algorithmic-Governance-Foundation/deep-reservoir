@@ -1,0 +1,197 @@
+gpt-4o-mini
+Accepts the International Council for Harmonisation (ICH) Common Technical Document (CTD) format for innovator pharmaceutical product registrations.
+{
+  "first_pass": {
+    "id": "chatcmpl-41bfe372-c0d9-443e-9fc6-7d1016874387",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Cambodia, as a member of the Association of Southeast Asian Nations (ASEAN), adheres to the ASEAN Common Technical Dossier (ACTD) format for pharmaceutical product registrations. The ACTD is a standardized format developed by ASEAN member countries to streamline the registration process for pharmaceuticals intended for human use. This format is specifically tailored to meet the regulatory requirements of ASEAN countries, including Cambodia. ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/32008246/?utm_source=openai))\n\nThe ACTD consists of four parts:\n\n- **Part I**: Administrative information and prescribing information.\n- **Part II**: Quality (pharmaceutical documentation).\n- **Part III**: Nonclinical study reports.\n- **Part IV**: Clinical study reports.\n\nThis structure is designed to facilitate the regulatory review process by providing a clear and consistent presentation of essential information. ([pharmatutor.org](https://www.pharmatutor.org/articles/registration-dossier-pharmaceuticals?utm_source=openai))\n\nIn contrast, the International Council for Harmonisation (ICH) Common Technical Document (CTD) is an internationally recognized format used primarily in regions such as the United States, European Union, and Japan. While the ICH CTD has been widely adopted for new drug applications in these regions, it is not the standard for Cambodia. Therefore, Cambodia does not accept the ICH CTD format for innovator pharmaceutical product registrations. ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/32008246/?utm_source=openai))\n\nFor pharmaceutical companies seeking to register products in Cambodia, it is essential to prepare and submit dossiers in the ACTD format to comply with the country's regulatory requirements. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 533,
+                "start_index": 445,
+                "title": "An Overview of the Drug Registration Requirements for Export to Tanzania, Nepal, and Cambodia - PubMed",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/32008246/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1035,
+                "start_index": 923,
+                "title": "REGISTRATION DOSSIER OF PHARMACEUTICALS | PharmaTutor",
+                "url": "https://www.pharmatutor.org/articles/registration-dossier-pharmaceuticals?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1570,
+                "start_index": 1482,
+                "title": "An Overview of the Drug Registration Requirements for Export to Tanzania, Nepal, and Cambodia - PubMed",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/32008246/?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756270135,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 355,
+      "prompt_tokens": 76,
+      "total_tokens": 431,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8e3d2e608191bd6ee32f8a599e01025c49da69620d96",
+    "created_at": 1756270141.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8e3d929c8191b2284f5917464860025c49da69620d96",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"NO\",\"explanation\":\"Cambodia does not accept the ICH Common Technical Document (CTD) format for innovator pharmaceutical product registrations, as it adheres to the ASEAN Common Technical Dossier (ACTD) format instead.\",\"sources\":[\"https://pubmed.ncbi.nlm.nih.gov/32008246/?utm_source=openai\",\"https://www.pharmatutor.org/articles/registration-dossier-pharmaceuticals?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "NO",
+              "explanation": "Cambodia does not accept the ICH Common Technical Document (CTD) format for innovator pharmaceutical product registrations, as it adheres to the ASEAN Common Technical Dossier (ACTD) format instead.",
+              "sources": [
+                "https://pubmed.ncbi.nlm.nih.gov/32008246/?utm_source=openai",
+                "https://www.pharmatutor.org/articles/registration-dossier-pharmaceuticals?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1513,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 94,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1607
+    },
+    "user": null,
+    "store": true
+  }
+}

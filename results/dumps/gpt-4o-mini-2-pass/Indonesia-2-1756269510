@@ -2,22 +2,22 @@ gpt-4o-mini
 Provides a fully digital online submission portal for pharmaceutical product marketing authorization applications.
 {
   "first_pass": {
-    "id": "chatcmpl-0fe0a539-3a7a-4310-9783-70edb02be6fa",
+    "id": "chatcmpl-a4549fdb-3623-490c-be7e-e0f3aee4f7ee",
     "choices": [
       {
         "finish_reason": "stop",
         "index": 0,
         "logprobs": null,
         "message": {
-          "content": "Yes, Indonesia provides a fully digital online submission portal for pharmaceutical product marketing authorization applications. The Indonesian Food and Drug Authority (Badan Pengawas Obat dan Makanan, or BPOM) has implemented an electronic registration system known as e-Registration. This system allows applicants to submit their marketing authorization applications online, streamlining the process and enhancing efficiency. ([registrasiobat.pom.go.id](https://registrasiobat.pom.go.id/en?utm_source=openai))\n\nAdditionally, the Indonesian government has integrated various licensing processes through the Online Single Submission (OSS) system. This system serves as a unified platform for business licensing, including those related to pharmaceutical products. The OSS system underwent significant upgrades with the introduction of the Risk-Based Approach (RBA) in August 2021, further improving the licensing process for pharmaceutical products. ([stage.pharma.kalyna.dev](https://stage.pharma.kalyna.dev/legal-reports/the-pharma-legal-handbook-indonesia/?utm_source=openai))\n\nFurthermore, in July 2024, the Ministry of Health introduced the Single Submission (SSm) system for licensing Narcotics, Psychotropic, and Precursor (NPP) pharmaceutical products. This system integrates applications from the National Single Window (LNSW), BPOM, and the Ministry of Health, aiming to accelerate the licensing process for NPP commodities. ([farmalkes.kemkes.go.id](https://farmalkes.kemkes.go.id/en/2024/07/penguatan-pengendalian-ekspor-dan-impor-perizinan-komoditi-npp-kemenkes-ri-sosialisasikan-implementasi-single-submission/?utm_source=openai))\n\nThese digital platforms collectively facilitate the online submission and processing of pharmaceutical product marketing authorization applications in Indonesia. ",
+          "content": "Yes, Indonesia provides a fully digital online submission portal for pharmaceutical product marketing authorization applications. The Indonesian Food and Drug Authority (BPOM) has implemented an electronic registration system known as e-Registration, accessible through their official website. ([registrasiobat.pom.go.id](https://registrasiobat.pom.go.id/en?utm_source=openai))\n\nThis system allows applicants to submit all necessary documentation and track the status of their applications online. The e-Registration process is part of Indonesia's broader efforts to streamline regulatory procedures and enhance transparency in the pharmaceutical sector. ([linkedin.com](https://www.linkedin.com/pulse/how-register-imported-products-bpom-2025-cptcorporate-wtfic?utm_source=openai))\n\nAdditionally, the Risk-Based Approach Online Single Submission (RBA OSS) system integrates various regulatory processes, including those for pharmaceutical products, into a unified digital platform. This system further facilitates the application and approval process for marketing authorizations in Indonesia. ([stage.pharma.kalyna.dev](https://stage.pharma.kalyna.dev/legal-reports/the-pharma-legal-handbook-indonesia/?utm_source=openai))\n\nThese digital platforms reflect Indonesia's commitment to modernizing its regulatory framework and improving the efficiency of pharmaceutical product approvals. ",
           "refusal": null,
           "role": "assistant",
           "annotations": [
             {
               "type": "url_citation",
               "url_citation": {
-                "end_index": 512,
-                "start_index": 429,
+                "end_index": 377,
+                "start_index": 294,
                 "title": "BPOM - Home",
                 "url": "https://registrasiobat.pom.go.id/en?utm_source=openai"
               }
@@ -25,19 +25,19 @@ Provides a fully digital online submission portal for pharmaceutical product mar
             {
               "type": "url_citation",
               "url_citation": {
-                "end_index": 1080,
-                "start_index": 951,
-                "title": "The Pharma Legal Handbook: Indonesia - PharmaBoardroom",
-                "url": "https://stage.pharma.kalyna.dev/legal-reports/the-pharma-legal-handbook-indonesia/?utm_source=openai"
+                "end_index": 781,
+                "start_index": 655,
+                "title": "How to Register Imported Products with BPOM in 2025",
+                "url": "https://www.linkedin.com/pulse/how-register-imported-products-bpom-2025-cptcorporate-wtfic?utm_source=openai"
               }
             },
             {
               "type": "url_citation",
               "url_citation": {
-                "end_index": 1645,
-                "start_index": 1436,
-                "title": "Penguatan Pengendalian Ekspor dan Impor perizinan Komoditi NPP: Kemenkes RI Sosialisasikan Implementasi Single Submission | Direktorat Jenderal Kefarmasian dan Alat Kesehatan",
-                "url": "https://farmalkes.kemkes.go.id/en/2024/07/penguatan-pengendalian-ekspor-dan-impor-perizinan-komoditi-npp-kemenkes-ri-sosialisasikan-implementasi-single-submission/?utm_source=openai"
+                "end_index": 1223,
+                "start_index": 1094,
+                "title": "The Pharma Legal Handbook: Indonesia - PharmaBoardroom",
+                "url": "https://stage.pharma.kalyna.dev/legal-reports/the-pharma-legal-handbook-indonesia/?utm_source=openai"
               }
             }
           ],
@@ -47,15 +47,15 @@ Provides a fully digital online submission portal for pharmaceutical product mar
         }
       }
     ],
-    "created": 1756269095,
+    "created": 1756269503,
     "model": "gpt-4o-mini-search-preview-2025-03-11",
     "object": "chat.completion",
     "service_tier": null,
     "system_fingerprint": "",
     "usage": {
-      "completion_tokens": 364,
+      "completion_tokens": 255,
       "prompt_tokens": 64,
-      "total_tokens": 428,
+      "total_tokens": 319,
       "completion_tokens_details": {
         "accepted_prediction_tokens": 0,
         "audio_tokens": 0,
@@ -69,8 +69,8 @@ Provides a fully digital online submission portal for pharmaceutical product mar
     }
   },
   "second_pass": {
-    "id": "resp_68ae8a2d91cc81a08fd127fbb8a0197d066e5447c8bddf94",
-    "created_at": 1756269101.0,
+    "id": "resp_68ae8bc4f0b881a18ff64aeb9a68b04801e444fb27f0f23d",
+    "created_at": 1756269508.0,
     "error": null,
     "incomplete_details": null,
     "instructions": null,
@@ -79,20 +79,20 @@ Provides a fully digital online submission portal for pharmaceutical product mar
     "object": "response",
     "output": [
       {
-        "id": "msg_68ae8a2e152081a0ae70e7f77638b6ed066e5447c8bddf94",
+        "id": "msg_68ae8bc52d0881a181754622ae8a99a201e444fb27f0f23d",
         "content": [
           {
             "annotations": [],
-            "text": "{\"status\":\"YES\",\"explanation\":\"Indonesia provides a fully digital online submission portal for pharmaceutical product marketing authorization applications through its e-Registration system and the Online Single Submission platform.\",\"sources\":[\"https://registrasiobat.pom.go.id/en?utm_source=openai\",\"https://stage.pharma.kalyna.dev/legal-reports/the-pharma-legal-handbook-indonesia/?utm_source=openai\",\"https://farmalkes.kemkes.go.id/en/2024/07/penguatan-pengendalian-ekspor-dan-impor-perizinan-komoditi-npp-kemenkes-ri-sosialisasikan-implementasi-single-submission/?utm_source=openai\"]}",
+            "text": "{\"status\":\"YES\",\"explanation\":\"Indonesia provides a fully digital online submission portal for pharmaceutical product marketing authorization applications through the e-Registration system implemented by the Indonesian Food and Drug Authority (BPOM), accessible at their official website.\",\"sources\":[\"https://registrasiobat.pom.go.id/en?utm_source=openai\",\"https://www.linkedin.com/pulse/how-register-imported-products-bpom-2025-cptcorporate-wtfic?utm_source=openai\",\"https://stage.pharma.kalyna.dev/legal-reports/the-pharma-legal-handbook-indonesia/?utm_source=openai\"]}",
             "type": "output_text",
             "logprobs": [],
             "parsed": {
               "status": "YES",
-              "explanation": "Indonesia provides a fully digital online submission portal for pharmaceutical product marketing authorization applications through its e-Registration system and the Online Single Submission platform.",
+              "explanation": "Indonesia provides a fully digital online submission portal for pharmaceutical product marketing authorization applications through the e-Registration system implemented by the Indonesian Food and Drug Authority (BPOM), accessible at their official website.",
               "sources": [
                 "https://registrasiobat.pom.go.id/en?utm_source=openai",
-                "https://stage.pharma.kalyna.dev/legal-reports/the-pharma-legal-handbook-indonesia/?utm_source=openai",
-                "https://farmalkes.kemkes.go.id/en/2024/07/penguatan-pengendalian-ekspor-dan-impor-perizinan-komoditi-npp-kemenkes-ri-sosialisasikan-implementasi-single-submission/?utm_source=openai"
+                "https://www.linkedin.com/pulse/how-register-imported-products-bpom-2025-cptcorporate-wtfic?utm_source=openai",
+                "https://stage.pharma.kalyna.dev/legal-reports/the-pharma-legal-handbook-indonesia/?utm_source=openai"
               ]
             }
           }
@@ -182,15 +182,15 @@ Provides a fully digital online submission portal for pharmaceutical product mar
     "top_logprobs": 0,
     "truncation": "disabled",
     "usage": {
-      "input_tokens": 1561,
+      "input_tokens": 1280,
       "input_tokens_details": {
         "cached_tokens": 0
       },
-      "output_tokens": 140,
+      "output_tokens": 124,
       "output_tokens_details": {
         "reasoning_tokens": 0
       },
-      "total_tokens": 1701
+      "total_tokens": 1404
     },
     "user": null,
     "store": true

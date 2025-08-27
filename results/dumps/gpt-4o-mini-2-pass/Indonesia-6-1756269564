@@ -1,0 +1,216 @@
+gpt-4o-mini
+Requires halal certification for pharmaceutical products.
+{
+  "first_pass": {
+    "id": "chatcmpl-23755cd5-49de-4ed3-929e-a80323ff5743",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Yes, Indonesia requires halal certification for pharmaceutical products. This mandate is outlined in Act No. 33 of 2014 concerning Halal Product Assurance (JPH), which stipulates that products entering, circulating, and traded within Indonesia must be halal certified. ([halalmui.org](https://halalmui.org/en/ask-the-expert-part-1-from-regulations-to-certification-challenges-of-halal-medicines/?utm_source=openai))\n\nThe implementation of this requirement is structured in phases, as detailed in Government Regulation No. 39 of 2021 concerning the Implementation of the Halal Product Assurance Sector. Specifically for medicinal and pharmaceutical products, the obligation for halal certification is regulated through Presidential Regulation No. 6 of 2023, which governs the halal certification of medicines, biological products, and medical devices entering, circulating, and trading in the territory of Indonesia. ([halalmui.org](https://halalmui.org/en/ask-the-expert-part-1-from-regulations-to-certification-challenges-of-halal-medicines/?utm_source=openai))\n\nThe timeline for mandatory halal certification for pharmaceutical products is as follows:\n\n- **Over-the-counter (OTC) medicines and limited OTC medicines**: Mandatory certification from October 17, 2021, to October 17, 2029.\n\n- **Prescription medicines**: Mandatory certification from October 17, 2021, to October 17, 2034.\n\nIt's important to note that narcotic and psychotropic medicines are exempt from the obligation to obtain a halal certificate. ([halalmui.org](https://halalmui.org/en/ask-the-expert-part-1-from-regulations-to-certification-challenges-of-halal-medicines/?utm_source=openai))\n\nThe Halal Product Assurance Agency (BPJPH) emphasizes the importance of halal certification for health products, including vaccines, to ensure safety and quality. BPJPH Secretary Muhammad Aqil Irham highlighted that halal certification not only meets religious aspects but also plays a crucial role in increasing the competitiveness of the national pharmaceutical industry. ([en.antaranews.com](https://en.antaranews.com/news/347321/bpjph-highlights-urgency-of-halal-certification-for-health-products?utm_source=openai))\n\nHowever, the implementation of this requirement faces challenges, particularly due to Indonesia's heavy reliance on imported raw materials for pharmaceutical products. Approximately 90% of pharmaceutical ingredients are sourced from abroad, complicating the verification of their halal status and posing risks of contamination with non-halal substances. ([theleap.id](https://theleap.id/detail/1915/navigating-the-halal-pharmaceutical-industry-in-indonesia-challenges-and-opportunities?utm_source=openai))\n\nIn summary, Indonesia mandates halal certification for pharmaceutical products, with a phased implementation plan extending until 2034. This initiative aims to ensure that all pharmaceutical products in the country comply with Islamic law, thereby enhancing their safety, quality, and market competitiveness. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 415,
+                "start_index": 269,
+                "title": "Ask The Expert Part 1 \u2013 From Regulations To Certification Challenges Of Halal Medicines | Lembaga Pemeriksa Halal (LPH) LPPOM Sertifikasi Halal",
+                "url": "https://halalmui.org/en/ask-the-expert-part-1-from-regulations-to-certification-challenges-of-halal-medicines/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1062,
+                "start_index": 916,
+                "title": "Ask The Expert Part 1 \u2013 From Regulations To Certification Challenges Of Halal Medicines | Lembaga Pemeriksa Halal (LPH) LPPOM Sertifikasi Halal",
+                "url": "https://halalmui.org/en/ask-the-expert-part-1-from-regulations-to-certification-challenges-of-halal-medicines/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1661,
+                "start_index": 1515,
+                "title": "Ask The Expert Part 1 \u2013 From Regulations To Certification Challenges Of Halal Medicines | Lembaga Pemeriksa Halal (LPH) LPPOM Sertifikasi Halal",
+                "url": "https://halalmui.org/en/ask-the-expert-part-1-from-regulations-to-certification-challenges-of-halal-medicines/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 2183,
+                "start_index": 2037,
+                "title": "BPJPH highlights urgency of halal certification for health products - ANTARA News",
+                "url": "https://en.antaranews.com/news/347321/bpjph-highlights-urgency-of-halal-certification-for-health-products?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 2690,
+                "start_index": 2539,
+                "title": "Navigating the Halal Pharmaceutical Industry in Indonesia: Challenges and Opportunities",
+                "url": "https://theleap.id/detail/1915/navigating-the-halal-pharmaceutical-industry-in-indonesia-challenges-and-opportunities?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756269547,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 608,
+      "prompt_tokens": 57,
+      "total_tokens": 665,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8bf8d180819ca42d4e7739eb241b0bf54a4af974c867",
+    "created_at": 1756269560.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8bf9794c819c9095863bc3268f790bf54a4af974c867",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"YES\",\"explanation\":\"Indonesia requires halal certification for pharmaceutical products as mandated by Act No. 33 of 2014 on Halal Product Assurance, with phased implementation through 2034 (Government Regulation No. 39 of 2021 and Presidential Regulation No. 6 of 2023).\",\"sources\":[\"https://halalmui.org/en/ask-the-expert-part-1-from-regulations-to-certification-challenges-of-halal-medicines/?utm_source=openai\",\"https://en.antaranews.com/news/347321/bpjph-highlights-urgency-of-halal-certification-for-health-products?utm_source=openai\",\"https://theleap.id/detail/1915/navigating-the-halal-pharmaceutical-industry-in-indonesia-challenges-and-opportunities?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "YES",
+              "explanation": "Indonesia requires halal certification for pharmaceutical products as mandated by Act No. 33 of 2014 on Halal Product Assurance, with phased implementation through 2034 (Government Regulation No. 39 of 2021 and Presidential Regulation No. 6 of 2023).",
+              "sources": [
+                "https://halalmui.org/en/ask-the-expert-part-1-from-regulations-to-certification-challenges-of-halal-medicines/?utm_source=openai",
+                "https://en.antaranews.com/news/347321/bpjph-highlights-urgency-of-halal-certification-for-health-products?utm_source=openai",
+                "https://theleap.id/detail/1915/navigating-the-halal-pharmaceutical-industry-in-indonesia-challenges-and-opportunities?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 2296,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 170,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2466
+    },
+    "user": null,
+    "store": true
+  }
+}

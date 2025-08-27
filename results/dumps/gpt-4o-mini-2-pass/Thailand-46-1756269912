@@ -1,0 +1,188 @@
+gpt-4o-mini
+Requires halal certification for pharmaceutical products.
+{
+  "first_pass": {
+    "id": "chatcmpl-5111ed22-e209-4e8a-95ab-c14a3b34c6ab",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "In Thailand, halal certification is not mandatory for pharmaceutical products. However, obtaining halal certification can be advantageous for manufacturers aiming to cater to the Muslim population and export to countries where halal standards are required.\n\nThe Central Islamic Council of Thailand (CICOT) is the primary body responsible for issuing halal certifications. They have accredited various pharmaceutical products, including mouth sprays and infant formula, ensuring they meet Islamic dietary laws. ([halal.or.th](https://www.halal.or.th/office/certificate_province/document/cert/20202/en?utm_source=openai))\n\nAdditionally, the Halal Standard Institute of Thailand (HSIT) supports the development of halal standards and guidelines for products and services, including pharmaceuticals. Established in 2002, HSIT collaborates with organizations like the Standards and Metrology Institute for Islamic Countries (SMIIC) to harmonize halal standards internationally. ([halalstandard.or.th](https://www.halalstandard.or.th/en/about-us?utm_source=openai))\n\nWhile halal certification is not a legal requirement for pharmaceutical products in Thailand, obtaining it can enhance marketability, build consumer trust, and open export opportunities to Muslim-majority countries. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 619,
+                "start_index": 510,
+                "title": "Halal.or.th",
+                "url": "https://www.halal.or.th/office/certificate_province/document/cert/20202/en?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1059,
+                "start_index": 973,
+                "title": "About us - halalstandard",
+                "url": "https://www.halalstandard.or.th/en/about-us?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756269906,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 238,
+      "prompt_tokens": 57,
+      "total_tokens": 295,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8d56867081978e2221eb09cbd2d004b7156d3fa68b0a",
+    "created_at": 1756269910.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8d5726e481979cca64e18b95da9404b7156d3fa68b0a",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"NO\",\"explanation\":\"Thailand does not require halal certification for pharmaceutical products, although it can benefit manufacturers targeting the Muslim market.\",\"sources\":[\"https://www.halal.or.th/office/certificate_province/document/cert/20202/en?utm_source=openai\",\"https://www.halalstandard.or.th/en/about-us?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "NO",
+              "explanation": "Thailand does not require halal certification for pharmaceutical products, although it can benefit manufacturers targeting the Muslim market.",
+              "sources": [
+                "https://www.halal.or.th/office/certificate_province/document/cert/20202/en?utm_source=openai",
+                "https://www.halalstandard.or.th/en/about-us?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1142,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 77,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1219
+    },
+    "user": null,
+    "store": true
+  }
+}

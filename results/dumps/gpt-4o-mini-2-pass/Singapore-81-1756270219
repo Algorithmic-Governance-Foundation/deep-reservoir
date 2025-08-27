@@ -1,0 +1,188 @@
+gpt-4o-mini
+Accepts the International Council for Harmonisation (ICH) Common Technical Document (CTD) format for innovator pharmaceutical product registrations.
+{
+  "first_pass": {
+    "id": "chatcmpl-4d00ac52-fb78-478b-b210-9a61d8227914",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Yes, Singapore accepts the International Council for Harmonisation (ICH) Common Technical Document (CTD) format for innovator pharmaceutical product registrations. The Health Sciences Authority (HSA) requires that application dossiers be organized in either the ICH CTD or the ASEAN CTD (ACTD) format. This modular framework is detailed in the ICH Topic M4 and the ASEAN guidelines on the Common Technical Document for Registration of Pharmaceuticals for Human Use: Organisation of the Dossier. ([hsa.gov.sg](https://www.hsa.gov.sg/ctgtp/registration/overview/registration-process?utm_source=openai))\n\nIn addition to the CTD format, the HSA is transitioning to electronic submissions through the electronic Common Technical Document (eCTD) system. This initiative aims to streamline the submission process by reducing the need for physical media. The implementation of eCTD is planned to be phased, with initial adoption being voluntary. The HSA has indicated that the final eCTD specification package is expected to be released in the third quarter of 2024, with full implementation targeted for the first quarter of 2025. ([extedo.com](https://www.extedo.com/blog/singapores-transition-to-ectd?utm_source=openai))\n\nTherefore, Singapore not only accepts the ICH CTD format for pharmaceutical product registrations but is also advancing towards electronic submissions to enhance the efficiency of the registration process. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 600,
+                "start_index": 495,
+                "title": "HSA | Registration process",
+                "url": "https://www.hsa.gov.sg/ctgtp/registration/overview/registration-process?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1215,
+                "start_index": 1124,
+                "title": "Singapore's Transition to eCTD | EXTEDO",
+                "url": "https://www.extedo.com/blog/singapores-transition-to-ectd?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756270213,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 288,
+      "prompt_tokens": 76,
+      "total_tokens": 364,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8e88e58c81a1aa3554302b6d97cc0921001e298c16bc",
+    "created_at": 1756270216.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8e893c2081a1b0b81e30a4d3b0a70921001e298c16bc",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"YES\",\"explanation\":\"Singapore accepts the ICH Common Technical Document (CTD) format for innovator pharmaceutical product registrations, as required by the Health Sciences Authority (HSA), which also plans to transition to electronic submissions with the eCTD system.\",\"sources\":[\"https://www.hsa.gov.sg/ctgtp/registration/overview/registration-process?utm_source=openai\",\"https://www.extedo.com/blog/singapores-transition-to-ectd?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "YES",
+              "explanation": "Singapore accepts the ICH Common Technical Document (CTD) format for innovator pharmaceutical product registrations, as required by the Health Sciences Authority (HSA), which also plans to transition to electronic submissions with the eCTD system.",
+              "sources": [
+                "https://www.hsa.gov.sg/ctgtp/registration/overview/registration-process?utm_source=openai",
+                "https://www.extedo.com/blog/singapores-transition-to-ectd?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1266,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 104,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1370
+    },
+    "user": null,
+    "store": true
+  }
+}

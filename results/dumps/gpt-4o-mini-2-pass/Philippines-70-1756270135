@@ -1,0 +1,198 @@
+gpt-4o-mini
+Publishes national antimicrobial resistance (AMR) surveillance data related to pharmaceutical products.
+{
+  "first_pass": {
+    "id": "chatcmpl-b66c174c-2d3e-49c4-b918-1b2034bbb061",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Yes, the Philippines publishes national antimicrobial resistance (AMR) surveillance data related to pharmaceutical products. The Antimicrobial Resistance Surveillance Program (ARSP), established in 1988 by the Department of Health (DOH), is responsible for monitoring AMR trends in the country. This program operates through 24 sentinel sites across 16 of the 17 regions, collecting data on aerobic bacteria from clinical specimens. The ARSP's annual reports, such as the 2022 Annual Report Data Summary, are publicly accessible on their website. ([arsp.com.ph](https://arsp.com.ph/arsp-2022-annual-report-data-summary-is-now-available-for-download/?utm_source=openai))\n\nIn addition to the ARSP, the Research Institute for Tropical Medicine (RITM) serves as the central hub for the country's AMR surveillance efforts. RITM operates the Antimicrobial Resistance Surveillance Reference Laboratory (ARSRL), which collaborates with 26 sentinel sites nationwide to monitor AMR patterns. The data collected from these sites are essential for identifying AMR trends and guiding clinical decision-making. ([wma.net](https://www.wma.net/news-post/24685/amr-bulletin-4-0/?utm_source=openai))\n\nFurthermore, the Philippines participates in the Western Pacific Regional Antimicrobial Consumption Surveillance System (WPRACSS), launched by the World Health Organization (WHO) in 2020. This system supports member states in capturing data on antimicrobial consumption at national, hospital, and community pharmacy levels. The WPRACSS web portal enables countries to upload and analyze their antimicrobial consumption surveillance data. As of now, 22 member states from the Western Pacific Region, including the Philippines, have joined WPRACSS. ([who.int](https://www.who.int/westernpacific/health-topics/antimicrobial-resistance/wpracss?utm_source=openai))\n\nThese initiatives demonstrate the Philippines' commitment to monitoring and publishing AMR surveillance data related to pharmaceutical products, contributing to global efforts in combating antimicrobial resistance. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 669,
+                "start_index": 547,
+                "title": "ARSP 2022 Annual Report Data Summary is now available for download | Antimicrobial Resistance Surveillance Reference Laboratory",
+                "url": "https://arsp.com.ph/arsp-2022-annual-report-data-summary-is-now-available-for-download/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1181,
+                "start_index": 1097,
+                "title": "AMR Bulletin 4.0 \u2013 WMA \u2013 The World Medical Association",
+                "url": "https://www.wma.net/news-post/24685/amr-bulletin-4-0/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1842,
+                "start_index": 1730,
+                "title": "The Western Pacific Regional Antimicrobial Consumption Surveillance System (WPRACSS)",
+                "url": "https://www.who.int/westernpacific/health-topics/antimicrobial-resistance/wpracss?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756270128,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 418,
+      "prompt_tokens": 66,
+      "total_tokens": 484,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8e34adc081a199f33558a9a057ed0f40b70a182fd123",
+    "created_at": 1756270132.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8e350f1881a18e16c591257454c90f40b70a182fd123",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"YES\",\"explanation\":\"The Philippines publishes national antimicrobial resistance (AMR) surveillance data related to pharmaceutical products through the Antimicrobial Resistance Surveillance Program (ARSP), which has been operational since 1988 and releases annual reports that are publicly accessible.\",\"sources\":[\"https://arsp.com.ph/arsp-2022-annual-report-data-summary-is-now-available-for-download/?utm_source=openai\",\"https://www.wma.net/news-post/24685/amr-bulletin-4-0/?utm_source=openai\",\"https://www.who.int/westernpacific/health-topics/antimicrobial-resistance/wpracss?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "YES",
+              "explanation": "The Philippines publishes national antimicrobial resistance (AMR) surveillance data related to pharmaceutical products through the Antimicrobial Resistance Surveillance Program (ARSP), which has been operational since 1988 and releases annual reports that are publicly accessible.",
+              "sources": [
+                "https://arsp.com.ph/arsp-2022-annual-report-data-summary-is-now-available-for-download/?utm_source=openai",
+                "https://www.wma.net/news-post/24685/amr-bulletin-4-0/?utm_source=openai",
+                "https://www.who.int/westernpacific/health-topics/antimicrobial-resistance/wpracss?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1645,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 141,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1786
+    },
+    "user": null,
+    "store": true
+  }
+}

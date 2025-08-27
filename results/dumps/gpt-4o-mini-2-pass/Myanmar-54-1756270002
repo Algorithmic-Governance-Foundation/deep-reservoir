@@ -1,0 +1,207 @@
+gpt-4o-mini
+Permits stability data submission for pharmaceutical products at 25°C/60% relative humidity (RH) when supported by accelerated stability studies.
+{
+  "first_pass": {
+    "id": "chatcmpl-f8802037-9ab4-4d2f-9dd1-a85db95e38a4",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "In Myanmar, the regulatory authority requires long-term stability testing of pharmaceutical products at 30\u00b0C \u00b1 2\u00b0C/75% relative humidity (RH) \u00b1 5% RH, as per the World Health Organization's (WHO) guidelines. ([scribd.com](https://www.scribd.com/document/382268703/StabilityTable2-pdf?utm_source=openai)) This condition is consistent with the ASEAN stability guidelines, which also mandate long-term testing at 30\u00b0C \u00b1 2\u00b0C/75% RH \u00b1 5% RH for products intended for markets in tropical climates. ([stabilitystudies.in](https://www.stabilitystudies.in/stability-studies-key-regulatory-guidelines-for-global-compliance/?utm_source=openai))\n\nWhile the International Council for Harmonisation (ICH) guidelines provide flexibility, allowing long-term stability studies at 25\u00b0C \u00b1 2\u00b0C/60% RH \u00b1 5% RH or 30\u00b0C \u00b1 2\u00b0C/65% RH \u00b1 5% RH, the Myanmar regulatory framework does not explicitly permit the use of 25\u00b0C/60% RH for long-term stability testing. ([arexcell.com](https://arexcell.com/MMC_GMP_Wiki/index.php/WHO_TRS_1010_Annex_10?utm_source=openai))\n\nTherefore, to align with Myanmar's regulatory requirements, it is advisable to conduct long-term stability studies at 30\u00b0C/75% RH. Accelerated stability studies at 40\u00b0C/75% RH \u00b1 5% RH for six months can be performed to support the stability data, but they cannot replace the long-term testing mandated by the Myanmar authorities. ([arexcell.com](https://arexcell.com/MMC_GMP_Wiki/index.php/WHO_TRS_1010_Annex_10?utm_source=openai)) ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 303,
+                "start_index": 208,
+                "title": "Table 2: Stability Testing of Active Pharmaceutical Ingredients and Finished Pharmaceutical Products | PDF | Arabs | Africa",
+                "url": "https://www.scribd.com/document/382268703/StabilityTable2-pdf?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 633,
+                "start_index": 492,
+                "title": "Stability Studies: Key Regulatory Guidelines for Global Compliance \u2013 StabilityStudies.in",
+                "url": "https://www.stabilitystudies.in/stability-studies-key-regulatory-guidelines-for-global-compliance/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1036,
+                "start_index": 935,
+                "title": "WHO TRS 1010 Annex 10 - MMCL GMP Wiki",
+                "url": "https://arexcell.com/MMC_GMP_Wiki/index.php/WHO_TRS_1010_Annex_10?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1469,
+                "start_index": 1368,
+                "title": "WHO TRS 1010 Annex 10 - MMCL GMP Wiki",
+                "url": "https://arexcell.com/MMC_GMP_Wiki/index.php/WHO_TRS_1010_Annex_10?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756269993,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 379,
+      "prompt_tokens": 77,
+      "total_tokens": 456,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8dafe8f481a29502332eca145cc70c82545286d52c2e",
+    "created_at": 1756269999.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8db045cc81a2814bbe21a436c2830c82545286d52c2e",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"NO\",\"explanation\":\"Myanmar does not permit stability data submission for pharmaceutical products at 25\u00b0C/60% RH, as the regulatory requirements stipulate long-term stability testing at 30\u00b0C/75% RH.\",\"sources\":[\"https://www.scribd.com/document/382268703/StabilityTable2-pdf?utm_source=openai\",\"https://www.stabilitystudies.in/stability-studies-key-regulatory-guidelines-for-global-compliance/?utm_source=openai\",\"https://arexcell.com/MMC_GMP_Wiki/index.php/WHO_TRS_1010_Annex_10?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "NO",
+              "explanation": "Myanmar does not permit stability data submission for pharmaceutical products at 25\u00b0C/60% RH, as the regulatory requirements stipulate long-term stability testing at 30\u00b0C/75% RH.",
+              "sources": [
+                "https://www.scribd.com/document/382268703/StabilityTable2-pdf?utm_source=openai",
+                "https://www.stabilitystudies.in/stability-studies-key-regulatory-guidelines-for-global-compliance/?utm_source=openai",
+                "https://arexcell.com/MMC_GMP_Wiki/index.php/WHO_TRS_1010_Annex_10?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1666,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 133,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1799
+    },
+    "user": null,
+    "store": true
+  }
+}

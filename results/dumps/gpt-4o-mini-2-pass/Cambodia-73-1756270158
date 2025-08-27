@@ -2,22 +2,22 @@ gpt-4o-mini
 Legally requires acceptance of another ASEAN Member State’s (AMS) Certificate of Good Manufacturing Practice (cGMP) for pharmaceutical manufacturers.
 {
   "first_pass": {
-    "id": "chatcmpl-31bfa8c4-c0b6-4ee7-9a79-8e0f114df212",
+    "id": "chatcmpl-b257d648-5dac-4f34-9f22-1a1d298a30dd",
     "choices": [
       {
         "finish_reason": "stop",
         "index": 0,
         "logprobs": null,
         "message": {
-          "content": "Indonesia is a signatory to the ASEAN Sectoral Mutual Recognition Arrangement (MRA) on Good Manufacturing Practice (GMP) Inspection of Manufacturers of Medicinal Products, adopted on April 10, 2009. ([cil.nus.edu.sg](https://cil.nus.edu.sg/databasecil/2009-asean-sectoral-mutual-recognition-agreement-on-good-manufacturing-practice-gmp-inspection-of-manufacturers-of-medicinal-products/?utm_source=openai)) This agreement aims to facilitate the mutual recognition of GMP inspection reports and certificates among ASEAN member states, thereby reducing redundant inspections and promoting the free flow of medicinal products within the region.\n\nUnder this MRA, Indonesia is obligated to accept GMP inspection reports and certificates issued by other ASEAN member states' designated inspection services, provided these reports meet the agreed-upon standards and criteria. The designated inspection services include:\n\n- Badan Pengawas Obat dan Makanan (BPOM) of Indonesia\n- Health Sciences Authority of Singapore\n- National Pharmaceutical Control Bureau of Malaysia\n- Food and Drug Administration of Thailand\n\nThis mutual recognition is intended to streamline the regulatory process, minimize trade barriers, and enhance the competitiveness of ASEAN's pharmaceutical sector. ([en.vietnamplus.vn](https://en.vietnamplus.vn/asean-imposes-tighter-medicine-and-pharmaceutical-management-post73233.vnp?utm_source=openai))\n\nHowever, the implementation of this MRA is subject to each member state's domestic regulations and procedures. While Indonesia has signed the agreement, the actual acceptance of another ASEAN member state's GMP certificate may depend on specific national regulations and the alignment of inspection standards. Therefore, it is advisable for pharmaceutical manufacturers to consult with Indonesia's regulatory authorities, such as BPOM, to understand the current requirements and procedures for accepting GMP certificates from other ASEAN member states. ",
+          "content": "Yes, Cambodia legally requires the acceptance of another ASEAN Member State's (AMS) Certificate of Good Manufacturing Practice (cGMP) for pharmaceutical manufacturers. This requirement is based on the ASEAN Sectoral Mutual Recognition Arrangement (MRA) on Good Manufacturing Practice (GMP) Inspection of Manufacturers of Medicinal Products, signed by all ten ASEAN member states on April 10, 2009. ([cil.nus.edu.sg](https://cil.nus.edu.sg/databasecil/2009-asean-sectoral-mutual-recognition-agreement-on-good-manufacturing-practice-gmp-inspection-of-manufacturers-of-medicinal-products/?utm_source=openai))\n\nThe MRA aims to facilitate the mutual recognition of GMP inspection outcomes among ASEAN countries, thereby eliminating the need for duplicate inspections and promoting the free flow of medicinal products within the region. Under this agreement, each AMS is obligated to accept GMP certificates and inspection reports issued by other member states' inspection services that are listed and recognized under the MRA. ([globalforum.diaglobal.org](https://globalforum.diaglobal.org/issue/march-2021/harmonization-of-gmp-inspection-and-benefits-to-asean-economic-community/?utm_source=openai))\n\nIn Cambodia, the Ministry of Health (MOH) oversees the registration and regulation of pharmaceutical products. Imported medicines and medical products must be registered with the MOH, which requires documentation such as GMP or ISO certificates. The registration process typically takes three to six months, and the certificates are valid for three years from the date of issuance. ([trade.gov](https://www.trade.gov/healthcare-resource-guide-cambodia?utm_source=openai))\n\nTherefore, Cambodian authorities are expected to accept GMP certificates from other ASEAN member states that comply with the MRA, streamlining the registration process for pharmaceutical manufacturers within the region. ",
           "refusal": null,
           "role": "assistant",
           "annotations": [
             {
               "type": "url_citation",
               "url_citation": {
-                "end_index": 406,
-                "start_index": 199,
+                "end_index": 605,
+                "start_index": 398,
                 "title": "2009 ASEAN Sectoral Mutual Recognition Agreement on Good Manufacturing Practice (GMP) Inspection of Manufacturers of Medicinal Products - Centre for International Law",
                 "url": "https://cil.nus.edu.sg/databasecil/2009-asean-sectoral-mutual-recognition-agreement-on-good-manufacturing-practice-gmp-inspection-of-manufacturers-of-medicinal-products/?utm_source=openai"
               }
@@ -25,10 +25,19 @@ Legally requires acceptance of another ASEAN Member State’s (AMS) Certificate 
             {
               "type": "url_citation",
               "url_citation": {
-                "end_index": 1412,
-                "start_index": 1271,
-                "title": "ASEAN imposes tighter medicine and pharmaceutical management | Vietnam+ (VietnamPlus)",
-                "url": "https://en.vietnamplus.vn/asean-imposes-tighter-medicine-and-pharmaceutical-management-post73233.vnp?utm_source=openai"
+                "end_index": 1195,
+                "start_index": 1022,
+                "title": "Harmonization of GMP Inspection and Benefits to ASEAN Economic Community",
+                "url": "https://globalforum.diaglobal.org/issue/march-2021/harmonization-of-gmp-inspection-and-benefits-to-asean-economic-community/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1668,
+                "start_index": 1579,
+                "title": "Healthcare Resource Guide - Cambodia",
+                "url": "https://www.trade.gov/healthcare-resource-guide-cambodia?utm_source=openai"
               }
             }
           ],
@@ -38,15 +47,15 @@ Legally requires acceptance of another ASEAN Member State’s (AMS) Certificate 
         }
       }
     ],
-    "created": 1756269105,
+    "created": 1756270150,
     "model": "gpt-4o-mini-search-preview-2025-03-11",
     "object": "chat.completion",
     "service_tier": null,
     "system_fingerprint": "",
     "usage": {
-      "completion_tokens": 369,
+      "completion_tokens": 374,
       "prompt_tokens": 77,
-      "total_tokens": 446,
+      "total_tokens": 451,
       "completion_tokens_details": {
         "accepted_prediction_tokens": 0,
         "audio_tokens": 0,
@@ -60,8 +69,8 @@ Legally requires acceptance of another ASEAN Member State’s (AMS) Certificate 
     }
   },
   "second_pass": {
-    "id": "resp_68ae8a3750508191bc789b66f62918b60fb17719fb6306eb",
-    "created_at": 1756269111.0,
+    "id": "resp_68ae8e4ac95481a09c19e5a42d0ab5fc045ab437cd5495eb",
+    "created_at": 1756270154.0,
     "error": null,
     "incomplete_details": null,
     "instructions": null,
@@ -70,19 +79,20 @@ Legally requires acceptance of another ASEAN Member State’s (AMS) Certificate 
     "object": "response",
     "output": [
       {
-        "id": "msg_68ae8a38003c8191b6718e04be00aebd0fb17719fb6306eb",
+        "id": "msg_68ae8e4b34c881a08cc6e3abb7d18142045ab437cd5495eb",
         "content": [
           {
             "annotations": [],
-            "text": "{\"status\":\"PARTIAL\",\"explanation\":\"Indonesia is obligated to accept cGMP certificates from other ASEAN member states under the ASEAN MRA on GMP, but actual acceptance may vary based on national regulations and alignment of inspection standards.\",\"sources\":[\"https://cil.nus.edu.sg/databasecil/2009-asean-sectoral-mutual-recognition-agreement-on-good-manufacturing-practice-gmp-inspection-of-manufacturers-of-medicinal-products/?utm_source=openai\",\"https://en.vietnamplus.vn/asean-imposes-tighter-medicine-and-pharmaceutical-management-post73233.vnp?utm_source=openai\"]}",
+            "text": "{\"status\":\"YES\",\"explanation\":\"Cambodia legally requires acceptance of another ASEAN Member State's Certificate of Good Manufacturing Practice (cGMP) due to the ASEAN Sectoral Mutual Recognition Arrangement on GMP signed by all ASEAN member states on April 10, 2009.\",\"sources\":[\"https://cil.nus.edu.sg/databasecil/2009-asean-sectoral-mutual-recognition-agreement-on-good-manufacturing-practice-gmp-inspection-of-manufacturers-of-medicinal-products/?utm_source=openai\",\"https://globalforum.diaglobal.org/issue/march-2021/harmonization-of-gmp-inspection-and-benefits-to-asean-economic-community/?utm_source=openai\",\"https://www.trade.gov/healthcare-resource-guide-cambodia?utm_source=openai\"]}",
             "type": "output_text",
             "logprobs": [],
             "parsed": {
-              "status": "PARTIAL",
-              "explanation": "Indonesia is obligated to accept cGMP certificates from other ASEAN member states under the ASEAN MRA on GMP, but actual acceptance may vary based on national regulations and alignment of inspection standards.",
+              "status": "YES",
+              "explanation": "Cambodia legally requires acceptance of another ASEAN Member State's Certificate of Good Manufacturing Practice (cGMP) due to the ASEAN Sectoral Mutual Recognition Arrangement on GMP signed by all ASEAN member states on April 10, 2009.",
               "sources": [
                 "https://cil.nus.edu.sg/databasecil/2009-asean-sectoral-mutual-recognition-agreement-on-good-manufacturing-practice-gmp-inspection-of-manufacturers-of-medicinal-products/?utm_source=openai",
-                "https://en.vietnamplus.vn/asean-imposes-tighter-medicine-and-pharmaceutical-management-post73233.vnp?utm_source=openai"
+                "https://globalforum.diaglobal.org/issue/march-2021/harmonization-of-gmp-inspection-and-benefits-to-asean-economic-community/?utm_source=openai",
+                "https://www.trade.gov/healthcare-resource-guide-cambodia?utm_source=openai"
               ]
             }
           }
@@ -172,15 +182,15 @@ Legally requires acceptance of another ASEAN Member State’s (AMS) Certificate 
     "top_logprobs": 0,
     "truncation": "disabled",
     "usage": {
-      "input_tokens": 1497,
+      "input_tokens": 1584,
       "input_tokens_details": {
         "cached_tokens": 0
       },
-      "output_tokens": 130,
+      "output_tokens": 165,
       "output_tokens_details": {
         "reasoning_tokens": 0
       },
-      "total_tokens": 1627
+      "total_tokens": 1749
     },
     "user": null,
     "store": true

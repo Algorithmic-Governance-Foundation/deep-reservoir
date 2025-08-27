@@ -1,0 +1,188 @@
+gpt-4o-mini
+Accepts the International Council for Harmonisation (ICH) Common Technical Document (CTD) format for innovator pharmaceutical product registrations.
+{
+  "first_pass": {
+    "id": "chatcmpl-a5ed8486-7558-4f90-b0d9-9a0bcae37ac4",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Malaysia accepts the International Council for Harmonisation (ICH) Common Technical Document (CTD) format for the registration of innovator pharmaceutical products. The National Pharmaceutical Regulatory Agency (NPRA) requires that registration dossiers for new chemical entities (NCEs) and biologics be submitted in the ICH CTD format. ([npra.gov.my](https://npra.gov.my/index.php/my/product-registration-process-for-nce/step-1-pre-submission-of-application-preparation-for-nce.html?utm_source=openai))\n\nIn contrast, for generic pharmaceutical products, Malaysia mandates the use of the ASEAN Common Technical Dossier (ACTD) format. This format is harmonized among ASEAN member countries and is specifically designed for generic drug registrations. ([rginsight.com](https://www.rginsight.com/registration-of-drug-product-in-malaysia-2025?utm_source=openai))\n\nTherefore, while Malaysia accepts the ICH CTD format for innovator products, it requires the ACTD format for generic products. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 503,
+                "start_index": 337,
+                "title": "Step 1: Pre-submission of Application (Preparation) for New Chemical Entity",
+                "url": "https://npra.gov.my/index.php/my/product-registration-process-for-nce/step-1-pre-submission-of-application-preparation-for-nce.html?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 858,
+                "start_index": 750,
+                "title": "Registration Of Drug Product In Malaysia (2025) | RG Insight",
+                "url": "https://www.rginsight.com/registration-of-drug-product-in-malaysia-2025?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756270297,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 208,
+      "prompt_tokens": 76,
+      "total_tokens": 284,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8edcd21c8194856de4637af7a5a50cbc8ac07a0e1a1c",
+    "created_at": 1756270301.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8edda9588194b378779da37ca3930cbc8ac07a0e1a1c",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"YES\",\"explanation\":\"Malaysia accepts the ICH CTD format for the registration of innovator pharmaceutical products, as stated by the National Pharmaceutical Regulatory Agency (NPRA).\",\"sources\":[\"https://npra.gov.my/index.php/my/product-registration-process-for-nce/step-1-pre-submission-of-application-preparation-for-nce.html?utm_source=openai\",\"https://www.rginsight.com/registration-of-drug-product-in-malaysia-2025?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "YES",
+              "explanation": "Malaysia accepts the ICH CTD format for the registration of innovator pharmaceutical products, as stated by the National Pharmaceutical Regulatory Agency (NPRA).",
+              "sources": [
+                "https://npra.gov.my/index.php/my/product-registration-process-for-nce/step-1-pre-submission-of-application-preparation-for-nce.html?utm_source=openai",
+                "https://www.rginsight.com/registration-of-drug-product-in-malaysia-2025?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1138,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 105,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1243
+    },
+    "user": null,
+    "store": true
+  }
+}

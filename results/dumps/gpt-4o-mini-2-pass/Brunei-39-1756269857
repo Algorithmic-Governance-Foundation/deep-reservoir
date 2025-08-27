@@ -1,0 +1,188 @@
+gpt-4o-mini
+Imposes hospital-only distribution restrictions for certain classes of antimicrobial (AM) pharmaceutical products.
+{
+  "first_pass": {
+    "id": "chatcmpl-127bcdaf-9100-4c47-916c-ee41d243d52b",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Brunei Darussalam regulates the distribution of antimicrobial pharmaceutical products through a prescription-only policy. Under the Brunei Medicines Order 2007, all antimicrobials are classified as prescription-only medicines, meaning they can only be prescribed by registered medical practitioners, dentists, or veterinarians. This regulation applies to all forms of antimicrobial products, including eye drops, creams, and oral dosage forms, which require a prescription for dispensing by a pharmacist. ([researchgate.net](https://www.researchgate.net/publication/342330967_University_Students%27_Antibiotic_Use_and_Knowledge_of_Antimicrobial_Resistance_What_Are_the_Common_Myths?utm_source=openai))\n\nThe Ministry of Health Brunei has implemented various policies to ensure the safe and effective use of pharmaceuticals. These include guidelines for good antibiotic prescribing practices and pharmacovigilance programs. However, there is no specific information indicating that Brunei imposes hospital-only distribution restrictions for certain classes of antimicrobial products. ([moh.gov.bn](https://moh.gov.bn/about-us/policies/?utm_source=openai))\n\nIn summary, while Brunei enforces strict prescription requirements for all antimicrobial products, there is no evidence to suggest that the country imposes hospital-only distribution restrictions for specific classes of these products. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 701,
+                "start_index": 505,
+                "title": "(PDF) University Students\u2019 Antibiotic Use and Knowledge of Antimicrobial Resistance: What Are the Common Myths?",
+                "url": "https://www.researchgate.net/publication/342330967_University_Students%27_Antibiotic_Use_and_Knowledge_of_Antimicrobial_Resistance_What_Are_the_Common_Myths?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1153,
+                "start_index": 1082,
+                "title": "Policies - Ministry of Health Brunei",
+                "url": "https://moh.gov.bn/about-us/policies/?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756269843,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 264,
+      "prompt_tokens": 68,
+      "total_tokens": 332,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8d1ef3b0819f959c8742abe28656044a0fc8534223f2",
+    "created_at": 1756269854.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8d1f5898819fac9ab5b723666d50044a0fc8534223f2",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"NO\",\"explanation\":\"Brunei does not impose hospital-only distribution restrictions for certain classes of antimicrobial pharmaceutical products; instead, all antimicrobials are regulated as prescription-only medicines, allowing them to be prescribed by licensed practitioners without specific hospital-only limitations.\",\"sources\":[\"https://www.researchgate.net/publication/342330967_University_Students%27_Antibiotic_Use_and_Knowledge_of_Antimicrobial_Resistance_What_Are_the_Common_Myths?utm_source=openai\",\"https://moh.gov.bn/about-us/policies/?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "NO",
+              "explanation": "Brunei does not impose hospital-only distribution restrictions for certain classes of antimicrobial pharmaceutical products; instead, all antimicrobials are regulated as prescription-only medicines, allowing them to be prescribed by licensed practitioners without specific hospital-only limitations.",
+              "sources": [
+                "https://www.researchgate.net/publication/342330967_University_Students%27_Antibiotic_Use_and_Knowledge_of_Antimicrobial_Resistance_What_Are_the_Common_Myths?utm_source=openai",
+                "https://moh.gov.bn/about-us/policies/?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1244,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 124,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1368
+    },
+    "user": null,
+    "store": true
+  }
+}

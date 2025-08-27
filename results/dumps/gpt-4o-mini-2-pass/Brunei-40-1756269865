@@ -1,0 +1,188 @@
+gpt-4o-mini
+Publishes national antimicrobial resistance (AMR) surveillance data related to pharmaceutical products.
+{
+  "first_pass": {
+    "id": "chatcmpl-97bf2718-df2a-460c-b00e-371c67fd8ddb",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Brunei Darussalam has developed a National Action Plan on Antimicrobial Resistance (AMR) for the period 2019\u20132023, which outlines strategic objectives to mitigate AMR risks. One of these objectives is to enhance surveillance and research, including the monitoring of antimicrobial use (AMU) and resistance patterns. ([informea.org](https://www.informea.org/en/content/legislation/antimicrobial-resistance-national-action-plan-2019-2023?utm_source=openai))\n\nThe plan specifies the establishment of a national surveillance system for AMR across human, animal, and environmental health sectors. This system aims to integrate data from public and private healthcare sectors, as well as from commercial farms and poultry slaughterhouses. Additionally, the plan includes routine testing for antibiotic residues in the food chain. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8315476/?utm_source=openai))\n\nHowever, as of August 2025, there is no publicly available information indicating that Brunei has published specific AMR surveillance data related to pharmaceutical products. The absence of such data may be due to the surveillance system being in the early stages of implementation or not yet fully operational.\n\nIn summary, while Brunei has committed to developing and implementing an AMR surveillance system, there is currently no evidence of publicly accessible data on AMR related to pharmaceutical products. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 455,
+                "start_index": 316,
+                "title": "Antimicrobial Resistance National Action Plan 2019-2023. | InforMEA",
+                "url": "https://www.informea.org/en/content/legislation/antimicrobial-resistance-national-action-plan-2019-2023?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 917,
+                "start_index": 824,
+                "title": "An analysis of national action plans on antimicrobial resistance in Southeast Asia using a governance framework approach - PMC",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8315476/?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756269857,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 289,
+      "prompt_tokens": 67,
+      "total_tokens": 356,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8d2613c881a1b64b33cfeedd41f10cc8ca749c7057ed",
+    "created_at": 1756269862.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8d2667a481a1bee93c18de8c0bb70cc8ca749c7057ed",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"NO\",\"explanation\":\"Brunei has established a national AMR surveillance system but has not published specific AMR surveillance data related to pharmaceutical products as of August 2025.\",\"sources\":[\"https://www.informea.org/en/content/legislation/antimicrobial-resistance-national-action-plan-2019-2023?utm_source=openai\",\"https://pmc.ncbi.nlm.nih.gov/articles/PMC8315476/?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "NO",
+              "explanation": "Brunei has established a national AMR surveillance system but has not published specific AMR surveillance data related to pharmaceutical products as of August 2025.",
+              "sources": [
+                "https://www.informea.org/en/content/legislation/antimicrobial-resistance-national-action-plan-2019-2023?utm_source=openai",
+                "https://pmc.ncbi.nlm.nih.gov/articles/PMC8315476/?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1289,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 97,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1386
+    },
+    "user": null,
+    "store": true
+  }
+}

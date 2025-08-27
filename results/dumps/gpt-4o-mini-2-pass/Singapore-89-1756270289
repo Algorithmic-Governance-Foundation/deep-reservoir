@@ -1,0 +1,198 @@
+gpt-4o-mini
+Imposes hospital-only distribution restrictions for certain classes of antimicrobial (AM) pharmaceutical products.
+{
+  "first_pass": {
+    "id": "chatcmpl-a6ad5e89-557e-4b27-84be-2cb5993181c9",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "In Singapore, the distribution and use of certain antimicrobial pharmaceutical products are regulated to combat antimicrobial resistance (AMR). While there are no explicit \"hospital-only\" distribution restrictions, several measures effectively limit the availability of specific antimicrobials to hospital settings:\n\n1. **Prescription-Only Classification**: Antimicrobials are classified as prescription-only medicines, requiring a valid prescription from a physician for dispensation. This regulation restricts over-the-counter access, ensuring that these medications are used under medical supervision. ([proquest.com](https://www.proquest.com/docview/2856762647?utm_source=openai))\n\n2. **Antimicrobial Stewardship Programs (ASPs)**: Implemented in all public acute-care hospitals since 2011, ASPs involve multidisciplinary teams that monitor and guide antimicrobial use. These programs often include interventions such as:\n   - **Prescription Restrictions**: Limiting the use of certain antimicrobials to specialists or requiring justification for their continued use.\n   - **Audit and Feedback**: Regular reviews of antimicrobial prescriptions to ensure appropriateness and effectiveness. ([todayonline.com](https://www.todayonline.com/commentary/getting-hospitals-cut-down-inappropriate-prescription-antibiotics?utm_source=openai))\n\n3. **National Surgical Antibiotic Prophylaxis (SAP) Guideline**: This guideline provides evidence-based recommendations for the rational use of antibiotic prophylaxis in surgical settings, aligning best practices nationally and serving as a framework for audit and surveillance. ([cda.gov.sg](https://www.cda.gov.sg/professionals/antimicrobial-resistance/amrco-nsap?utm_source=openai))\n\nThese measures collectively ensure that the distribution and use of certain antimicrobials are effectively managed within hospital environments, thereby reducing the risk of AMR. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 684,
+                "start_index": 605,
+                "title": "A Qualitative Study on the Implementation of the - ProQuest",
+                "url": "https://www.proquest.com/docview/2856762647?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1336,
+                "start_index": 1193,
+                "title": "Getting Singapore hospitals to cut down on inappropriate prescription of antibiotics - TODAY",
+                "url": "https://www.todayonline.com/commentary/getting-hospitals-cut-down-inappropriate-prescription-antibiotics?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1723,
+                "start_index": 1617,
+                "title": "How AMRCO implements the NSAP on AMR | Communicable Diseases Agency",
+                "url": "https://www.cda.gov.sg/professionals/antimicrobial-resistance/amrco-nsap?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756270281,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 367,
+      "prompt_tokens": 67,
+      "total_tokens": 434,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8ecdeda081a0852ddea28f316d8f05dfa06cb2df66d3",
+    "created_at": 1756270285.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8ecec39481a0bc04b1cc4017419c05dfa06cb2df66d3",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"PARTIAL\",\"explanation\":\"Singapore does not have explicit 'hospital-only' distribution restrictions for certain classes of antimicrobial products, but regulatory measures effectively limit their availability primarily to hospital settings through prescription-only classifications and antimicrobial stewardship programs.\",\"sources\":[\"https://www.proquest.com/docview/2856762647?utm_source=openai\",\"https://www.todayonline.com/commentary/getting-hospitals-cut-down-inappropriate-prescription-antibiotics?utm_source=openai\",\"https://www.cda.gov.sg/professionals/antimicrobial-resistance/amrco-nsap?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "PARTIAL",
+              "explanation": "Singapore does not have explicit 'hospital-only' distribution restrictions for certain classes of antimicrobial products, but regulatory measures effectively limit their availability primarily to hospital settings through prescription-only classifications and antimicrobial stewardship programs.",
+              "sources": [
+                "https://www.proquest.com/docview/2856762647?utm_source=openai",
+                "https://www.todayonline.com/commentary/getting-hospitals-cut-down-inappropriate-prescription-antibiotics?utm_source=openai",
+                "https://www.cda.gov.sg/professionals/antimicrobial-resistance/amrco-nsap?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1530,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 126,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1656
+    },
+    "user": null,
+    "store": true
+  }
+}

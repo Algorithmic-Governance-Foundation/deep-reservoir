@@ -1,0 +1,188 @@
+gpt-4o-mini
+Accepts the International Council for Harmonisation (ICH) Common Technical Document (CTD) format for innovator pharmaceutical product registrations.
+{
+  "first_pass": {
+    "id": "chatcmpl-8122926c-39b7-447c-9acb-f0da4404e6a9",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Yes, the Philippines accepts the International Council for Harmonisation (ICH) Common Technical Document (CTD) format for the registration of innovator pharmaceutical products. According to the Department of Health's Administrative Order No. 2013-0021, the Food and Drug Administration (FDA) allows the submission of registration applications in the ICH CTD format for innovative therapeutic products, including New Chemical Entities (NCEs), biologics, and generic products approved in ICH member countries or regions. However, certain sections of the ICH CTD must still comply with ASEAN harmonized requirements, such as drug product stability studies, when applicable. ([global-regulation.com](https://www.global-regulation.com/law/philippines/471984/doh-administrative-order-no.-2013-0021.html?utm_source=openai))\n\nThis approach aligns with the Philippines' commitment to regional harmonization efforts within the Association of Southeast Asian Nations (ASEAN). While the ASEAN Common Technical Dossier (ACTD) is the standard format for generic drug applications, the ICH CTD format is accepted for innovator products, provided that specific ASEAN requirements are met. ([scribd.com](https://www.scribd.com/document/430375236/Drug-Approval-System-of-the-Philippines-pdf?utm_source=openai))\n\nTherefore, pharmaceutical companies seeking to register innovator products in the Philippines can utilize the ICH CTD format, ensuring adherence to both international and regional regulatory standards. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 816,
+                "start_index": 671,
+                "title": "DOH Administrative Order No. 2013-0021 (Philippines)",
+                "url": "https://www.global-regulation.com/law/philippines/471984/doh-administrative-order-no.-2013-0021.html?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1292,
+                "start_index": 1173,
+                "title": "Drug Approval System of The Philippines PDF | PDF | Clinical Trial | Food And Drug Administration",
+                "url": "https://www.scribd.com/document/430375236/Drug-Approval-System-of-the-Philippines-pdf?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756270060,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 302,
+      "prompt_tokens": 76,
+      "total_tokens": 378,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8defe47081909bd7104d5496e1fc0eeebd889020596b",
+    "created_at": 1756270064.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8df079248190865a8194f140cf1d0eeebd889020596b",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"YES\",\"explanation\":\"The Philippines accepts the ICH CTD format for innovator pharmaceutical product registrations as per the Department of Health's Administrative Order No. 2013-0021, aligning with ASEAN harmonization while requiring compliance with specific regional standards for certain CTD sections.\",\"sources\":[\"https://www.global-regulation.com/law/philippines/471984/doh-administrative-order-no.-2013-0021.html?utm_source=openai\",\"https://www.scribd.com/document/430375236/Drug-Approval-System-of-the-Philippines-pdf?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "YES",
+              "explanation": "The Philippines accepts the ICH CTD format for innovator pharmaceutical product registrations as per the Department of Health's Administrative Order No. 2013-0021, aligning with ASEAN harmonization while requiring compliance with specific regional standards for certain CTD sections.",
+              "sources": [
+                "https://www.global-regulation.com/law/philippines/471984/doh-administrative-order-no.-2013-0021.html?utm_source=openai",
+                "https://www.scribd.com/document/430375236/Drug-Approval-System-of-the-Philippines-pdf?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1332,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 128,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1460
+    },
+    "user": null,
+    "store": true
+  }
+}

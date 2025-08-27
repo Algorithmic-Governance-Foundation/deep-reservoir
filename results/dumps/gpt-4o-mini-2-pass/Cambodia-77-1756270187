@@ -1,0 +1,198 @@
+gpt-4o-mini
+Specifically mandates the use of a “red dot” symbol on prescription-only pharmaceutical products.
+{
+  "first_pass": {
+    "id": "chatcmpl-4e9a36d0-9dcf-45bd-b7a3-17ac1e6f95c9",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "After reviewing the available information, there is no evidence to suggest that Cambodia specifically mandates the use of a \"red dot\" symbol on prescription-only pharmaceutical products. The Cambodian Ministry of Commerce requires that manufacturers and service providers indicate certain information on product labels, including ingredients, compositions, user guidelines, manufacturing dates, and expiration dates, all in Khmer. ([cambodiantr.gov.kh](https://cambodiantr.gov.kh/commodity/impregnated-or-coated-with-pharmaceutical-substances/?utm_source=openai)) However, there is no mention of a \"red dot\" symbol or any similar marking for prescription drugs in the provided sources.\n\nIn contrast, other countries have specific labeling requirements for prescription drugs. For example, in India, Schedule H drugs must display the symbol \"Rx\" in red on the top left corner of the label, along with the words \"Schedule H Prescription Drug - Caution\" in a red rectangular box. ([scribd.com](https://www.scribd.com/document/822590612/labelling-of-allopathy?utm_source=openai)) Similarly, in Indonesia, prescription drugs are marked with a red circle and a black border, featuring the letter \"K\" touching the border, indicating that they are \"hard drugs\" requiring a doctor's prescription. ([mandiradistra.com](https://mandiradistra.com/en/health-tips/this-is-the-kind-of-symbol-for-drugs-there-is-a-logo-on-hard-drugs/?utm_source=openai))\n\nTherefore, while Cambodia has labeling requirements for pharmaceutical products, there is no specific mandate for a \"red dot\" symbol on prescription-only drugs. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 563,
+                "start_index": 431,
+                "title": "- Impregnated or coated with pharmaceutical substances - National Trade Repository",
+                "url": "https://cambodiantr.gov.kh/commodity/impregnated-or-coated-with-pharmaceutical-substances/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1075,
+                "start_index": 977,
+                "title": "labelling of allopathy | PDF | Medical Prescription | Tablet (Pharmacy)",
+                "url": "https://www.scribd.com/document/822590612/labelling-of-allopathy?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1437,
+                "start_index": 1288,
+                "title": "This is the Kind of Symbol for Drugs, Including Hard Drugs!",
+                "url": "https://mandiradistra.com/en/health-tips/this-is-the-kind-of-symbol-for-drugs-there-is-a-logo-on-hard-drugs/?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756270180,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 331,
+      "prompt_tokens": 67,
+      "total_tokens": 398,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8e68423081948ebc50e37d99363c0fa7da10932d3445",
+    "created_at": 1756270184.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8e6903b481949b6813dc9d14e0540fa7da10932d3445",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"NO\",\"explanation\":\"Cambodia does not specifically mandate the use of a 'red dot' symbol on prescription-only pharmaceutical products, as indicated by the absence of such a requirement in their labeling regulations.\",\"sources\":[\"https://cambodiantr.gov.kh/commodity/impregnated-or-coated-with-pharmaceutical-substances/?utm_source=openai\",\"https://www.scribd.com/document/822590612/labelling-of-allopathy?utm_source=openai\",\"https://mandiradistra.com/en/health-tips/this-is-the-kind-of-symbol-for-drugs-there-is-a-logo-on-hard-drugs/?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "NO",
+              "explanation": "Cambodia does not specifically mandate the use of a 'red dot' symbol on prescription-only pharmaceutical products, as indicated by the absence of such a requirement in their labeling regulations.",
+              "sources": [
+                "https://cambodiantr.gov.kh/commodity/impregnated-or-coated-with-pharmaceutical-substances/?utm_source=openai",
+                "https://www.scribd.com/document/822590612/labelling-of-allopathy?utm_source=openai",
+                "https://mandiradistra.com/en/health-tips/this-is-the-kind-of-symbol-for-drugs-there-is-a-logo-on-hard-drugs/?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1466,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 136,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1602
+    },
+    "user": null,
+    "store": true
+  }
+}

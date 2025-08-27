@@ -1,0 +1,197 @@
+gpt-4o-mini
+Publishes national antimicrobial resistance (AMR) surveillance data related to pharmaceutical products.
+{
+  "first_pass": {
+    "id": "chatcmpl-a3bf7a82-d7d6-49a2-a231-560627e6fb6d",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Yes, Singapore publishes national antimicrobial resistance (AMR) surveillance data related to pharmaceutical products. The Antimicrobial Resistance Coordinating Office (AMRCO) coordinates efforts across healthcare, animal, and environmental sectors to combat AMR by implementing strategies outlined in the National Strategic Action Plan (NSAP) on AMR. ([cda.gov.sg](https://www.cda.gov.sg/professionals/antimicrobial-resistance/amrco-nsap?utm_source=openai))\n\nA key initiative is the biennial \"One Health Report on Antimicrobial Utilisation and Resistance,\" a collaboration between the Ministry of Health (MOH), National Environment Agency (NEA), National Parks Board (NParks), Public Utilities Board (PUB), Singapore Food Agency (SFA), and AMRCO. This report provides key findings from national AMR surveillance programs, including data on the utilization and sales of antimicrobials in the human and animal health sectors, as well as the incidence and resistance proportions of priority AMR organisms found in humans, animals, food, and the environment. ([moh.gov.sg](https://www.moh.gov.sg/others/resources-and-statistics/one-health-report-on-antimicrobial-utilisation-and-resistance-2021?utm_source=openai))\n\nAdditionally, Singapore contributes AMR data from sentinel healthcare facilities to the World Health Organization's Global Antimicrobial Resistance and Use Surveillance System (GLASS) through AMRCO, the appointed GLASS National Coordinating Centre. ([cda.gov.sg](https://www.cda.gov.sg/professionals/antimicrobial-resistance/amrco-nsap?utm_source=openai))\n\nThese efforts reflect Singapore's commitment to monitoring and addressing AMR through comprehensive surveillance and reporting. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 458,
+                "start_index": 352,
+                "title": "How AMRCO implements the NSAP on AMR | Communicable Diseases Agency",
+                "url": "https://www.cda.gov.sg/professionals/antimicrobial-resistance/amrco-nsap?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1211,
+                "start_index": 1056,
+                "title": "One Health Report on Antimicrobial Utilisation and Resistance 2021 | Ministry of Health",
+                "url": "https://www.moh.gov.sg/others/resources-and-statistics/one-health-report-on-antimicrobial-utilisation-and-resistance-2021?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1568,
+                "start_index": 1462,
+                "title": "How AMRCO implements the NSAP on AMR | Communicable Diseases Agency",
+                "url": "https://www.cda.gov.sg/professionals/antimicrobial-resistance/amrco-nsap?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756270289,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 356,
+      "prompt_tokens": 66,
+      "total_tokens": 422,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8ed6458881a18a9d1ef85ac5a19f05f98bcb702bd008",
+    "created_at": 1756270294.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8ed6a42481a18d442fb2bfaa049705f98bcb702bd008",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"YES\",\"explanation\":\"Singapore publishes national antimicrobial resistance (AMR) surveillance data related to pharmaceutical products through the biennial 'One Health Report on Antimicrobial Utilisation and Resistance', coordinated by various governmental agencies including the Ministry of Health and the Antimicrobial Resistance Coordinating Office (AMRCO).\",\"sources\":[\"https://www.cda.gov.sg/professionals/antimicrobial-resistance/amrco-nsap?utm_source=openai\",\"https://www.moh.gov.sg/others/resources-and-statistics/one-health-report-on-antimicrobial-utilisation-and-resistance-2021?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "YES",
+              "explanation": "Singapore publishes national antimicrobial resistance (AMR) surveillance data related to pharmaceutical products through the biennial 'One Health Report on Antimicrobial Utilisation and Resistance', coordinated by various governmental agencies including the Ministry of Health and the Antimicrobial Resistance Coordinating Office (AMRCO).",
+              "sources": [
+                "https://www.cda.gov.sg/professionals/antimicrobial-resistance/amrco-nsap?utm_source=openai",
+                "https://www.moh.gov.sg/others/resources-and-statistics/one-health-report-on-antimicrobial-utilisation-and-resistance-2021?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1529,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 133,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1662
+    },
+    "user": null,
+    "store": true
+  }
+}

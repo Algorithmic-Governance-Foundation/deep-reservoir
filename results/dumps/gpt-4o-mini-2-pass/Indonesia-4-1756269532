@@ -1,0 +1,196 @@
+gpt-4o-mini
+Permits stability data submission for pharmaceutical products at 25°C/60% relative humidity (RH) when supported by accelerated stability studies.
+{
+  "first_pass": {
+    "id": "chatcmpl-fdcae8f5-bb1a-41c8-ae31-944a1bcc69a3",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Indonesia, as a member of the Association of Southeast Asian Nations (ASEAN), adheres to the ASEAN Stability Guidelines for pharmaceutical products. These guidelines specify that long-term stability testing should be conducted under conditions of 30\u00b0C \u00b1 2\u00b0C and 75% relative humidity (RH) \u00b1 5% RH, corresponding to Climatic Zone IVb. ([scribd.com](https://www.scribd.com/document/457681671/ASEAN-GUIDELINE-ON-STABILITY-STUDY-OF-DRUG-PRODUCT-docx?utm_source=openai))\n\nWhile the International Council for Harmonisation (ICH) guidelines permit long-term stability studies at 25\u00b0C \u00b1 2\u00b0C and 60% RH \u00b1 5% RH, the ASEAN guidelines do not explicitly endorse this condition for long-term testing. However, the ASEAN guidelines allow for alternative storage conditions if scientifically justified. For instance, if a product is intended for storage at lower temperatures, accelerated testing can be conducted at 25\u00b0C \u00b1 2\u00b0C and 60% RH \u00b1 5% RH. This approach is particularly relevant for products that are heat-sensitive and require storage under controlled conditions. ([scribd.com](https://www.scribd.com/document/457681671/ASEAN-GUIDELINE-ON-STABILITY-STUDY-OF-DRUG-PRODUCT-docx?utm_source=openai))\n\nTherefore, while Indonesia's regulatory framework does not explicitly permit long-term stability data submission at 25\u00b0C/60% RH, it does allow for accelerated stability studies under these conditions. These accelerated studies can support the stability profile of pharmaceutical products intended for storage at lower temperatures, provided that the data is accompanied by appropriate scientific justification and complementary data to ensure a proper evaluation. ([scribd.com](https://www.scribd.com/document/457681671/ASEAN-GUIDELINE-ON-STABILITY-STUDY-OF-DRUG-PRODUCT-docx?utm_source=openai)) ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 465,
+                "start_index": 334,
+                "title": "Asean Guideline On Stability Study of Drug Product | PDF | Topical Medication | Shelf Life",
+                "url": "https://www.scribd.com/document/457681671/ASEAN-GUIDELINE-ON-STABILITY-STUDY-OF-DRUG-PRODUCT-docx?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1189,
+                "start_index": 1058,
+                "title": "Asean Guideline On Stability Study of Drug Product | PDF | Topical Medication | Shelf Life",
+                "url": "https://www.scribd.com/document/457681671/ASEAN-GUIDELINE-ON-STABILITY-STUDY-OF-DRUG-PRODUCT-docx?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1786,
+                "start_index": 1655,
+                "title": "Asean Guideline On Stability Study of Drug Product | PDF | Topical Medication | Shelf Life",
+                "url": "https://www.scribd.com/document/457681671/ASEAN-GUIDELINE-ON-STABILITY-STUDY-OF-DRUG-PRODUCT-docx?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756269520,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 405,
+      "prompt_tokens": 77,
+      "total_tokens": 482,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8bda9a00819ea100803d48ffb0410a1f1ed11bcb6fdd",
+    "created_at": 1756269530.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8bdb0b10819e85b1e250b0ae789c0a1f1ed11bcb6fdd",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"PARTIAL\",\"explanation\":\"Indonesia does not explicitly permit long-term stability data submission at 25\u00b0C/60% RH, but it allows accelerated stability studies under these conditions if scientifically justified.\",\"sources\":[\"https://www.scribd.com/document/457681671/ASEAN-GUIDELINE-ON-STABILITY-STUDY-OF-DRUG-PRODUCT-docx?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "PARTIAL",
+              "explanation": "Indonesia does not explicitly permit long-term stability data submission at 25\u00b0C/60% RH, but it allows accelerated stability studies under these conditions if scientifically justified.",
+              "sources": [
+                "https://www.scribd.com/document/457681671/ASEAN-GUIDELINE-ON-STABILITY-STUDY-OF-DRUG-PRODUCT-docx?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1680,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 87,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1767
+    },
+    "user": null,
+    "store": true
+  }
+}

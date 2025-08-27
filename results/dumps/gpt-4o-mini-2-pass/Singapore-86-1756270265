@@ -1,0 +1,208 @@
+gpt-4o-mini
+Requires halal certification for pharmaceutical products.
+{
+  "first_pass": {
+    "id": "chatcmpl-7fd6d7e9-eb0f-4e90-aee7-85579a3c18f8",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "In Singapore, the Majlis Ugama Islam Singapura (MUIS), or the Islamic Religious Council of Singapore, is the sole authority responsible for issuing halal certifications under the Administration of Muslim Law Act (AMLA). ([muis.gov.sg](https://www.muis.gov.sg/Halal/About?utm_source=openai)) While MUIS has traditionally focused on certifying consumable products, there have been instances where non-consumable items, including certain pharmaceutical products, have been certified as halal.\n\nFor example, Croda International has held halal certification for over 200 products manufactured at its Singapore site, including those in the health and pharmaceutical industries. ([personalcaremagazine.com](https://www.personalcaremagazine.com/story/15732/twenty-years-of-halal-manufacturing?utm_source=openai)) Similarly, Pasture Group, a Singapore-based medical device and pharmaceutical company, has received halal certification for its N95 masks. ([prnewswire.com](https://www.prnewswire.com/ae/news-releases/pasture-announces-first-halal-certified-surgical-n95-masks-for-healthcare-and-public-use-856238029.html?utm_source=openai))\n\nHowever, in 2020, a pharmaceutical company encountered challenges when seeking halal certification for its products manufactured in Singapore. The Ministry of Culture, Community and Youth (MCCY) informed the company that MUIS does not certify non-consumables and pharmaceuticals. ([theonlinecitizen.com](https://www.theonlinecitizen.com/2021/01/28/halal-certification-conundrum-mccy-says-muis-wont-certify-non-consumables-but-reminds-companies-that-it-is-illegal-to-secure-foreign-halal-certification/?utm_source=openai))\n\nThis suggests that while MUIS has the authority to certify pharmaceutical products, its certification practices may vary, and there may be restrictions on certifying non-consumable pharmaceutical items. Therefore, it is advisable for companies to consult directly with MUIS to understand the specific requirements and policies regarding halal certification for pharmaceutical products in Singapore. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 290,
+                "start_index": 220,
+                "title": "Muis | Muis: Halal",
+                "url": "https://www.muis.gov.sg/Halal/About?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 804,
+                "start_index": 672,
+                "title": "Twenty years of halal manufacturing",
+                "url": "https://www.personalcaremagazine.com/story/15732/twenty-years-of-halal-manufacturing?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1129,
+                "start_index": 944,
+                "title": "Pasture Announces First Halal-Certified Surgical N95 Masks for Healthcare and Public Use",
+                "url": "https://www.prnewswire.com/ae/news-releases/pasture-announces-first-halal-certified-surgical-n95-masks-for-healthcare-and-public-use-856238029.html?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1652,
+                "start_index": 1411,
+                "title": "Halal certification conundrum: MCCY says Muis won't certify non-consumables, but reminds companies that it is illegal to secure foreign halal certification - The Online Citizen",
+                "url": "https://www.theonlinecitizen.com/2021/01/28/halal-certification-conundrum-mccy-says-muis-wont-certify-non-consumables-but-reminds-companies-that-it-is-illegal-to-secure-foreign-halal-certification/?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756270256,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 429,
+      "prompt_tokens": 57,
+      "total_tokens": 486,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8eb535e4819c8e0418394e7e2c7f0fba5bbb841587da",
+    "created_at": 1756270261.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8eb5f2d4819c9040558c5c8e24f50fba5bbb841587da",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"PARTIAL\",\"explanation\":\"Singapore's MUIS can certify pharmaceutical products, but it has primarily focused on consumables and there are reported restrictions against certifying non-consumables, which may include many pharmaceuticals.\",\"sources\":[\"https://www.muis.gov.sg/Halal/About?utm_source=openai\",\"https://www.personalcaremagazine.com/story/15732/twenty-years-of-halal-manufacturing?utm_source=openai\",\"https://www.prnewswire.com/ae/news-releases/pasture-announces-first-halal-certified-surgical-n95-masks-for-healthcare-and-public-use-856238029.html?utm_source=openai\",\"https://www.theonlinecitizen.com/2021/01/28/halal-certification-conundrum-mccy-says-muis-wont-certify-non-consumables-but-reminds-companies-that-it-is-illegal-to-secure-foreign-halal-certification/?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "PARTIAL",
+              "explanation": "Singapore's MUIS can certify pharmaceutical products, but it has primarily focused on consumables and there are reported restrictions against certifying non-consumables, which may include many pharmaceuticals.",
+              "sources": [
+                "https://www.muis.gov.sg/Halal/About?utm_source=openai",
+                "https://www.personalcaremagazine.com/story/15732/twenty-years-of-halal-manufacturing?utm_source=openai",
+                "https://www.prnewswire.com/ae/news-releases/pasture-announces-first-halal-certified-surgical-n95-masks-for-healthcare-and-public-use-856238029.html?utm_source=openai",
+                "https://www.theonlinecitizen.com/2021/01/28/halal-certification-conundrum-mccy-says-muis-wont-certify-non-consumables-but-reminds-companies-that-it-is-illegal-to-secure-foreign-halal-certification/?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1792,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 202,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1994
+    },
+    "user": null,
+    "store": true
+  }
+}

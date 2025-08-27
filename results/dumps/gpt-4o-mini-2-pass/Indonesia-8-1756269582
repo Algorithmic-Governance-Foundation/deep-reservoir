@@ -1,0 +1,188 @@
+gpt-4o-mini
+Targets an average marketing authorization (MA) approval timeline of six months or less for pharmaceutical products.
+{
+  "first_pass": {
+    "id": "chatcmpl-477b4a93-b237-4dae-be9b-888ed5313059",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Indonesia's National Agency of Drug and Food Control (BPOM) does not target an average marketing authorization (MA) approval timeline of six months or less for pharmaceutical products. The approval timelines vary based on the type of product and its registration category. For instance, the registration of new chemical entities, biologics, or innovative drugs can take up to 300 working days, while generic drugs requiring bioequivalence data may take up to 150 working days. ([artixio.com](https://www.artixio.com/post/indonesia-drug-pharmaceutical-regulations-registration?utm_source=openai))\n\nIn certain cases, such as for essential generic drugs intended for national health programs, the registration process can be expedited to approximately 100 working days. ([baipharm.chemlinked.com](https://baipharm.chemlinked.com/insights/indonesia-drug-registration-pathway?utm_source=openai)) However, these expedited timelines are exceptions rather than the standard. Therefore, the typical MA approval process in Indonesia exceeds six months. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 595,
+                "start_index": 477,
+                "title": "NADFC (BPOM) Regulation Of Pharmaceuticals In Indonesia - Artixio",
+                "url": "https://www.artixio.com/post/indonesia-drug-pharmaceutical-regulations-registration?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 890,
+                "start_index": 767,
+                "title": "Indonesia Drug Registration Process | ChemLinked",
+                "url": "https://baipharm.chemlinked.com/insights/indonesia-drug-registration-pathway?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756269571,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 211,
+      "prompt_tokens": 69,
+      "total_tokens": 280,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8c0b5c40819790675f552cf3d5200afe6dbaa17ea86c",
+    "created_at": 1756269579.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8c0be58881979574c43d305362800afe6dbaa17ea86c",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"NO\",\"explanation\":\"Indonesia does not target an average marketing authorization (MA) approval timeline of six months or less, as typical timelines exceed this duration; new drug registrations can take up to 300 working days, while even expedited cases for essential drugs usually take around 100 working days.\",\"sources\":[\"https://www.artixio.com/post/indonesia-drug-pharmaceutical-regulations-registration?utm_source=openai\",\"https://baipharm.chemlinked.com/insights/indonesia-drug-registration-pathway?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "NO",
+              "explanation": "Indonesia does not target an average marketing authorization (MA) approval timeline of six months or less, as typical timelines exceed this duration; new drug registrations can take up to 300 working days, while even expedited cases for essential drugs usually take around 100 working days.",
+              "sources": [
+                "https://www.artixio.com/post/indonesia-drug-pharmaceutical-regulations-registration?utm_source=openai",
+                "https://baipharm.chemlinked.com/insights/indonesia-drug-registration-pathway?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1109,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 115,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1224
+    },
+    "user": null,
+    "store": true
+  }
+}

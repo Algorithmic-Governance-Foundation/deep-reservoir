@@ -1,0 +1,198 @@
+gpt-4o-mini
+Legally requires acceptance of another ASEAN Member State’s (AMS) Certificate of Good Manufacturing Practice (cGMP) for pharmaceutical manufacturers.
+{
+  "first_pass": {
+    "id": "chatcmpl-356cbd40-5b3a-48a8-a191-5f4adcd94740",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Vietnam is a signatory to the ASEAN Sectoral Mutual Recognition Arrangement (MRA) on Good Manufacturing Practice (GMP) Inspection of Manufacturers of Medicinal Products, which was adopted on April 10, 2009. ([cil.nus.edu.sg](https://cil.nus.edu.sg/databasecil/2009-asean-sectoral-mutual-recognition-agreement-on-good-manufacturing-practice-gmp-inspection-of-manufacturers-of-medicinal-products/?utm_source=openai)) This agreement obligates member states, including Vietnam, to accept GMP certificates and inspection reports issued by ASEAN-listed inspection services that meet the Pharmaceutical Inspection Co-operation Scheme (PIC/S) standards. ([gabi-journal.net](https://gabi-journal.net/a-review-of-international-initiatives-on-pharmaceutical-regulatory-reliance-and-recognition.html?utm_source=openai))\n\nHowever, Vietnam's Decree 163/2025/ND-CP, which elaborates on certain articles of the Law on Pharmacy, specifies that overseas manufacturers of drugs and medicinal materials must undergo inspection by the Ministry of Health to comply with GMP requirements. This inspection is mandatory unless the GMP certificate or manufacturing license issued by the competent authority of the home country is valid and recognized by the Ministry of Health. ([thuvienphapluat.vn](https://thuvienphapluat.vn/van-ban/EN/The-thao-Y-te/Decree-163-2025-ND-CP-elaborating-certain-articles-of-the-Law-on-Pharmacy/669216/tieng-anh.aspx?utm_source=openai))\n\nTherefore, while Vietnam is committed to the ASEAN MRA and is obligated to accept GMP certificates from other ASEAN member states, the implementation of this agreement may be subject to specific conditions outlined in national regulations. Vietnam's Decree 163/2025/ND-CP indicates that acceptance of GMP certificates from other ASEAN member states may depend on the validity and recognition of these certificates by Vietnam's Ministry of Health. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 414,
+                "start_index": 207,
+                "title": "2009 ASEAN Sectoral Mutual Recognition Agreement on Good Manufacturing Practice (GMP) Inspection of Manufacturers of Medicinal Products - Centre for International Law",
+                "url": "https://cil.nus.edu.sg/databasecil/2009-asean-sectoral-mutual-recognition-agreement-on-good-manufacturing-practice-gmp-inspection-of-manufacturers-of-medicinal-products/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 807,
+                "start_index": 646,
+                "title": "A review of international initiatives on pharmaceutical regulatory reliance and recognition - GaBIJ",
+                "url": "https://gabi-journal.net/a-review-of-international-initiatives-on-pharmaceutical-regulatory-reliance-and-recognition.html?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1441,
+                "start_index": 1252,
+                "title": "163/2025/ND-CP in Vietnam, Decree 163/2025/ND-CP elaborating certain articles of the Law on Pharmacy in Vietnam",
+                "url": "https://thuvienphapluat.vn/van-ban/EN/The-thao-Y-te/Decree-163-2025-ND-CP-elaborating-certain-articles-of-the-Law-on-Pharmacy/669216/tieng-anh.aspx?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756269622,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 413,
+      "prompt_tokens": 77,
+      "total_tokens": 490,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8c3be66c81958fb22c76e12591d707592ae6bc7c8667",
+    "created_at": 1756269628.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8c3c56c88195b0432a06f3a9125c07592ae6bc7c8667",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"PARTIAL\",\"explanation\":\"Vietnam is committed to the ASEAN MRA on GMP, which obligates it to accept GMP certificates from other ASEAN states; however, Decree 163/2025/ND-CP requires that these certificates must be recognized by Vietnam's Ministry of Health, adding conditions to their acceptance.\",\"sources\":[\"https://cil.nus.edu.sg/databasecil/2009-asean-sectoral-mutual-recognition-agreement-on-good-manufacturing-practice-gmp-inspection-of-manufacturers-of-medicinal-products/?utm_source=openai\",\"https://gabi-journal.net/a-review-of-international-initiatives-on-pharmaceutical-regulatory-reliance-and-recognition.html?utm_source=openai\",\"https://thuvienphapluat.vn/van-ban/EN/The-thao-Y-te/Decree-163-2025-ND-CP-elaborating-certain-articles-of-the-Law-on-Pharmacy/669216/tieng-anh.aspx?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "PARTIAL",
+              "explanation": "Vietnam is committed to the ASEAN MRA on GMP, which obligates it to accept GMP certificates from other ASEAN states; however, Decree 163/2025/ND-CP requires that these certificates must be recognized by Vietnam's Ministry of Health, adding conditions to their acceptance.",
+              "sources": [
+                "https://cil.nus.edu.sg/databasecil/2009-asean-sectoral-mutual-recognition-agreement-on-good-manufacturing-practice-gmp-inspection-of-manufacturers-of-medicinal-products/?utm_source=openai",
+                "https://gabi-journal.net/a-review-of-international-initiatives-on-pharmaceutical-regulatory-reliance-and-recognition.html?utm_source=openai",
+                "https://thuvienphapluat.vn/van-ban/EN/The-thao-Y-te/Decree-163-2025-ND-CP-elaborating-certain-articles-of-the-Law-on-Pharmacy/669216/tieng-anh.aspx?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1726,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 214,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1940
+    },
+    "user": null,
+    "store": true
+  }
+}

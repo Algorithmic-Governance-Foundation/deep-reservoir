@@ -1,0 +1,188 @@
+gpt-4o-mini
+Provides a fully digital online submission portal for pharmaceutical product marketing authorization applications.
+{
+  "first_pass": {
+    "id": "chatcmpl-2f857cc0-e6ca-430c-9f0d-12b195d807f0",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "As of August 2025, Laos does not offer a fully digital online submission portal for pharmaceutical product marketing authorization applications. The Food and Drug Department (FDD) under the Ministry of Health is responsible for regulating pharmaceuticals and medical devices in Laos. Applicants are required to submit physical documents for drug registration, including application forms and supporting materials. The FDD evaluates these submissions, and upon approval, issues a drug registration number and certificate, authorizing the license holder to manufacture or import the product. ([credevo.com](https://credevo.com/articles/2021/04/25/generic-drug-approval-process-in-laos/?utm_source=openai))\n\nWhile there is a growing emphasis on digitalization within the ASEAN region, Laos has yet to implement a comprehensive electronic submission system for pharmaceutical marketing authorizations. The ASEAN Pharmaceutical Regulatory Policy (APRP) encourages member states to eliminate unnecessary regulatory barriers and enhance cooperation among regulatory authorities. However, the adoption of electronic Common Technical Documents (eCTD) and other digital initiatives varies across ASEAN countries. For instance, Thailand accepts the eCTD format, while Singapore and Malaysia accept electronic submissions in CTD format through their own online systems. In the Philippines, digitalization of the submission portal is underway to accommodate online dossier submissions. ([globalforum.diaglobal.org](https://globalforum.diaglobal.org/issue/september-2022/digitalization-in-the-asean-pharmaceuticals-market/?utm_source=openai))\n\nIn Laos, the application process for pharmaceutical product marketing authorization remains paper-based, with no fully digital online submission portal currently in place. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 703,
+                "start_index": 590,
+                "title": "Generic Drug Approval Process In Laos | Credevo Articles",
+                "url": "https://credevo.com/articles/2021/04/25/generic-drug-approval-process-in-laos/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1628,
+                "start_index": 1473,
+                "title": "Digitalization in the ASEAN Pharmaceuticals Market",
+                "url": "https://globalforum.diaglobal.org/issue/september-2022/digitalization-in-the-asean-pharmaceuticals-market/?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756269699,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 325,
+      "prompt_tokens": 64,
+      "total_tokens": 389,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8c87f0508190b15897b81fc83d1402e08bbab18888a5",
+    "created_at": 1756269704.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8c8893d4819080c6bedae6b8791902e08bbab18888a5",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"NO\",\"explanation\":\"As of August 2025, Laos does not offer a fully digital online submission portal for pharmaceutical product marketing authorization applications, requiring applicants to submit physical documents for registration.\",\"sources\":[\"https://credevo.com/articles/2021/04/25/generic-drug-approval-process-in-laos/?utm_source=openai\",\"https://globalforum.diaglobal.org/issue/september-2022/digitalization-in-the-asean-pharmaceuticals-market/?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "NO",
+              "explanation": "As of August 2025, Laos does not offer a fully digital online submission portal for pharmaceutical product marketing authorization applications, requiring applicants to submit physical documents for registration.",
+              "sources": [
+                "https://credevo.com/articles/2021/04/25/generic-drug-approval-process-in-laos/?utm_source=openai",
+                "https://globalforum.diaglobal.org/issue/september-2022/digitalization-in-the-asean-pharmaceuticals-market/?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1350,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 108,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1458
+    },
+    "user": null,
+    "store": true
+  }
+}

@@ -1,0 +1,216 @@
+gpt-4o-mini
+Targets an average marketing authorization (MA) approval timeline of six months or less for pharmaceutical products.
+{
+  "first_pass": {
+    "id": "chatcmpl-2a8d9459-49f4-4d4e-b857-e9b3d42ed946",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Vietnam's pharmaceutical marketing authorization (MA) approval timelines vary based on the type of product and specific circumstances. While the country has established expedited procedures for certain cases, the standard approval process generally exceeds six months.\n\n**Standard Approval Timelines:**\n\n- **New Drug Registrations:** The Drug Administration of Vietnam (DAV) aims to process applications within 12 months from the date of receipt. ([scribd.com](https://www.scribd.com/document/891750758/12-2025-Tt-Byt-RA-English?utm_source=openai))\n\n- **Renewal of Marketing Authorizations:** The processing time is capped at three months from the date of receipt. ([english.luatvietnam.vn](https://english.luatvietnam.vn/y-te/circular-12-2025-tt-byt-marketing-authorization-of-medicinal-products-400604-d1.html?utm_source=openai))\n\n**Expedited Procedures:**\n\nVietnam has provisions for faster processing under specific conditions:\n\n- **Priority Administrative Procedures:** Medicines on the priority list can be processed within six months. ([hmlf.vn](https://hmlf.vn/business-sectors/healthcare/drug-registration-process-vietnam-guide-foreign-companies-2025-2/?utm_source=openai))\n\n- **Medicines for Group A Infectious Diseases:** New drugs indicated for the prevention and treatment of Group A infectious diseases during declared epidemics can be processed within 15 days. ([scribd.com](https://www.scribd.com/document/891750758/12-2025-Tt-Byt-RA-English?utm_source=openai))\n\n- **Contract-Manufactured or Technology-Transferred Drugs:** For drugs where the original product has an existing MA in Vietnam, the processing time is up to three months. ([scribd.com](https://www.scribd.com/document/891750758/12-2025-Tt-Byt-RA-English?utm_source=openai))\n\n**Conclusion:**\n\nWhile Vietnam has mechanisms to expedite the MA approval process, the standard timeline for most pharmaceutical products is longer than six months. The country does not target an average MA approval timeline of six months or less for all pharmaceutical products. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 548,
+                "start_index": 447,
+                "title": "12 2025 TT Byt RA English | PDF | Pharmacovigilance | Clinical Trial",
+                "url": "https://www.scribd.com/document/891750758/12-2025-Tt-Byt-RA-English?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 831,
+                "start_index": 665,
+                "title": "Circular 12/2025/TT-BYT marketing authorization of medicinal products and medicinal materials",
+                "url": "https://english.luatvietnam.vn/y-te/circular-12-2025-tt-byt-marketing-authorization-of-medicinal-products-400604-d1.html?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1182,
+                "start_index": 1042,
+                "title": "Drug Registration in Vietnam: Guide for Foreign Companies (P2) - HARLEY MILLER LAW FIRM (HMLF)",
+                "url": "https://hmlf.vn/business-sectors/healthcare/drug-registration-process-vietnam-guide-foreign-companies-2025-2/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1477,
+                "start_index": 1376,
+                "title": "12 2025 TT Byt RA English | PDF | Pharmacovigilance | Clinical Trial",
+                "url": "https://www.scribd.com/document/891750758/12-2025-Tt-Byt-RA-English?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1752,
+                "start_index": 1651,
+                "title": "12 2025 TT Byt RA English | PDF | Pharmacovigilance | Clinical Trial",
+                "url": "https://www.scribd.com/document/891750758/12-2025-Tt-Byt-RA-English?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756269667,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 451,
+      "prompt_tokens": 69,
+      "total_tokens": 520,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8c6943748190801700a21df684240399298b34d41c95",
+    "created_at": 1756269673.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8c69e87481908d6d5bb23180de1b0399298b34d41c95",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"NO\",\"explanation\":\"Vietnam does not target an average marketing authorization (MA) approval timeline of six months or less for pharmaceutical products, as the standard approval for new drug registrations typically exceeds twelve months, although there are expedited processes for specific cases.\",\"sources\":[\"https://www.scribd.com/document/891750758/12-2025-Tt-Byt-RA-English?utm_source=openai\",\"https://english.luatvietnam.vn/y-te/circular-12-2025-tt-byt-marketing-authorization-of-medicinal-products-400604-d1.html?utm_source=openai\",\"https://hmlf.vn/business-sectors/healthcare/drug-registration-process-vietnam-guide-foreign-companies-2025-2/?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "NO",
+              "explanation": "Vietnam does not target an average marketing authorization (MA) approval timeline of six months or less for pharmaceutical products, as the standard approval for new drug registrations typically exceeds twelve months, although there are expedited processes for specific cases.",
+              "sources": [
+                "https://www.scribd.com/document/891750758/12-2025-Tt-Byt-RA-English?utm_source=openai",
+                "https://english.luatvietnam.vn/y-te/circular-12-2025-tt-byt-marketing-authorization-of-medicinal-products-400604-d1.html?utm_source=openai",
+                "https://hmlf.vn/business-sectors/healthcare/drug-registration-process-vietnam-guide-foreign-companies-2025-2/?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1966,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 163,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2129
+    },
+    "user": null,
+    "store": true
+  }
+}

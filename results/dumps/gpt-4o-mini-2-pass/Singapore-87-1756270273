@@ -1,0 +1,198 @@
+gpt-4o-mini
+Specifically mandates the use of a “red dot” symbol on prescription-only pharmaceutical products.
+{
+  "first_pass": {
+    "id": "chatcmpl-692f9975-a014-4f3d-91ea-caa37ece25e7",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "In Singapore, there is no specific mandate requiring the use of a \"red dot\" symbol on prescription-only pharmaceutical products. The term \"Little Red Dot\" is a colloquial nickname for Singapore, reflecting its small size on maps, and is not associated with pharmaceutical labeling. ([en.wikipedia.org](https://en.wikipedia.org/wiki/Little_red_dot?utm_source=openai))\n\nRegarding pharmaceutical labeling, Singapore's Health Sciences Authority (HSA) requires that registered drug labels include essential information such as the product name, active ingredients, dosage form, strength, route of administration, registration number, storage conditions, expiry date, manufacturer details, and any necessary warnings or precautions. These labels must be clear, legible, and in English to ensure patient safety and compliance. ([pacificbridgemedical.com](https://www.pacificbridgemedical.com/ufaq/what-are-the-labeling-requirements-for-registered-drugs-in-singapore/?utm_source=openai))\n\nWhile some countries use specific symbols or color codes on medication packaging to indicate prescription status or other classifications, Singapore does not employ such symbols. Instead, the regulatory classification of medicines is indicated by their registration status:\n\n- **POM (Prescription Only Medicines):** Sold or supplied to the public on prescription only.\n\n- **P (Pharmacy Only Medicines):** Sold or supplied from any licensed retail pharmacy under the supervision of a pharmacist.\n\n- **GSL (General Sales List):** Sold or supplied to the public without restriction.\n\n([mims.com](https://www.mims.com/SINGAPORE/Viewer/Html/PoisonCls.htm?utm_source=openai))\n\nTherefore, in Singapore, the classification and regulation of pharmaceutical products are managed through these registration categories and comprehensive labeling requirements, without the use of specific symbols like a \"red dot.\" ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 366,
+                "start_index": 282,
+                "title": "Little red dot",
+                "url": "https://en.wikipedia.org/wiki/Little_red_dot?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 979,
+                "start_index": 820,
+                "title": "Singapore Drug Labeling Requirements | PBM",
+                "url": "https://www.pacificbridgemedical.com/ufaq/what-are-the-labeling-requirements-for-registered-drugs-in-singapore/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1650,
+                "start_index": 1562,
+                "title": "Singapore Regulatory Classification | MIMS Singapore",
+                "url": "https://www.mims.com/SINGAPORE/Viewer/Html/PoisonCls.htm?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756270265,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 369,
+      "prompt_tokens": 67,
+      "total_tokens": 436,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8ebe54a88195af88ecb8a4ca6f0102dc4253808c4c6b",
+    "created_at": 1756270270.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8ebec5fc8195b4fcd1153287f0fb02dc4253808c4c6b",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"NO\",\"explanation\":\"Singapore does not mandate the use of a 'red dot' symbol on prescription-only pharmaceutical products, as its medication classification is indicated by registration status rather than specific symbols.\",\"sources\":[\"https://en.wikipedia.org/wiki/Little_red_dot?utm_source=openai\",\"https://www.pacificbridgemedical.com/ufaq/what-are-the-labeling-requirements-for-registered-drugs-in-singapore/?utm_source=openai\",\"https://www.mims.com/SINGAPORE/Viewer/Html/PoisonCls.htm?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "NO",
+              "explanation": "Singapore does not mandate the use of a 'red dot' symbol on prescription-only pharmaceutical products, as its medication classification is indicated by registration status rather than specific symbols.",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Little_red_dot?utm_source=openai",
+                "https://www.pacificbridgemedical.com/ufaq/what-are-the-labeling-requirements-for-registered-drugs-in-singapore/?utm_source=openai",
+                "https://www.mims.com/SINGAPORE/Viewer/Html/PoisonCls.htm?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1513,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 123,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1636
+    },
+    "user": null,
+    "store": true
+  }
+}

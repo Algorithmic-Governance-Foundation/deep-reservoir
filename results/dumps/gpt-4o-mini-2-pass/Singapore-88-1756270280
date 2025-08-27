@@ -1,0 +1,196 @@
+gpt-4o-mini
+Targets an average marketing authorization (MA) approval timeline of six months or less for pharmaceutical products.
+{
+  "first_pass": {
+    "id": "chatcmpl-d7d2af99-4b3b-4c64-b8fd-85f86f9a2c97",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Singapore's Health Sciences Authority (HSA) employs a structured evaluation process for pharmaceutical product registrations, with timelines varying based on the evaluation route and the product's regulatory history. The primary evaluation routes include:\n\n- **Full Evaluation Route**: This route applies to new drug entities that have not been approved by any regulatory agency. The evaluation process under this route is extensive, taking approximately 270 working days to complete. ([pacificbridgemedical.com](https://www.pacificbridgemedical.com/uncategorized/singapore-drug-registration-a-comprehensive-guide/?utm_source=openai))\n\n- **Abridged Evaluation Route**: This route is applicable to products that have been approved by other recognized regulatory agencies. The evaluation timeline for this route is around 180 working days. ([pacificbridgemedical.com](https://www.pacificbridgemedical.com/uncategorized/singapore-drug-registration-a-comprehensive-guide/?utm_source=openai))\n\n- **Verification Evaluation Route**: This expedited route is for products approved by principal regulatory agencies such as the US FDA, UK MHRA, Australia TGA, EU EMEA, or Health Canada. The evaluation under this route is relatively swift, taking about 60 working days. ([pacificbridgemedical.com](https://www.pacificbridgemedical.com/uncategorized/singapore-drug-registration-a-comprehensive-guide/?utm_source=openai))\n\nGiven these timelines, Singapore does not target an average marketing authorization approval timeline of six months or less for pharmaceutical products. The duration of the approval process is contingent upon the evaluation route selected and the product's prior approval status with other regulatory agencies. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 634,
+                "start_index": 485,
+                "title": "Singapore Drug Registration: A Comprehensive Guide",
+                "url": "https://www.pacificbridgemedical.com/uncategorized/singapore-drug-registration-a-comprehensive-guide/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 987,
+                "start_index": 838,
+                "title": "Singapore Drug Registration: A Comprehensive Guide",
+                "url": "https://www.pacificbridgemedical.com/uncategorized/singapore-drug-registration-a-comprehensive-guide/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1408,
+                "start_index": 1259,
+                "title": "Singapore Drug Registration: A Comprehensive Guide",
+                "url": "https://www.pacificbridgemedical.com/uncategorized/singapore-drug-registration-a-comprehensive-guide/?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756270273,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 342,
+      "prompt_tokens": 69,
+      "total_tokens": 411,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8ec64514819f878de68cb19565980528022565e6bc48",
+    "created_at": 1756270278.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8ec72a80819fb58c9e4f80f337b20528022565e6bc48",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"NO\",\"explanation\":\"Singapore does not target an average marketing authorization approval timeline of six months or less; the full evaluation can take approximately 270 days, the abridged route around 180 days, and even the expedited verification route takes about 60 days, which exceeds the six-month target.\",\"sources\":[\"https://www.pacificbridgemedical.com/uncategorized/singapore-drug-registration-a-comprehensive-guide/?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "NO",
+              "explanation": "Singapore does not target an average marketing authorization approval timeline of six months or less; the full evaluation can take approximately 270 days, the abridged route around 180 days, and even the expedited verification route takes about 60 days, which exceeds the six-month target.",
+              "sources": [
+                "https://www.pacificbridgemedical.com/uncategorized/singapore-drug-registration-a-comprehensive-guide/?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1476,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 97,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1573
+    },
+    "user": null,
+    "store": true
+  }
+}

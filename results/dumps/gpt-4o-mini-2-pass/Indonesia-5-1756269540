@@ -1,0 +1,197 @@
+gpt-4o-mini
+Allows the use of bracketing and matrixing study designs in pharmaceutical product stability testing.
+{
+  "first_pass": {
+    "id": "chatcmpl-b0d473de-4fe6-4531-a424-49d729cccf51",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Indonesia permits the use of bracketing and matrixing study designs in pharmaceutical product stability testing, as outlined in the ASEAN Guideline on Stability Study of Drug Products. These approaches are recognized and accepted by Indonesia's regulatory authority, the National Agency of Drug and Food Control (BPOM). ([farmasiindustri.com](https://farmasiindustri.com/cpob/bracketing-dan-matrixing.html?utm_source=openai))\n\n**Bracketing** involves testing only the extreme samples of certain design factors\u2014such as strength, container size, or fill volume\u2014at all time points, assuming that the stability of intermediate levels is represented by the extremes tested. For example, if a product is available in three strengths (e.g., 50 mg, 75 mg, and 100 mg) and three container sizes (e.g., 15 ml, 100 ml, and 500 ml), a bracketing design would test only the 15 ml and 500 ml container sizes at all time points, assuming that the stability of the 75 mg strength is similar to that of the extremes. ([paperzz.com](https://paperzz.com/doc/9443062/asean-guideline-on-stability-study-of-drug?utm_source=openai))\n\n**Matrixing** involves testing a selected subset of the total number of possible samples for all factor combinations at a specified time point, with different subsets tested at subsequent time points. This design assumes that the stability of each subset represents the stability of all samples at a given time point. For instance, if a product is available in multiple strengths and container sizes, matrixing allows for testing only a selection of these combinations at each time point, thereby reducing the number of samples required. ([paperzz.com](https://paperzz.com/doc/9443062/asean-guideline-on-stability-study-of-drug?utm_source=openai))\n\nThe ASEAN Guideline on Stability Study of Drug Products provides detailed examples and conditions for applying these reduced study designs, ensuring that they are scientifically justified and do not compromise the reliability of stability data. Therefore, pharmaceutical companies in Indonesia can implement bracketing and matrixing designs in their stability studies, provided they adhere to the guidelines and obtain the necessary approvals from BPOM. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 425,
+                "start_index": 320,
+                "title": "Bracketing dan Matrixing di Stabilitas Obat - FARMASI INDUSTRI",
+                "url": "https://farmasiindustri.com/cpob/bracketing-dan-matrixing.html?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1109,
+                "start_index": 1000,
+                "title": "ASEAN guideline on stability study of drug",
+                "url": "https://paperzz.com/doc/9443062/asean-guideline-on-stability-study-of-drug?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1758,
+                "start_index": 1649,
+                "title": "ASEAN guideline on stability study of drug",
+                "url": "https://paperzz.com/doc/9443062/asean-guideline-on-stability-study-of-drug?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756269533,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 460,
+      "prompt_tokens": 68,
+      "total_tokens": 528,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8be2bfc8819389f8ad6bd2fed1c8055ddb6bdb530c2e",
+    "created_at": 1756269538.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8be35edc81939b078af3ce4039e9055ddb6bdb530c2e",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"YES\",\"explanation\":\"Indonesia permits the use of bracketing and matrixing study designs for pharmaceutical product stability testing as recognized by BPOM and directed by the ASEAN Guideline on Stability Study of Drug Products.\",\"sources\":[\"https://farmasiindustri.com/cpob/bracketing-dan-matrixing.html?utm_source=openai\",\"https://paperzz.com/doc/9443062/asean-guideline-on-stability-study-of-drug?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "YES",
+              "explanation": "Indonesia permits the use of bracketing and matrixing study designs for pharmaceutical product stability testing as recognized by BPOM and directed by the ASEAN Guideline on Stability Study of Drug Products.",
+              "sources": [
+                "https://farmasiindustri.com/cpob/bracketing-dan-matrixing.html?utm_source=openai",
+                "https://paperzz.com/doc/9443062/asean-guideline-on-stability-study-of-drug?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1706,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 102,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1808
+    },
+    "user": null,
+    "store": true
+  }
+}

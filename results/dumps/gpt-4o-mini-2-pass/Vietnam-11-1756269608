@@ -1,0 +1,188 @@
+gpt-4o-mini
+Accepts the International Council for Harmonisation (ICH) Common Technical Document (CTD) format for innovator pharmaceutical product registrations.
+{
+  "first_pass": {
+    "id": "chatcmpl-831d156a-ca52-4f07-adff-642d4f5725df",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Vietnam accepts the International Council for Harmonisation (ICH) Common Technical Document (CTD) format for the registration of innovator pharmaceutical products. This is in line with the guidelines set forth in Circular No. 44/2014/TT-BYT, issued by the Ministry of Health on November 25, 2014. The circular specifies that for new chemical drugs, vaccines, serum containing antibodies, and medical biologicals that cannot be arranged according to the ASEAN Common Technical Dossier (ACTD) format, applicants may submit dossiers in the ICH-CTD format. ([vnras.com](https://vnras.com/the-official-letter-21508-qld-dk-guideline-applying-actd-dossier-ich-ctd-dossier/?utm_source=openai))\n\nThe ICH-CTD format is internationally recognized and is used for the registration of new drugs, including innovator pharmaceutical products. In contrast, the ACTD format is primarily accepted for generic applications in Vietnam. ([productlifegroup.com](https://www.productlifegroup.com/specific-regulations-requirements-international-markets/?utm_source=openai))\n\nTherefore, for innovator pharmaceutical products, Vietnam requires the submission of registration dossiers in the ICH-CTD format. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 685,
+                "start_index": 553,
+                "title": "The official letter 21508/QLD-\u0110K about guideline on applying ACTD dossier or ICH \u2013 CTD dossier - Vietnam Regulatory Affairs Society - Lu\u1eadt D\u01b0\u1ee3c Vi\u1ec7t Nam",
+                "url": "https://vnras.com/the-official-letter-21508-qld-dk-guideline-applying-actd-dossier-ich-ctd-dossier/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1049,
+                "start_index": 916,
+                "title": "Specific regulations/requirements of International Markets - Product Life Group",
+                "url": "https://www.productlifegroup.com/specific-regulations-requirements-international-markets/?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756269601,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 257,
+      "prompt_tokens": 76,
+      "total_tokens": 333,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8c2603008190abb243b68f70648909055de9b29294fb",
+    "created_at": 1756269606.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8c26a63481908f4ea1ba1f36556209055de9b29294fb",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"YES\",\"explanation\":\"Vietnam accepts the ICH CTD format for innovator pharmaceutical product registrations as per Circular No. 44/2014/TT-BYT issued by the Ministry of Health, which allows submissions in this format when ACTD cannot be utilized.\",\"sources\":[\"https://vnras.com/the-official-letter-21508-qld-dk-guideline-applying-actd-dossier-ich-ctd-dossier/?utm_source=openai\",\"https://www.productlifegroup.com/specific-regulations-requirements-international-markets/?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "YES",
+              "explanation": "Vietnam accepts the ICH CTD format for innovator pharmaceutical product registrations as per Circular No. 44/2014/TT-BYT issued by the Ministry of Health, which allows submissions in this format when ACTD cannot be utilized.",
+              "sources": [
+                "https://vnras.com/the-official-letter-21508-qld-dk-guideline-applying-actd-dossier-ich-ctd-dossier/?utm_source=openai",
+                "https://www.productlifegroup.com/specific-regulations-requirements-international-markets/?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1251,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 122,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1373
+    },
+    "user": null,
+    "store": true
+  }
+}

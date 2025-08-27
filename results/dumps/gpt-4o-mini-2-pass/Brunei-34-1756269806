@@ -1,0 +1,188 @@
+gpt-4o-mini
+Permits stability data submission for pharmaceutical products at 25°C/60% relative humidity (RH) when supported by accelerated stability studies.
+{
+  "first_pass": {
+    "id": "chatcmpl-ac70abfc-9141-47ea-8f73-4c87053747b0",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Brunei, as a member of the Association of Southeast Asian Nations (ASEAN), adheres to the ASEAN Stability Guidelines for pharmaceutical stability testing. These guidelines specify that long-term stability studies should be conducted at 30\u00b0C \u00b1 2\u00b0C with 75% relative humidity (RH) \u00b1 5% RH, corresponding to Climatic Zone IVb conditions. ([stabilitystudies.in](https://www.stabilitystudies.in/stability-studies-key-regulatory-guidelines-for-global-compliance/?utm_source=openai))\n\nWhile the ASEAN guidelines do not explicitly mention the use of 25\u00b0C \u00b1 2\u00b0C/60% RH \u00b1 5% RH conditions for stability testing, they do allow for alternative storage conditions if justified. For instance, the guidelines state that \"other storage conditions are allowable if justified,\" such as for heat-sensitive drug products that may require storage under lower temperature conditions. ([scribd.com](https://www.scribd.com/document/457681671/ASEAN-GUIDELINE-ON-STABILITY-STUDY-OF-DRUG-PRODUCT-docx?utm_source=openai))\n\nTherefore, it is possible that Brunei permits stability data submission for pharmaceutical products stored at 25\u00b0C/60% RH, provided that the applicant justifies this choice. This justification would typically involve demonstrating that the product remains stable under these conditions, possibly supported by accelerated stability studies conducted at higher temperatures and humidity levels.\n\nTo ensure compliance with Brunei's specific regulatory requirements, it is advisable to consult the country's national regulatory authority or refer to the latest official guidelines. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 476,
+                "start_index": 335,
+                "title": "Stability Studies: Key Regulatory Guidelines for Global Compliance \u2013 StabilityStudies.in",
+                "url": "https://www.stabilitystudies.in/stability-studies-key-regulatory-guidelines-for-global-compliance/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 993,
+                "start_index": 862,
+                "title": "Asean Guideline On Stability Study of Drug Product | PDF | Topical Medication | Shelf Life",
+                "url": "https://www.scribd.com/document/457681671/ASEAN-GUIDELINE-ON-STABILITY-STUDY-OF-DRUG-PRODUCT-docx?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756269800,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 320,
+      "prompt_tokens": 78,
+      "total_tokens": 398,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8cebe15c81a1a3b1037dd7fa831604b8ae0d08e4878c",
+    "created_at": 1756269803.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8cec48e881a1aa1211ebfb55207604b8ae0d08e4878c",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"PARTIAL\",\"explanation\":\"Brunei may allow stability data submission for pharmaceutical products at 25\u00b0C/60% RH if the applicant provides justification, as the ASEAN guidelines permit alternative storage conditions if justified.\",\"sources\":[\"https://www.stabilitystudies.in/stability-studies-key-regulatory-guidelines-for-global-compliance/?utm_source=openai\",\"https://www.scribd.com/document/457681671/ASEAN-GUIDELINE-ON-STABILITY-STUDY-OF-DRUG-PRODUCT-docx?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "PARTIAL",
+              "explanation": "Brunei may allow stability data submission for pharmaceutical products at 25\u00b0C/60% RH if the applicant provides justification, as the ASEAN guidelines permit alternative storage conditions if justified.",
+              "sources": [
+                "https://www.stabilitystudies.in/stability-studies-key-regulatory-guidelines-for-global-compliance/?utm_source=openai",
+                "https://www.scribd.com/document/457681671/ASEAN-GUIDELINE-ON-STABILITY-STUDY-OF-DRUG-PRODUCT-docx?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1373,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 117,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1490
+    },
+    "user": null,
+    "store": true
+  }
+}

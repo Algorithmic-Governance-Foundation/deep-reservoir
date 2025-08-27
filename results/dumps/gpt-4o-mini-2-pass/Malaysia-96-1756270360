@@ -1,0 +1,198 @@
+gpt-4o-mini
+Requires halal certification for pharmaceutical products.
+{
+  "first_pass": {
+    "id": "chatcmpl-88741d8e-9e99-4018-9a5a-5e064ae8f213",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "In Malaysia, halal certification for pharmaceutical products is not mandatory. However, obtaining this certification is highly encouraged, especially for products intended for export to Muslim-majority countries. The Department of Islamic Development Malaysia (JAKIM) oversees the halal certification process, ensuring that products comply with Islamic principles. ([halalpharmacore.com](https://halalpharmacore.com/malaysia-product-certification/?utm_source=openai))\n\nThe Malaysian Standard for Halal Pharmaceuticals (MS2424) outlines the requirements for halal certification, covering aspects such as sourcing raw materials, manufacturing processes, and packaging. This standard has been updated over time to address the evolving needs of the industry, including the incorporation of biopharmaceuticals in the 2019 edition. ([mida.gov.my](https://www.mida.gov.my/mida-news/malaysia-leads-global-halal-pharmaceutical-industry/?utm_source=openai))\n\nWhile halal certification is not compulsory, it is considered a mark of quality and trust, particularly in the global market. For instance, Malaysian pharmaceutical companies like Hovid Berhad have achieved halal certification for their products, enhancing their appeal in both domestic and international markets. ([en.wikipedia.org](https://en.wikipedia.org/wiki/Hovid_%28company%29?utm_source=openai))\n\nIn summary, Malaysia does not require halal certification for pharmaceutical products, but obtaining it is beneficial for companies aiming to meet the expectations of Muslim consumers and to access broader markets. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 467,
+                "start_index": 365,
+                "title": "Malaysia - Product Certification - Halal Pharmacore",
+                "url": "https://halalpharmacore.com/malaysia-product-certification/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 947,
+                "start_index": 826,
+                "title": "",
+                "url": "https://www.mida.gov.my/mida-news/malaysia-leads-global-halal-pharmaceutical-industry/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1352,
+                "start_index": 1263,
+                "title": "Hovid (company)",
+                "url": "https://en.wikipedia.org/wiki/Hovid_%28company%29?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756270354,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 293,
+      "prompt_tokens": 57,
+      "total_tokens": 350,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8f1626f081979e25154a443aceb3020ea8276ad31f9d",
+    "created_at": 1756270358.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8f169cd4819793631feffa85798f020ea8276ad31f9d",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"NO\",\"explanation\":\"Malaysia does not require halal certification for pharmaceutical products, but it is highly encouraged for products intended for export to Muslim-majority countries, as overseen by the Department of Islamic Development Malaysia (JAKIM).\",\"sources\":[\"https://halalpharmacore.com/malaysia-product-certification/?utm_source=openai\",\"https://www.mida.gov.my/mida-news/malaysia-leads-global-halal-pharmaceutical-industry/?utm_source=openai\",\"https://en.wikipedia.org/wiki/Hovid_%28company%29?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "NO",
+              "explanation": "Malaysia does not require halal certification for pharmaceutical products, but it is highly encouraged for products intended for export to Muslim-majority countries, as overseen by the Department of Islamic Development Malaysia (JAKIM).",
+              "sources": [
+                "https://halalpharmacore.com/malaysia-product-certification/?utm_source=openai",
+                "https://www.mida.gov.my/mida-news/malaysia-leads-global-halal-pharmaceutical-industry/?utm_source=openai",
+                "https://en.wikipedia.org/wiki/Hovid_%28company%29?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1329,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 120,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1449
+    },
+    "user": null,
+    "store": true
+  }
+}

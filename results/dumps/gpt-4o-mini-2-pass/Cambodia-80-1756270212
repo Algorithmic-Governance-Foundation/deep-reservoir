@@ -1,0 +1,198 @@
+gpt-4o-mini
+Publishes national antimicrobial resistance (AMR) surveillance data related to pharmaceutical products.
+{
+  "first_pass": {
+    "id": "chatcmpl-9bac9030-b425-4ecd-9aad-65f15a02e99a",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Yes, Cambodia publishes national antimicrobial resistance (AMR) surveillance data related to pharmaceutical products. The Ministry of Health (MoH) has established a laboratory-based AMR surveillance system, which collects data from eight sentinel sites across the country. This system monitors priority pathogens in blood and cerebrospinal fluid samples, providing valuable insights into AMR patterns. ([ijidonline.com](https://www.ijidonline.com/article/S1201-9712%2820%2930882-1/fulltext?utm_source=openai))\n\nThe Cambodian Communicable Disease Center (CDC) maintains a dedicated webpage for AMR surveillance, offering access to various reports and documents. Notably, the \"Bacterial Profiles and Antimicrobial Susceptibility Patterns of Isolates from National Antimicrobial Resistance Surveillance, Cambodia 2018\u20132021\" report is available, detailing the bacterial profiles and AMR patterns observed during this period. ([cjph.niph.org.kh](https://cjph.niph.org.kh/index.php/cjph/article/view/442?utm_source=openai))\n\nAdditionally, the Cambodian government has developed a Multi-Sectoral Action Plan for the period 2019\u20132023, aiming to guide national efforts in controlling AMR. This plan emphasizes the importance of surveillance and data sharing across sectors to effectively combat AMR. ([who.int](https://www.who.int/cambodia/news/detail/23-12-2019-cambodia-launched-multi-sectoral-action-plan-for-guiding-national-control-of-antimicrobial-resistance?utm_source=openai))\n\nThese initiatives reflect Cambodia's commitment to monitoring and publishing AMR surveillance data, thereby contributing to global efforts in understanding and addressing antimicrobial resistance. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 509,
+                "start_index": 402,
+                "title": "Building capacity in surveillance of antimicrobial resistance in Cambodia - International Journal of Infectious Diseases",
+                "url": "https://www.ijidonline.com/article/S1201-9712%2820%2930882-1/fulltext?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1017,
+                "start_index": 921,
+                "title": "The Bacterial Profiles and Antimicrobial Susceptibility Patterns of Isolates from National Antimicrobial Resistance Surveillance, Cambodia 2018\u20132021 | Cambodia Journal of Public Health (CJPH) of the School of Public Health at NIPH",
+                "url": "https://cjph.niph.org.kh/index.php/cjph/article/view/442?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1475,
+                "start_index": 1291,
+                "title": "Cambodia launched multi-sectoral action plan for guiding national control of antimicrobial resistance",
+                "url": "https://www.who.int/cambodia/news/detail/23-12-2019-cambodia-launched-multi-sectoral-action-plan-for-guiding-national-control-of-antimicrobial-resistance?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756270205,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 348,
+      "prompt_tokens": 66,
+      "total_tokens": 414,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8e821ea881a3a92ef78d952f5ae8066d8c69c8e0e6fc",
+    "created_at": 1756270210.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8e82708081a3920bb9efd0e7e08d066d8c69c8e0e6fc",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"YES\",\"explanation\":\"Cambodia publishes national antimicrobial resistance (AMR) surveillance data through a laboratory-based system established by the Ministry of Health, which includes reports accessible via the Cambodian CDC's dedicated webpage and a Multi-Sectoral Action Plan emphasizing surveillance.\",\"sources\":[\"https://www.ijidonline.com/article/S1201-9712%2820%2930882-1/fulltext?utm_source=openai\",\"https://cjph.niph.org.kh/index.php/cjph/article/view/442?utm_source=openai\",\"https://www.who.int/cambodia/news/detail/23-12-2019-cambodia-launched-multi-sectoral-action-plan-for-guiding-national-control-of-antimicrobial-resistance?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "YES",
+              "explanation": "Cambodia publishes national antimicrobial resistance (AMR) surveillance data through a laboratory-based system established by the Ministry of Health, which includes reports accessible via the Cambodian CDC's dedicated webpage and a Multi-Sectoral Action Plan emphasizing surveillance.",
+              "sources": [
+                "https://www.ijidonline.com/article/S1201-9712%2820%2930882-1/fulltext?utm_source=openai",
+                "https://cjph.niph.org.kh/index.php/cjph/article/view/442?utm_source=openai",
+                "https://www.who.int/cambodia/news/detail/23-12-2019-cambodia-launched-multi-sectoral-action-plan-for-guiding-national-control-of-antimicrobial-resistance?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1549,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 159,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1708
+    },
+    "user": null,
+    "store": true
+  }
+}

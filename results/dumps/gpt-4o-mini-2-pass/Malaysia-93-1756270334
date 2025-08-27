@@ -1,0 +1,198 @@
+gpt-4o-mini
+Legally requires acceptance of another ASEAN Member State’s (AMS) Certificate of Good Manufacturing Practice (cGMP) for pharmaceutical manufacturers.
+{
+  "first_pass": {
+    "id": "chatcmpl-a34f05aa-e534-4e79-9b59-4d8d16cb986c",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Malaysia legally requires the acceptance of Good Manufacturing Practice (GMP) certificates and inspection reports from other ASEAN Member States (AMS) for pharmaceutical manufacturers. This requirement is established under the ASEAN Sectoral Mutual Recognition Arrangement (MRA) on GMP Inspection, signed by all ten AMS on April 10, 2009. ([cil.nus.edu.sg](https://cil.nus.edu.sg/databasecil/2009-asean-sectoral-mutual-recognition-agreement-on-good-manufacturing-practice-gmp-inspection-of-manufacturers-of-medicinal-products/?utm_source=openai))\n\nThe MRA mandates that each AMS accept GMP certificates and inspection reports issued by listed inspection services of other member states. These listed services are those whose GMP inspection systems meet the standards of the Pharmaceutical Inspection Co-operation Scheme (PIC/S). Malaysia's National Pharmaceutical Regulatory Agency (NPRA) is a member of PIC/S and is recognized under this arrangement. ([pharmagmp.in](https://www.pharmagmp.in/malaysias-npra-gmp-guidelines/?utm_source=openai))\n\nThe MRA aims to harmonize GMP standards across ASEAN, facilitating mutual recognition of GMP inspections and reducing duplication of inspections within the region. This harmonization is intended to streamline the regulatory process for pharmaceutical products, ensuring that manufacturers meeting GMP standards in one AMS are recognized by others. ([globalforum.diaglobal.org](https://globalforum.diaglobal.org/issue/march-2021/harmonization-of-gmp-inspection-and-benefits-to-asean-economic-community/?utm_source=openai))\n\nTherefore, Malaysia is legally obligated to accept GMP certificates and inspection reports from other ASEAN member states, provided they are issued by listed inspection services that comply with PIC/S standards. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 546,
+                "start_index": 339,
+                "title": "2009 ASEAN Sectoral Mutual Recognition Agreement on Good Manufacturing Practice (GMP) Inspection of Manufacturers of Medicinal Products - Centre for International Law",
+                "url": "https://cil.nus.edu.sg/databasecil/2009-asean-sectoral-mutual-recognition-agreement-on-good-manufacturing-practice-gmp-inspection-of-manufacturers-of-medicinal-products/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1043,
+                "start_index": 952,
+                "title": "Malaysia\u2019s NPRA GMP Guidelines \u2013 Pharma GMP",
+                "url": "https://www.pharmagmp.in/malaysias-npra-gmp-guidelines/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1566,
+                "start_index": 1393,
+                "title": "Harmonization of GMP Inspection and Benefits to ASEAN Economic Community",
+                "url": "https://globalforum.diaglobal.org/issue/march-2021/harmonization-of-gmp-inspection-and-benefits-to-asean-economic-community/?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756270323,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 355,
+      "prompt_tokens": 77,
+      "total_tokens": 432,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8efb4ec4819087e4c8ca9ee875af09412d500da1cdba",
+    "created_at": 1756270331.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8efc05588190bb4393f2a80549cf09412d500da1cdba",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"YES\",\"explanation\":\"Malaysia is legally required to accept Good Manufacturing Practice (GMP) certificates from other ASEAN Member States under the ASEAN Sectoral Mutual Recognition Arrangement (MRA) established in 2009, which mandates cooperation in regulatory standards.\",\"sources\":[\"https://cil.nus.edu.sg/databasecil/2009-asean-sectoral-mutual-recognition-agreement-on-good-manufacturing-practice-gmp-inspection-of-manufacturers-of-medicinal-products/?utm_source=openai\",\"https://www.pharmagmp.in/malaysias-npra-gmp-guidelines/?utm_source=openai\",\"https://globalforum.diaglobal.org/issue/march-2021/harmonization-of-gmp-inspection-and-benefits-to-asean-economic-community/?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "YES",
+              "explanation": "Malaysia is legally required to accept Good Manufacturing Practice (GMP) certificates from other ASEAN Member States under the ASEAN Sectoral Mutual Recognition Arrangement (MRA) established in 2009, which mandates cooperation in regulatory standards.",
+              "sources": [
+                "https://cil.nus.edu.sg/databasecil/2009-asean-sectoral-mutual-recognition-agreement-on-good-manufacturing-practice-gmp-inspection-of-manufacturers-of-medicinal-products/?utm_source=openai",
+                "https://www.pharmagmp.in/malaysias-npra-gmp-guidelines/?utm_source=openai",
+                "https://globalforum.diaglobal.org/issue/march-2021/harmonization-of-gmp-inspection-and-benefits-to-asean-economic-community/?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1554,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 167,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1721
+    },
+    "user": null,
+    "store": true
+  }
+}

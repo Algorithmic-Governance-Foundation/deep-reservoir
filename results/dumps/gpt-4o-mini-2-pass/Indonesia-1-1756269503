@@ -1,0 +1,188 @@
+gpt-4o-mini
+Accepts the International Council for Harmonisation (ICH) Common Technical Document (CTD) format for innovator pharmaceutical product registrations.
+{
+  "first_pass": {
+    "id": "chatcmpl-802fc05c-61f6-4e7c-b00d-88843aeac878",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Indonesia primarily utilizes the ASEAN Common Technical Dossier (ACTD) format for pharmaceutical product registrations. This format is mandatory for all drug applications submitted to the National Agency of Drug and Food Control (NADFC), also known as BPOM. The ACTD comprises Parts I to IV, encompassing administrative documents, quality data, non-clinical studies, and clinical studies. ([artixio.com](https://www.artixio.com/post/indonesia-drug-pharmaceutical-regulations-registration?utm_source=openai))\n\nWhile Indonesia predominantly accepts the ACTD format, it does recognize the International Council for Harmonisation (ICH) Common Technical Document (CTD) format for specific product categories. The CTD is acceptable for innovator, biological, and biotechnological products. However, even when the CTD format is used, applicants must adhere to ASEAN technical requirements, such as the ASEAN guideline on Stability Study of Drug Products. ([pharmatutor.org](https://www.pharmatutor.org/articles/a-study-of-procedures-for-dossier-preparation-and-their%20marketing-authorisation-in-different-countries-of-selected-drug?utm_source=openai))\n\nIn summary, Indonesia accepts the ICH CTD format for innovator pharmaceutical product registrations, provided that applicants comply with ASEAN technical requirements. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 507,
+                "start_index": 389,
+                "title": "NADFC (BPOM) Regulation Of Pharmaceuticals In Indonesia - Artixio",
+                "url": "https://www.artixio.com/post/indonesia-drug-pharmaceutical-regulations-registration?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1145,
+                "start_index": 948,
+                "title": "A STUDY OF PROCEDURES FOR DOSSIER PREPARATION AND THEIR MARKETING AUTHORISATION IN DIFFERENT COUNTRIES OF SELECTED DRUG(S) | PharmaTutor",
+                "url": "https://www.pharmatutor.org/articles/a-study-of-procedures-for-dossier-preparation-and-their%20marketing-authorisation-in-different-countries-of-selected-drug?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756269497,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 262,
+      "prompt_tokens": 76,
+      "total_tokens": 338,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8bbd5e44819ea4964ee41cbc0fa5065e1b2ef24d0ecf",
+    "created_at": 1756269501.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8bbdd49c819eab61fdcd165bf481065e1b2ef24d0ecf",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"PARTIAL\",\"explanation\":\"Indonesia accepts the ICH CTD format for innovator pharmaceutical product registrations, but compliance with ASEAN technical requirements is mandatory.\",\"sources\":[\"https://www.artixio.com/post/indonesia-drug-pharmaceutical-regulations-registration?utm_source=openai\",\"https://www.pharmatutor.org/articles/a-study-of-procedures-for-dossier-preparation-and-their%20marketing-authorisation-in-different-countries-of-selected-drug?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "PARTIAL",
+              "explanation": "Indonesia accepts the ICH CTD format for innovator pharmaceutical product registrations, but compliance with ASEAN technical requirements is mandatory.",
+              "sources": [
+                "https://www.artixio.com/post/indonesia-drug-pharmaceutical-regulations-registration?utm_source=openai",
+                "https://www.pharmatutor.org/articles/a-study-of-procedures-for-dossier-preparation-and-their%20marketing-authorisation-in-different-countries-of-selected-drug?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1269,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 103,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1372
+    },
+    "user": null,
+    "store": true
+  }
+}

@@ -1,0 +1,188 @@
+gpt-4o-mini
+Provides a fully digital online submission portal for pharmaceutical product marketing authorization applications.
+{
+  "first_pass": {
+    "id": "chatcmpl-b47fa235-0f09-4f9a-8091-0c0dd4c9def4",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Yes, the Philippines provides a fully digital online submission portal for pharmaceutical product marketing authorization applications through the FDA e-Portal System. This system streamlines the application process for various drug products, including health and wellness products (HUHS).\n\n**Key Features of the FDA e-Portal System:**\n\n- **Digital Submission:** Applicants can submit their applications online, eliminating the need for physical paperwork.\n\n- **Pre-Assessment:** The system conducts a preliminary review to ensure all necessary documents and information are complete and accurate.\n\n- **Integrated Payments:** Application fees can be paid online, facilitating a seamless transaction process.\n\n- **Application Tracking:** Users receive email updates on the status of their applications, from document review to final approval.\n\n**Implementation Timeline:**\n\n- **Pilot Phase:** The FDA initiated the pilot implementation of the e-Portal System for Automatic Renewal applications for drug products from April 5 to May 5, 2021. ([pharmatomarket.com](https://www.pharmatomarket.com/philippines-fda-starts-pilot-implementation-of-eservices-portal-system-for-drug-products/?utm_source=openai))\n\n- **Full Implementation:** By 2025, the FDA e-Portal System is expected to be fully operational, handling a significant volume of applications, including over 1,500 Certificates of Product Registration (CPRs) issued in 2024. ([tripleiconsulting.com](https://www.tripleiconsulting.com/how-register-huhs-products-with-fda-philippines/?utm_source=openai))\n\n**Application Process Overview:**\n\n1. **Account Creation:** Register your business on the e-Portal to obtain login credentials.\n\n2. **Pre-Assessment:** Upload initial product details to confirm eligibility and avoid unnecessary fees.\n\n3. **Fee Payment:** Pay the required application fees online; fees vary depending on the product type.\n\n4. **Document Submission:** Upload all necessary documents in PDF format, ensuring they are legible and comply with FDA templates.\n\n5. **Application Tracking:** Monitor the progress of your application through email notifications and the e-Portal dashboard.\n\nFor detailed guidelines and to access the e-Portal, visit the official FDA website. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1202,
+                "start_index": 1040,
+                "title": "Philippines FDA\u00a0Starts\u00a0Pilot\u00a0Implementation of eServices Portal System\u00a0for Drug Products\u00a0 - Pharma To MarketPharma To Market",
+                "url": "https://www.pharmatomarket.com/philippines-fda-starts-pilot-implementation-of-eservices-portal-system-for-drug-products/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1556,
+                "start_index": 1429,
+                "title": "Register HUHS Products with FDA PH | Triple I Consulting",
+                "url": "https://www.tripleiconsulting.com/how-register-huhs-products-with-fda-philippines/?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756270067,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 441,
+      "prompt_tokens": 64,
+      "total_tokens": 505,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8df8fddc81a18f40f5f6087bb63209893987ae872ada",
+    "created_at": 1756270073.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8df9491481a191a379413e17714d09893987ae872ada",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"YES\",\"explanation\":\"The Philippines provides a fully digital online submission portal for pharmaceutical product marketing authorization applications through the FDA e-Portal System, which allows for digital submissions, pre-assessment, integrated payments, and application tracking.\",\"sources\":[\"https://www.pharmatomarket.com/philippines-fda-starts-pilot-implementation-of-eservices-portal-system-for-drug-products/?utm_source=openai\",\"https://www.tripleiconsulting.com/how-register-huhs-products-with-fda-philippines/?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "YES",
+              "explanation": "The Philippines provides a fully digital online submission portal for pharmaceutical product marketing authorization applications through the FDA e-Portal System, which allows for digital submissions, pre-assessment, integrated payments, and application tracking.",
+              "sources": [
+                "https://www.pharmatomarket.com/philippines-fda-starts-pilot-implementation-of-eservices-portal-system-for-drug-products/?utm_source=openai",
+                "https://www.tripleiconsulting.com/how-register-huhs-products-with-fda-philippines/?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1630,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 114,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1744
+    },
+    "user": null,
+    "store": true
+  }
+}

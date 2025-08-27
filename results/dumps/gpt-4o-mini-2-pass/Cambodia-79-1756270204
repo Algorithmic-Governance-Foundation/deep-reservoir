@@ -1,0 +1,198 @@
+gpt-4o-mini
+Imposes hospital-only distribution restrictions for certain classes of antimicrobial (AM) pharmaceutical products.
+{
+  "first_pass": {
+    "id": "chatcmpl-a5dd81a2-fac9-4622-8879-2cfef646743f",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Cambodia has implemented regulations to control the distribution of antimicrobial pharmaceutical products, particularly antibiotics, to mitigate the risk of antimicrobial resistance (AMR). The Ministry of Health (MoH) requires that antibiotics be sold only with a prescription from a licensed healthcare professional. This policy aims to ensure that antibiotics are used appropriately and to prevent their misuse, which can lead to AMR. ([phnompenhpost.com](https://www.phnompenhpost.com/national/who-misuse-of-antibiotics-costing-region-lives-billions-of-dollars?utm_source=openai))\n\nHowever, the enforcement of this policy faces challenges due to the prevalence of informal medicine sellers in Cambodia. These unlicensed vendors often sell antibiotics without prescriptions, especially in peri-urban and rural areas where access to registered pharmacies is limited. Studies have found that informal healthcare providers, including those without formal healthcare facilities, are commonly used for purchasing antibiotics in these regions. Despite being unlicensed, these sellers are trusted by communities due to their convenience and the immediate relief they provide. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6768357/?utm_source=openai))\n\nTo address these issues, Cambodia launched a multi-sectoral action plan in December 2019, developed by the MoH, Ministry of Agriculture, Forestry and Fisheries (MAFF), and Ministry of Environment (MoE). This plan outlines seven strategic areas to guide collaborative interventions against AMR, emphasizing the need for a unified approach across various sectors, including human and veterinary medicine, agriculture, food, and the environment. ([who.int](https://www.who.int/cambodia/news/detail/23-12-2019-cambodia-launched-multi-sectoral-action-plan-for-guiding-national-control-of-antimicrobial-resistance?utm_source=openai))\n\nIn summary, while Cambodia has established regulations to restrict the distribution of certain antimicrobial products to hospital settings and licensed pharmacies, the effectiveness of these measures is challenged by the widespread presence of informal medicine sellers and limited access to registered pharmacies in certain areas. The government continues to work on strengthening enforcement and promoting rational use of antibiotics to combat AMR. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 583,
+                "start_index": 437,
+                "title": "",
+                "url": "https://www.phnompenhpost.com/national/who-misuse-of-antibiotics-costing-region-lives-billions-of-dollars?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1264,
+                "start_index": 1171,
+                "title": "Invisible medicine sellers and their use of antibiotics: a qualitative study in Cambodia - PMC",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6768357/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1893,
+                "start_index": 1709,
+                "title": "Cambodia launched multi-sectoral action plan for guiding national control of antimicrobial resistance",
+                "url": "https://www.who.int/cambodia/news/detail/23-12-2019-cambodia-launched-multi-sectoral-action-plan-for-guiding-national-control-of-antimicrobial-resistance?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756270194,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 445,
+      "prompt_tokens": 67,
+      "total_tokens": 512,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8e77712c8195abdd433af7863fea097a91a005213fff",
+    "created_at": 1756270199.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8e783ed881959ae079ca57474e46097a91a005213fff",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"PARTIAL\",\"explanation\":\"Cambodia has restrictions requiring prescriptions for antibiotics, but enforcement is hindered by informal sellers who distribute these medications without prescriptions, especially in rural areas.\",\"sources\":[\"https://www.phnompenhpost.com/national/who-misuse-of-antibiotics-costing-region-lives-billions-of-dollars?utm_source=openai\",\"https://pmc.ncbi.nlm.nih.gov/articles/PMC6768357/?utm_source=openai\",\"https://www.who.int/cambodia/news/detail/23-12-2019-cambodia-launched-multi-sectoral-action-plan-for-guiding-national-control-of-antimicrobial-resistance?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "PARTIAL",
+              "explanation": "Cambodia has restrictions requiring prescriptions for antibiotics, but enforcement is hindered by informal sellers who distribute these medications without prescriptions, especially in rural areas.",
+              "sources": [
+                "https://www.phnompenhpost.com/national/who-misuse-of-antibiotics-costing-region-lives-billions-of-dollars?utm_source=openai",
+                "https://pmc.ncbi.nlm.nih.gov/articles/PMC6768357/?utm_source=openai",
+                "https://www.who.int/cambodia/news/detail/23-12-2019-cambodia-launched-multi-sectoral-action-plan-for-guiding-national-control-of-antimicrobial-resistance?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1698,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 147,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1845
+    },
+    "user": null,
+    "store": true
+  }
+}

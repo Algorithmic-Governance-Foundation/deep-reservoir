@@ -1,0 +1,198 @@
+gpt-4o-mini
+Legally requires acceptance of another ASEAN Member State’s (AMS) Certificate of Good Manufacturing Practice (cGMP) for pharmaceutical manufacturers.
+{
+  "first_pass": {
+    "id": "chatcmpl-dd2e3ca9-bfa3-475f-906a-9602464d0bd7",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Brunei Darussalam is a signatory to the ASEAN Sectoral Mutual Recognition Arrangement (MRA) for Good Manufacturing Practice (GMP) Inspection of Manufacturers of Medicinal Products, which was signed by all ASEAN Member States in April 2009. ([globalforum.diaglobal.org](https://globalforum.diaglobal.org/issue/september-2018/regulatory-harmonization-and-recognition-continue-in-asean/?utm_source=openai)) This MRA aims to promote the recognition of GMP inspection reports among ASEAN countries, thereby reducing duplication in inspections and facilitating the free flow of pharmaceutical products within the region.\n\nThe MRA stipulates that ASEAN Member States are obligated to operate a GMP inspection framework equivalent to the Pharmaceutical Inspection Co-operation Scheme (PIC/S) standards. Consequently, Brunei is required to accept GMP certificates and inspection reports issued by other ASEAN Member States' inspection services that meet the PIC/S framework. ([gabi-journal.net](https://gabi-journal.net/a-review-of-international-initiatives-on-pharmaceutical-regulatory-reliance-and-recognition.html?utm_source=openai))\n\nHowever, as of January 2021, Brunei had not yet ratified the ASEAN Medical Device Directive (AMDD), which is a separate agreement concerning medical devices. ([en.fda.moph.go.th](https://en.fda.moph.go.th/international-relation/category/cat-international-cooperation/?utm_source=openai)) This indicates that while Brunei is committed to mutual recognition of GMP certificates for pharmaceutical products, it has not yet extended this commitment to medical devices.\n\nIn summary, Brunei legally requires the acceptance of another ASEAN Member State's GMP certificate for pharmaceutical manufacturers, as per the ASEAN MRA on GMP Inspection. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 403,
+                "start_index": 240,
+                "title": "Regulatory Harmonization and Recognition Continue in ASEAN",
+                "url": "https://globalforum.diaglobal.org/issue/september-2018/regulatory-harmonization-and-recognition-continue-in-asean/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1127,
+                "start_index": 966,
+                "title": "A review of international initiatives on pharmaceutical regulatory reliance and recognition - GaBIJ",
+                "url": "https://gabi-journal.net/a-review-of-international-initiatives-on-pharmaceutical-regulatory-reliance-and-recognition.html?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1416,
+                "start_index": 1287,
+                "title": "FDA THAI : Food and Drug Administration, Thailand",
+                "url": "https://en.fda.moph.go.th/international-relation/category/cat-international-cooperation/?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756269783,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 357,
+      "prompt_tokens": 78,
+      "total_tokens": 435,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8cdc542c8194a323d2ca771b0d8d0b9ccca872b1b91b",
+    "created_at": 1756269788.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8ce341188194bafa3b3d4c8ab2480b9ccca872b1b91b",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"YES\",\"explanation\":\"Brunei legally requires acceptance of another ASEAN Member State\u2019s GMP certificate for pharmaceutical manufacturers under the ASEAN MRA on GMP Inspection, which mandates mutual recognition of GMP certificates among member states.\",\"sources\":[\"https://globalforum.diaglobal.org/issue/september-2018/regulatory-harmonization-and-recognition-continue-in-asean/?utm_source=openai\",\"https://gabi-journal.net/a-review-of-international-initiatives-on-pharmaceutical-regulatory-reliance-and-recognition.html?utm_source=openai\",\"https://en.fda.moph.go.th/international-relation/category/cat-international-cooperation/?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "YES",
+              "explanation": "Brunei legally requires acceptance of another ASEAN Member State\u2019s GMP certificate for pharmaceutical manufacturers under the ASEAN MRA on GMP Inspection, which mandates mutual recognition of GMP certificates among member states.",
+              "sources": [
+                "https://globalforum.diaglobal.org/issue/september-2018/regulatory-harmonization-and-recognition-continue-in-asean/?utm_source=openai",
+                "https://gabi-journal.net/a-review-of-international-initiatives-on-pharmaceutical-regulatory-reliance-and-recognition.html?utm_source=openai",
+                "https://en.fda.moph.go.th/international-relation/category/cat-international-cooperation/?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1524,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 142,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1666
+    },
+    "user": null,
+    "store": true
+  }
+}

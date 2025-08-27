@@ -1,0 +1,207 @@
+gpt-4o-mini
+Provides a fully digital online submission portal for pharmaceutical product marketing authorization applications.
+{
+  "first_pass": {
+    "id": "chatcmpl-8b3419b8-16bb-403c-b466-efcb8d3e4967",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Yes, Vietnam provides a fully digital online submission portal for pharmaceutical product marketing authorization applications. The Drug Administration of Vietnam (DAV) operates an electronic portal accessible at [https://dichvucong.dav.gov.vn](https://dichvucong.dav.gov.vn), where applicants can submit their registration dossiers. To use this system, companies must have a registered and activated account on the DAV portal and ensure that a valid USB Token is properly installed for digital signing. ([rginsight.com](https://www.rginsight.com/registration-of-drug-product-in-vietnam-2025?utm_source=openai))\n\nThe registration process involves submitting a comprehensive dossier in the ASEAN Common Technical Dossier (ACTD) format, organized into four main parts:\n\n1. **Administrative Information**: Cover letter, application form, legalized documents (e.g., Certificate of Pharmaceutical Product, Good Manufacturing Practice certificates), and company details.\n\n2. **Quality Documentation**: Specifications, Certificates of Analysis, validation and stability data, and packaging and labeling details.\n\n3. **Non-Clinical Data**: Toxicology and pharmacology reports, and other safety data.\n\n4. **Clinical Data**: Clinical trial or literature data, bioequivalence reports, and efficacy and safety summaries.\n\nAll documents should be in A4 size, firmly bound, and separated by tab dividers, with a table of contents preceding the dossier. ([rginsight.com](https://www.rginsight.com/registration-of-drug-product-in-vietnam-2025?utm_source=openai))\n\nThe approval timeline varies depending on the drug category. For domestic drugs, the review period is up to 12 months, while imported drugs typically require 90 to 110 days. Once approved, the product is granted a registration certificate valid for five years. ([artixio.com](https://www.artixio.com/dav-introduces-new-drug-registration-process-in-vietnam/?utm_source=openai))\n\nIn addition to the DAV's portal, the Ministry of Health's Public Service Portal ([https://dichvucong.moh.gov.vn](https://dichvucong.moh.gov.vn)) and the Medical Device Management Portal ([https://imda.moh.gov.vn](https://imda.moh.gov.vn)) are also utilized for submitting applications related to medical devices and other health products. ([medgate.vn](https://medgate.vn/en/dossier-and-procedures-for-obtaining-marketing-authorization-ma-for-ivd-medical-devices-of-class-c-and-d-with-national-technical-regulations/?utm_source=openai))\n\nThese digital platforms aim to streamline the registration process, enhancing efficiency and transparency in the approval of pharmaceutical products in Vietnam. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 611,
+                "start_index": 504,
+                "title": "Registration Of Drug Product In Vietnam 2025 | RG Insight",
+                "url": "https://www.rginsight.com/registration-of-drug-product-in-vietnam-2025?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1546,
+                "start_index": 1439,
+                "title": "Registration Of Drug Product In Vietnam 2025 | RG Insight",
+                "url": "https://www.rginsight.com/registration-of-drug-product-in-vietnam-2025?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1924,
+                "start_index": 1809,
+                "title": "DAV Introduces New Drug Registration Process in Vietnam - Artixio",
+                "url": "https://www.artixio.com/dav-introduces-new-drug-registration-process-in-vietnam/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 2462,
+                "start_index": 2265,
+                "title": "Dossier and Procedures for Obtaining Marketing Authorization (MA) for IVD Medical Devices of Class C and D with National Technical Regulations - Medgate",
+                "url": "https://medgate.vn/en/dossier-and-procedures-for-obtaining-marketing-authorization-ma-for-ivd-medical-devices-of-class-c-and-d-with-national-technical-regulations/?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756269608,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 555,
+      "prompt_tokens": 64,
+      "total_tokens": 619,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8c30800081a391f5b7f86039d892054d61f53ca7cf62",
+    "created_at": 1756269616.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8c310f4081a3ba480012dac9c230054d61f53ca7cf62",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"YES\",\"explanation\":\"Vietnam provides a fully digital online submission portal for pharmaceutical product marketing authorization applications through the Drug Administration of Vietnam (DAV) at https://dichvucong.dav.gov.vn, which requires applicants to have a registered account and a valid USB Token for digital signing.\",\"sources\":[\"https://www.rginsight.com/registration-of-drug-product-in-vietnam-2025?utm_source=openai\",\"https://www.artixio.com/dav-introduces-new-drug-registration-process-in-vietnam/?utm_source=openai\",\"https://medgate.vn/en/dossier-and-procedures-for-obtaining-marketing-authorization-ma-for-ivd-medical-devices-of-class-c-and-d-with-national-technical-regulations/?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "YES",
+              "explanation": "Vietnam provides a fully digital online submission portal for pharmaceutical product marketing authorization applications through the Drug Administration of Vietnam (DAV) at https://dichvucong.dav.gov.vn, which requires applicants to have a registered account and a valid USB Token for digital signing.",
+              "sources": [
+                "https://www.rginsight.com/registration-of-drug-product-in-vietnam-2025?utm_source=openai",
+                "https://www.artixio.com/dav-introduces-new-drug-registration-process-in-vietnam/?utm_source=openai",
+                "https://medgate.vn/en/dossier-and-procedures-for-obtaining-marketing-authorization-ma-for-ivd-medical-devices-of-class-c-and-d-with-national-technical-regulations/?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 2036,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 163,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2199
+    },
+    "user": null,
+    "store": true
+  }
+}

@@ -1,0 +1,198 @@
+gpt-4o-mini
+Legally requires acceptance of another ASEAN Member State’s (AMS) Certificate of Good Manufacturing Practice (cGMP) for pharmaceutical manufacturers.
+{
+  "first_pass": {
+    "id": "chatcmpl-db298919-eeb3-4dff-ae66-f4f4a395cc29",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Thailand legally requires the acceptance of Good Manufacturing Practice (GMP) certificates from other ASEAN Member States (AMS) for pharmaceutical manufacturers. This requirement is based on the ASEAN Sectoral Mutual Recognition Arrangement (MRA) on GMP Inspection of Manufacturers of Medicinal Products, signed by all AMS on April 10, 2009. The MRA aims to promote the mutual recognition of GMP inspection reports and certificates among AMS, thereby reducing duplication of inspections and facilitating trade in medicinal products within the region. ([cil.nus.edu.sg](https://cil.nus.edu.sg/databasecil/2009-asean-sectoral-mutual-recognition-agreement-on-good-manufacturing-practice-gmp-inspection-of-manufacturers-of-medicinal-products/?utm_source=openai))\n\nUnder the MRA, each AMS is obligated to accept GMP certificates and inspection reports issued by listed inspection services from other AMS. These listed services are inspection bodies whose GMP inspection systems meet the standards of the Pharmaceutical Inspection Co-operation Scheme (PIC/S). Thailand's Food and Drug Administration (FDA) is one of the listed inspection services under this arrangement. ([en.fda.moph.go.th](https://en.fda.moph.go.th/international-relation/category/cat-international-cooperation/?utm_source=openai))\n\nThe MRA covers medicinal products in finished dosage forms, including both prescription and over-the-counter products, but excludes active pharmaceutical ingredients (APIs), biologics, radiopharmaceuticals, and traditional medicines. By adhering to the MRA, Thailand ensures that GMP certificates from other AMS are recognized, streamlining the regulatory process for pharmaceutical manufacturers operating within the region. ([globalforum.diaglobal.org](https://globalforum.diaglobal.org/issue/march-2021/harmonization-of-gmp-inspection-and-benefits-to-asean-economic-community/?utm_source=openai))\n\nIn summary, Thailand's legal framework mandates the acceptance of GMP certificates from other ASEAN Member States, aligning with regional efforts to harmonize pharmaceutical manufacturing standards and facilitate intra-ASEAN trade. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 758,
+                "start_index": 551,
+                "title": "2009 ASEAN Sectoral Mutual Recognition Agreement on Good Manufacturing Practice (GMP) Inspection of Manufacturers of Medicinal Products - Centre for International Law",
+                "url": "https://cil.nus.edu.sg/databasecil/2009-asean-sectoral-mutual-recognition-agreement-on-good-manufacturing-practice-gmp-inspection-of-manufacturers-of-medicinal-products/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1294,
+                "start_index": 1165,
+                "title": "FDA THAI : Food and Drug Administration, Thailand",
+                "url": "https://en.fda.moph.go.th/international-relation/category/cat-international-cooperation/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1895,
+                "start_index": 1722,
+                "title": "Harmonization of GMP Inspection and Benefits to ASEAN Economic Community",
+                "url": "https://globalforum.diaglobal.org/issue/march-2021/harmonization-of-gmp-inspection-and-benefits-to-asean-economic-community/?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756269882,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 414,
+      "prompt_tokens": 77,
+      "total_tokens": 491,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8d3f84d081a3a3df12d78acc23cc060dc80d3d9bcf60",
+    "created_at": 1756269887.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8d40085081a3b18e6a9c7fbb5121060dc80d3d9bcf60",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"YES\",\"explanation\":\"Thailand legally requires the acceptance of Good Manufacturing Practice (GMP) certificates from other ASEAN Member States (AMS) as mandated by the ASEAN Sectoral Mutual Recognition Arrangement (MRA) signed on April 10, 2009.\",\"sources\":[\"https://cil.nus.edu.sg/databasecil/2009-asean-sectoral-mutual-recognition-agreement-on-good-manufacturing-practice-gmp-inspection-of-manufacturers-of-medicinal-products/?utm_source=openai\",\"https://en.fda.moph.go.th/international-relation/category/cat-international-cooperation/?utm_source=openai\",\"https://globalforum.diaglobal.org/issue/march-2021/harmonization-of-gmp-inspection-and-benefits-to-asean-economic-community/?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "YES",
+              "explanation": "Thailand legally requires the acceptance of Good Manufacturing Practice (GMP) certificates from other ASEAN Member States (AMS) as mandated by the ASEAN Sectoral Mutual Recognition Arrangement (MRA) signed on April 10, 2009.",
+              "sources": [
+                "https://cil.nus.edu.sg/databasecil/2009-asean-sectoral-mutual-recognition-agreement-on-good-manufacturing-practice-gmp-inspection-of-manufacturers-of-medicinal-products/?utm_source=openai",
+                "https://en.fda.moph.go.th/international-relation/category/cat-international-cooperation/?utm_source=openai",
+                "https://globalforum.diaglobal.org/issue/march-2021/harmonization-of-gmp-inspection-and-benefits-to-asean-economic-community/?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1673,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 171,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1844
+    },
+    "user": null,
+    "store": true
+  }
+}

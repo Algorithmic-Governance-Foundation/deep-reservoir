@@ -1,0 +1,198 @@
+gpt-4o-mini
+Allows the use of bracketing and matrixing study designs in pharmaceutical product stability testing.
+{
+  "first_pass": {
+    "id": "chatcmpl-899479ab-dc65-4854-936d-9f454bc3cf82",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Bracketing and matrixing are recognized methodologies in pharmaceutical stability testing, designed to optimize resource utilization while ensuring product stability. Bracketing involves testing only the extreme values of certain factors (e.g., strength, container size) at all time points, assuming that the stability of intermediate levels is represented by the extremes. Matrixing entails testing a selected subset of all possible samples at specific time points, with the assumption that the stability of each subset reflects the stability of all samples at that time. ([ema.europa.eu](https://www.ema.europa.eu/en/ich-q1d-bracketing-matrixing-designs-stability-testing-drug-substances-drug-products-scientific-guideline?utm_source=openai))\n\nThe International Council for Harmonisation (ICH) provides guidelines on the application of these designs in stability studies. According to ICH Q1D, bracketing and matrixing can be applied to most drug products in formal stability studies. However, for complex drug delivery systems with numerous potential drug-device interactions, additional justification is required. ([pharmainterview.com](https://pharmainterview.com/ich-q1d-guidelines-for-stability-testing-of-pharmaceutical-products/?utm_source=openai))\n\nIn Myanmar, the regulatory framework for pharmaceutical stability testing aligns with the Association of Southeast Asian Nations (ASEAN) guidelines, which are harmonized with ICH standards. The ASEAN guidelines on stability studies of drugs acknowledge the use of bracketing and matrixing designs, provided that they are scientifically justified and appropriately applied. ([paperzz.com](https://paperzz.com/doc/9443062/asean-guideline-on-stability-study-of-drug?utm_source=openai))\n\nTherefore, Myanmar permits the use of bracketing and matrixing study designs in pharmaceutical product stability testing, provided that these approaches are scientifically justified and comply with the relevant ASEAN and ICH guidelines. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 744,
+                "start_index": 573,
+                "title": "ICH Q1D Bracketing and matrixing designs for stability testing of drug substances and drug products - Scientific guideline | European Medicines Agency (EMA)",
+                "url": "https://www.ema.europa.eu/en/ich-q1d-bracketing-matrixing-designs-stability-testing-drug-substances-drug-products-scientific-guideline?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1257,
+                "start_index": 1118,
+                "title": "ICH Q1D Guidelines for stability testing of pharmaceutical products",
+                "url": "https://pharmainterview.com/ich-q1d-guidelines-for-stability-testing-of-pharmaceutical-products/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1741,
+                "start_index": 1632,
+                "title": "ASEAN guideline on stability study of drug",
+                "url": "https://paperzz.com/doc/9443062/asean-guideline-on-stability-study-of-drug?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756270003,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 384,
+      "prompt_tokens": 68,
+      "total_tokens": 452,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8dc2100c8197aa8fbc46adf08ef10096942f2838e359",
+    "created_at": 1756270018.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8dc272fc8197a31c44fc10c687070096942f2838e359",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"YES\",\"explanation\":\"Myanmar permits the use of bracketing and matrixing study designs in pharmaceutical product stability testing, as these methodologies are recognized under the ASEAN guidelines, which align with ICH standards and require scientific justification.\",\"sources\":[\"https://www.ema.europa.eu/en/ich-q1d-bracketing-matrixing-designs-stability-testing-drug-substances-drug-products-scientific-guideline?utm_source=openai\",\"https://pharmainterview.com/ich-q1d-guidelines-for-stability-testing-of-pharmaceutical-products/?utm_source=openai\",\"https://paperzz.com/doc/9443062/asean-guideline-on-stability-study-of-drug?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "YES",
+              "explanation": "Myanmar permits the use of bracketing and matrixing study designs in pharmaceutical product stability testing, as these methodologies are recognized under the ASEAN guidelines, which align with ICH standards and require scientific justification.",
+              "sources": [
+                "https://www.ema.europa.eu/en/ich-q1d-bracketing-matrixing-designs-stability-testing-drug-substances-drug-products-scientific-guideline?utm_source=openai",
+                "https://pharmainterview.com/ich-q1d-guidelines-for-stability-testing-of-pharmaceutical-products/?utm_source=openai",
+                "https://paperzz.com/doc/9443062/asean-guideline-on-stability-study-of-drug?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1588,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 151,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1739
+    },
+    "user": null,
+    "store": true
+  }
+}

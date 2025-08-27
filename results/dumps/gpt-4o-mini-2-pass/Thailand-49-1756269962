@@ -1,0 +1,197 @@
+gpt-4o-mini
+Imposes hospital-only distribution restrictions for certain classes of antimicrobial (AM) pharmaceutical products.
+{
+  "first_pass": {
+    "id": "chatcmpl-bfd60315-5da8-4a3b-8c57-65383769d28f",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Thailand has implemented a series of regulatory measures to control the distribution and use of antimicrobial pharmaceutical products, aiming to combat antimicrobial resistance (AMR). These measures include reclassifying certain antibiotics as prescription-only drugs and enhancing surveillance systems.\n\n**Reclassification of Antibiotics:**\n\nIn 2019, Thailand completed Phase 1 of its antimicrobial reclassification plan, making all injectable antibiotics prescription-only. Phase 2, which began in 2021, focuses on reclassifying all oral antibiotics as prescription-only drugs. This phase is particularly challenging due to its broad impact on various stakeholders, including pharmaceutical companies, pharmacies, and patients. The reclassification process is based on local evidence and the World Health Organization's Access, Watch, and Reserve classification of antibiotics. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8381094/?utm_source=openai))\n\n**Regulatory Framework:**\n\nThe 1987 Drug Act in Thailand classified most antibiotics as \"dangerous drugs,\" allowing them to be dispensed by licensed pharmacists without a prescription. However, only a few antibiotics were classified as prescription-only medicines, and there were no restrictions on the quantities that could be sold to individuals. This lack of regulation contributed to the widespread availability and potential misuse of antibiotics. ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/29403113/?utm_source=openai))\n\n**Hospital-Only Distribution:**\n\nWhile Thailand has reclassified certain antibiotics as prescription-only drugs, there is no specific evidence indicating that the country imposes hospital-only distribution restrictions for certain classes of antimicrobial pharmaceutical products. The focus has been on reclassification and regulation to control distribution and use. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8381094/?utm_source=openai))\n\nIn summary, Thailand has taken significant steps to regulate the distribution of antimicrobial pharmaceutical products, primarily through reclassification and regulatory measures. However, there is no specific information about hospital-only distribution restrictions for certain classes of these products. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 973,
+                "start_index": 880,
+                "title": "Thailand's national strategic plan on antimicrobial resistance: progress and challenges - PMC",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8381094/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1516,
+                "start_index": 1428,
+                "title": "Antibiotic distribution channels in Thailand: results of key-informant interviews, reviews of drug regulations and database searches - PubMed",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/29403113/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1979,
+                "start_index": 1886,
+                "title": "Thailand's national strategic plan on antimicrobial resistance: progress and challenges - PMC",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8381094/?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756269931,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 424,
+      "prompt_tokens": 67,
+      "total_tokens": 491,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8d87ae6c81918d2f1f2979b6fff202ee2f79330caed7",
+    "created_at": 1756269959.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8d88243c81918b5eaab295a54b9d02ee2f79330caed7",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"NO\",\"explanation\":\"Thailand has reclassified certain antibiotics as prescription-only, but there is no evidence of hospital-only distribution restrictions for these antimicrobial products.\",\"sources\":[\"https://pmc.ncbi.nlm.nih.gov/articles/PMC8381094/?utm_source=openai\",\"https://pubmed.ncbi.nlm.nih.gov/29403113/?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "NO",
+              "explanation": "Thailand has reclassified certain antibiotics as prescription-only, but there is no evidence of hospital-only distribution restrictions for these antimicrobial products.",
+              "sources": [
+                "https://pmc.ncbi.nlm.nih.gov/articles/PMC8381094/?utm_source=openai",
+                "https://pubmed.ncbi.nlm.nih.gov/29403113/?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1649,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 79,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1728
+    },
+    "user": null,
+    "store": true
+  }
+}

@@ -1,0 +1,187 @@
+gpt-4o-mini
+Allows the use of bracketing and matrixing study designs in pharmaceutical product stability testing.
+{
+  "first_pass": {
+    "id": "chatcmpl-9d7d8d82-0021-4fd9-97ff-8308a4c97c1a",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "In Singapore, the use of bracketing and matrixing study designs in pharmaceutical product stability testing is permitted, provided that they are scientifically justified and comply with established guidelines. The Health Sciences Authority (HSA), Singapore's regulatory body for health products, aligns its stability testing requirements with international standards, notably those set by the International Council for Harmonisation (ICH).\n\nThe ICH Q1D guideline, titled \"Bracketing and Matrixing Designs for Stability Testing of Drug Substances and Drug Products,\" outlines the principles and applications of these reduced study designs. Bracketing involves testing only the extreme values of certain factors (e.g., strength, container size) at all time points, assuming that the stability of intermediate levels is represented by the extremes tested. Matrixing entails testing a selected subset of all possible samples at specified time points, with the assumption that the stability of each subset represents the stability of all samples at that time point. ([ema.europa.eu](https://www.ema.europa.eu/en/ich-q1d-bracketing-matrixing-designs-stability-testing-drug-substances-drug-products-scientific-guideline?utm_source=openai))\n\nThe ICH Q1D guideline specifies that reduced designs like bracketing and matrixing can be applied to the stability study of most types of drug products. However, additional justification is required for complex drug delivery systems with numerous potential drug-device interactions. For drug substances, matrixing is of limited utility, and bracketing is generally not applicable. ([ema.europa.eu](https://www.ema.europa.eu/en/ich-q1d-bracketing-matrixing-designs-stability-testing-drug-substances-drug-products-scientific-guideline?utm_source=openai))\n\nIn practice, the HSA expects pharmaceutical companies to provide scientific justification when employing bracketing and matrixing designs. This includes demonstrating that the reduced testing approach will adequately predict the shelf-life of the product and that the assumptions underlying the design are valid. Companies should also be prepared to adjust their study designs if initial results indicate that a more comprehensive testing approach is necessary.\n\nIn summary, Singapore permits the use of bracketing and matrixing study designs in pharmaceutical stability testing, provided they are scientifically justified and adhere to international guidelines such as ICH Q1D. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1232,
+                "start_index": 1061,
+                "title": "ICH Q1D Bracketing and matrixing designs for stability testing of drug substances and drug products - Scientific guideline | European Medicines Agency (EMA)",
+                "url": "https://www.ema.europa.eu/en/ich-q1d-bracketing-matrixing-designs-stability-testing-drug-substances-drug-products-scientific-guideline?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1786,
+                "start_index": 1615,
+                "title": "ICH Q1D Bracketing and matrixing designs for stability testing of drug substances and drug products - Scientific guideline | European Medicines Agency (EMA)",
+                "url": "https://www.ema.europa.eu/en/ich-q1d-bracketing-matrixing-designs-stability-testing-drug-substances-drug-products-scientific-guideline?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756270247,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 468,
+      "prompt_tokens": 68,
+      "total_tokens": 536,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8ead7cc481909e4347ada6d50a7f000903d7219e11c2",
+    "created_at": 1756270253.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8eadf7488190a315fc53015188ff000903d7219e11c2",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"YES\",\"explanation\":\"Singapore allows the use of bracketing and matrixing designs in pharmaceutical stability testing as long as they are scientifically justified and adhere to established guidelines such as those from ICH Q1D.\",\"sources\":[\"https://www.ema.europa.eu/en/ich-q1d-bracketing-matrixing-designs-stability-testing-drug-substances-drug-products-scientific-guideline?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "YES",
+              "explanation": "Singapore allows the use of bracketing and matrixing designs in pharmaceutical stability testing as long as they are scientifically justified and adhere to established guidelines such as those from ICH Q1D.",
+              "sources": [
+                "https://www.ema.europa.eu/en/ich-q1d-bracketing-matrixing-designs-stability-testing-drug-substances-drug-products-scientific-guideline?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1712,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 93,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1805
+    },
+    "user": null,
+    "store": true
+  }
+}

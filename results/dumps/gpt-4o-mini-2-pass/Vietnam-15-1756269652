@@ -1,0 +1,207 @@
+gpt-4o-mini
+Allows the use of bracketing and matrixing study designs in pharmaceutical product stability testing.
+{
+  "first_pass": {
+    "id": "chatcmpl-4fd484dd-2651-4373-9745-9e1d9ca38bbc",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Vietnam's pharmaceutical stability testing guidelines align with the International Council for Harmonisation (ICH) standards, particularly ICH Q1D, which addresses bracketing and matrixing designs. These designs are recognized as valid approaches to streamline stability testing while maintaining scientific rigor. ([ema.europa.eu](https://www.ema.europa.eu/en/ich-q1d-bracketing-matrixing-designs-stability-testing-drug-substances-drug-products-scientific-guideline?utm_source=openai))\n\n**Bracketing** involves testing only the extreme conditions of certain factors, such as strength or container size, under the assumption that the stability of intermediate levels is represented by these extremes. This approach is applicable when the formulation is identical or closely related across different strengths or container sizes. For instance, bracketing can be applied to studies with multiple strengths of identical or closely related formulations, such as capsules of different strengths made with different fill plug sizes from the same powder blend. ([1library.net](https://1library.net/article/bracketing-matrixing-designs-stability-testing-drug-substances-products.yekpl84y?utm_source=openai))\n\n**Matrixing** entails testing a selected subset of the total number of possible samples at specific time points, with the expectation that the stability of each subset represents the stability of all samples at a given time point. This design is suitable when dealing with multiple factors, such as different strengths, batches, or packaging types, and when testing all combinations at every time point would be impractical. ([ema.europa.eu](https://www.ema.europa.eu/en/ich-q1d-bracketing-matrixing-designs-stability-testing-drug-substances-drug-products-scientific-guideline?utm_source=openai))\n\nIn Vietnam, the application of bracketing and matrixing designs in stability testing is permitted, provided they are scientifically justified and comply with ICH guidelines. It is essential to ensure that these designs are appropriate for the specific product and that the assumptions underlying their use are valid. Regulatory authorities may require a clear scientific rationale and supporting data to demonstrate that reduced testing does not compromise the stability and quality of the pharmaceutical product. ([aapsopen.springeropen.com](https://aapsopen.springeropen.com/articles/10.1186/s41120-023-00078-5?utm_source=openai)) ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 486,
+                "start_index": 315,
+                "title": "ICH Q1D Bracketing and matrixing designs for stability testing of drug substances and drug products - Scientific guideline | European Medicines Agency (EMA)",
+                "url": "https://www.ema.europa.eu/en/ich-q1d-bracketing-matrixing-designs-stability-testing-drug-substances-drug-products-scientific-guideline?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1199,
+                "start_index": 1054,
+                "title": "Bracketing and Matrixing Designs for Stability Testing of New Drug Substances and Products",
+                "url": "https://1library.net/article/bracketing-matrixing-designs-stability-testing-drug-substances-products.yekpl84y?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1797,
+                "start_index": 1626,
+                "title": "ICH Q1D Bracketing and matrixing designs for stability testing of drug substances and drug products - Scientific guideline | European Medicines Agency (EMA)",
+                "url": "https://www.ema.europa.eu/en/ich-q1d-bracketing-matrixing-designs-stability-testing-drug-substances-drug-products-scientific-guideline?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 2431,
+                "start_index": 2313,
+                "title": "Stability considerations for drug-device combination products-21 CFR part 4 update | AAPS Open | Full Text",
+                "url": "https://aapsopen.springeropen.com/articles/10.1186/s41120-023-00078-5?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756269643,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 484,
+      "prompt_tokens": 68,
+      "total_tokens": 552,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8c514fec8191afcd5850eee63300061a17db91ad4f6f",
+    "created_at": 1756269649.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8c51b79c8191bc92fa6ea0c45ce6061a17db91ad4f6f",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"YES\",\"explanation\":\"Vietnam permits the use of bracketing and matrixing designs in pharmaceutical stability testing, provided they align with ICH guidelines and are scientifically justified.\",\"sources\":[\"https://www.ema.europa.eu/en/ich-q1d-bracketing-matrixing-designs-stability-testing-drug-substances-drug-products-scientific-guideline?utm_source=openai\",\"https://1library.net/article/bracketing-matrixing-designs-stability-testing-drug-substances-products.yekpl84y?utm_source=openai\",\"https://aapsopen.springeropen.com/articles/10.1186/s41120-023-00078-5?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "YES",
+              "explanation": "Vietnam permits the use of bracketing and matrixing designs in pharmaceutical stability testing, provided they align with ICH guidelines and are scientifically justified.",
+              "sources": [
+                "https://www.ema.europa.eu/en/ich-q1d-bracketing-matrixing-designs-stability-testing-drug-substances-drug-products-scientific-guideline?utm_source=openai",
+                "https://1library.net/article/bracketing-matrixing-designs-stability-testing-drug-substances-products.yekpl84y?utm_source=openai",
+                "https://aapsopen.springeropen.com/articles/10.1186/s41120-023-00078-5?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1941,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 148,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2089
+    },
+    "user": null,
+    "store": true
+  }
+}

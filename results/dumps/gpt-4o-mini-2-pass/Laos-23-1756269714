@@ -1,0 +1,197 @@
+gpt-4o-mini
+Legally requires acceptance of another ASEAN Member State’s (AMS) Certificate of Good Manufacturing Practice (cGMP) for pharmaceutical manufacturers.
+{
+  "first_pass": {
+    "id": "chatcmpl-4417cf53-3b70-4142-a87f-3b19beb45bac",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Laos, as a member of the Association of Southeast Asian Nations (ASEAN), is legally obligated to accept Good Manufacturing Practice (GMP) certificates issued by other ASEAN member states. This obligation stems from the ASEAN Mutual Recognition Arrangement (MRA) on GMP Inspection, signed in 2009, which mandates that all ASEAN countries recognize and accept GMP inspection reports and certificates from other member states' inspection services. ([globalforum.diaglobal.org](https://globalforum.diaglobal.org/issue/march-2021/harmonization-of-gmp-inspection-and-benefits-to-asean-economic-community/?utm_source=openai))\n\nThe MRA aims to eliminate redundant GMP inspections within ASEAN, thereby facilitating trade and ensuring the quality and safety of pharmaceutical products across the region. Under this arrangement, Laos is required to accept GMP certificates from other ASEAN member states without conducting duplicate inspections. ([en.vietnamplus.vn](https://en.vietnamplus.vn/asean-imposes-tighter-medicine-and-pharmaceutical-management-post73233.vnp?utm_source=openai))\n\nHowever, the implementation of the MRA has faced challenges due to variations in regulatory infrastructure and legal frameworks among ASEAN countries. While the MRA is legally binding, the actual acceptance of GMP certificates from other member states may vary in practice, depending on the specific regulatory policies and enforcement within each country. ([globalforum.diaglobal.org](https://globalforum.diaglobal.org/issue/march-2021/harmonization-of-gmp-inspection-and-benefits-to-asean-economic-community/?utm_source=openai))\n\nIn summary, Laos is legally required to accept GMP certificates from other ASEAN member states under the ASEAN MRA. Nonetheless, the practical application of this requirement may be influenced by Laos's domestic regulatory policies and the capacity of its regulatory authorities to implement the MRA effectively. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 618,
+                "start_index": 445,
+                "title": "Harmonization of GMP Inspection and Benefits to ASEAN Economic Community",
+                "url": "https://globalforum.diaglobal.org/issue/march-2021/harmonization-of-gmp-inspection-and-benefits-to-asean-economic-community/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1077,
+                "start_index": 936,
+                "title": "ASEAN imposes tighter medicine and pharmaceutical management | Vietnam+ (VietnamPlus)",
+                "url": "https://en.vietnamplus.vn/asean-imposes-tighter-medicine-and-pharmaceutical-management-post73233.vnp?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1609,
+                "start_index": 1436,
+                "title": "Harmonization of GMP Inspection and Benefits to ASEAN Economic Community",
+                "url": "https://globalforum.diaglobal.org/issue/march-2021/harmonization-of-gmp-inspection-and-benefits-to-asean-economic-community/?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756269706,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 374,
+      "prompt_tokens": 77,
+      "total_tokens": 451,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8c8f732081969849c05654cfdddf0eb3d906cf2b6a6b",
+    "created_at": 1756269711.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8c9073f08196b4f20c718fbb12640eb3d906cf2b6a6b",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"YES\",\"explanation\":\"Laos is legally required to accept GMP certificates from other ASEAN member states under the ASEAN Mutual Recognition Arrangement (MRA) on GMP Inspection, signed in 2009.\",\"sources\":[\"https://globalforum.diaglobal.org/issue/march-2021/harmonization-of-gmp-inspection-and-benefits-to-asean-economic-community/?utm_source=openai\",\"https://en.vietnamplus.vn/asean-imposes-tighter-medicine-and-pharmaceutical-management-post73233.vnp?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "YES",
+              "explanation": "Laos is legally required to accept GMP certificates from other ASEAN member states under the ASEAN Mutual Recognition Arrangement (MRA) on GMP Inspection, signed in 2009.",
+              "sources": [
+                "https://globalforum.diaglobal.org/issue/march-2021/harmonization-of-gmp-inspection-and-benefits-to-asean-economic-community/?utm_source=openai",
+                "https://en.vietnamplus.vn/asean-imposes-tighter-medicine-and-pharmaceutical-management-post73233.vnp?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1576,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 115,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1691
+    },
+    "user": null,
+    "store": true
+  }
+}

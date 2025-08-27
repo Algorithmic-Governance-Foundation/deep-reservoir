@@ -1,0 +1,198 @@
+gpt-4o-mini
+Imposes hospital-only distribution restrictions for certain classes of antimicrobial (AM) pharmaceutical products.
+{
+  "first_pass": {
+    "id": "chatcmpl-741be87c-ce64-48d9-b0a8-1ab9712af4ce",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Vietnam's regulatory framework for antimicrobial pharmaceutical products includes specific distribution restrictions, particularly concerning hospital settings. The Ministry of Health (MOH) has implemented guidelines requiring hospitals to establish Drug and Therapeutics Committees (DTCs) responsible for managing and overseeing drug use within hospital premises. These committees are tasked with developing and enforcing local guidelines for rational and safe drug use, monitoring antibiotic prescribing practices, and ensuring compliance with national standards. Certain \"reserved\" antibiotics are designated for use only after consultation with the DTC, emphasizing the importance of controlled distribution within hospital environments. ([bmcpublichealth.biomedcentral.com](https://bmcpublichealth.biomedcentral.com/articles/10.1186/1471-2458-13-1158?utm_source=openai))\n\nAdditionally, the MOH has issued technical guidelines on Antimicrobial Stewardship (AMS) for hospitals at all levels. Decision 772/QD-BYT mandates that every hospital establish a formal AMS team to monitor antibiotic use, promote rational prescribing, and report on antimicrobial resistance levels. This initiative underscores the critical role of hospitals in regulating the distribution and use of antimicrobial agents to combat resistance. ([aricjournal.biomedcentral.com](https://aricjournal.biomedcentral.com/articles/10.1186/s13756-024-01364-x?utm_source=openai))\n\nWhile these regulations focus on hospital settings, Vietnam's broader pharmaceutical distribution policies also impose restrictions. The Law on Pharmacy (2016) and its amendments reserve certain distribution rights exclusively for domestic entities. Foreign-invested enterprises are permitted to import pharmaceutical products but are prohibited from engaging in wholesale or retail distribution activities within Vietnam. This policy aims to strengthen domestic distribution networks and ensure the quality and safety of pharmaceutical products in the market. ([hmplaw.vn](https://www.hmplaw.vn/en/restrictions-on-foreign-enterprises-investing-in-the-pharmaceutical-industry-in-vietnam?utm_source=openai))\n\nIn summary, Vietnam enforces hospital-specific distribution restrictions for certain classes of antimicrobial pharmaceutical products, primarily through the establishment of DTCs and AMS teams within hospitals. These measures are part of a comprehensive strategy to regulate the use and distribution of antimicrobials, aiming to combat antimicrobial resistance and ensure patient safety. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 875,
+                "start_index": 742,
+                "title": "Antibiotic use and resistance in emerging economies: a situation analysis for Viet Nam | BMC Public Health | Full Text",
+                "url": "https://bmcpublichealth.biomedcentral.com/articles/10.1186/1471-2458-13-1158?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1446,
+                "start_index": 1320,
+                "title": "Health system barriers to the implementation of the national action plan to combat antimicrobial resistance in Vietnam: a scoping review | Antimicrobial Resistance & Infection Control | Full Text",
+                "url": "https://aricjournal.biomedcentral.com/articles/10.1186/s13756-024-01364-x?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 2154,
+                "start_index": 2009,
+                "title": "Restrictions on foreign enterprises investing in the pharmaceutical industry in Vietnam",
+                "url": "https://www.hmplaw.vn/en/restrictions-on-foreign-enterprises-investing-in-the-pharmaceutical-industry-in-vietnam?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756269677,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 455,
+      "prompt_tokens": 67,
+      "total_tokens": 522,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8c723a24819295adc50484264ed90fb17d68f87cc59c",
+    "created_at": 1756269682.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8c7283b481929029ee1293cdc0460fb17d68f87cc59c",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"YES\",\"explanation\":\"Vietnam enforces hospital-specific distribution restrictions for certain classes of antimicrobial pharmaceutical products through the establishment of Drug and Therapeutics Committees and Antimicrobial Stewardship teams within hospitals, which manage and regulate antibiotic use.\",\"sources\":[\"https://bmcpublichealth.biomedcentral.com/articles/10.1186/1471-2458-13-1158?utm_source=openai\",\"https://aricjournal.biomedcentral.com/articles/10.1186/s13756-024-01364-x?utm_source=openai\",\"https://www.hmplaw.vn/en/restrictions-on-foreign-enterprises-investing-in-the-pharmaceutical-industry-in-vietnam?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "YES",
+              "explanation": "Vietnam enforces hospital-specific distribution restrictions for certain classes of antimicrobial pharmaceutical products through the establishment of Drug and Therapeutics Committees and Antimicrobial Stewardship teams within hospitals, which manage and regulate antibiotic use.",
+              "sources": [
+                "https://bmcpublichealth.biomedcentral.com/articles/10.1186/1471-2458-13-1158?utm_source=openai",
+                "https://aricjournal.biomedcentral.com/articles/10.1186/s13756-024-01364-x?utm_source=openai",
+                "https://www.hmplaw.vn/en/restrictions-on-foreign-enterprises-investing-in-the-pharmaceutical-industry-in-vietnam?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1748,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 149,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1897
+    },
+    "user": null,
+    "store": true
+  }
+}

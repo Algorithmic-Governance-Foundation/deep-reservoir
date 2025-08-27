@@ -1,0 +1,198 @@
+gpt-4o-mini
+Imposes hospital-only distribution restrictions for certain classes of antimicrobial (AM) pharmaceutical products.
+{
+  "first_pass": {
+    "id": "chatcmpl-ef112619-f9bd-49d8-b309-3efadd0c3d90",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "In Myanmar, there are no specific regulations that restrict the distribution of certain classes of antimicrobial pharmaceutical products exclusively to hospitals. Antimicrobials are readily available over the counter in both public and private sectors, leading to concerns about inappropriate use and antimicrobial resistance. ([mdpi.com](https://www.mdpi.com/2414-6366/6/2/70?utm_source=openai))\n\nTo address these challenges, Myanmar developed the National Action Plan for Containment of Antimicrobial Resistance (2017\u20132022), which includes strategies such as improving antimicrobial stewardship, enhancing surveillance, and promoting infection prevention and control. ([wma.net](https://www.wma.net/wmj_2023_04_final2/?utm_source=openai))\n\nHowever, the implementation of these policies has faced obstacles, including limited resources and infrastructure challenges. The decentralization of drug procurement in 2014 aimed to improve access to medicines but also raised concerns about increased consumption of broad-spectrum antibiotics. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8167548/?utm_source=openai))\n\nIn summary, while Myanmar has recognized the need to regulate antimicrobial distribution to combat resistance, there are currently no specific hospital-only distribution restrictions in place for certain classes of antimicrobial pharmaceutical products. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 396,
+                "start_index": 327,
+                "title": "High Prevalence of Methicillin-Resistant Staphylococcus aureus among Healthcare Facilities and Its Related Factors in Myanmar (2018\u20132019)",
+                "url": "https://www.mdpi.com/2414-6366/6/2/70?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 740,
+                "start_index": 670,
+                "title": "WMJ_2023_04_final2 \u2013 WMA \u2013 The World Medical Association",
+                "url": "https://www.wma.net/wmj_2023_04_final2/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1131,
+                "start_index": 1038,
+                "title": "Decreasing Trends in Antibiotic Consumption in Public Hospitals from 2014 to 2017 Following the Decentralization of Drug Procurement in Myanmar - PMC",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8167548/?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756270046,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 266,
+      "prompt_tokens": 67,
+      "total_tokens": 333,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8de206448193a43ab159d5c3b10f0c3d161c39bd679d",
+    "created_at": 1756270050.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8de27dd88193b781c45ddec604680c3d161c39bd679d",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"NO\",\"explanation\":\"Myanmar does not impose hospital-only distribution restrictions for certain classes of antimicrobial pharmaceutical products, which are available over the counter in both public and private sectors, contributing to concerns about resistance.\",\"sources\":[\"https://www.mdpi.com/2414-6366/6/2/70?utm_source=openai\",\"https://www.wma.net/wmj_2023_04_final2/?utm_source=openai\",\"https://pmc.ncbi.nlm.nih.gov/articles/PMC8167548/?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "NO",
+              "explanation": "Myanmar does not impose hospital-only distribution restrictions for certain classes of antimicrobial pharmaceutical products, which are available over the counter in both public and private sectors, contributing to concerns about resistance.",
+              "sources": [
+                "https://www.mdpi.com/2414-6366/6/2/70?utm_source=openai",
+                "https://www.wma.net/wmj_2023_04_final2/?utm_source=openai",
+                "https://pmc.ncbi.nlm.nih.gov/articles/PMC8167548/?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1347,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 114,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1461
+    },
+    "user": null,
+    "store": true
+  }
+}

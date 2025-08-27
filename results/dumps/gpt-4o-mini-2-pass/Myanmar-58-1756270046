@@ -1,0 +1,198 @@
+gpt-4o-mini
+Targets an average marketing authorization (MA) approval timeline of six months or less for pharmaceutical products.
+{
+  "first_pass": {
+    "id": "chatcmpl-9f12606f-f8f0-4ea1-8a7a-4eaefe8f5d29",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Myanmar's Food and Drug Administration (FDA) oversees the registration of pharmaceutical products, ensuring their safety, efficacy, and quality. The approval timeline for marketing authorization (MA) in Myanmar varies depending on the type of product and its novelty.\n\n**Approval Timelines:**\n\n- **Generic Drugs:** The registration process for generic drugs typically takes between 6 to 12 months. ([credevo.com](https://credevo.com/articles/2021/01/25/myanmar-generic-drug-registration-process/?utm_source=openai))\n\n- **New Chemical Entities (NCEs):** For new chemical entities, the approval process can extend up to 18 to 24 months from the date of dossier submission. ([doczz.net](https://doczz.net/doc/8519955/southeast-asia-regulatory-landscape--part-2-?utm_source=openai))\n\n**Recent Developments:**\n\nA study published in April 2022 indicates that the registration timeline for new pharmaceutical products in Myanmar has been reduced to approximately 12 to 15 months, down from the previous 18 to 24 months. ([researchgate.net](https://www.researchgate.net/publication/369416351_A_Study_of_Pharmaceutical_Product_Registration_Process_in_Myanmar_-A_First_Step_Towards_Developing_A_Product-Mix?utm_source=openai))\n\n**Conclusion:**\n\nWhile Myanmar's FDA has made efforts to expedite the registration process, the current approval timelines for pharmaceutical products do not consistently meet an average of six months or less. The duration varies based on the product type, with generic drugs averaging around 6 to 12 months and new chemical entities potentially taking up to 18 to 24 months. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 515,
+                "start_index": 398,
+                "title": "Generic Drug Approval Process In Myanmar | Credevo Articles",
+                "url": "https://credevo.com/articles/2021/01/25/myanmar-generic-drug-registration-process/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 778,
+                "start_index": 671,
+                "title": "Southeast Asia Regulatory Landscape (Part 2)",
+                "url": "https://doczz.net/doc/8519955/southeast-asia-regulatory-landscape--part-2-?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1216,
+                "start_index": 1013,
+                "title": "A Study of Pharmaceutical Product Registration Process in Myanmar -A First Step Towards Developing A Product-Mix | Request PDF",
+                "url": "https://www.researchgate.net/publication/369416351_A_Study_of_Pharmaceutical_Product_Registration_Process_in_Myanmar_-A_First_Step_Towards_Developing_A_Product-Mix?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756270038,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 353,
+      "prompt_tokens": 69,
+      "total_tokens": 422,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8ddacaf8819f8f4ac2ff532a12680b09e3ec15c8a87e",
+    "created_at": 1756270042.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8ddb6eb8819fbf58b5454bb107ff0b09e3ec15c8a87e",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"NO\",\"explanation\":\"Myanmar does not target an average marketing authorization approval timeline of six months or less, as the timelines for generic drugs range from 6 to 12 months and for new chemical entities, they can extend to 18 to 24 months.\",\"sources\":[\"https://credevo.com/articles/2021/01/25/myanmar-generic-drug-registration-process/?utm_source=openai\",\"https://doczz.net/doc/8519955/southeast-asia-regulatory-landscape--part-2-?utm_source=openai\",\"https://www.researchgate.net/publication/369416351_A_Study_of_Pharmaceutical_Product_Registration_Process_in_Myanmar_-A_First_Step_Towards_Developing_A_Product-Mix?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "NO",
+              "explanation": "Myanmar does not target an average marketing authorization approval timeline of six months or less, as the timelines for generic drugs range from 6 to 12 months and for new chemical entities, they can extend to 18 to 24 months.",
+              "sources": [
+                "https://credevo.com/articles/2021/01/25/myanmar-generic-drug-registration-process/?utm_source=openai",
+                "https://doczz.net/doc/8519955/southeast-asia-regulatory-landscape--part-2-?utm_source=openai",
+                "https://www.researchgate.net/publication/369416351_A_Study_of_Pharmaceutical_Product_Registration_Process_in_Myanmar_-A_First_Step_Towards_Developing_A_Product-Mix?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1543,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 166,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1709
+    },
+    "user": null,
+    "store": true
+  }
+}

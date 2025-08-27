@@ -1,0 +1,188 @@
+gpt-4o-mini
+Accepts the International Council for Harmonisation (ICH) Common Technical Document (CTD) format for innovator pharmaceutical product registrations.
+{
+  "first_pass": {
+    "id": "chatcmpl-21bcd08d-3f9e-4887-8275-c2bc9ca2c098",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Brunei Darussalam, as a member of the Association of Southeast Asian Nations (ASEAN), adheres to the ASEAN Common Technical Dossier (ACTD) format for pharmaceutical product registrations. The ACTD is a standardized format developed by ASEAN member countries to streamline the registration process for pharmaceuticals intended for human use. This format is specifically designed for the registration of generic medicines and is not directly aligned with the International Council for Harmonisation (ICH) Common Technical Document (CTD) format, which is primarily used for innovator products. ([productlifegroup.com](https://www.productlifegroup.com/introduction-asean-common-technical-dossier-actd-pharmaceutical-registration/?utm_source=openai))\n\nFor innovator products, which include new chemical entities (NCEs) and biological products, ASEAN countries, including Brunei, accept submissions in the ICH CTD format. However, these submissions must comply with additional ASEAN technical requirements, such as the ASEAN guideline on Stability Study of Drug Products. The ACTD format is not accepted for innovator products; instead, the ICH CTD format is utilized for these applications. ([scribd.com](https://www.scribd.com/document/800284365/International-pharmaceutical-product-registration-2nd-Edition-A-C-Cartwright-all-chapter-instant-download?utm_source=openai))\n\nIn summary, Brunei accepts the ICH CTD format for innovator pharmaceutical product registrations, provided that all relevant ASEAN technical requirements are met. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 745,
+                "start_index": 591,
+                "title": "Introduction to the ASEAN Common Technical Dossier (ACTD) for Pharmaceutical Registration",
+                "url": "https://www.productlifegroup.com/introduction-asean-common-technical-dossier-actd-pharmaceutical-registration/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1367,
+                "start_index": 1186,
+                "title": "International pharmaceutical product registration 2nd Edition A C Cartwright all chapter instant download | PDF | Pharmacovigilance | Medicinal Chemistry",
+                "url": "https://www.scribd.com/document/800284365/International-pharmaceutical-product-registration-2nd-Edition-A-C-Cartwright-all-chapter-instant-download?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756269770,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 304,
+      "prompt_tokens": 77,
+      "total_tokens": 381,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8ccef538819190956289029b54b6078faa69440b7b86",
+    "created_at": 1756269775.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8ccf88ec819189b4db2219a23d2b078faa69440b7b86",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"YES\",\"explanation\":\"Brunei accepts the ICH CTD format for innovator pharmaceutical product registrations, provided that all relevant ASEAN technical requirements are met.\",\"sources\":[\"https://www.productlifegroup.com/introduction-asean-common-technical-dossier-actd-pharmaceutical-registration/?utm_source=openai\",\"https://www.scribd.com/document/800284365/International-pharmaceutical-product-registration-2nd-Edition-A-C-Cartwright-all-chapter-instant-download?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "YES",
+              "explanation": "Brunei accepts the ICH CTD format for innovator pharmaceutical product registrations, provided that all relevant ASEAN technical requirements are met.",
+              "sources": [
+                "https://www.productlifegroup.com/introduction-asean-common-technical-dossier-actd-pharmaceutical-registration/?utm_source=openai",
+                "https://www.scribd.com/document/800284365/International-pharmaceutical-product-registration-2nd-Edition-A-C-Cartwright-all-chapter-instant-download?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1351,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 107,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1458
+    },
+    "user": null,
+    "store": true
+  }
+}

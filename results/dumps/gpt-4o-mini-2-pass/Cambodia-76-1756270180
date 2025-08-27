@@ -1,0 +1,198 @@
+gpt-4o-mini
+Requires halal certification for pharmaceutical products.
+{
+  "first_pass": {
+    "id": "chatcmpl-e821e647-377f-4a83-8954-97c23a648660",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Cambodia has established a national halal certification system, primarily focusing on food products, restaurants, and related services. The Department of Halal, under the General Department of Consumer Protection, Competition and Fraud Repression (CCF) of the Ministry of Commerce, is responsible for developing policies, conducting research, and overseeing the certification and labeling of halal products. ([ccfdg.gov.kh](https://www.ccfdg.gov.kh/en/about-ccf/department-of-halal/?utm_source=openai))\n\nThe Commission for Examination of Halal Products in Cambodia (CEHP), established in November 2016, plays a pivotal role in systematizing the management of halal products, approving certifications, and advising the government on halal product development. ([ccfdg.gov.kh](https://www.ccfdg.gov.kh/en/commission-committee/new-title-3/?utm_source=openai))\n\nWhile the primary emphasis has been on food products and services, the halal certification system in Cambodia is not limited to these sectors. It extends to other consumables, including pharmaceuticals, cosmetics, and medical devices, ensuring they comply with Islamic dietary laws and standards. ([cert-ease.com](https://cert-ease.com/halal-certification-in-cambodia/?utm_source=openai))\n\nTherefore, obtaining halal certification for pharmaceutical products in Cambodia is not mandatory. However, acquiring this certification can enhance marketability, build consumer trust, and open access to markets with significant Muslim populations. Companies interested in obtaining halal certification for their pharmaceutical products can consult with the Department of Halal or authorized certification bodies to understand the specific requirements and processes involved. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 502,
+                "start_index": 408,
+                "title": "Department of Halal - CCF",
+                "url": "https://www.ccfdg.gov.kh/en/about-ccf/department-of-halal/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 856,
+                "start_index": 759,
+                "title": "Commission for Examination of Halal Products in Cambodia - CCF",
+                "url": "https://www.ccfdg.gov.kh/en/commission-committee/new-title-3/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1246,
+                "start_index": 1155,
+                "title": "Halal Certification in Cambodia",
+                "url": "https://cert-ease.com/halal-certification-in-cambodia/?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756270174,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 326,
+      "prompt_tokens": 57,
+      "total_tokens": 383,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8e61e46881a1849541a9a2336b670966fed7bb9a8c22",
+    "created_at": 1756270177.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8e622cc081a181f80a28ef199e130966fed7bb9a8c22",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"NO\",\"explanation\":\"Obtaining halal certification for pharmaceutical products in Cambodia is not mandatory, although it can enhance marketability and consumer trust.\",\"sources\":[\"https://www.ccfdg.gov.kh/en/about-ccf/department-of-halal/?utm_source=openai\",\"https://www.ccfdg.gov.kh/en/commission-committee/new-title-3/?utm_source=openai\",\"https://cert-ease.com/halal-certification-in-cambodia/?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "NO",
+              "explanation": "Obtaining halal certification for pharmaceutical products in Cambodia is not mandatory, although it can enhance marketability and consumer trust.",
+              "sources": [
+                "https://www.ccfdg.gov.kh/en/about-ccf/department-of-halal/?utm_source=openai",
+                "https://www.ccfdg.gov.kh/en/commission-committee/new-title-3/?utm_source=openai",
+                "https://cert-ease.com/halal-certification-in-cambodia/?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1404,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 103,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1507
+    },
+    "user": null,
+    "store": true
+  }
+}

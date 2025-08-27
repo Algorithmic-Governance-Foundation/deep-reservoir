@@ -1,0 +1,187 @@
+gpt-4o-mini
+Specifically mandates the use of a “red dot” symbol on prescription-only pharmaceutical products.
+{
+  "first_pass": {
+    "id": "chatcmpl-8ac45528-8367-4414-8505-cbdd428d3b61",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "In Malaysia, the regulation of pharmaceutical product labeling is governed by the Poisons Regulations 1952 and the Poisons (Psychotropic Substances) Regulations 1989. These regulations specify the required information on labels for dispensed medicines, including the name and contact details of the dispensing facility, patient's name, medicine name (generic and/or trade), dosage form with strength and quantity, directions for use, date of supply, and expiry date. Additionally, controlled medicines must be labeled with the term \"Controlled Medicine\" or \"Ubat Terkawal.\" ([myrxnote.com](https://www.myrxnote.com/2020/11/labelling-of-medicine.html?utm_source=openai))\n\nThe regulations also mandate that medicines for external use be dispensed in suitable containers and labeled conspicuously with the words \"Not to be Taken\" or \"For External Use Only\" in Bahasa Malaysia and/or English, printed in red or on a red background. However, there is no specific requirement for a \"red dot\" symbol on prescription-only pharmaceutical products. ([myrxnote.com](https://www.myrxnote.com/2020/11/labelling-of-medicine.html?utm_source=openai))\n\nWhile some countries employ specific symbols, such as a red dot, to indicate prescription-only status, Malaysia does not mandate the use of such a symbol. Instead, the emphasis is on clear labeling with the appropriate information to ensure safe and effective use of medicines. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 669,
+                "start_index": 574,
+                "title": "Labelling of Dispensed Medicine",
+                "url": "https://www.myrxnote.com/2020/11/labelling-of-medicine.html?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1134,
+                "start_index": 1039,
+                "title": "Labelling of Dispensed Medicine",
+                "url": "https://www.myrxnote.com/2020/11/labelling-of-medicine.html?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756270361,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 298,
+      "prompt_tokens": 67,
+      "total_tokens": 365,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8f1df08481a0b3965cb882576b410097d9f269b111fe",
+    "created_at": 1756270365.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8f1e3f8c81a0af70416945d5d0320097d9f269b111fe",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"NO\",\"explanation\":\"Malaysia does not specifically mandate the use of a 'red dot' symbol on prescription-only pharmaceutical products, as the current regulations focus on clear labeling without such symbols.\",\"sources\":[\"https://www.myrxnote.com/2020/11/labelling-of-medicine.html?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "NO",
+              "explanation": "Malaysia does not specifically mandate the use of a 'red dot' symbol on prescription-only pharmaceutical products, as the current regulations focus on clear labeling without such symbols.",
+              "sources": [
+                "https://www.myrxnote.com/2020/11/labelling-of-medicine.html?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1278,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 70,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1348
+    },
+    "user": null,
+    "store": true
+  }
+}

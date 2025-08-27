@@ -32,9 +32,6 @@ def main() -> None:
         results.append(research_result)
         dump_result(i, country, policy, researcher.model.value, research_result)
 
-        if i >= 3:
-            break
-
     # End timing and calculate results
     end_time = time.time()
     total_duration = end_time - start_time

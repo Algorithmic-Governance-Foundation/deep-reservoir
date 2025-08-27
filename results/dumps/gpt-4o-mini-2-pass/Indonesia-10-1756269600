@@ -1,0 +1,198 @@
+gpt-4o-mini
+Publishes national antimicrobial resistance (AMR) surveillance data related to pharmaceutical products.
+{
+  "first_pass": {
+    "id": "chatcmpl-326c9bd4-ea24-4a5e-b04b-0a36bb99ac81",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Indonesia has been actively working to establish and enhance its national surveillance systems for antimicrobial resistance (AMR) and antimicrobial consumption (AMC). These efforts aim to monitor and control the use of pharmaceutical products, particularly antibiotics, to combat AMR.\n\nIn May 2023, the Indonesian Ministry of Health (MoH), in collaboration with the World Health Organization (WHO), conducted an assessment and training to establish a national AMC surveillance system. This initiative involved key stakeholders, including the MoH, the National Agency of Drug and Food Control (BPOM), the Healthcare and Social Security Agency (BPJS Kesehatan), and the private sector. The goal was to identify and map potential data resources for AMC surveillance and to enhance the capacity of stakeholders in data collection and reporting. The training improved understanding of available data for AMC and outlined steps for establishing a national AMC monitoring system. ([who.int](https://www.who.int/indonesia/news/detail/07-07-2023-establishing-national-surveillance-system-for-antimicrobial-consumption-in-indonesia--a-critical-challenge?utm_source=openai))\n\nAdditionally, in November 2024, Indonesia launched its first national survey on AMR in bloodstream infections, covering 80 hospitals and 30 laboratories across 25 districts in 16 provinces. This survey aims to gather critical data on AMR patterns, which will inform the development of effective treatment guidelines and public health policies. ([who.int](https://www.who.int/indonesia/news/detail/13-02-2025-indonesia-launches-groundbreaking-national-amr-survey-on-bloodstream-infections?utm_source=openai))\n\nFurthermore, Indonesia has been participating in the WHO Global Antimicrobial Resistance and Use Surveillance System (GLASS). In 2020, Indonesia submitted its first batches of AMR and antibiotic consumption data to GLASS, marking a significant step in monitoring and controlling AMR. ([thelancet.com](https://www.thelancet.com/journals/lansea/article/PIIS2772-3682%2822%2900013-0/fulltext?utm_source=openai))\n\nWhile these initiatives indicate a commitment to publishing national AMR surveillance data related to pharmaceutical products, the availability of comprehensive, publicly accessible reports may be limited. The Indonesian Ministry of Health and WHO Indonesia have been working to strengthen data collection and reporting mechanisms, and it is anticipated that more detailed and accessible data will be published in the future. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1163,
+                "start_index": 973,
+                "title": "Establishing national surveillance system for antimicrobial consumption in Indonesia: A critical challenge",
+                "url": "https://www.who.int/indonesia/news/detail/07-07-2023-establishing-national-surveillance-system-for-antimicrobial-consumption-in-indonesia--a-critical-challenge?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1672,
+                "start_index": 1509,
+                "title": "Indonesia launches groundbreaking national AMR survey on bloodstream infections",
+                "url": "https://www.who.int/indonesia/news/detail/13-02-2025-indonesia-launches-groundbreaking-national-amr-survey-on-bloodstream-infections?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 2082,
+                "start_index": 1958,
+                "title": "Optimizing antibiotic use in Indonesia: A systematic review and evidence synthesis to inform opportunities for intervention - The Lancet Regional Health - Southeast Asia",
+                "url": "https://www.thelancet.com/journals/lansea/article/PIIS2772-3682%2822%2900013-0/fulltext?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756269593,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 497,
+      "prompt_tokens": 66,
+      "total_tokens": 563,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8c1dbd788196844fadf5da4fc2f306df9c7ee91cccf2",
+    "created_at": 1756269597.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8c1e3cc081969db9eea0cad62b8c06df9c7ee91cccf2",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"PARTIAL\",\"explanation\":\"Indonesia has initiated steps to establish a national system for antimicrobial resistance (AMR) surveillance and published initial findings, but comprehensive public access to all data may still be limited.\",\"sources\":[\"https://www.who.int/indonesia/news/detail/07-07-2023-establishing-national-surveillance-system-for-antimicrobial-consumption-in-indonesia--a-critical-challenge?utm_source=openai\",\"https://www.who.int/indonesia/news/detail/13-02-2025-indonesia-launches-groundbreaking-national-amr-survey-on-bloodstream-infections?utm_source=openai\",\"https://www.thelancet.com/journals/lansea/article/PIIS2772-3682%2822%2900013-0/fulltext?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "PARTIAL",
+              "explanation": "Indonesia has initiated steps to establish a national system for antimicrobial resistance (AMR) surveillance and published initial findings, but comprehensive public access to all data may still be limited.",
+              "sources": [
+                "https://www.who.int/indonesia/news/detail/07-07-2023-establishing-national-surveillance-system-for-antimicrobial-consumption-in-indonesia--a-critical-challenge?utm_source=openai",
+                "https://www.who.int/indonesia/news/detail/13-02-2025-indonesia-launches-groundbreaking-national-amr-survey-on-bloodstream-infections?utm_source=openai",
+                "https://www.thelancet.com/journals/lansea/article/PIIS2772-3682%2822%2900013-0/fulltext?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1850,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 173,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2023
+    },
+    "user": null,
+    "store": true
+  }
+}

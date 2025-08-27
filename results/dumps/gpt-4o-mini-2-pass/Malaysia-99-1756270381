@@ -1,0 +1,197 @@
+gpt-4o-mini
+Imposes hospital-only distribution restrictions for certain classes of antimicrobial (AM) pharmaceutical products.
+{
+  "first_pass": {
+    "id": "chatcmpl-49f90fa8-9258-4123-a5ce-199a37826e8f",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Malaysia has implemented a comprehensive Antimicrobial Stewardship (AMS) Programme to promote the rational use of antimicrobials and combat antimicrobial resistance. The Ministry of Health Malaysia published the \"Protocol on Antimicrobial Stewardship (AMS) Programme in Healthcare Facilities\" in 2014, which outlines core strategies for AMS implementation. ([pharmacy.moh.gov.my](https://pharmacy.moh.gov.my/en/documents/protocol-antimicrobial-stewardship-program-healthcare-facilities.html?utm_source=openai))\n\nA key component of this protocol is the establishment of formulary restrictions and pre-authorization systems for certain antimicrobials. This means that specific classes of antimicrobial pharmaceutical products are subject to hospital-only distribution, requiring prior approval before use. The goal is to ensure appropriate prescribing and minimize the development of antimicrobial resistance. ([pharmacy.moh.gov.my](https://pharmacy.moh.gov.my/en/documents/protocol-antimicrobial-stewardship-program-healthcare-facilities.html?utm_source=openai))\n\nFor example, a study conducted in a Malaysian district hospital demonstrated the effectiveness of an AMS programme that included restrictive enforcement of antimicrobial use. The intervention led to a significant improvement in adherence to antimicrobial authorization policies, indicating the success of such restrictions in promoting rational antimicrobial use. ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/27648056/?utm_source=openai))\n\nIn summary, Malaysia imposes hospital-only distribution restrictions for certain classes of antimicrobial pharmaceutical products as part of its AMS Programme to ensure the judicious use of antimicrobials and combat antimicrobial resistance. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 510,
+                "start_index": 357,
+                "title": "PROTOCOL ON ANTIMICROBIAL STEWARDSHIP (AMS) PROGRAMME IN HEALTHCARE FACILITIES, SECOND EDITION 2022 | Pharmaceutical Services Programme",
+                "url": "https://pharmacy.moh.gov.my/en/documents/protocol-antimicrobial-stewardship-program-healthcare-facilities.html?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1061,
+                "start_index": 908,
+                "title": "PROTOCOL ON ANTIMICROBIAL STEWARDSHIP (AMS) PROGRAMME IN HEALTHCARE FACILITIES, SECOND EDITION 2022 | Pharmaceutical Services Programme",
+                "url": "https://pharmacy.moh.gov.my/en/documents/protocol-antimicrobial-stewardship-program-healthcare-facilities.html?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1515,
+                "start_index": 1427,
+                "title": "Antimicrobial stewardship program in a Malaysian district hospital: First year experience - PubMed",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/27648056/?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756270373,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 331,
+      "prompt_tokens": 67,
+      "total_tokens": 398,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8f2b15748190ab32c2363f9a57e50769f9ac94045024",
+    "created_at": 1756270379.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8f2ba8488190ac130b31f315d0570769f9ac94045024",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"YES\",\"explanation\":\"Malaysia imposes hospital-only distribution restrictions for certain classes of antimicrobial pharmaceutical products as part of its Antimicrobial Stewardship Programme, requiring prior approval before use to ensure appropriate prescribing and combat antimicrobial resistance.\",\"sources\":[\"https://pharmacy.moh.gov.my/en/documents/protocol-antimicrobial-stewardship-program-healthcare-facilities.html?utm_source=openai\",\"https://pubmed.ncbi.nlm.nih.gov/27648056/?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "YES",
+              "explanation": "Malaysia imposes hospital-only distribution restrictions for certain classes of antimicrobial pharmaceutical products as part of its Antimicrobial Stewardship Programme, requiring prior approval before use to ensure appropriate prescribing and combat antimicrobial resistance.",
+              "sources": [
+                "https://pharmacy.moh.gov.my/en/documents/protocol-antimicrobial-stewardship-program-healthcare-facilities.html?utm_source=openai",
+                "https://pubmed.ncbi.nlm.nih.gov/27648056/?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1506,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 104,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1610
+    },
+    "user": null,
+    "store": true
+  }
+}

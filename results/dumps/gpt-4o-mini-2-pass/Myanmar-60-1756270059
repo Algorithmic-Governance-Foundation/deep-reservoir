@@ -1,0 +1,208 @@
+gpt-4o-mini
+Publishes national antimicrobial resistance (AMR) surveillance data related to pharmaceutical products.
+{
+  "first_pass": {
+    "id": "chatcmpl-9df19df9-0e9d-4a0e-ab43-f107d5016abc",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Myanmar has developed a National Action Plan for Containment of Antimicrobial Resistance (AMR) for the period 2017\u20132022, which outlines strategic objectives to mitigate AMR risks. ([informea.org](https://www.informea.org/en/content/legislation/myanmar-national-action-plan-containment-antimicrobial-resistance-2017-2022?utm_source=openai)) One of these objectives focuses on surveillance, aiming to establish a national AMR surveillance program in central hospitals and veterinary diagnostic laboratories. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8315476/?utm_source=openai))\n\nHowever, the implementation of this surveillance system faces challenges, including a lack of dedicated and trained staff, inadequate equipment, and non-standardized data collection formats. ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/34070228/?utm_source=openai)) As a result, there is no comprehensive, publicly available national AMR surveillance data related to pharmaceutical products in Myanmar.\n\nWhile some hospitals in Myanmar, such as North Okkalapa General and Teaching Hospital in Yangon, have conducted their own AMR surveillance and generated reports, these are not part of a centralized national system and are not publicly accessible. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7568216/?utm_source=openai))\n\nIn summary, Myanmar does not currently publish national AMR surveillance data related to pharmaceutical products. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 339,
+                "start_index": 180,
+                "title": "Myanmar National Action Plan for Containment of Antimicrobial Resistance (2017-2022). | InforMEA",
+                "url": "https://www.informea.org/en/content/legislation/myanmar-national-action-plan-containment-antimicrobial-resistance-2017-2022?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 599,
+                "start_index": 506,
+                "title": "An analysis of national action plans on antimicrobial resistance in Southeast Asia using a governance framework approach - PMC",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8315476/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 880,
+                "start_index": 792,
+                "title": "Wounds, Antimicrobial Resistance and Challenges of Implementing a Surveillance System in Myanmar: A Mixed-Methods Study - PubMed",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/34070228/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1359,
+                "start_index": 1266,
+                "title": "Automating the Generation of Antimicrobial Resistance Surveillance Reports: Proof-of-Concept Study Involving Seven Hospitals in Seven Countries - PMC",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7568216/?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756270053,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 318,
+      "prompt_tokens": 66,
+      "total_tokens": 384,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8de9bc8c81a1942760713c8accea0240fbfef5bc1c7b",
+    "created_at": 1756270057.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8dea045881a190c2aeea0d4856f00240fbfef5bc1c7b",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"NO\",\"explanation\":\"Myanmar does not currently publish national AMR surveillance data related to pharmaceutical products due to challenges in implementing a centralized system and a lack of comprehensive data accessibility.\",\"sources\":[\"https://www.informea.org/en/content/legislation/myanmar-national-action-plan-containment-antimicrobial-resistance-2017-2022?utm_source=openai\",\"https://pmc.ncbi.nlm.nih.gov/articles/PMC8315476/?utm_source=openai\",\"https://pubmed.ncbi.nlm.nih.gov/34070228/?utm_source=openai\",\"https://pmc.ncbi.nlm.nih.gov/articles/PMC7568216/?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "NO",
+              "explanation": "Myanmar does not currently publish national AMR surveillance data related to pharmaceutical products due to challenges in implementing a centralized system and a lack of comprehensive data accessibility.",
+              "sources": [
+                "https://www.informea.org/en/content/legislation/myanmar-national-action-plan-containment-antimicrobial-resistance-2017-2022?utm_source=openai",
+                "https://pmc.ncbi.nlm.nih.gov/articles/PMC8315476/?utm_source=openai",
+                "https://pubmed.ncbi.nlm.nih.gov/34070228/?utm_source=openai",
+                "https://pmc.ncbi.nlm.nih.gov/articles/PMC7568216/?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1550,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 142,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1692
+    },
+    "user": null,
+    "store": true
+  }
+}

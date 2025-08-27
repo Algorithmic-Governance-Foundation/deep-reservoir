@@ -1,0 +1,198 @@
+gpt-4o-mini
+Provides a fully digital online submission portal for pharmaceutical product marketing authorization applications.
+{
+  "first_pass": {
+    "id": "chatcmpl-890f7edd-0974-4a7f-9f8e-ad6b3ca68b14",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Yes, Myanmar provides a fully digital online submission portal for pharmaceutical product marketing authorization applications. The Department of Food and Drug Administration (FDA Myanmar) has implemented an e-Submission system accessible at [https://esubmission.fda.gov.mm/](https://esubmission.fda.gov.mm/). This platform allows authorized local representatives to submit drug registration applications electronically. To access the system, users must register and obtain login credentials. Detailed user guides are available on the portal to assist applicants in navigating the submission process. ([esubmission.fda.gov.mm](https://esubmission.fda.gov.mm/?utm_source=openai))\n\nIn addition to the e-Submission system, FDA Myanmar has mandated electronic payments for medicine registration renewals and annual subscription fees. As per Notification No. 161/2023, starting January 1, 2024, all renewal applications and fee payments must be processed through the e-Submission system. Applicants are required to submit renewal applications 180 days before the registration's expiration and pay an initial verification fee of K 300,000 via digital payment. Failure to renew within the specified period results in a monthly fine of K 50,000, starting from the registration's expiry date. ([gnlm.com.mm](https://www.gnlm.com.mm/fda-myanmar-starts-using-e-submission-with-digital-payment-for-registration-renewals/?utm_source=openai))\n\nFor comprehensive guidance on using the e-Submission system, FDA Myanmar has issued an \"Applicant User Guide for Product Notification\" on May 14, 2024. This document provides detailed instructions for applicants on navigating the online submission process. ([myanmartradeportal.gov.mm](https://www.myanmartradeportal.gov.mm/legal/540?utm_source=openai))\n\nTherefore, Myanmar has established a fully digital online submission portal for pharmaceutical product marketing authorization applications, streamlining the registration and renewal processes for pharmaceutical products. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 678,
+                "start_index": 601,
+                "title": "FDA E-submission 1",
+                "url": "https://esubmission.fda.gov.mm/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1428,
+                "start_index": 1284,
+                "title": "FDA Myanmar starts using e-Submission with digital payment for registration renewals - Global New Light Of Myanmar",
+                "url": "https://www.gnlm.com.mm/fda-myanmar-starts-using-e-submission-with-digital-payment-for-registration-renewals/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1783,
+                "start_index": 1687,
+                "title": "Applicant user guide for product notification (PN) on FDA e-submission system - Legal Documents - Myanmar National Trade Portal",
+                "url": "https://www.myanmartradeportal.gov.mm/legal/540?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756269977,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 391,
+      "prompt_tokens": 64,
+      "total_tokens": 455,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8d9e0e0c81a1951834d267fe2f11003b1859104d434c",
+    "created_at": 1756269982.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8da13a8481a18a1b98e8b9ccbc04003b1859104d434c",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"YES\",\"explanation\":\"Myanmar has established a fully digital online submission portal for pharmaceutical product marketing authorization applications through the Department of Food and Drug Administration, enabling electronic submissions and payments for renewals starting January 1, 2024.\",\"sources\":[\"https://esubmission.fda.gov.mm/\",\"https://www.gnlm.com.mm/fda-myanmar-starts-using-e-submission-with-digital-payment-for-registration-renewals/?utm_source=openai\",\"https://www.myanmartradeportal.gov.mm/legal/540?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "YES",
+              "explanation": "Myanmar has established a fully digital online submission portal for pharmaceutical product marketing authorization applications through the Department of Food and Drug Administration, enabling electronic submissions and payments for renewals starting January 1, 2024.",
+              "sources": [
+                "https://esubmission.fda.gov.mm/",
+                "https://www.gnlm.com.mm/fda-myanmar-starts-using-e-submission-with-digital-payment-for-registration-renewals/?utm_source=openai",
+                "https://www.myanmartradeportal.gov.mm/legal/540?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1574,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 118,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1692
+    },
+    "user": null,
+    "store": true
+  }
+}

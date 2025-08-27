@@ -1,0 +1,207 @@
+gpt-4o-mini
+Publishes national antimicrobial resistance (AMR) surveillance data related to pharmaceutical products.
+{
+  "first_pass": {
+    "id": "chatcmpl-8b55faa5-b655-4a96-a5c4-34e201c53123",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Laos has made significant strides in developing and implementing antimicrobial resistance (AMR) surveillance systems, particularly concerning pharmaceutical products. In July 2018, the Ministry of Health, in collaboration with the Korea International Cooperation Agency (KOICA) and the World Health Organization (WHO), launched the AMR Surveillance program. This initiative aimed to strengthen the national AMR surveillance system by enhancing laboratory capacities and monitoring antimicrobial consumption (AMC) at the national level. ([who.int](https://www.who.int/laos/news/detail/11-07-2018-the-launch-of-the-antimicrobial-resistance-surveillance-program-in-lao-people-s-democratic-republic?utm_source=openai))\n\nThe program led to the establishment of a national AMR surveillance system, with the National Center for Laboratory and Epidemiology serving as the national reference laboratory. This system includes 12 surveillance sites across the country, facilitating systematic and regular sharing of AMR surveillance data among hospitals and laboratories at both national and international levels. ([who.int](https://www.who.int/laos/our-work/tracking-and-combating-antimicrobial-resistance?utm_source=openai))\n\nIn November 2022, during World Antimicrobial Awareness Week, officials from the Ministry of Health, KOICA, and WHO met in Vientiane to discuss the progress made in addressing AMR in Lao PDR. The discussions highlighted the significant improvements in national laboratory capabilities to identify and monitor drug-resistant microbes, staff training, and better reporting to national and global laboratories and monitoring networks. ([who.int](https://www.who.int/laos/news/detail/24-11-2022-koica---who-highlight-progress-fighting-antimicrobial-resistance-and-future-opportunities?utm_source=openai))\n\nDespite these advancements, comprehensive public access to detailed national AMR surveillance data, particularly concerning pharmaceutical products, remains limited. While the WHO has provided support in developing national guidelines and establishing surveillance systems, specific data on antimicrobial consumption and resistance patterns are not readily available in the public domain. ([who.int](https://www.who.int/laos/our-work/tracking-and-combating-antimicrobial-resistance?utm_source=openai))\n\nIn summary, Laos has established a national AMR surveillance system with support from international partners, focusing on enhancing laboratory capacities and monitoring antimicrobial consumption. However, detailed national AMR surveillance data related to pharmaceutical products are not currently accessible to the public. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 714,
+                "start_index": 536,
+                "title": "The launch of the Antimicrobial Resistance Surveillance program in Lao People\u2019s Democratic Republic",
+                "url": "https://www.who.int/laos/news/detail/11-07-2018-the-launch-of-the-antimicrobial-resistance-surveillance-program-in-lao-people-s-democratic-republic?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1215,
+                "start_index": 1103,
+                "title": "Tracking and combating antimicrobial resistance in Lao People's Democratic Republic",
+                "url": "https://www.who.int/laos/our-work/tracking-and-combating-antimicrobial-resistance?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1816,
+                "start_index": 1648,
+                "title": "KOICA & WHO highlight progress fighting antimicrobial resistance and future opportunities",
+                "url": "https://www.who.int/laos/news/detail/24-11-2022-koica---who-highlight-progress-fighting-antimicrobial-resistance-and-future-opportunities?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 2319,
+                "start_index": 2207,
+                "title": "Tracking and combating antimicrobial resistance in Lao People's Democratic Republic",
+                "url": "https://www.who.int/laos/our-work/tracking-and-combating-antimicrobial-resistance?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756269760,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 491,
+      "prompt_tokens": 66,
+      "total_tokens": 557,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8cc5cd40819797c9d50904c0bd6609e41c39f7238ee6",
+    "created_at": 1756269766.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8cc6d78c819792179f31da2aff5409e41c39f7238ee6",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"PARTIAL\",\"explanation\":\"Laos has established a national AMR surveillance system, but comprehensive public access to detailed data regarding antimicrobial resistance and consumption, particularly related to pharmaceutical products, is limited.\",\"sources\":[\"https://www.who.int/laos/news/detail/11-07-2018-the-launch-of-the-antimicrobial-resistance-surveillance-program-in-lao-people-s-democratic-republic?utm_source=openai\",\"https://www.who.int/laos/our-work/tracking-and-combating-antimicrobial-resistance?utm_source=openai\",\"https://www.who.int/laos/news/detail/24-11-2022-koica---who-highlight-progress-fighting-antimicrobial-resistance-and-future-opportunities?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "PARTIAL",
+              "explanation": "Laos has established a national AMR surveillance system, but comprehensive public access to detailed data regarding antimicrobial resistance and consumption, particularly related to pharmaceutical products, is limited.",
+              "sources": [
+                "https://www.who.int/laos/news/detail/11-07-2018-the-launch-of-the-antimicrobial-resistance-surveillance-program-in-lao-people-s-democratic-republic?utm_source=openai",
+                "https://www.who.int/laos/our-work/tracking-and-combating-antimicrobial-resistance?utm_source=openai",
+                "https://www.who.int/laos/news/detail/24-11-2022-koica---who-highlight-progress-fighting-antimicrobial-resistance-and-future-opportunities?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1899,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 160,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2059
+    },
+    "user": null,
+    "store": true
+  }
+}

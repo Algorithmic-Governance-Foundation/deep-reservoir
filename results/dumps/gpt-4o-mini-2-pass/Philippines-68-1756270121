@@ -1,0 +1,198 @@
+gpt-4o-mini
+Targets an average marketing authorization (MA) approval timeline of six months or less for pharmaceutical products.
+{
+  "first_pass": {
+    "id": "chatcmpl-6d2fa358-48d4-4cdb-b2af-2a52d1968319",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "The Philippines Food and Drug Administration (FDA) has historically set the standard processing time for initial applications of new pharmaceutical products at a maximum of 254 calendar days, excluding delays due to noted deficiencies. ([scribd.com](https://www.scribd.com/document/430375236/Drug-Approval-System-of-the-Philippines-pdf?utm_source=openai)) This timeline exceeds the six-month target.\n\nIn February 2024, under the directive of President Ferdinand R. Marcos Jr., the FDA announced plans to expedite the review and approval process for generic drugs, reducing the period from 120 days to 45 days. ([pco.gov.ph](https://pco.gov.ph/news_releases/fda-to-shorten-review-approval-process-of-generic-drugs-from-120-days-to-45-days/?utm_source=openai)) This initiative aims to streamline the regulatory process and enhance the availability of generic medications in the market.\n\nFurthermore, in May 2025, FDA Director General Samuel Zacate indicated that the agency was on track to implement new policies that could halve the approval times for new pharmaceutical products. These reforms include eliminating duplicative bioavailability testing requirements for export products and implementing a Facilitated Registration Pathway that accepts approvals from trusted foreign regulators. ([trial.medpath.com](https://trial.medpath.com/news/966b7b1612d94ee3/fda-to-slash-drug-approval-times-by-half-with-new-streamlined-procedures?utm_source=openai))\n\nDespite these efforts to expedite the approval process, the current standard processing time for new pharmaceutical products remains above the six-month target. The FDA is actively working on further reforms to reduce this timeline, but as of now, it does not consistently meet the six-month or less target for marketing authorization approvals. ",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 355,
+                "start_index": 236,
+                "title": "Drug Approval System of The Philippines PDF | PDF | Clinical Trial | Food And Drug Administration",
+                "url": "https://www.scribd.com/document/430375236/Drug-Approval-System-of-the-Philippines-pdf?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 758,
+                "start_index": 610,
+                "title": "FDA to shorten review, approval process of generic drugs from 120 days to 45 days \u2013 Presidential Communications Office",
+                "url": "https://pco.gov.ph/news_releases/fda-to-shorten-review-approval-process-of-generic-drugs-from-120-days-to-45-days/?utm_source=openai"
+              }
+            },
+            {
+              "type": "url_citation",
+              "url_citation": {
+                "end_index": 1452,
+                "start_index": 1291,
+                "title": "FDA to Slash Drug Approval Times by Half with New Streamlined Procedures",
+                "url": "https://trial.medpath.com/news/966b7b1612d94ee3/fda-to-slash-drug-approval-times-by-half-with-new-streamlined-procedures?utm_source=openai"
+              }
+            }
+          ],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1756270113,
+    "model": "gpt-4o-mini-search-preview-2025-03-11",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "",
+    "usage": {
+      "completion_tokens": 362,
+      "prompt_tokens": 69,
+      "total_tokens": 431,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "second_pass": {
+    "id": "resp_68ae8e25bf8881a3926476cb12f8914a03970ac116191aff",
+    "created_at": 1756270117.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "metadata": {},
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "response",
+    "output": [
+      {
+        "id": "msg_68ae8e26376481a3a3c942b761d2b5c903970ac116191aff",
+        "content": [
+          {
+            "annotations": [],
+            "text": "{\"status\":\"NO\",\"explanation\":\"The standard processing time for initial applications of new pharmaceutical products in the Philippines is currently set at a maximum of 254 calendar days, which exceeds the six-month target for marketing authorization.\",\"sources\":[\"https://www.scribd.com/document/430375236/Drug-Approval-System-of-the-Philippines-pdf?utm_source=openai\",\"https://pco.gov.ph/news_releases/fda-to-shorten-review-approval-process-of-generic-drugs-from-120-days-to-45-days/?utm_source=openai\",\"https://trial.medpath.com/news/966b7b1612d94ee3/fda-to-slash-drug-approval-times-by-half-with-new-streamlined-procedures?utm_source=openai\"]}",
+            "type": "output_text",
+            "logprobs": [],
+            "parsed": {
+              "status": "NO",
+              "explanation": "The standard processing time for initial applications of new pharmaceutical products in the Philippines is currently set at a maximum of 254 calendar days, which exceeds the six-month target for marketing authorization.",
+              "sources": [
+                "https://www.scribd.com/document/430375236/Drug-Approval-System-of-the-Philippines-pdf?utm_source=openai",
+                "https://pco.gov.ph/news_releases/fda-to-shorten-review-approval-process-of-generic-drugs-from-120-days-to-45-days/?utm_source=openai",
+                "https://trial.medpath.com/news/966b7b1612d94ee3/fda-to-slash-drug-approval-times-by-half-with-new-streamlined-procedures?utm_source=openai"
+              ]
+            }
+          }
+        ],
+        "role": "assistant",
+        "status": "completed",
+        "type": "message"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [],
+    "top_p": 1.0,
+    "background": false,
+    "conversation": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_key": null,
+    "reasoning": {
+      "effort": null,
+      "generate_summary": null,
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "name": "QueryResponse",
+        "schema_": {
+          "$defs": {
+            "Status": {
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "properties": {
+            "status": {
+              "description": "Status of the policy for the given country",
+              "enum": [
+                "YES",
+                "NO",
+                "PARTIAL",
+                "UNKNOWN"
+              ],
+              "title": "Status",
+              "type": "string"
+            },
+            "explanation": {
+              "description": "1 sentence explanation of the status with citations",
+              "title": "Explanation",
+              "type": "string"
+            },
+            "sources": {
+              "description": "A list of URLs cited in the explanation",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "status",
+            "explanation",
+            "sources"
+          ],
+          "title": "QueryResponse",
+          "type": "object",
+          "additionalProperties": false
+        },
+        "type": "json_schema",
+        "description": null,
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1560,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 158,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1718
+    },
+    "user": null,
+    "store": true
+  }
+}
