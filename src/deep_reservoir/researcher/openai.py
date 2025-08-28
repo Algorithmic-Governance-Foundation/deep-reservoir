@@ -3,8 +3,8 @@ from enum import Enum
 from typing import List
 from openai import OpenAI
 from pydantic import BaseModel, Field
-from deep_reservoir.researcher import Researcher
-from deep_reservoir.result import Status, Result
+from . import Researcher
+from ..result import Status, Result
 
 
 class QueryResponse(BaseModel):

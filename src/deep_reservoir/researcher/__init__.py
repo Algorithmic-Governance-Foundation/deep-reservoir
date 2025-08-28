@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-from deep_reservoir.result import Result
+from ..result import Result
 
 
 class Researcher(ABC):

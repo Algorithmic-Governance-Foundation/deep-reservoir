@@ -2,8 +2,8 @@ import os
 from enum import Enum
 from typing import List
 from openai import OpenAI
-from deep_reservoir.researcher import Researcher
-from deep_reservoir.result import Status, Result
+from . import Researcher
+from ..result import Status, Result
 import json
 
 

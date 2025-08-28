@@ -14,6 +14,11 @@ All the code can be found within `/src/`.
 Inputs are at `/inputs/`
 Outputs are at `/results/`
 
+There are 3 directories in the `/src` folder:
+- **api**: This is where the API server lives
+- **batch**: This is where the CLI tool would live
+- **deep_reservoir**: This is the main library relating to the researcher
+
 ### Method 1: Standard
 1. Install [uv](https://docs.astral.sh/uv/getting-started/installation/)
 2. You can run the application via `uv run deep-reservoir`
