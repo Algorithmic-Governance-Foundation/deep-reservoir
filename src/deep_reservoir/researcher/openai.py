@@ -1,7 +1,7 @@
 import os
 from enum import Enum
 from typing import List
-from openai import OpenAI
+from openai import OpenAI, AsyncOpenAI
 from pydantic import BaseModel, Field
 from . import Researcher
 from ..result import Status, Result
@@ -33,6 +33,42 @@ class OpenAIResearcher(Researcher):
         )
 
         response = client.responses.parse(
+            model=self.model.value,
+            tools=[{"type": "web_search_preview"}],
+            input=[
+                {
+                    "role": "developer",
+                    "content": "Act as a helpful research assistant who can search the web and answer questions clearly and concisely",
+                },
+                {"role": "user", "content": prompt},
+            ],
+            text_format=QueryResponse,
+        )
+
+        content = response.output_parsed
+
+        if not content:
+            raise ValueError(
+                "Failed to parse openai output", response.model_dump_json()
+            )
+
+        return Result(
+            policy=policy,
+            country=country,
+            status=content.status,
+            explanation=content.explanation,
+            sources=content.sources,
+            dump=response.model_dump_json(indent=2),
+        )
+
+    async def go_async(self, country: str, policy: str) -> Result:
+        prompt = f"Determine whether {country} {policy}"
+
+        client = AsyncOpenAI(
+            api_key=os.getenv("OPENAI_API_KEY"),
+        )
+
+        response = await client.responses.parse(
             model=self.model.value,
             tools=[{"type": "web_search_preview"}],
             input=[
