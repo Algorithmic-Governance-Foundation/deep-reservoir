@@ -21,5 +21,13 @@ ADD . /app
 RUN --mount=type=cache,target=/root/.cache/uv \
     uv sync --locked
 
+# Get secret EXAMPLE and output it to /test at buildtime
+RUN --mount=type=secret,id=EXAMPLE,mode=0444,required=true \
+   cat /run/secrets/EXAMPLE > /test
+
+# Get secret SECRET_EXAMPLE and clone it as repo at buildtime
+RUN --mount=type=secret,id=SECRET_EXAMPLE,mode=0444,required=true \
+  git clone $(cat /run/secrets/SECRET_EXAMPLE)
+
 # Set environment variables from Hugging Face secrets
 RUN uv run gradio-reservoir

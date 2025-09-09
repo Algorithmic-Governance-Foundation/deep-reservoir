@@ -79,8 +79,9 @@ def main():
 
     password = os.environ.get("GRADIO_PASSWORD")
 
+
     if not password:
-        raise Exception("You forgot to set a gradio password")
+        raise Exception(f"You forgot to set a gradio password\n{os.environ}")
 
     demo.launch(auth=("agf", password))
 
