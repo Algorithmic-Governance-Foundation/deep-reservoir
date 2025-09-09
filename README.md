@@ -5,7 +5,7 @@ colorFrom: blue
 colorTo: purple
 sdk: gradio
 sdk_version: "5.0.0"
-app_file: app.py
+app_file: src/gradio_reservoir/__init__.py
 pinned: false
 ---
 
