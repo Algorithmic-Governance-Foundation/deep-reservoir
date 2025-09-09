@@ -1,21 +1,21 @@
-# read the doc: https://huggingface.co/docs/hub/spaces-sdks-docker
-# you will also find guides on how best to write your Dockerfile
+# Install uv
+FROM python:3.12-slim
+COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
 
-FROM ghcr.io/astral-sh/uv:0.8.15
+# Change the working directory to the `app` directory
+WORKDIR /app
 
-WORKDIR /code
+# Install dependencies
+RUN --mount=type=cache,target=/root/.cache/uv \
+    --mount=type=bind,source=uv.lock,target=uv.lock \
+    --mount=type=bind,source=pyproject.toml,target=pyproject.toml \
+    uv sync --locked --no-install-project
 
-# Switch to the "user" user
-USER user
+# Copy the project into the image
+ADD . /app
 
-# Set home to the user's home directory
-ENV HOME=/home/user \
-    PATH=/home/user/.local/bin:$PATH
+# Sync the project
+RUN --mount=type=cache,target=/root/.cache/uv \
+    uv sync --locked
 
-# Set the working directory to the user's home directory
-WORKDIR $HOME/app
-
-# Copy the current directory contents into the container at $HOME/app setting the owner to the user
-COPY --chown=user . $HOME/app
-
-CMD ["uv", "run", "gradio-reservoir"]
+RUN uv run gradio-reservoir
