@@ -5,7 +5,7 @@ from deep_reservoir.researcher import Researcher
 from deep_reservoir.result import Research
 
 
-class OpenAIChatCompletionsResearcherModel(Enum):
+class OpenAIChatCompletionsResearchModel(Enum):
     """Available OpenAI models for research tasks using "legacy" Chat Completions API."""
 
     GPT_4O_SEARCH_PREVIEW = "gpt-4o-search-preview"
@@ -15,7 +15,7 @@ class OpenAIChatCompletionsResearcherModel(Enum):
 class OpenAIChatCompletionsResearcher(Researcher):
     """Researcher implementation using OpenAI's Chat Completions API with web search capabilities."""
 
-    def __init__(self, model: OpenAIChatCompletionsResearcherModel):
+    def __init__(self, model: OpenAIChatCompletionsResearchModel):
         self.model = model
 
     def research(self, country: str, policy: str) -> Research:
@@ -47,7 +47,7 @@ class OpenAIChatCompletionsResearcher(Researcher):
         )
 
 
-class OpenAIResponsesResearcherModel(Enum):
+class OpenAIResponsesResearchModel(Enum):
     """Available OpenAI models for research tasks using Response API."""
 
     GPT_4_1 = "gpt-4.1"
@@ -61,7 +61,7 @@ class OpenAIResponsesResearcherModel(Enum):
 class OpenAIResponsesResearcher(Researcher):
     """Researcher implementation using OpenAI's Chat Completions API with web search capabilities."""
 
-    def __init__(self, model: OpenAIResponsesResearcherModel):
+    def __init__(self, model: OpenAIResponsesResearchModel):
         self.model = model
 
     def research(self, country: str, policy: str) -> Research:

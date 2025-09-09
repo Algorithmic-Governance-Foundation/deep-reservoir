@@ -3,14 +3,16 @@ import gradio as gr
 
 from deep_reservoir.researcher.openai import (
     OpenAIChatCompletionsResearcher,
-    OpenAIChatCompletionsResearcherModel,
+    OpenAIChatCompletionsResearchModel,
+    OpenAIResponsesResearchModel,
 )
+from deep_reservoir.researcher.perplexity import SonarResearchModel
 from deep_reservoir.summariser.openai import OpenAISummariser, OpenAISummariserModel
 
 
 def research(researcher, summariser, countries, policies):
     researcher = OpenAIChatCompletionsResearcher(
-        OpenAIChatCompletionsResearcherModel.GPT_4O_MINI_SEARCH_PREVIEW
+        OpenAIChatCompletionsResearchModel.GPT_4O_MINI_SEARCH_PREVIEW
     )
 
     summariser = OpenAISummariser(OpenAISummariserModel.GPT_5_MINI)
@@ -45,8 +47,18 @@ def main():
     demo = gr.Interface(
         fn=research,
         inputs=[
-            gr.Dropdown(["gpt-4o-mini-search-preview"], label="Researcher Agent"),
-            gr.Dropdown(["gpt-5-mini"], label="Summariser Agent"),
+            gr.Dropdown(
+                [
+                    *[model.value for model in OpenAIChatCompletionsResearchModel],
+                    *[model.value for model in OpenAIResponsesResearchModel],
+                    *[model.value for model in SonarResearchModel],
+                ],
+                label="Researcher Agent",
+            ),
+            gr.Dropdown(
+                [model.value for model in OpenAISummariserModel],
+                label="Summariser Agent",
+            ),
             gr.Textbox(
                 label="countries.csv",
                 lines=5,

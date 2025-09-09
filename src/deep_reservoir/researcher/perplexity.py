@@ -5,14 +5,14 @@ from deep_reservoir.researcher import Researcher
 from deep_reservoir.result import Research
 
 
-class SonarModel(Enum):
+class SonarResearchModel(Enum):
     PRO = "sonar-pro"
     REASONING_PRO = "sonar-reasoning-pro"
     DEEP_RESEARCH = "sonar-deep-research"
 
 
 class SonarResearcher(Researcher):
-    def __init__(self, model: SonarModel):
+    def __init__(self, model: SonarResearchModel):
         self.model = model
 
     def research(self, country: str, policy: str) -> Research:
