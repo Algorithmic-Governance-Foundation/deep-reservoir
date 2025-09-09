@@ -1,11 +1,9 @@
 from enum import Enum
-import json
 import os
 from typing import List
 from openai import OpenAI
 from pydantic import BaseModel, Field
-from deep_reservoir.researcher import Researcher
-from deep_reservoir.result import Research, Status, Summary
+from deep_reservoir.result import Research, Status, Summary, remove_utm_source
 from deep_reservoir.summariser import Summariser
 
 
@@ -18,9 +16,14 @@ class QueryResponse(BaseModel):
 
 
 class OpenAISummariserModel(Enum):
-    GPT_5 = "gpt-5"
+    """OpenAI Models to summarise Research results"""
+
     GPT_4_1 = "gpt-4.1"
-    GPT_4O_MINI = "gpt-4o-mini"
+    GPT_5 = "gpt-5"
+    GPT_5_MINI = "gpt-5-mini"
+    GPT_5_NANO = "gpt-5-nano"
+    O3_DEEP_RESEARCH = "o3-deep-research"
+    O4_MINI_DEEP_RESEARCH = "o4-mini-deep-research"
 
 
 class OpenAISummariser(Summariser):
@@ -30,12 +33,6 @@ class OpenAISummariser(Summariser):
     def summarise(self, research: Research) -> Summary:
         client = OpenAI(
             api_key=os.getenv("OPENAI_API_KEY"),
-        )
-
-        # Load research data
-        research_data = json.loads(research.data)
-        research_content = (
-            research_data.get("choices", [{}])[0].get("message", {}).get("content", "")
         )
 
         prompt = f"Determine whether {research.country} {research.policy}"
@@ -52,9 +49,7 @@ class OpenAISummariser(Summariser):
                 },
                 {
                     "role": "user",
-                    "content": f"Original query: {prompt}\n\nResearch results:\n{research_content}\n\n"
-                    + f"Full research data (including tool calls, annotations, URLs):\n{research.data}\n\n"
-                    + "Based on this research, determine the policy status and provide structured output.",
+                    "content": f"Original query: {prompt}\n\nResearch results:\n{research.data}",
                 },
             ],
             text_format=QueryResponse,
@@ -67,9 +62,14 @@ class OpenAISummariser(Summariser):
                 "Failed to parse openai output", response.model_dump_json()
             )
 
+        dump = f"{research.prompt}\n\nResearch results:\n{research.data}\n\nSummary response:\n{response.model_dump_json(indent=2)}"
+
+        # Removing ?utm_source=openai from URLs for cleaner output
+        cleaned_sources = [remove_utm_source(source) for source in content.sources]
+
         return Summary(
             status=content.status,
             explanation=content.explanation,
-            sources=content.sources,
-            dump=response.model_dump_json(indent=2),
+            sources=cleaned_sources,
+            dump=dump,
         )

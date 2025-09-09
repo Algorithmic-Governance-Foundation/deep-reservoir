@@ -3,15 +3,13 @@ name = "deep-reservoir"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-authors = [
-    { name = "stevenhuyn" }
-]
+authors = [{ name = "stevenhuyn" }]
 requires-python = ">=3.12"
 dependencies = [
     "attrs>=25.3.0",
     "fastapi[standard]>=0.116.1",
     "gradio>=5.0.0",
-    "openai>=1.101",
+    "openai>=1.107",
     "pydantic>=2.11.7",
     "python-dotenv>=1.1.1",
 ]
@@ -25,6 +23,4 @@ requires = ["uv_build>=0.8.0,<0.9"]
 build-backend = "uv_build"
 
 [dependency-groups]
-dev = [
-    "ruff>=0.12",
-]
+dev = ["ruff>=0.12"]
