@@ -23,7 +23,7 @@ def research(researcher, summariser, countries, policies):
 
     results = ["policy,country,status,explanation,source"]
     for country in countries:
-        for i, policy in enumerate(policies):
+        for i, policy in enumerate(policies, 1):
             research_result = researcher.research(country, policy)
             summary = summariser.summarise(research_result)
             sources = ",".join(summary.sources)
@@ -33,7 +33,7 @@ def research(researcher, summariser, countries, policies):
             results.append(result)
 
             os.makedirs("./results/dumps", exist_ok=True)
-            with open(f"./results/dumps/{country}-{i + 1}.json", "w") as f:
+            with open(f"./results/dumps/{country}-{i}.txt", "w") as f:
                 f.write(summary.dump)
 
     return "\n".join(results)
