@@ -82,7 +82,7 @@ def main():
     if not password:
         raise Exception("You forgot to set a gradio password")
 
-    demo.launch(share=True, auth=("agf", password))
+    demo.launch(auth=("agf", password))
 
 
 if __name__ == "__main__":
