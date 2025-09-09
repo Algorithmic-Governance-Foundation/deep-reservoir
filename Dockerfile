@@ -17,8 +17,10 @@ RUN --mount=type=cache,target=/root/.cache/uv \
 # Copy the project into the image
 ADD . /app
 
-# Change ownership to user
-RUN chown -R user:user /app
+# Change ownership to user and create cache directory
+RUN chown -R user:user /app && \
+    mkdir -p /home/user/.cache/uv && \
+    chown -R user:user /home/user/.cache
 
 # Switch to user
 USER user
