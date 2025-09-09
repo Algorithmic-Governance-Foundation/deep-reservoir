@@ -1,3 +1,14 @@
+---
+title: Deep Reservoir
+emoji: 🏛️
+colorFrom: blue
+colorTo: purple
+sdk: gradio
+sdk_version: "5.0.0"
+app_file: app.py
+pinned: false
+---
+
 # Deep Reservoir
 
 A CLI Tool for researching policies
@@ -42,6 +53,9 @@ You might be able to `pip install -e .` as an option too for installing.
 5. You should now be able to run `deep-reservoir`
 
 
+## Deploying to Hugging Spaces
 
+We need an `app.py`
 
+Also run `uv pip compile pyproject.toml -o requirements.txt` to generate a `requirements.txt`
 

@@ -76,7 +76,13 @@ def main():
         ],
         outputs=gr.Textbox(label="output.csv", lines=40),
     )
-    demo.launch()
+
+    password = os.getenv("GRADIO_PASSWORD")
+
+    if not password:
+        raise Exception("You forgot to set a gradio password")
+
+    demo.launch(share=True, auth=("agf", password))
 
 
 if __name__ == "__main__":
