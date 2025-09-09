@@ -44,7 +44,7 @@ POLICIES_PLACEHOLDER = "policy\nBagels can be eaten for dinner\nChicken salt is 
 
 
 def main():
-    load_dotenv()
+    # load_dotenv()
 
     demo = gr.Interface(
         fn=research,
@@ -77,7 +77,7 @@ def main():
         outputs=gr.Textbox(label="output.csv", lines=40),
     )
 
-    password = os.getenv("GRADIO_PASSWORD")
+    password = os.environ.get("GRADIO_PASSWORD")
 
     if not password:
         raise Exception("You forgot to set a gradio password")
