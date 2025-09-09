@@ -26,8 +26,7 @@ RUN chown -R user:user /app && \
 USER user
 
 # Sync the project
-RUN --mount=type=cache,target=/home/user/.cache/uv \
-    uv sync --locked
+RUN uv sync --locked
 
 # This is so jank but I can't think of an easier way
 RUN --mount=type=secret,id=PERPLEXITY_API_KEY,mode=0444,required=true \
