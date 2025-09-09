@@ -36,6 +36,7 @@ RUN --mount=type=secret,id=PERPLEXITY_API_KEY,mode=0444,required=true \
     echo "OPENAI_API_KEY=$(cat /run/secrets/OPENAI_API_KEY)" >> .env && \
     echo "GRADIO_PASSWORD=$(cat /run/secrets/GRADIO_PASSWORD)" >> .env
 
+ENV GRADIO_SERVER_NAME="0.0.0.0"
 EXPOSE 7860
 
 CMD ["uv", "run", "gradio-reservoir"]
