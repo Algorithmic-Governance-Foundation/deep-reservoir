@@ -1,28 +1,35 @@
-# Install uv
 FROM python:3.12-slim
+
+# Install uv
 COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
 
-# Change the working directory to the `app` directory
-WORKDIR /app
+# Create user with ID 1000 for HF Spaces compatibility
+RUN useradd -m -u 1000 user
+USER user
 
-# Install dependencies
-RUN --mount=type=cache,target=/root/.cache/uv \
-    --mount=type=bind,source=uv.lock,target=uv.lock \
-    --mount=type=bind,source=pyproject.toml,target=pyproject.toml \
+# Set environment variables
+ENV HOME=/home/user \
+    PATH=/home/user/.local/bin:$PATH
+
+# Set working directory
+WORKDIR $HOME/app
+
+# Copy dependency files with proper ownership
+COPY --chown=user pyproject.toml uv.lock ./
+
+# Install dependencies (excluding the project itself for better caching)
+RUN --mount=type=cache,target=/home/user/.cache/uv \
     uv sync --locked --no-install-project
 
-# Copy the project into the image
-ADD . /app
+# Copy the rest of the project
+COPY --chown=user . .
 
-# Sync the project
-RUN --mount=type=cache,target=/root/.cache/uv \
+# Install the project
+RUN --mount=type=cache,target=/home/user/.cache/uv \
     uv sync --locked
 
-# Set environment variables from Hugging Face secrets
-RUN --mount=type=secret,id=PERPLEXITY_API_KEY,mode=0444,required=true \
-    --mount=type=secret,id=OPENAI_API_KEY,mode=0444,required=true \
-    --mount=type=secret,id=GRADIO_PASSWORD,mode=0444,required=true \
-    export PERPLEXITY_API_KEY=$(cat /run/secrets/PERPLEXITY_API_KEY) && \
-    export OPENAI_API_KEY=$(cat /run/secrets/OPENAI_API_KEY) && \
-    export GRADIO_PASSWORD=$(cat /run/secrets/GRADIO_PASSWORD) && \
-    uv run gradio-reservoir
+# Expose the required port for HF Spaces
+EXPOSE 7860
+
+# Use CMD instead of RUN for application startup
+CMD ["uv", "run", "gradio-reservoir"]
