@@ -11,13 +11,15 @@ class Status(str, Enum):
 
 
 @define
-class Result:
+class Research:
     policy: str
     country: str
+    data: str
+
+
+@define
+class Summary:
     status: Status
     explanation: str
     sources: List[str]
     dump: str
-
-    def __repr__(self) -> str:
-        return f"Result(answer={self.status!r}, note={self.explanation!r})"

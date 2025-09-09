@@ -1,9 +1,9 @@
 from abc import ABC, abstractmethod
 
-from deep_reservoir.result import Result
+from deep_reservoir.result import Research
 
 
 class Researcher(ABC):
     @abstractmethod
-    def go(self, country: str, policy: str) -> Result:
+    def research(self, country: str, policy: str) -> Research:
         pass
