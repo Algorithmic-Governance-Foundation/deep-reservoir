@@ -3,10 +3,9 @@ title: Deep Reservoir
 emoji: 🏛️
 colorFrom: blue
 colorTo: purple
-sdk: gradio
-sdk_version: "5.0.0"
+sdk: docker
 app_file: app.py
-pinned: false
+app_port: 7860
 ---
 
 # Deep Reservoir
