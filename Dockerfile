@@ -1,12 +1,9 @@
 # read the doc: https://huggingface.co/docs/hub/spaces-sdks-docker
 # you will also find guides on how best to write your Dockerfile
 
-FROM ghcr.io/astral-sh/uv:python3.9-alpine
+FROM ghcr.io/astral-sh/uv:0.8.15
 
 WORKDIR /code
-
-# Set up a new user named "user" with user ID 1000
-RUN useradd -m -u 1000 user
 
 # Switch to the "user" user
 USER user

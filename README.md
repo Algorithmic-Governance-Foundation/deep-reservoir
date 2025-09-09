@@ -4,7 +4,6 @@ emoji: 🏛️
 colorFrom: blue
 colorTo: purple
 sdk: docker
-app_file: app.py
 app_port: 7860
 ---
 
