@@ -1,0 +1,83 @@
+sonar-pro
+Specifically mandates the use of a “red dot” symbol on prescription-only pharmaceutical products.
+{
+  "id": "3d9c8d3c-a250-4279-a756-2857798a76ca",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"NO\",\"explanation\":\"There is no evidence in Cambodian law or recent regulatory guidance that specifically mandates the use of a 'red dot' symbol on prescription-only pharmaceutical products; neither the primary drug law nor regulatory or practitioner guidance mention such a requirement.[1][3]\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750261,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 58,
+    "prompt_tokens": 21,
+    "total_tokens": 79,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://cdc.gov.kh/wp-content/uploads/2022/04/Law-on-Drug-Management_full-text_961209.pdf",
+    "https://chicagounbound.uchicago.edu/cgi/viewcontent.cgi?article=2753&context=law_and_economics",
+    "https://www.tilleke.com/insights/cambodia-prepares-to-curb-illegal-advertising-of-health-products/15/",
+    "http://www.tsmia.or.th/RTD2022/Self-CARER_e-book_final.pdf",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC9508725/"
+  ],
+  "search_results": [
+    {
+      "title": "[PDF] Law on Drugs Control, Eng",
+      "url": "https://cdc.gov.kh/wp-content/uploads/2022/04/Law-on-Drug-Management_full-text_961209.pdf",
+      "date": null,
+      "last_updated": "2024-02-27"
+    },
+    {
+      "title": "[PDF] Evaluating and Pricing Health Insurance in Lower- Income Countries",
+      "url": "https://chicagounbound.uchicago.edu/cgi/viewcontent.cgi?article=2753&context=law_and_economics",
+      "date": null,
+      "last_updated": null
+    },
+    {
+      "title": "Cambodia Prepares to Curb Illegal Advertising of Health Products",
+      "url": "https://www.tilleke.com/insights/cambodia-prepares-to-curb-illegal-advertising-of-health-products/15/",
+      "date": "2023-05-10",
+      "last_updated": "2024-10-24"
+    },
+    {
+      "title": "[PDF] Self-CARER",
+      "url": "http://www.tsmia.or.th/RTD2022/Self-CARER_e-book_final.pdf",
+      "date": "2015-09-17",
+      "last_updated": null
+    },
+    {
+      "title": "Traditional Khmer Medicine and its role in wildlife use in modern ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9508725/",
+      "date": "2022-09-24",
+      "last_updated": "2025-07-25"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+sonar-pro
+Specifically mandates the use of a “red dot” symbol on prescription-only pharmaceutical products.
+{
+  "id": "cdb8eca3-a379-481e-8865-d90b9025c028",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"UNKNOWN\",\"explanation\":\"There is no direct evidence in the available sources confirming whether Myanmar mandates the use of a 'red dot' symbol on prescription-only pharmaceutical products.\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750179,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 37,
+    "prompt_tokens": 21,
+    "total_tokens": 58,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://www.fda.gov.tw/tc/includes/GetFile.ashx?id=f636695447956123279&type=4",
+    "https://iris.who.int/bitstream/handle/10665/43080/9241592508.pdf?sequence=1",
+    "https://www.unodc.org/documents/southeastasiaandpacific/2010/12/ops-myanmar-ats/Myanmar_ATS_Report_2010_lowres.pdf",
+    "http://www.tsmia.or.th/RTD2022/Self-CARER_e-book_final.pdf",
+    "https://apps.who.int/iris/bitstream/handle/10665/326708/9789241513425-eng.pdf"
+  ],
+  "search_results": [
+    {
+      "title": "Drug Regulations in Myanmar",
+      "url": "https://www.fda.gov.tw/tc/includes/GetFile.ashx?id=f636695447956123279&type=4",
+      "date": null,
+      "last_updated": "2025-03-25"
+    },
+    {
+      "title": "[PDF] Sources and Prices of Selected Products for the Prevention ... - IRIS",
+      "url": "https://iris.who.int/bitstream/handle/10665/43080/9241592508.pdf?sequence=1",
+      "date": null,
+      "last_updated": "2025-04-16"
+    },
+    {
+      "title": "Myanmar Report-3-2.indd",
+      "url": "https://www.unodc.org/documents/southeastasiaandpacific/2010/12/ops-myanmar-ats/Myanmar_ATS_Report_2010_lowres.pdf",
+      "date": "2010-12-01",
+      "last_updated": "2025-05-12"
+    },
+    {
+      "title": "[PDF] Self-CARER",
+      "url": "http://www.tsmia.or.th/RTD2022/Self-CARER_e-book_final.pdf",
+      "date": "2015-09-17",
+      "last_updated": null
+    },
+    {
+      "title": "WHO Global Surveillance and Monitoring System",
+      "url": "https://apps.who.int/iris/bitstream/handle/10665/326708/9789241513425-eng.pdf",
+      "date": null,
+      "last_updated": "2025-08-20"
+    }
+  ]
+}

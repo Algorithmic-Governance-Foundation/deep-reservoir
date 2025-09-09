@@ -1,0 +1,83 @@
+sonar-pro
+Legally requires acceptance of another ASEAN Member State’s (AMS) Certificate of Good Manufacturing Practice (cGMP) for pharmaceutical manufacturers.
+{
+  "id": "130141e9-bf53-4acd-8dae-7d76accac9fb",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"YES\",\"explanation\":\"The Philippines is legally required to accept and recognize another ASEAN Member State’s cGMP certificate or inspection report issued by an ASEAN Listed Inspection Service (LIS), in accordance with the ASEAN Mutual Recognition Arrangement (MRA) on GMP for finished pharmaceutical products[2][4].\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750204,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 69,
+    "prompt_tokens": 32,
+    "total_tokens": 101,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://factocert.com/gmp-certification-in-philippines-good-manufacture/",
+    "https://globalforum.diaglobal.org/issue/march-2021/harmonization-of-gmp-inspection-and-benefits-to-asean-economic-community/",
+    "https://factocert.com/process-of-gmp-certification-in-philippines/",
+    "http://www.fdd.gov.la/userfiles/files/FAQ-GMP%20(1).pdf",
+    "http://media.drugdu.com/latestinformation/procedures-and-requirements-of-gmp-certification-of-pharmaceutical-drugs-in-the-philippines.html"
+  ],
+  "search_results": [
+    {
+      "title": "GMP Certification in Philippines Good manufacturing and ...",
+      "url": "https://factocert.com/gmp-certification-in-philippines-good-manufacture/",
+      "date": "2023-11-30",
+      "last_updated": "2025-02-26"
+    },
+    {
+      "title": "Harmonization of GMP Inspection and Benefits to ASEAN ...",
+      "url": "https://globalforum.diaglobal.org/issue/march-2021/harmonization-of-gmp-inspection-and-benefits-to-asean-economic-community/",
+      "date": null,
+      "last_updated": "2025-08-21"
+    },
+    {
+      "title": "Process of GMP Certification in Philippines",
+      "url": "https://factocert.com/process-of-gmp-certification-in-philippines/",
+      "date": null,
+      "last_updated": null
+    },
+    {
+      "title": "Frequently Asked Questions on the",
+      "url": "http://www.fdd.gov.la/userfiles/files/FAQ-GMP%20(1).pdf",
+      "date": null,
+      "last_updated": "2025-03-28"
+    },
+    {
+      "title": "Procedures and Requirements of GMP Certification of ... - media",
+      "url": "http://media.drugdu.com/latestinformation/procedures-and-requirements-of-gmp-certification-of-pharmaceutical-drugs-in-the-philippines.html",
+      "date": "2018-04-03",
+      "last_updated": "2025-05-05"
+    }
+  ]
+}

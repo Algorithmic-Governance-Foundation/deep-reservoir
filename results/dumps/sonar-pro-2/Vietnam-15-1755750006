@@ -1,0 +1,83 @@
+sonar-pro
+Allows the use of bracketing and matrixing study designs in pharmaceutical product stability testing.
+{
+  "id": "fad5b07f-c765-4331-9a24-e38229f6792f",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"NO\",\"explanation\":\"Vietnamese regulations do not explicitly allow bracketing and matrixing study designs for pharmaceutical stability testing; recent guidelines and registration circulars do not reference ICH Q1D or these reduced designs, and require testing according to pharmacopoeia standards and complete stability data in line with national requirements[1][5].\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750004,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 71,
+    "prompt_tokens": 21,
+    "total_tokens": 92,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://www.tilleke.com/insights/vietnam-updates-guidelines-on-drug-quality-standards-testing-and-noncompliance/",
+    "https://www.ema.europa.eu/en/ich-q1d-bracketing-matrixing-designs-stability-testing-drug-substances-drug-products-scientific-guideline",
+    "https://clinregs.niaid.nih.gov/sites/default/files/documents/vietnam/BioTestReq_GoogleTranslation.pdf",
+    "https://www.ema.europa.eu/en/documents/scientific-guideline/ich-q-1-d-bracketing-and-matrixing-designs-stability-testing-drug-substances-and-drug-products-step-5_en.pdf",
+    "https://clinregs.niaid.nih.gov/sites/default/files/documents/vietnam/DrugRgstrtn_GoogleTranslation.pdf"
+  ],
+  "search_results": [
+    {
+      "title": "Vietnam Updates Guidelines on Drug Quality Standards ...",
+      "url": "https://www.tilleke.com/insights/vietnam-updates-guidelines-on-drug-quality-standards-testing-and-noncompliance/",
+      "date": "2025-07-15",
+      "last_updated": "2025-07-20"
+    },
+    {
+      "title": "ICH Q1D Bracketing and matrixing designs for stability testing of ...",
+      "url": "https://www.ema.europa.eu/en/ich-q1d-bracketing-matrixing-designs-stability-testing-drug-substances-drug-products-scientific-guideline",
+      "date": null,
+      "last_updated": "2025-08-21"
+    },
+    {
+      "title": "07/2022/TT-BYT SOCIALIST REPUBLIC OF VIETNAM ...",
+      "url": "https://clinregs.niaid.nih.gov/sites/default/files/documents/vietnam/BioTestReq_GoogleTranslation.pdf",
+      "date": "2024-09-05",
+      "last_updated": "2025-08-21"
+    },
+    {
+      "title": "[PDF] ich-q-1-d-bracketing-and-matrixing-designs-stability-testing-drug ...",
+      "url": "https://www.ema.europa.eu/en/documents/scientific-guideline/ich-q-1-d-bracketing-and-matrixing-designs-stability-testing-drug-substances-and-drug-products-step-5_en.pdf",
+      "date": null,
+      "last_updated": "2025-04-16"
+    },
+    {
+      "title": "circulars",
+      "url": "https://clinregs.niaid.nih.gov/sites/default/files/documents/vietnam/DrugRgstrtn_GoogleTranslation.pdf",
+      "date": null,
+      "last_updated": "2025-08-21"
+    }
+  ]
+}

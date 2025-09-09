@@ -1,0 +1,83 @@
+sonar-pro
+Requires halal certification for pharmaceutical products.
+{
+  "id": "718b16f7-ae11-41cb-bce5-1682827acadf",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"NO\",\"explanation\":\"Myanmar does not require halal certification for pharmaceutical products; halal certification is mainly relevant for food products, and the country lacks a national mandatory framework for pharmaceuticals.\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750176,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 12,
+    "total_tokens": 55,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://halalfoundation.org/insights/halal-pharmaceuticals-and-supplements-certification/",
+    "https://www.efpia.eu/media/412591/efpia-positionpaper-on-halal_final_5-dec-2018.pdf",
+    "https://factocert.com/myanmar/halal-certification-in-myanmar/",
+    "https://www.aseanbriefing.com/news/asean-regulatory-brief-laos-investment-incentives-brunei-halal-certification-myanmar-livestock-exports/",
+    "https://seasia.co/2025/08/01/emerging-trends-in-myanmars-halal-food-market-opportunities-for-growth"
+  ],
+  "search_results": [
+    {
+      "title": "Halal Certification for Pharmaceuticals & Supplements - AHF",
+      "url": "https://halalfoundation.org/insights/halal-pharmaceuticals-and-supplements-certification/",
+      "date": null,
+      "last_updated": "2025-08-21"
+    },
+    {
+      "title": "[PDF] Halal requirements for Pharmaceuticals and Biologicals in ASEAN",
+      "url": "https://www.efpia.eu/media/412591/efpia-positionpaper-on-halal_final_5-dec-2018.pdf",
+      "date": null,
+      "last_updated": "2025-04-02"
+    },
+    {
+      "title": "HALAL Certification In Myanmar",
+      "url": "https://factocert.com/myanmar/halal-certification-in-myanmar/",
+      "date": null,
+      "last_updated": "2025-06-01"
+    },
+    {
+      "title": "Laos Investment Incentives, Brunei Halal Certification, and Myanmar ...",
+      "url": "https://www.aseanbriefing.com/news/asean-regulatory-brief-laos-investment-incentives-brunei-halal-certification-myanmar-livestock-exports/",
+      "date": "2017-07-27",
+      "last_updated": "2025-07-12"
+    },
+    {
+      "title": "Emerging Trends in Myanmar's Halal Food Market",
+      "url": "https://seasia.co/2025/08/01/emerging-trends-in-myanmars-halal-food-market-opportunities-for-growth",
+      "date": "2025-08-01",
+      "last_updated": "2025-08-09"
+    }
+  ]
+}

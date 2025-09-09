@@ -1,0 +1,83 @@
+sonar-pro
+Allows the use of bracketing and matrixing study designs in pharmaceutical product stability testing.
+{
+  "id": "f3d2ec7e-d22f-4789-ab20-1b4f5f14163c",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"UNKNOWN\",\"explanation\":\"There is no explicit evidence in the available sources that Cambodia officially allows or prohibits bracketing and matrixing study designs in pharmaceutical product stability testing; regulatory practices in many countries follow ICH guidelines, but Cambodia's specific stance is not stated in the retrieved information.\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750253,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 60,
+    "prompt_tokens": 21,
+    "total_tokens": 81,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://humiditycontrol.com/blog/what-is-stability-testing/",
+    "https://www.ema.europa.eu/en/ich-q1d-bracketing-matrixing-designs-stability-testing-drug-substances-drug-products-scientific-guideline",
+    "https://kymos.com/news/stability-testing-2024/",
+    "https://www.ema.europa.eu/en/documents/scientific-guideline/ich-q-1-d-bracketing-and-matrixing-designs-stability-testing-drug-substances-and-drug-products-step-5_en.pdf",
+    "https://www.labmanager.com/stability-testing-of-pharmaceuticals-procedures-and-best-practices-33944"
+  ],
+  "search_results": [
+    {
+      "title": "Stability Testing for Pharmaceuticals & More",
+      "url": "https://humiditycontrol.com/blog/what-is-stability-testing/",
+      "date": "2023-02-22",
+      "last_updated": "2025-06-16"
+    },
+    {
+      "title": "ICH Q1D Bracketing and matrixing designs for stability testing of ...",
+      "url": "https://www.ema.europa.eu/en/ich-q1d-bracketing-matrixing-designs-stability-testing-drug-substances-drug-products-scientific-guideline",
+      "date": null,
+      "last_updated": "2025-08-21"
+    },
+    {
+      "title": "Stability Testing: What's to come in 2024",
+      "url": "https://kymos.com/news/stability-testing-2024/",
+      "date": "2024-08-14",
+      "last_updated": "2025-06-16"
+    },
+    {
+      "title": "[PDF] ich-q-1-d-bracketing-and-matrixing-designs-stability-testing-drug ...",
+      "url": "https://www.ema.europa.eu/en/documents/scientific-guideline/ich-q-1-d-bracketing-and-matrixing-designs-stability-testing-drug-substances-and-drug-products-step-5_en.pdf",
+      "date": null,
+      "last_updated": "2025-04-16"
+    },
+    {
+      "title": "Stability Testing of Pharmaceuticals: Procedures and Best ...",
+      "url": "https://www.labmanager.com/stability-testing-of-pharmaceuticals-procedures-and-best-practices-33944",
+      "date": "2025-05-06",
+      "last_updated": "2025-06-15"
+    }
+  ]
+}

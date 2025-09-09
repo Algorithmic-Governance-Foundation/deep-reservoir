@@ -1,0 +1,83 @@
+sonar-pro
+Publishes national antimicrobial resistance (AMR) surveillance data related to pharmaceutical products.
+{
+  "id": "94013340-da4a-4aaa-be7d-76bcb941bc24",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"YES\",\"explanation\":\"Vietnam publishes national antimicrobial resistance (AMR) surveillance data through a formal surveillance system, mandated by national policy and supported by the Ministry of Health, which gathers and reports standardized AMR data from hospital laboratories across the country[2][3][4].\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750026,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 61,
+    "prompt_tokens": 21,
+    "total_tokens": 82,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://archive.cdc.gov/www_cdc_gov/drugresistance/solutions-initiative/stories/tracking-resistance-in-vietnam.html",
+    "https://ghsindex.org/wp-content/uploads/2021/12/Vietnam.pdf",
+    "https://pubmed.ncbi.nlm.nih.gov/33971969/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC10809436/",
+    "https://amr.cgiar.org/case-study/situation-analysis-antimicrobial-resistance-surveillance-and-control-vietnam"
+  ],
+  "search_results": [
+    {
+      "title": "Combating Antimicrobial Resistance in Vietnam | CDC",
+      "url": "https://archive.cdc.gov/www_cdc_gov/drugresistance/solutions-initiative/stories/tracking-resistance-in-vietnam.html",
+      "date": null,
+      "last_updated": "2025-08-08"
+    },
+    {
+      "title": "Vietnam",
+      "url": "https://ghsindex.org/wp-content/uploads/2021/12/Vietnam.pdf",
+      "date": null,
+      "last_updated": "2025-08-13"
+    },
+    {
+      "title": "Antimicrobial susceptibility testing results from 13 hospitals ...",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33971969/",
+      "date": "2021-05-10",
+      "last_updated": "2025-07-16"
+    },
+    {
+      "title": "Health system barriers to the implementation ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10809436/",
+      "date": "2024-01-25",
+      "last_updated": "2025-07-29"
+    },
+    {
+      "title": "Situation analysis on antimicrobial resistance surveillance ...",
+      "url": "https://amr.cgiar.org/case-study/situation-analysis-antimicrobial-resistance-surveillance-and-control-vietnam",
+      "date": null,
+      "last_updated": "2025-08-04"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+sonar-pro
+Targets an average marketing authorization (MA) approval timeline of six months or less for pharmaceutical products.
+{
+  "id": "662ba55a-2797-4e58-a838-6973cfc72e14",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"NO\",\"explanation\":\"Vietnam does not target an average MA approval timeline of six months or less; typical approval timelines for pharmaceutical products are reported as 14–22 months for generics and similarly extended for other categories, with no evidence of a six-month target.[1][3]\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750019,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 61,
+    "prompt_tokens": 23,
+    "total_tokens": 84,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://credevo.com/articles/2021/01/15/vietnam-generic-drug-registration-process/",
+    "https://pharmaboardroom.com/legal-reports/the-pharma-legal-handbook-vietnam/",
+    "https://www.rginsight.com/registration-of-drug-product-in-vietnam-2025",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC9734413/",
+    "https://patentpanorama.com/blogs/vietnams-new-regulations-on-drug-regulation"
+  ],
+  "search_results": [
+    {
+      "title": "Vietnam Generic Drug Registration Process",
+      "url": "https://credevo.com/articles/2021/01/15/vietnam-generic-drug-registration-process/",
+      "date": "2021-01-15",
+      "last_updated": "2025-07-22"
+    },
+    {
+      "title": "The Pharma Legal Handbook: Vietnam",
+      "url": "https://pharmaboardroom.com/legal-reports/the-pharma-legal-handbook-vietnam/",
+      "date": "2024-11-18",
+      "last_updated": "2025-02-07"
+    },
+    {
+      "title": "Registration Of Drug Product In Vietnam 2025",
+      "url": "https://www.rginsight.com/registration-of-drug-product-in-vietnam-2025",
+      "date": "2025-05-26",
+      "last_updated": "2025-08-20"
+    },
+    {
+      "title": "Regulatory Pathways Supporting Expedited Drug Development and ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9734413/",
+      "date": "2022-12-03",
+      "last_updated": "2025-05-26"
+    },
+    {
+      "title": "Vietnam's New Regulations on Drug Regulation",
+      "url": "https://patentpanorama.com/blogs/vietnams-new-regulations-on-drug-regulation",
+      "date": "2025-06-05",
+      "last_updated": "2025-07-29"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+sonar-pro
+Accepts the International Council for Harmonisation (ICH) Common Technical Document (CTD) format for innovator pharmaceutical product registrations.
+{
+  "id": "a95f671f-ac14-4540-bd74-44cb2bde778e",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"PARTIAL\",\"explanation\":\"Vietnam requires pharmaceutical product registration dossiers to follow the ACTD (Asian Common Technical Dossier) format, but if ACTD arrangement is not feasible, it allows submission in ICH CTD format for innovator drugs and certain biologics[3][1][2].\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755749984,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 67,
+    "prompt_tokens": 30,
+    "total_tokens": 97,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://dohapharma.com/pharmaceuticals/",
+    "https://international-pharma.com/wp-content/uploads/2017/04/Comparison-of.pdf",
+    "https://ijsrm.humanjournals.com/wp-content/uploads/2022/03/6.RamaKishore-E-G-Ravi-Shankar-N-Chagi-Venkatesh-S-B-Puranik.pdf",
+    "https://globallawexperts.com/drug-registration-process-in-vietnam-part-i-guide-for-foreign-companies-2025/",
+    "https://www.tilleke.com/insights/vietnam-issues-new-regulations-on-drug-registration/7/"
+  ],
+  "search_results": [
+    {
+      "title": "Pharmaceuticals",
+      "url": "https://dohapharma.com/pharmaceuticals/",
+      "date": "2020-05-06",
+      "last_updated": "2025-03-28"
+    },
+    {
+      "title": "[PDF] Comparison of Marketing Authorisation and its Requirements for ...",
+      "url": "https://international-pharma.com/wp-content/uploads/2017/04/Comparison-of.pdf",
+      "date": null,
+      "last_updated": "2025-05-08"
+    },
+    {
+      "title": "Drug Registration and Marketing Approval Process in Vietnam",
+      "url": "https://ijsrm.humanjournals.com/wp-content/uploads/2022/03/6.RamaKishore-E-G-Ravi-Shankar-N-Chagi-Venkatesh-S-B-Puranik.pdf",
+      "date": "2022-02-28",
+      "last_updated": "2025-08-14"
+    },
+    {
+      "title": "Drug Registration Process In Vietnam (Part I) : Guide For Foreign ...",
+      "url": "https://globallawexperts.com/drug-registration-process-in-vietnam-part-i-guide-for-foreign-companies-2025/",
+      "date": "2025-08-01",
+      "last_updated": "2025-08-21"
+    },
+    {
+      "title": "Vietnam Issues New Regulations on Drug Registration - ...",
+      "url": "https://www.tilleke.com/insights/vietnam-issues-new-regulations-on-drug-registration/7/",
+      "date": "2025-05-27",
+      "last_updated": "2025-06-04"
+    }
+  ]
+}

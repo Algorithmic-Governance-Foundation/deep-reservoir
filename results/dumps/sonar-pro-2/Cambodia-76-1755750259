@@ -1,0 +1,83 @@
+sonar-pro
+Requires halal certification for pharmaceutical products.
+{
+  "id": "4cb2df97-f5f8-4572-910f-3c0f69b91537",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"NO\",\"explanation\":\"Cambodia does not require halal certification for pharmaceutical products; while it has a commission for halal certification focused on food and related products, there is no regulatory requirement mandating halal certification for pharmaceuticals.[1][3]\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750257,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 55,
+    "prompt_tokens": 12,
+    "total_tokens": 67,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://www.ccfdg.gov.kh/en/commission-committee/new-title-3/",
+    "https://ucsiso.com/halal-certification-importance-process-benefits-with-ucs/",
+    "https://www.efpia.eu/media/412591/efpia-positionpaper-on-halal_final_5-dec-2018.pdf",
+    "https://www.halaltimes.com/turkey-agrees-to-help-develop-cambodias-halal-industry/",
+    "https://ic-halal.com/industries/pharma/"
+  ],
+  "search_results": [
+    {
+      "title": "Commission for Examination of Halal Products in Cambodia",
+      "url": "https://www.ccfdg.gov.kh/en/commission-committee/new-title-3/",
+      "date": null,
+      "last_updated": "2025-07-27"
+    },
+    {
+      "title": "Halal Certificate – Trusted Approval For Your Business (",
+      "url": "https://ucsiso.com/halal-certification-importance-process-benefits-with-ucs/",
+      "date": "2025-05-06",
+      "last_updated": "2025-07-05"
+    },
+    {
+      "title": "Halal requirements for Pharmaceuticals and Biologicals in ...",
+      "url": "https://www.efpia.eu/media/412591/efpia-positionpaper-on-halal_final_5-dec-2018.pdf",
+      "date": "2018-12-05",
+      "last_updated": "2025-04-02"
+    },
+    {
+      "title": "Turkey Agrees to Help Develop Cambodia`s Halal Industry",
+      "url": "https://www.halaltimes.com/turkey-agrees-to-help-develop-cambodias-halal-industry/",
+      "date": "2024-10-19",
+      "last_updated": "2024-12-30"
+    },
+    {
+      "title": "Pharma",
+      "url": "https://ic-halal.com/industries/pharma/",
+      "date": "2024-11-11",
+      "last_updated": "2024-12-15"
+    }
+  ]
+}

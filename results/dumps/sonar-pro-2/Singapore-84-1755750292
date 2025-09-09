@@ -1,0 +1,83 @@
+sonar-pro
+Permits stability data submission for pharmaceutical products at 25°C/60% relative humidity (RH) when supported by accelerated stability studies.
+{
+  "id": "48a186cb-7c3d-491d-8b0c-1a0885428e2c",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"PARTIAL\",\"explanation\":\"Singapore requires submission of long-term stability data, typically at 30°C/75% RH (ASEAN zone IVb), and generally does not accept 25°C/60% RH data unless fully justified; accelerated studies alone are not sufficient for approval[5][1].\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750290,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 65,
+    "prompt_tokens": 31,
+    "total_tokens": 96,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://asean.org/wp-content/uploads/i-Final-ASEAN-Guideline-on-Stability-Study-Drug-Product-R2_uniformed-template.pdf",
+    "https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-stability-testing-stability-testing-existing-active-substances-and-related-finished-products_en.pdf",
+    "http://academy.gmp-compliance.org/guidemgr/files/WHO_TRS_953_Annex2.pdf",
+    "https://database.ich.org/sites/default/files/Q1A(R2)%20Guideline.pdf",
+    "https://www.hsa.gov.sg/docs/default-source/hprg-tpb/guidances/guidance-on-therapeutic-product-registration-in-singapore.pdf?sfvrsn=cd174383_52"
+  ],
+  "search_results": [
+    {
+      "title": "i-Final-ASEAN-Guideline-on-Stability-Study-Drug-Product- ...",
+      "url": "https://asean.org/wp-content/uploads/i-Final-ASEAN-Guideline-on-Stability-Study-Drug-Product-R2_uniformed-template.pdf",
+      "date": null,
+      "last_updated": "2025-08-10"
+    },
+    {
+      "title": "[PDF] Stability testing of existing active substances and related finished ...",
+      "url": "https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-stability-testing-stability-testing-existing-active-substances-and-related-finished-products_en.pdf",
+      "date": null,
+      "last_updated": "2025-08-10"
+    },
+    {
+      "title": "Annex 2 Stability testing of active pharmaceutical ...",
+      "url": "http://academy.gmp-compliance.org/guidemgr/files/WHO_TRS_953_Annex2.pdf",
+      "date": null,
+      "last_updated": "2025-08-10"
+    },
+    {
+      "title": "[PDF] Q1A(R2) Guideline - ICH",
+      "url": "https://database.ich.org/sites/default/files/Q1A(R2)%20Guideline.pdf",
+      "date": null,
+      "last_updated": "2025-08-10"
+    },
+    {
+      "title": "guidance-on-therapeutic-product-registration-in-singapore. ...",
+      "url": "https://www.hsa.gov.sg/docs/default-source/hprg-tpb/guidances/guidance-on-therapeutic-product-registration-in-singapore.pdf?sfvrsn=cd174383_52",
+      "date": null,
+      "last_updated": "2025-08-12"
+    }
+  ]
+}

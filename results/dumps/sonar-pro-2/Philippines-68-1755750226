@@ -1,0 +1,83 @@
+sonar-pro
+Targets an average marketing authorization (MA) approval timeline of six months or less for pharmaceutical products.
+{
+  "id": "c9154e5e-fdec-4cbd-bb96-d42c6cec48d1",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"UNKNOWN\",\"explanation\":\"There is no explicit evidence in current search results indicating that the Philippines targets an average marketing authorization approval timeline of six months or less for pharmaceutical products.\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750224,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 38,
+    "prompt_tokens": 23,
+    "total_tokens": 61,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://pharmexcil.com/uploads/countryreports/Philippines.pdf",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7516132/",
+    "https://cruzmarcelo.com/philippine-department-of-health-issues-guidelines-for-the-registration-of-pharmaceutical-products-and-active-pharmaceutical-ingredients-intended-for-human-use/",
+    "https://www.ijdra.com/index.php/journal/article/download/244/137",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC9734413/"
+  ],
+  "search_results": [
+    {
+      "title": "[PDF] REGULATORY & MARKET PROFILE OF PHILIPPINES - Pharmexcil",
+      "url": "https://pharmexcil.com/uploads/countryreports/Philippines.pdf",
+      "date": null,
+      "last_updated": "2025-03-27"
+    },
+    {
+      "title": "Alignment in post-approval changes (PAC) guidelines in emerging ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7516132/",
+      "date": "2020-08-25",
+      "last_updated": "2025-06-01"
+    },
+    {
+      "title": "Philippine Department of Health Issues Guidelines for the ...",
+      "url": "https://cruzmarcelo.com/philippine-department-of-health-issues-guidelines-for-the-registration-of-pharmaceutical-products-and-active-pharmaceutical-ingredients-intended-for-human-use/",
+      "date": "2025-02-04",
+      "last_updated": "2025-02-08"
+    },
+    {
+      "title": "[PDF] General requirements for marketing authorization transfers in ...",
+      "url": "https://www.ijdra.com/index.php/journal/article/download/244/137",
+      "date": "2018-06-15",
+      "last_updated": "2024-11-06"
+    },
+    {
+      "title": "Regulatory Pathways Supporting Expedited Drug Development and ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9734413/",
+      "date": "2022-12-03",
+      "last_updated": "2025-05-26"
+    }
+  ]
+}

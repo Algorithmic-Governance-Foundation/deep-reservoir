@@ -1,0 +1,83 @@
+sonar-pro
+Imposes hospital-only distribution restrictions for certain classes of antimicrobial (AM) pharmaceutical products.
+{
+  "id": "e5d2ef4a-076a-4556-91f1-b4ec2ee9cfe5",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"UNKNOWN\",\"explanation\":\"Current evidence confirms Indonesia has antimicrobial stewardship and hospital antibiotic control programs, but there is no clear documentation of explicit hospital-only distribution restrictions for specific antimicrobial classes in the publicly available sources examined.\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755749976,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 48,
+    "prompt_tokens": 22,
+    "total_tokens": 70,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC9985506/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC9195390/",
+    "https://japer.in/storage/files/article/4362fdc1-c981-4c8b-ae2e-b1b37b545dac-W5VwXUayM9b60sIZ/japer-vol-12-iss-4-19-26-8066.pdf",
+    "https://www.hsfkramer.com/notes/indonesia/2021-04/new-foreign-investment-rules-in-indonesias-healthcare-and-pharmaceutical-sectors",
+    "https://www.tropicalmedicine.ox.ac.uk/news/indonesia-faces-gaps-in-hospital-antibiotic-programmes-amid-fight-against-antimicrobial-resistance-study-by-universitas-indonesia-and-oucru-indonesia-finds"
+  ],
+  "search_results": [
+    {
+      "title": "The Effort to Rationalize Antibiotic Use in Indonesian ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9985506/",
+      "date": "2023-02-25",
+      "last_updated": "2025-07-13"
+    },
+    {
+      "title": "A qualitative study of barriers to antimicrobial stewardship in ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9195390/",
+      "date": "2022-06-14",
+      "last_updated": "2025-05-31"
+    },
+    {
+      "title": "The implementation of antimicrobial stewardship in Indonesia",
+      "url": "https://japer.in/storage/files/article/4362fdc1-c981-4c8b-ae2e-b1b37b545dac-W5VwXUayM9b60sIZ/japer-vol-12-iss-4-19-26-8066.pdf",
+      "date": null,
+      "last_updated": "2025-01-24"
+    },
+    {
+      "title": "New Foreign Investment Rules in Indonesia's Healthcare and ...",
+      "url": "https://www.hsfkramer.com/notes/indonesia/2021-04/new-foreign-investment-rules-in-indonesias-healthcare-and-pharmaceutical-sectors",
+      "date": "2021-04-21",
+      "last_updated": "2025-07-07"
+    },
+    {
+      "title": "Indonesia faces gaps in hospital antibiotic programmes amid ...",
+      "url": "https://www.tropicalmedicine.ox.ac.uk/news/indonesia-faces-gaps-in-hospital-antibiotic-programmes-amid-fight-against-antimicrobial-resistance-study-by-universitas-indonesia-and-oucru-indonesia-finds",
+      "date": "2024-11-19",
+      "last_updated": "2024-11-21"
+    }
+  ]
+}

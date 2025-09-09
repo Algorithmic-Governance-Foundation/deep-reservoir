@@ -1,0 +1,83 @@
+sonar-pro
+Imposes hospital-only distribution restrictions for certain classes of antimicrobial (AM) pharmaceutical products.
+{
+  "id": "9a732631-13e1-4688-94a1-b207968decb4",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"NO\",\"explanation\":\"Malaysia does not impose hospital-only distribution restrictions for antimicrobial pharmaceuticals at the national policy level; instead, it regulates hospital prescribing through antimicrobial stewardship programs, including restrictive authorization in hospitals, but there is no evidence of a legal or regulatory hospital-only distribution mandate for AM products themselves.[1][5]\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750344,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 71,
+    "prompt_tokens": 22,
+    "total_tokens": 93,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC5017119/",
+    "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2024.1381843/full",
+    "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2021.718774/full",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC9137524/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7345343/"
+  ],
+  "search_results": [
+    {
+      "title": "Antimicrobial stewardship program in a Malaysian district ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5017119/",
+      "date": "2007-01-01",
+      "last_updated": "2025-05-25"
+    },
+    {
+      "title": "point prevalence survey in Malaysian teaching hospitals",
+      "url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2024.1381843/full",
+      "date": "2024-04-24",
+      "last_updated": "2025-04-26"
+    },
+    {
+      "title": "OneHealth Approaches Contribute Towards Antimicrobial ...",
+      "url": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2021.718774/full",
+      "date": "2021-10-25",
+      "last_updated": "2025-04-23"
+    },
+    {
+      "title": "Antimicrobial Prescribing Confidence and Knowledge ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9137524/",
+      "date": "2022-04-19",
+      "last_updated": "2025-07-24"
+    },
+    {
+      "title": "Public Hospital Pharmacists' Perceptions and Knowledge ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7345343/",
+      "date": "2020-06-09",
+      "last_updated": "2025-07-12"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+sonar-pro
+Requires halal certification for pharmaceutical products.
+{
+  "id": "e45b5c23-1707-4bdf-b53b-17533ed3b0c0",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\": \"NO\", \"explanation\": \"Halal certification for pharmaceutical products in the Philippines is voluntary rather than mandatory, as national regulations do not require it for domestic consumption.[2][5]\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750217,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 42,
+    "prompt_tokens": 12,
+    "total_tokens": 54,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://emerhub.com/philippines/how-to-get-halal-certification-in-the-philippines-a-guide-for-businesses/",
+    "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Market+Brief+on+Halal+Products_Manila_Philippines_RP2023-0049.pdf",
+    "https://iso-certification.ph/the-ultimate-guide-to-halal-certification-in-the-philippines/",
+    "https://glenwood.ph/2023/02/webinar-philippine-halal-regulatory-requirements/",
+    "https://cosmetic.chemlinked.com/cosmepedia/asean-cosmetic-halal-certification-regulation"
+  ],
+  "search_results": [
+    {
+      "title": "How to Get Halal Certification in the Philippines: A Guide ...",
+      "url": "https://emerhub.com/philippines/how-to-get-halal-certification-in-the-philippines-a-guide-for-businesses/",
+      "date": "2025-03-26",
+      "last_updated": "2025-02-24"
+    },
+    {
+      "title": "[PDF] Report Name:Market Brief on Halal Products",
+      "url": "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Market+Brief+on+Halal+Products_Manila_Philippines_RP2023-0049.pdf",
+      "date": null,
+      "last_updated": "2025-08-18"
+    },
+    {
+      "title": "The Ultimate Guide to Halal Certification in the Philippines",
+      "url": "https://iso-certification.ph/the-ultimate-guide-to-halal-certification-in-the-philippines/",
+      "date": "2024-07-14",
+      "last_updated": "2025-02-05"
+    },
+    {
+      "title": "Webinar: Philippine Halal Regulatory Requirements",
+      "url": "https://glenwood.ph/2023/02/webinar-philippine-halal-regulatory-requirements/",
+      "date": "2023-02-15",
+      "last_updated": "2025-05-31"
+    },
+    {
+      "title": "ASEAN Cosmetic Halal Certification Regulation",
+      "url": "https://cosmetic.chemlinked.com/cosmepedia/asean-cosmetic-halal-certification-regulation",
+      "date": "2025-05-29",
+      "last_updated": "2025-06-01"
+    }
+  ]
+}

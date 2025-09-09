@@ -1,0 +1,83 @@
+sonar-pro
+Imposes hospital-only distribution restrictions for certain classes of antimicrobial (AM) pharmaceutical products.
+{
+  "id": "62beb2ad-6e4d-4de0-b739-a2722da3721b",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"NO\",\"explanation\":\"Brunei classifies all antimicrobials as prescription-only medicines but there is no evidence of specific hospital-only distribution restrictions for certain antimicrobial classes; the focus is on prescription control rather than hospital-only access.[3][5]\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750112,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 55,
+    "prompt_tokens": 23,
+    "total_tokens": 78,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://asean.org/wp-content/uploads/2023/02/Rapid-Assessment-of-the-Regulatory-Measures-in-Combating-Antimicrobial-Resistance-AMR-in-the-ASEAN-Region_-Feb-2023-OK-1.pdf",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC11795752/",
+    "https://ghsindex.org/wp-content/uploads/2021/12/Brunei.pdf",
+    "https://documents1.worldbank.org/curated/en/323311493396993758/pdf/final-report.pdf",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC10843100/"
+  ],
+  "search_results": [
+    {
+      "title": "Rapid-Assessment-of-the-Regulatory-Measures-in- ...",
+      "url": "https://asean.org/wp-content/uploads/2023/02/Rapid-Assessment-of-the-Regulatory-Measures-in-Combating-Antimicrobial-Resistance-AMR-in-the-ASEAN-Region_-Feb-2023-OK-1.pdf",
+      "date": null,
+      "last_updated": "2025-04-01"
+    },
+    {
+      "title": "Exploring medicine classification and accessibility: a qualitative study",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11795752/",
+      "date": "2025-02-04",
+      "last_updated": "2025-07-25"
+    },
+    {
+      "title": "Brunei",
+      "url": "https://ghsindex.org/wp-content/uploads/2021/12/Brunei.pdf",
+      "date": null,
+      "last_updated": "2025-08-12"
+    },
+    {
+      "title": "[PDF] Drug-Resistant Infections: A Threat to Our Economic Future",
+      "url": "https://documents1.worldbank.org/curated/en/323311493396993758/pdf/final-report.pdf",
+      "date": null,
+      "last_updated": "2025-08-10"
+    },
+    {
+      "title": "Global antimicrobial resistance and use surveillance ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10843100/",
+      "date": "2024-02-05",
+      "last_updated": "2025-07-08"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+sonar-pro
+Permits stability data submission for pharmaceutical products at 25°C/60% relative humidity (RH) when supported by accelerated stability studies.
+{
+  "id": "0f22d18d-7618-41fa-a9e9-f2db7fcd98ee",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"UNKNOWN\",\"explanation\":\"There is no explicit information in the search results confirming whether Myanmar permits submission of stability data at 25°C/60% RH supported only by accelerated studies; the results summarize general ICH guidelines but do not describe Myanmar's specific requirements.\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750170,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 56,
+    "prompt_tokens": 31,
+    "total_tokens": 87,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://humiditycontrol.com/blog/what-is-stability-testing/",
+    "https://pharm-community.com/wp-content/uploads/wpforo/default_attachments/1484853135-draft-who-stability-guideline-rev-3-sept-2008.pdf",
+    "https://siip.ac.in/wp-content/uploads/2021/04/stability-testing.pdf",
+    "https://www.npra.gov.my/easyarticles/images/users/1057/GUIDELINE-FOR-STABILITY-DATA.pdf",
+    "https://www.labmanager.com/stability-testing-of-pharmaceuticals-procedures-and-best-practices-33944"
+  ],
+  "search_results": [
+    {
+      "title": "Stability Testing for Pharmaceuticals & More",
+      "url": "https://humiditycontrol.com/blog/what-is-stability-testing/",
+      "date": "2023-02-22",
+      "last_updated": "2025-06-16"
+    },
+    {
+      "title": "[PDF] DRAFT STABILITY TESTING OF ACTIVE PHARMACEUTICAL ...",
+      "url": "https://pharm-community.com/wp-content/uploads/wpforo/default_attachments/1484853135-draft-who-stability-guideline-rev-3-sept-2008.pdf",
+      "date": "2008-09-16",
+      "last_updated": "2024-06-16"
+    },
+    {
+      "title": "GUIDELINES FOR THE STABILITY TESTING OF ...",
+      "url": "https://siip.ac.in/wp-content/uploads/2021/04/stability-testing.pdf",
+      "date": null,
+      "last_updated": "2025-08-10"
+    },
+    {
+      "title": "[PDF] Guideline For Stability Data - NPRA",
+      "url": "https://www.npra.gov.my/easyarticles/images/users/1057/GUIDELINE-FOR-STABILITY-DATA.pdf",
+      "date": null,
+      "last_updated": "2025-08-10"
+    },
+    {
+      "title": "Stability Testing of Pharmaceuticals: Procedures and Best ...",
+      "url": "https://www.labmanager.com/stability-testing-of-pharmaceuticals-procedures-and-best-practices-33944",
+      "date": "2025-05-06",
+      "last_updated": "2025-06-15"
+    }
+  ]
+}

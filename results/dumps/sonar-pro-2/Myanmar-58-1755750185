@@ -1,0 +1,83 @@
+sonar-pro
+Targets an average marketing authorization (MA) approval timeline of six months or less for pharmaceutical products.
+{
+  "id": "8f170ac4-09a4-4525-a305-c19ad9e91735",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"status\": \"NO\",\n  \"explanation\": \"Myanmar does not target an average marketing authorization (MA) approval timeline of six months or less for pharmaceutical products; the current timeline is approximately 18-24 months, with possible reductions to 12-15 months according to recent reforms, but still over six months.[1]\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750183,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 71,
+    "prompt_tokens": 23,
+    "total_tokens": 94,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://www.questjournals.org/jrbm/papers/vol10-issue4/Ser-3/D10042733.pdf",
+    "https://www.sfamgroup.com/en/ma-pharmaceutical-medicines/",
+    "https://www.fda.gov.tw/tc/includes/GetFile.ashx?id=f636695447956123279&type=4",
+    "https://www.raps.org/news-and-articles/news-articles/2018/1/the-drug-regulatory-landscape-in-the-asean-region",
+    "https://pharmexcil.com/uploads/countryreports/Myanmar.pdf"
+  ],
+  "search_results": [
+    {
+      "title": "[PDF] A Study of Pharmaceutical Product Registration Process in Myanmar",
+      "url": "https://www.questjournals.org/jrbm/papers/vol10-issue4/Ser-3/D10042733.pdf",
+      "date": "2022-04-28",
+      "last_updated": "2025-08-10"
+    },
+    {
+      "title": "Market Authorization for Medicines (MA): A Complete guide - SFAM",
+      "url": "https://www.sfamgroup.com/en/ma-pharmaceutical-medicines/",
+      "date": "2024-08-01",
+      "last_updated": "2025-07-14"
+    },
+    {
+      "title": "[PDF] Drug Regulations in Myanmar",
+      "url": "https://www.fda.gov.tw/tc/includes/GetFile.ashx?id=f636695447956123279&type=4",
+      "date": null,
+      "last_updated": "2025-03-25"
+    },
+    {
+      "title": "The Drug Regulatory Landscape in the ASEAN Region | RAPS",
+      "url": "https://www.raps.org/news-and-articles/news-articles/2018/1/the-drug-regulatory-landscape-in-the-asean-region",
+      "date": "2018-01-30",
+      "last_updated": null
+    },
+    {
+      "title": "[PDF] Regulatory & MARKET profile of MYANMAR",
+      "url": "https://pharmexcil.com/uploads/countryreports/Myanmar.pdf",
+      "date": null,
+      "last_updated": "2025-04-07"
+    }
+  ]
+}

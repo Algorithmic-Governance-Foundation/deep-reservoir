@@ -1,0 +1,83 @@
+sonar-pro
+Targets an average marketing authorization (MA) approval timeline of six months or less for pharmaceutical products.
+{
+  "id": "d83d66fa-ba61-412c-9a90-ad9aa625d449",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"PARTIAL\",\"explanation\":\"Indonesia targets a six-month (approximately 130 working days) approval timeline only for priority drugs (orphan, pandemic, public health), while regular drugs take up to 150–300 working days, so the sub-six-month goal is not universal for all pharmaceutical products.[5][1][3]\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755749971,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 71,
+    "prompt_tokens": 23,
+    "total_tokens": 94,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://www.pacificbridgemedical.com/publication/indonesias-national-agency-of-drug-and-food-control-bpom/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC9734413/",
+    "https://credevo.com/articles/2021/05/25/drug-registration-process-in-indonesia/",
+    "https://www.raps.org/news-and-articles/news-articles/2018/1/the-drug-regulatory-landscape-in-the-asean-region",
+    "https://www.artixio.com/post/nadfc-bpom-regulation-of-pharmaceuticals-in-indonesia"
+  ],
+  "search_results": [
+    {
+      "title": "Indonesia's National Agency of Drug and Food Control (BPOM)",
+      "url": "https://www.pacificbridgemedical.com/publication/indonesias-national-agency-of-drug-and-food-control-bpom/",
+      "date": "2023-11-16",
+      "last_updated": "2025-07-31"
+    },
+    {
+      "title": "Regulatory Pathways Supporting Expedited Drug Development and ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9734413/",
+      "date": "2022-12-03",
+      "last_updated": "2025-05-26"
+    },
+    {
+      "title": "Drug Registration Process In Indonesia | Credevo Articles",
+      "url": "https://credevo.com/articles/2021/05/25/drug-registration-process-in-indonesia/",
+      "date": "2021-05-25",
+      "last_updated": "2025-06-16"
+    },
+    {
+      "title": "The Drug Regulatory Landscape in the ASEAN Region | RAPS",
+      "url": "https://www.raps.org/news-and-articles/news-articles/2018/1/the-drug-regulatory-landscape-in-the-asean-region",
+      "date": "2018-01-30",
+      "last_updated": null
+    },
+    {
+      "title": "NADFC (BPOM) Regulation Of Pharmaceuticals In Indonesia - Artixio",
+      "url": "https://www.artixio.com/post/nadfc-bpom-regulation-of-pharmaceuticals-in-indonesia",
+      "date": "2025-06-19",
+      "last_updated": "2025-06-25"
+    }
+  ]
+}

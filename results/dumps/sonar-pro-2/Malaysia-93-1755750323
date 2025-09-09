@@ -1,0 +1,83 @@
+sonar-pro
+Legally requires acceptance of another ASEAN Member State’s (AMS) Certificate of Good Manufacturing Practice (cGMP) for pharmaceutical manufacturers.
+{
+  "id": "850fe0a7-7b3d-44f9-bd31-2f5e5a1fcc6a",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"status\": \"YES\",\n  \"explanation\": \"Malaysia is legally required to accept and recognize cGMP certificates and inspection reports issued by another ASEAN Member State’s Listed Inspection Services under the ASEAN Mutual Recognition Arrangement (MRA) for GMP Inspection, as implemented in Malaysian regulations and practice[1][4][5].\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750321,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 74,
+    "prompt_tokens": 32,
+    "total_tokens": 106,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://globalforum.diaglobal.org/issue/march-2021/harmonization-of-gmp-inspection-and-benefits-to-asean-economic-community/",
+    "https://npra.gov.my/easyarticles/images/users/1050/FAQs-Foreign-Inspection-Jan-2020.pdf",
+    "https://npra.gov.my/easyarticles/images/users/1133/2023%20Mar/Guidance-Document---Foreign-GMP-Inspection_9th-Edition.pdf",
+    "https://gabi-journal.net/a-review-of-international-initiatives-on-pharmaceutical-regulatory-reliance-and-recognition.html",
+    "https://www.npra.gov.my/index.php/en/regulation-basic.html"
+  ],
+  "search_results": [
+    {
+      "title": "Harmonization of GMP Inspection and Benefits to ASEAN ...",
+      "url": "https://globalforum.diaglobal.org/issue/march-2021/harmonization-of-gmp-inspection-and-benefits-to-asean-economic-community/",
+      "date": null,
+      "last_updated": "2025-08-21"
+    },
+    {
+      "title": "[PDF] frequently asked questions (faqs) about foreign gmp inspection",
+      "url": "https://npra.gov.my/easyarticles/images/users/1050/FAQs-Foreign-Inspection-Jan-2020.pdf",
+      "date": null,
+      "last_updated": "2025-07-25"
+    },
+    {
+      "title": "Guidance-Document---Foreign-GMP- ...",
+      "url": "https://npra.gov.my/easyarticles/images/users/1133/2023%20Mar/Guidance-Document---Foreign-GMP-Inspection_9th-Edition.pdf",
+      "date": null,
+      "last_updated": "2025-04-13"
+    },
+    {
+      "title": "A review of international initiatives on pharmaceutical regulatory ...",
+      "url": "https://gabi-journal.net/a-review-of-international-initiatives-on-pharmaceutical-regulatory-reliance-and-recognition.html",
+      "date": "2024-11-18",
+      "last_updated": "2025-08-20"
+    },
+    {
+      "title": "Regulation Basic",
+      "url": "https://www.npra.gov.my/index.php/en/regulation-basic.html",
+      "date": "2025-03-28",
+      "last_updated": "2025-03-28"
+    }
+  ]
+}

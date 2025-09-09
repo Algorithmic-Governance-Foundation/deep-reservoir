@@ -1,0 +1,83 @@
+sonar-pro
+Targets an average marketing authorization (MA) approval timeline of six months or less for pharmaceutical products.
+{
+  "id": "ccbae5b7-9651-4aa7-9a31-ad6efa1b5a5e",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"NO\",\"explanation\":\"Malaysia does not target an average marketing authorization approval timeline of six months or less; recent studies and regulatory briefings report average approval timelines for pharmaceutical products as approximately 400–515 calendar days (about 13–17 months), depending on product type and review pathway[2][5].\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750339,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 67,
+    "prompt_tokens": 23,
+    "total_tokens": 90,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://www.freyrsolutions.com/what-is-the-pharmaceutical-products-approval-process-in-malaysia",
+    "https://cirsci.org/wp-content/uploads/2020/05/Mohd-Sani-et-al-2020-Evaluation-of-Malaysia-regulatory-process-combined-with-correction.pdf",
+    "https://gabionline.net/policies-legislation/npra-malaysia-trials-new-timelines-for-variation-applications",
+    "https://japsonline.com/admin/php/uploads/4454_pdf.pdf",
+    "https://cirsci.org/wp-content/uploads/2020/02/CIRS-RD-Briefing-72-Trends-in-the-regulatory-landscape-Asia.pdf"
+  ],
+  "search_results": [
+    {
+      "title": "What is the Pharmaceutical Products Approval Process in ...",
+      "url": "https://www.freyrsolutions.com/what-is-the-pharmaceutical-products-approval-process-in-malaysia",
+      "date": null,
+      "last_updated": "2025-04-08"
+    },
+    {
+      "title": "[PDF] An Evaluation of Malaysian Regulatory Process for New Active ...",
+      "url": "https://cirsci.org/wp-content/uploads/2020/05/Mohd-Sani-et-al-2020-Evaluation-of-Malaysia-regulatory-process-combined-with-correction.pdf",
+      "date": null,
+      "last_updated": "2025-04-28"
+    },
+    {
+      "title": "NPRA Malaysia trials new timelines for variation applications",
+      "url": "https://gabionline.net/policies-legislation/npra-malaysia-trials-new-timelines-for-variation-applications",
+      "date": "2024-11-05",
+      "last_updated": "2025-07-25"
+    },
+    {
+      "title": "[PDF] Biosimilar drug lag and evolution in Malaysia",
+      "url": "https://japsonline.com/admin/php/uploads/4454_pdf.pdf",
+      "date": null,
+      "last_updated": "2025-05-01"
+    },
+    {
+      "title": "RDB72 Asia trends",
+      "url": "https://cirsci.org/wp-content/uploads/2020/02/CIRS-RD-Briefing-72-Trends-in-the-regulatory-landscape-Asia.pdf",
+      "date": null,
+      "last_updated": "2025-08-10"
+    }
+  ]
+}

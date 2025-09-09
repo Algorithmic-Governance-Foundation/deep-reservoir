@@ -1,0 +1,83 @@
+sonar-pro
+Provides a fully digital online submission portal for pharmaceutical product marketing authorization applications.
+{
+  "id": "a604f8ea-a07a-4efe-96da-82944c9c66b6",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"PARTIAL\",\"explanation\":\"Cambodia has developed and begun implementing an online registration system for pharmaceutical product marketing authorization applications, but the available sources indicate the system was under development and planning for expansion as of 2019, without explicit confirmation of full, nationwide operational status as of 2025.[1][3][5]\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750239,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 69,
+    "prompt_tokens": 18,
+    "total_tokens": 87,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://www.ungm.org/Public/Notice/91693",
+    "https://www.epo.org/law-practice/legal-texts/official-journal/2018/02/a16.html",
+    "https://www.ungm.org/Public/Notice/68203",
+    "https://ustr.gov/sites/default/files/files/Press/Reports/2025NTE.pdf",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC6016570/"
+  ],
+  "search_results": [
+    {
+      "title": "APW for on online registration system of pharmaceutical products",
+      "url": "https://www.ungm.org/Public/Notice/91693",
+      "date": "2019-06-04",
+      "last_updated": "2025-08-21"
+    },
+    {
+      "title": "OJ EPO 2018, A16 – Validation of European patents in ...",
+      "url": "https://www.epo.org/law-practice/legal-texts/official-journal/2018/02/a16.html",
+      "date": "2018-02-28",
+      "last_updated": "2025-08-06"
+    },
+    {
+      "title": "Establishment of Web-enabled (Online) Open Source Electronic ...",
+      "url": "https://www.ungm.org/Public/Notice/68203",
+      "date": "2018-02-14",
+      "last_updated": "2025-05-19"
+    },
+    {
+      "title": "FOREIGN TRADE BARRIERS",
+      "url": "https://ustr.gov/sites/default/files/files/Press/Reports/2025NTE.pdf",
+      "date": "2025-03-01",
+      "last_updated": "2025-08-21"
+    },
+    {
+      "title": "Digital health technologies to support access to medicines and ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6016570/",
+      "date": "2018-05-03",
+      "last_updated": "2025-07-09"
+    }
+  ]
+}

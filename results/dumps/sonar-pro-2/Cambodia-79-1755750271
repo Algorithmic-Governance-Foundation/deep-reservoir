@@ -1,0 +1,83 @@
+sonar-pro
+Imposes hospital-only distribution restrictions for certain classes of antimicrobial (AM) pharmaceutical products.
+{
+  "id": "bb710554-11c1-4a1c-b4c1-01e06f2a5514",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"NO\",\"explanation\":\"Cambodia does not impose hospital-only distribution restrictions for specific classes of antimicrobial pharmaceuticals; antibiotics remain widely available without prescription at both formal and informal outlets, and no evidence of legally enforced hospital-only restrictions was found in official policies or stewardship interventions.[2][5][4]\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750269,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 65,
+    "prompt_tokens": 22,
+    "total_tokens": 87,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://icars-global.org/projects/ams-cambodia/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC6768357/",
+    "https://www.ungm.org/Public/Notice/62030",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC9121421/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC8210153/"
+  ],
+  "search_results": [
+    {
+      "title": "Reducing inappropriate antimicrobial use for inpatients with ...",
+      "url": "https://icars-global.org/projects/ams-cambodia/",
+      "date": "2024-12-09",
+      "last_updated": "2025-07-23"
+    },
+    {
+      "title": "Invisible medicine sellers and their use of antibiotics - PubMed Central",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6768357/",
+      "date": "2019-09-20",
+      "last_updated": "2025-07-11"
+    },
+    {
+      "title": "ASSESSMENT OF ANTIMICROBIAL STEWARDSHIP IN CAMBODIA ...",
+      "url": "https://www.ungm.org/Public/Notice/62030",
+      "date": "2017-09-18",
+      "last_updated": "2025-03-28"
+    },
+    {
+      "title": "How conflicts of interest hinder effective regulation of healthcare",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9121421/",
+      "date": "2022-05-19",
+      "last_updated": "2025-07-18"
+    },
+    {
+      "title": "Public knowledge, attitudes and practices surrounding antibiotic use ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8210153/",
+      "date": "2021-02-03",
+      "last_updated": "2025-05-27"
+    }
+  ]
+}

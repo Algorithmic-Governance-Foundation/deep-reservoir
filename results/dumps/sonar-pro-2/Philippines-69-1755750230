@@ -1,0 +1,83 @@
+sonar-pro
+Imposes hospital-only distribution restrictions for certain classes of antimicrobial (AM) pharmaceutical products.
+{
+  "id": "3ce48bdd-5502-4704-a3a4-3d99d820535c",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"PARTIAL\",\"explanation\":\"The Philippines has policies restricting the use and prescribing of certain antimicrobials within health facilities through Antimicrobial Stewardship Programs (AMS), but there is no clear evidence of a nationwide legal restriction limiting the distribution of specific AM products exclusively to hospitals; enforcement primarily relies on hospital-level policies, not a hospital-only distribution mandate.[2][4]\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750228,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 80,
+    "prompt_tokens": 22,
+    "total_tokens": 102,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC11879887/",
+    "https://pubmed.ncbi.nlm.nih.gov/39399371/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12188270/",
+    "https://asean.org/wp-content/uploads/2023/02/Rapid-Assessment-of-the-Regulatory-Measures-in-Combating-Antimicrobial-Resistance-AMR-in-the-ASEAN-Region_-Feb-2023-OK-1.pdf",
+    "https://documents1.worldbank.org/curated/en/323311493396993758/pdf/final-report.pdf"
+  ],
+  "search_results": [
+    {
+      "title": "Antibiotic Resistance in the Philippines: A Public Health ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11879887/",
+      "date": "2025-03-04",
+      "last_updated": "2025-05-25"
+    },
+    {
+      "title": "Antimicrobial Consumption and Resistance of Restricted ...",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39399371/",
+      "date": "2024-09-13",
+      "last_updated": "2025-03-01"
+    },
+    {
+      "title": "Trends in inpatient antibiotic use in Indonesia and the ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12188270/",
+      "date": "2025-06-25",
+      "last_updated": "2025-06-28"
+    },
+    {
+      "title": "Rapid-Assessment-of-the-Regulatory-Measures-in- ...",
+      "url": "https://asean.org/wp-content/uploads/2023/02/Rapid-Assessment-of-the-Regulatory-Measures-in-Combating-Antimicrobial-Resistance-AMR-in-the-ASEAN-Region_-Feb-2023-OK-1.pdf",
+      "date": null,
+      "last_updated": "2025-04-01"
+    },
+    {
+      "title": "Drug-Resistant Infections: A Threat to Our Economic Future",
+      "url": "https://documents1.worldbank.org/curated/en/323311493396993758/pdf/final-report.pdf",
+      "date": null,
+      "last_updated": "2025-08-10"
+    }
+  ]
+}

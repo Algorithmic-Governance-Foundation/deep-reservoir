@@ -1,0 +1,83 @@
+sonar-pro
+Legally requires acceptance of another ASEAN Member State’s (AMS) Certificate of Good Manufacturing Practice (cGMP) for pharmaceutical manufacturers.
+{
+  "id": "798c9c2e-91ab-4742-9ad0-69523073156b",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"YES\",\"explanation\":\"Myanmar is required to legally accept another ASEAN Member State's cGMP certificate for pharmaceutical manufacturers under the ASEAN Sectoral Mutual Recognition Arrangement (MRA) for GMP inspection, provided the certificate is issued by a Listed Inspection Service of an AMS[4].\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750167,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 64,
+    "prompt_tokens": 32,
+    "total_tokens": 96,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://asean.org/wp-content/uploads/2022/12/ASEAN-Pharmaceutical-Regulatory-Policy-Sample-Print-REV-20122022-.pdf",
+    "https://asean.org/wp-content/uploads/images/2013/economic/iai/ASEAN%20Cosmetics%20Directive%20CLMV%20Workshop%20Feb%202013.pdf",
+    "https://www.fda.gov.tw/tc/includes/GetFile.ashx?id=f636695447956123279&type=4",
+    "https://asean.org/wp-content/uploads/images/archive/documents/Agreement%20on%20MRA%20for%20GMP%20Pharmaceutical.pdf",
+    "https://www.pacificbridgemedical.com/regulation/asean-medical-device-pharmaceutical-regulations/"
+  ],
+  "search_results": [
+    {
+      "title": "[PDF] ASEAN Pharmaceutical Regulatory Policy",
+      "url": "https://asean.org/wp-content/uploads/2022/12/ASEAN-Pharmaceutical-Regulatory-Policy-Sample-Print-REV-20122022-.pdf",
+      "date": null,
+      "last_updated": "2025-08-10"
+    },
+    {
+      "title": "[PDF] Implementing the ASEAN Cosmetics Directive (ACD)",
+      "url": "https://asean.org/wp-content/uploads/images/2013/economic/iai/ASEAN%20Cosmetics%20Directive%20CLMV%20Workshop%20Feb%202013.pdf",
+      "date": null,
+      "last_updated": "2025-04-08"
+    },
+    {
+      "title": "[PDF] Drug Regulations in Myanmar",
+      "url": "https://www.fda.gov.tw/tc/includes/GetFile.ashx?id=f636695447956123279&type=4",
+      "date": null,
+      "last_updated": "2025-03-25"
+    },
+    {
+      "title": "[PDF] ASEAN Sectoral MRA for GMP Inspection of Manufacturers for ...",
+      "url": "https://asean.org/wp-content/uploads/images/archive/documents/Agreement%20on%20MRA%20for%20GMP%20Pharmaceutical.pdf",
+      "date": null,
+      "last_updated": "2025-07-06"
+    },
+    {
+      "title": "ASEAN Medical Device and Pharmaceutical Regulations",
+      "url": "https://www.pacificbridgemedical.com/regulation/asean-medical-device-pharmaceutical-regulations/",
+      "date": "2018-08-12",
+      "last_updated": "2025-04-21"
+    }
+  ]
+}

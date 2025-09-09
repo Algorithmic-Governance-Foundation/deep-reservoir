@@ -1,0 +1,83 @@
+sonar-pro
+Permits stability data submission for pharmaceutical products at 25°C/60% relative humidity (RH) when supported by accelerated stability studies.
+{
+  "id": "f7ef72a0-c1f9-4015-aafc-e6ec2484e14c",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\": \"NO\", \"explanation\": \"Cambodia generally follows WHO guidelines, which require long-term stability data at 30°C/75% RH for registration; stability data at 25°C/60% RH is not normally sufficient, even when supported by accelerated studies, unless specifically justified and approved by the national regulatory authority.\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750250,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 69,
+    "prompt_tokens": 31,
+    "total_tokens": 100,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://humiditycontrol.com/blog/what-is-stability-testing/",
+    "https://www.zamra.co.zm/wp-content/uploads/2023/05/Marketing-Authorisation-STABILITY-GUIDELINES.pdf",
+    "https://www.rsc.org/suppdata/c5/ra/c5ra07716h/c5ra07716h1.pdf",
+    "https://www.ema.europa.eu/en/documents/scientific-guideline/ich-q-1-r2-stability-testing-new-drug-substances-and-products-step-5_en.pdf",
+    "http://academy.gmp-compliance.org/guidemgr/files/WHO_TRS_953_Annex2.pdf"
+  ],
+  "search_results": [
+    {
+      "title": "Stability Testing for Pharmaceuticals & More",
+      "url": "https://humiditycontrol.com/blog/what-is-stability-testing/",
+      "date": "2023-02-22",
+      "last_updated": "2025-06-16"
+    },
+    {
+      "title": "[PDF] ANNEX 11 * Guidelines for stability testing of pharmaceutical ...",
+      "url": "https://www.zamra.co.zm/wp-content/uploads/2023/05/Marketing-Authorisation-STABILITY-GUIDELINES.pdf",
+      "date": null,
+      "last_updated": "2025-04-14"
+    },
+    {
+      "title": "Annex 2 Stability testing of active pharmaceutical ...",
+      "url": "https://www.rsc.org/suppdata/c5/ra/c5ra07716h/c5ra07716h1.pdf",
+      "date": null,
+      "last_updated": "2025-03-27"
+    },
+    {
+      "title": "[PDF] Q 1 A (R2) Stability Testing of new Drug Substances and Products",
+      "url": "https://www.ema.europa.eu/en/documents/scientific-guideline/ich-q-1-r2-stability-testing-new-drug-substances-and-products-step-5_en.pdf",
+      "date": null,
+      "last_updated": "2025-08-10"
+    },
+    {
+      "title": "Annex 2 Stability testing of active pharmaceutical ...",
+      "url": "http://academy.gmp-compliance.org/guidemgr/files/WHO_TRS_953_Annex2.pdf",
+      "date": null,
+      "last_updated": "2025-08-10"
+    }
+  ]
+}

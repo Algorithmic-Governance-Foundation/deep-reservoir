@@ -1,0 +1,83 @@
+sonar-pro
+Publishes national antimicrobial resistance (AMR) surveillance data related to pharmaceutical products.
+{
+  "id": "c08f18ef-3dc2-44fa-b6c3-f6c44648faff",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"YES\",\"explanation\":\"Thailand publishes national AMR surveillance data through systems like the National Antimicrobial Resistance Surveillance Thailand (NARST), with regular reports covering data related to pharmaceutical products and resistance trends across human health sectors.\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750153,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 50,
+    "prompt_tokens": 21,
+    "total_tokens": 71,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://figshare.com/articles/dataset/Antimicrobial-resistant_surveillance_reports_of_25_hospitals_in_Thailand_in_2022/22339933",
+    "https://rr-asia.woah.org/app/uploads/2020/03/thailand_thailands-national-strategic-plan-on-amr-2017-2021.pdf",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC8381094/",
+    "https://www.hitap.net/wp-content/uploads/2021/04/Booklet-AMR.pdf",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC10349292/"
+  ],
+  "search_results": [
+    {
+      "title": "Antimicrobial-resistant surveillance reports of 25 hospitals in ...",
+      "url": "https://figshare.com/articles/dataset/Antimicrobial-resistant_surveillance_reports_of_25_hospitals_in_Thailand_in_2022/22339933",
+      "date": "2023-06-07",
+      "last_updated": "2025-02-19"
+    },
+    {
+      "title": "thailand_thailands-national-strategic-plan-on-amr-2017- ...",
+      "url": "https://rr-asia.woah.org/app/uploads/2020/03/thailand_thailands-national-strategic-plan-on-amr-2017-2021.pdf",
+      "date": null,
+      "last_updated": "2025-04-18"
+    },
+    {
+      "title": "Thailand's national strategic plan on antimicrobial resistance",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8381094/",
+      "date": "2021-07-01",
+      "last_updated": "2025-07-12"
+    },
+    {
+      "title": "Background",
+      "url": "https://www.hitap.net/wp-content/uploads/2021/04/Booklet-AMR.pdf",
+      "date": null,
+      "last_updated": "2025-07-20"
+    },
+    {
+      "title": "Local and timely antimicrobial resistance data for local and national ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10349292/",
+      "date": "2023-07-15",
+      "last_updated": "2025-06-19"
+    }
+  ]
+}

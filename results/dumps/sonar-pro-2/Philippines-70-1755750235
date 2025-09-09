@@ -1,0 +1,83 @@
+sonar-pro
+Publishes national antimicrobial resistance (AMR) surveillance data related to pharmaceutical products.
+{
+  "id": "7444391e-4519-4e50-9d29-fcee71d0d692",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"YES\",\"explanation\":\"The Philippines consistently publishes national antimicrobial resistance surveillance data related to pharmaceutical products through its Antimicrobial Resistance Surveillance Program (ARSP), including annual reports and contributions to international programs.[2][4][5]\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750233,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 50,
+    "prompt_tokens": 21,
+    "total_tokens": 71,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7264328/",
+    "https://www.nature.com/articles/s41467-020-16322-5",
+    "https://www.sanger.ac.uk/news_item/genomic-surveillance-of-antibiotic-resistance-in-the-philippines-established/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC9220349/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC9831596/"
+  ],
+  "search_results": [
+    {
+      "title": "Integrating whole-genome sequencing within the National ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7264328/",
+      "date": "2020-06-01",
+      "last_updated": "2025-06-01"
+    },
+    {
+      "title": "Integrating whole-genome sequencing within the National ...",
+      "url": "https://www.nature.com/articles/s41467-020-16322-5",
+      "date": "2020-06-01",
+      "last_updated": "2025-03-20"
+    },
+    {
+      "title": "Genomic surveillance of antibiotic resistance in the ...",
+      "url": "https://www.sanger.ac.uk/news_item/genomic-surveillance-of-antibiotic-resistance-in-the-philippines-established/",
+      "date": "2020-06-08",
+      "last_updated": "2024-10-05"
+    },
+    {
+      "title": "A Qualitative Study on the Design and Implementation ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9220349/",
+      "date": "2022-06-17",
+      "last_updated": "2025-07-12"
+    },
+    {
+      "title": "Operational challenges of the Philippine Antimicrobial ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9831596/",
+      "date": "2022-08-25",
+      "last_updated": "2024-10-23"
+    }
+  ]
+}

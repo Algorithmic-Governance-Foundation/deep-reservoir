@@ -1,0 +1,83 @@
+sonar-pro
+Provides a fully digital online submission portal for pharmaceutical product marketing authorization applications.
+{
+  "id": "6be5db5f-66ea-40e9-9d51-ca28fccd6b4f",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"PARTIAL\",\"explanation\":\"Thailand provides the Skynet E-Submission System, an online portal for pharmaceutical product marketing authorization applications, but full online access is generally limited to Thai citizens and requires prior approval via the E-Consult system, with foreign applicants needing to appoint a local representative to use the system.[2][4]\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750124,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 70,
+    "prompt_tokens": 18,
+    "total_tokens": 88,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://ijsrm.humanjournals.com/wp-content/uploads/2022/03/5.RamaKishore-E-G-Ravi-Shankar-N-Chagi-Venkatesh-S-B-Puranik.pdf",
+    "https://clinregs.niaid.nih.gov/country/thailand",
+    "https://baipharm.chemlinked.com/news/thai-fda-expedites-drug-import-via-digital-channel",
+    "https://clinregs.niaid.nih.gov/country/thailand/united-states",
+    "https://en.fda.moph.go.th/other/category/cat-mandatory-reports"
+  ],
+  "search_results": [
+    {
+      "title": "Marketing Authorization and Its Requirements in Thailand",
+      "url": "https://ijsrm.humanjournals.com/wp-content/uploads/2022/03/5.RamaKishore-E-G-Ravi-Shankar-N-Chagi-Venkatesh-S-B-Puranik.pdf",
+      "date": "2022-02-28",
+      "last_updated": "2025-08-21"
+    },
+    {
+      "title": "Clinical Research Regulation For Thailand - ClinRegs",
+      "url": "https://clinregs.niaid.nih.gov/country/thailand",
+      "date": "2025-04-21",
+      "last_updated": "2025-06-18"
+    },
+    {
+      "title": "Thai FDA Expedites Drug Import Via Digital Channel - BaiPharm",
+      "url": "https://baipharm.chemlinked.com/news/thai-fda-expedites-drug-import-via-digital-channel",
+      "date": "2023-08-18",
+      "last_updated": "2025-06-03"
+    },
+    {
+      "title": "Clinical Research Regulation For Thailand and United States",
+      "url": "https://clinregs.niaid.nih.gov/country/thailand/united-states",
+      "date": "2024-03-21",
+      "last_updated": "2025-05-23"
+    },
+    {
+      "title": "FDA THAI : Food and Drug Administration, Thailand",
+      "url": "https://en.fda.moph.go.th/other/category/cat-mandatory-reports",
+      "date": "2020-01-01",
+      "last_updated": "2025-02-12"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+sonar-pro
+Publishes national antimicrobial resistance (AMR) surveillance data related to pharmaceutical products.
+{
+  "id": "1aee8ba8-4eef-424d-82c6-54052b296737",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"PARTIAL\",\"explanation\":\"Brunei collects AMR and antimicrobial use data within the public health sector and through importation records, but does not publish comprehensive national AMR surveillance data covering both human and veterinary pharmaceutical products, with existing data having incomplete coverage and surveillance systems not fully developed.[1][2][3]\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750115,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 68,
+    "prompt_tokens": 22,
+    "total_tokens": 90,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://ghsindex.org/wp-content/uploads/2021/12/Brunei.pdf",
+    "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0297921",
+    "https://asean.org/wp-content/uploads/2023/02/Rapid-Assessment-of-the-Regulatory-Measures-in-Combating-Antimicrobial-Resistance-AMR-in-the-ASEAN-Region_-Feb-2023-OK-1.pdf",
+    "https://apps.who.int/iris/bitstream/handle/10665/332081/9789240005587-eng.pdf",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC10843100/"
+  ],
+  "search_results": [
+    {
+      "title": "Brunei",
+      "url": "https://ghsindex.org/wp-content/uploads/2021/12/Brunei.pdf",
+      "date": null,
+      "last_updated": "2025-08-12"
+    },
+    {
+      "title": "Global antimicrobial resistance and use surveillance system ...",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0297921",
+      "date": "2024-02-05",
+      "last_updated": "2025-05-22"
+    },
+    {
+      "title": "Rapid-Assessment-of-the-Regulatory-Measures-in- ...",
+      "url": "https://asean.org/wp-content/uploads/2023/02/Rapid-Assessment-of-the-Regulatory-Measures-in-Combating-Antimicrobial-Resistance-AMR-in-the-ASEAN-Region_-Feb-2023-OK-1.pdf",
+      "date": null,
+      "last_updated": "2025-04-01"
+    },
+    {
+      "title": "Global Antimicrobial Resistance and Use Surveillance ...",
+      "url": "https://apps.who.int/iris/bitstream/handle/10665/332081/9789240005587-eng.pdf",
+      "date": null,
+      "last_updated": null
+    },
+    {
+      "title": "Global antimicrobial resistance and use surveillance ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10843100/",
+      "date": "2024-02-05",
+      "last_updated": "2025-07-08"
+    }
+  ]
+}

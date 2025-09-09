@@ -1,0 +1,83 @@
+sonar-pro
+Accepts the International Council for Harmonisation (ICH) Common Technical Document (CTD) format for innovator pharmaceutical product registrations.
+{
+  "id": "6a46269e-9500-4bed-a3db-afe9877b0c4b",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"PARTIAL\",\"explanation\":\"Brunei accepts dossiers prepared according to ICH guidelines and permits CTD format for innovator pharmaceutical product registrations, although its national system is also aligned with the ASEAN Common Technical Dossier (ACTD), and some country-specific requirements may apply[1][5].\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750073,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 65,
+    "prompt_tokens": 31,
+    "total_tokens": 96,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://www.ijdra.com/index.php/journal/article/download/410/209",
+    "https://www.ema.europa.eu/en/documents/scientific-guideline/ich-guideline-m4-r4-common-technical-document-ctd-registration-pharmaceuticals-human-use-organisation-ctd-step-5_en.pdf",
+    "https://www.ijpcbs.com/articles/comparative-study-of-regulatory-requirementsfor-the-compilation-and-approval-of-dossieras-per-ctd-actd-and-ectd-formats.pdf",
+    "https://ijprajournal.com/issue_dcp/Significance%20of%20Common%20Technical%20Document%20in%20Pharmacy%20Regulation%20%20A%20Review.pdf",
+    "https://journalforclinicalstudies.com/wp-content/uploads/2015/02/09.-Comparison-of-Marketing-Authorisation.pdf"
+  ],
+  "search_results": [
+    {
+      "title": "[PDF] A comprehensive review on Drug Product registration and approval ...",
+      "url": "https://www.ijdra.com/index.php/journal/article/download/410/209",
+      "date": "2020-09-15",
+      "last_updated": "2025-02-09"
+    },
+    {
+      "title": "ICH guideline M4 (R4) on common technical document (CTD ...",
+      "url": "https://www.ema.europa.eu/en/documents/scientific-guideline/ich-guideline-m4-r4-common-technical-document-ctd-registration-pharmaceuticals-human-use-organisation-ctd-step-5_en.pdf",
+      "date": "2021-03-19",
+      "last_updated": "2025-08-10"
+    },
+    {
+      "title": "[PDF] AS PER CTD, ACTD AND ECTD FORMATS",
+      "url": "https://www.ijpcbs.com/articles/comparative-study-of-regulatory-requirementsfor-the-compilation-and-approval-of-dossieras-per-ctd-actd-and-ectd-formats.pdf",
+      "date": null,
+      "last_updated": "2025-04-29"
+    },
+    {
+      "title": "Significance of Common Technical Document in Pharmacy ...",
+      "url": "https://ijprajournal.com/issue_dcp/Significance%20of%20Common%20Technical%20Document%20in%20Pharmacy%20Regulation%20%20A%20Review.pdf",
+      "date": "2022-07-25",
+      "last_updated": "2025-04-09"
+    },
+    {
+      "title": "[PDF] Comparison of Marketing Authorisation and its Requirements for ...",
+      "url": "https://journalforclinicalstudies.com/wp-content/uploads/2015/02/09.-Comparison-of-Marketing-Authorisation.pdf",
+      "date": null,
+      "last_updated": "2025-05-02"
+    }
+  ]
+}

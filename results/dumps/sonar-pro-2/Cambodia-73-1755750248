@@ -1,0 +1,83 @@
+sonar-pro
+Legally requires acceptance of another ASEAN Member State’s (AMS) Certificate of Good Manufacturing Practice (cGMP) for pharmaceutical manufacturers.
+{
+  "id": "d881d775-566c-4931-b106-e4bee7c89273",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\": \"NO\", \"explanation\": \"Cambodia does not legally require acceptance of another ASEAN Member State’s cGMP certificate for pharmaceutical manufacturers; it specifically requires submission of a Certificate of GMP from the country of origin, not from another AMS, and there is no evidence of a legal mandate for automatic recognition or acceptance of cGMP certificates issued by other ASEAN countries.\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750246,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 81,
+    "prompt_tokens": 32,
+    "total_tokens": 113,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://certease.com/gmp-certification-in-cambodia/",
+    "https://asean.org/wp-content/uploads/images/2013/economic/iai/ASEAN%20Cosmetics%20Directive%20CLMV%20Workshop%20Feb%202013.pdf",
+    "https://andamanmed.com/regulatory-services/medical-device-registration/cambodia/",
+    "https://www.ncbi.nlm.nih.gov/books/NBK555744/",
+    "https://andamanmed.com/cambodia-medical-device-regulation/"
+  ],
+  "search_results": [
+    {
+      "title": "GMP Certification in Cambodia - CERTEASE",
+      "url": "https://certease.com/gmp-certification-in-cambodia/",
+      "date": null,
+      "last_updated": "2024-08-16"
+    },
+    {
+      "title": "Implementing the ASEAN Cosmetics Directive (ACD)",
+      "url": "https://asean.org/wp-content/uploads/images/2013/economic/iai/ASEAN%20Cosmetics%20Directive%20CLMV%20Workshop%20Feb%202013.pdf",
+      "date": null,
+      "last_updated": "2025-04-08"
+    },
+    {
+      "title": "Cambodia Medical Device Registration",
+      "url": "https://andamanmed.com/regulatory-services/medical-device-registration/cambodia/",
+      "date": null,
+      "last_updated": "2025-08-17"
+    },
+    {
+      "title": "Table of Global Good Manufacturing Practice (GMP ...",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK555744/",
+      "date": "2015-05-18",
+      "last_updated": "2025-05-30"
+    },
+    {
+      "title": "Cambodia Medical Device Regulation",
+      "url": "https://andamanmed.com/cambodia-medical-device-regulation/",
+      "date": "2023-09-13",
+      "last_updated": "2025-08-20"
+    }
+  ]
+}

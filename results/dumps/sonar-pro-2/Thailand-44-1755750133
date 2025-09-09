@@ -1,0 +1,83 @@
+sonar-pro
+Permits stability data submission for pharmaceutical products at 25°C/60% relative humidity (RH) when supported by accelerated stability studies.
+{
+  "id": "075648d6-bb0b-4490-ae0f-7e863e527104",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"PARTIAL\",\"explanation\":\"Thailand generally follows ASEAN stability guidelines, which accept 25°C/60% RH as a long-term stability testing condition, but data solely at 25°C/60% RH—even when supported by accelerated studies—may be rejected as 'less stressful' than the preferred 30°C/75% RH for Zone IVb (Thailand's climatic zone); additional justification or intermediate condition data may be required if significant changes are observed during accelerated testing[5][1].\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750131,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 106,
+    "prompt_tokens": 31,
+    "total_tokens": 137,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.002,
+      "request_cost": 0.006,
+      "total_cost": 0.008
+    }
+  },
+  "citations": [
+    "https://www.artixio.com/post/thailand-fda-regulations-for-pharmaceutical-registration",
+    "https://www.rsc.org/suppdata/c5/ra/c5ra07716h/c5ra07716h1.pdf",
+    "http://academy.gmp-compliance.org/guidemgr/files/WHO_TRS_953_Annex2.pdf",
+    "https://www.ema.europa.eu/en/documents/scientific-guideline/ich-q-1-r2-stability-testing-new-drug-substances-and-products-step-5_en.pdf",
+    "https://asean.org/wp-content/uploads/2018/01/25PPWG-ANNEX-7-iv-Final-ASEAN-Guideline-on-Stability-Study-Drug-Product-R2.pdf"
+  ],
+  "search_results": [
+    {
+      "title": "Thai FDA Pharma Regulations & Registration Process in ...",
+      "url": "https://www.artixio.com/post/thailand-fda-regulations-for-pharmaceutical-registration",
+      "date": "2025-08-04",
+      "last_updated": "2025-06-22"
+    },
+    {
+      "title": "Annex 2 Stability testing of active pharmaceutical ...",
+      "url": "https://www.rsc.org/suppdata/c5/ra/c5ra07716h/c5ra07716h1.pdf",
+      "date": null,
+      "last_updated": "2025-03-27"
+    },
+    {
+      "title": "Annex 2 Stability testing of active pharmaceutical ...",
+      "url": "http://academy.gmp-compliance.org/guidemgr/files/WHO_TRS_953_Annex2.pdf",
+      "date": null,
+      "last_updated": "2025-08-10"
+    },
+    {
+      "title": "ich-q-1-r2-stability-testing-new-drug-substances-and-products ...",
+      "url": "https://www.ema.europa.eu/en/documents/scientific-guideline/ich-q-1-r2-stability-testing-new-drug-substances-and-products-step-5_en.pdf",
+      "date": null,
+      "last_updated": "2025-08-10"
+    },
+    {
+      "title": "asean guideline on stability study of drug product",
+      "url": "https://asean.org/wp-content/uploads/2018/01/25PPWG-ANNEX-7-iv-Final-ASEAN-Guideline-on-Stability-Study-Drug-Product-R2.pdf",
+      "date": "1997-07-02",
+      "last_updated": "2025-08-10"
+    }
+  ]
+}

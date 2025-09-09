@@ -1,0 +1,83 @@
+sonar-pro
+Allows the use of bracketing and matrixing study designs in pharmaceutical product stability testing.
+{
+  "id": "3a893ac1-1c15-4bf8-bf6b-eb4341f2e73b",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"status\":\"YES\",\"explanation\":\"Malaysia allows the use of bracketing and matrixing study designs in pharmaceutical product stability testing, as it adheres to ASEAN and ICH guidelines which support these approaches when scientifically justified[2][3].\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      },
+      "delta": {
+        "role": "assistant",
+        "content": ""
+      }
+    }
+  ],
+  "created": 1755750327,
+  "model": "sonar-pro",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 51,
+    "prompt_tokens": 21,
+    "total_tokens": 72,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "search_context_size": "low",
+    "cost": {
+      "input_tokens_cost": 0.0,
+      "output_tokens_cost": 0.001,
+      "request_cost": 0.006,
+      "total_cost": 0.007
+    }
+  },
+  "citations": [
+    "https://www.artixio.com/post/pharmaceutical-regulations-and-registration-in-malaysia",
+    "https://apac-asia.com/images/achievements/pdf/8th/3_ATIM/2_Template%20from%20Malaysia.pdf",
+    "https://www.pacificbridgemedical.com/ufaq/what-are-the-requirements-for-stability-studies-in-drug-registration-in-malaysia/",
+    "https://www.ema.europa.eu/en/documents/scientific-guideline/ich-q-1-d-bracketing-and-matrixing-designs-stability-testing-drug-substances-and-drug-products-step-5_en.pdf",
+    "https://siip.ac.in/wp-content/uploads/2021/04/stability-testing.pdf"
+  ],
+  "search_results": [
+    {
+      "title": "Pharmaceutical Regulations and Registration in Malaysia",
+      "url": "https://www.artixio.com/post/pharmaceutical-regulations-and-registration-in-malaysia",
+      "date": "2025-06-19",
+      "last_updated": "2025-06-22"
+    },
+    {
+      "title": "PowerPoint プレゼンテーション",
+      "url": "https://apac-asia.com/images/achievements/pdf/8th/3_ATIM/2_Template%20from%20Malaysia.pdf",
+      "date": null,
+      "last_updated": "2025-01-29"
+    },
+    {
+      "title": "Malaysia Drug Stability Study Requirements | PBM",
+      "url": "https://www.pacificbridgemedical.com/ufaq/what-are-the-requirements-for-stability-studies-in-drug-registration-in-malaysia/",
+      "date": "2025-01-07",
+      "last_updated": "2025-02-13"
+    },
+    {
+      "title": "ich-q-1-d-bracketing-and-matrixing-designs-stability-testing ...",
+      "url": "https://www.ema.europa.eu/en/documents/scientific-guideline/ich-q-1-d-bracketing-and-matrixing-designs-stability-testing-drug-substances-and-drug-products-step-5_en.pdf",
+      "date": null,
+      "last_updated": "2025-04-16"
+    },
+    {
+      "title": "GUIDELINES FOR THE STABILITY TESTING OF ...",
+      "url": "https://siip.ac.in/wp-content/uploads/2021/04/stability-testing.pdf",
+      "date": null,
+      "last_updated": "2025-08-10"
+    }
+  ]
+}
