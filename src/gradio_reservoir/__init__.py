@@ -1,3 +1,4 @@
+import os
 from dotenv import load_dotenv
 import gradio as gr
 
@@ -31,7 +32,8 @@ def research(researcher, summariser, countries, policies):
             )
             results.append(result)
 
-            with open(f"results/dumps/{country}-{i + 1}.json", "w") as f:
+            os.makedirs("./results/dumps", exist_ok=True)
+            with open(f"./results/dumps/{country}-{i + 1}.json", "w") as f:
                 f.write(summary.dump)
 
     return "\n".join(results)
