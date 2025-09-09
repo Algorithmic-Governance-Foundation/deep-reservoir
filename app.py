@@ -1,4 +1,4 @@
-from src.gradio import demo
+from gradio_reservoir import main
 
 
 if __name__ == "__main__":
