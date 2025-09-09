@@ -1,38 +1,22 @@
-FROM python:3.12-slim
-
 # Install uv
+FROM python:3.12-slim
 COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
 
-# Create user with ID 1000 for HF Spaces compatibility
-RUN useradd -m -u 1000 user
+# Change the working directory to the `app` directory
+WORKDIR /app
 
-# Set environment variables
-ENV HOME=/home/user \
-    PATH=/home/user/.local/bin:$PATH
-
-# Set working directory
-WORKDIR $HOME/app
-
-# Switch to user and create cache directory with proper permissions
-USER user
-RUN mkdir -p /home/user/.cache/uv
-
-# Copy dependency files with proper ownership
-COPY --chown=user pyproject.toml uv.lock ./
-
-# Install dependencies (excluding the project itself for better caching)
-RUN --mount=type=cache,target=/home/user/.cache/uv,uid=1000,gid=1000 \
+# Install dependencies
+RUN --mount=type=cache,target=/root/.cache/uv \
+    --mount=type=bind,source=uv.lock,target=uv.lock \
+    --mount=type=bind,source=pyproject.toml,target=pyproject.toml \
     uv sync --locked --no-install-project
 
-# Copy the rest of the project
-COPY --chown=user . .
+# Copy the project into the image
+ADD . /app
 
-# Install the project
-RUN --mount=type=cache,target=/home/user/.cache/uv,uid=1000,gid=1000 \
+# Sync the project
+RUN --mount=type=cache,target=/root/.cache/uv \
     uv sync --locked
 
-# Expose the required port for HF Spaces
-EXPOSE 7860
-
-# Use CMD instead of RUN for application startup
-CMD ["uv", "run", "gradio-reservoir"]
+# Set environment variables from Hugging Face secrets
+RUN uv run gradio-reservoir
