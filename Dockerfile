@@ -17,8 +17,14 @@ RUN --mount=type=cache,target=/root/.cache/uv \
 # Copy the project into the image
 ADD . /app
 
+# Change ownership to user
+RUN chown -R user:user /app
+
+# Switch to user
+USER user
+
 # Sync the project
-RUN --mount=type=cache,target=/root/.cache/uv \
+RUN --mount=type=cache,target=/home/user/.cache/uv \
     uv sync --locked
 
 # This is so jank but I can't think of an easier way
