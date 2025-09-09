@@ -13,15 +13,21 @@ def main():
     demo = gr.Interface(
         fn=greet,
         inputs=[
-            gr.Dropdown(["GPT 4.1", "GPT 4o-mini", "Sonar Pro"], label="Search Agent"),
             gr.Dropdown(
-                ["GPT 4.1", "GPT 4o-mini", "Sonar Pro"], label="Summariser Agent"
+                ["GPT 4.1", "GPT 4o-mini", "Sonar Pro"], label="Researcher Agent"
             ),
+            gr.Dropdown(["GPT 4.1", "GPT 4o-mini"], label="Summariser Agent"),
             gr.Textbox(
-                label="countries.csv", lines=5, placeholder=COUNTRIES_PLACEHOLDER
+                label="countries.csv",
+                lines=5,
+                placeholder=COUNTRIES_PLACEHOLDER,
+                max_lines=10,
             ),
             gr.TextArea(
-                label="policies.csv", lines=5, placeholder=POLICIES_PLACEHOLDER
+                label="policies.csv",
+                lines=5,
+                placeholder=POLICIES_PLACEHOLDER,
+                max_lines=10,
             ),
         ],
         outputs=gr.Textbox(label="output.csv", lines=40),
