@@ -9,9 +9,7 @@ from deep_reservoir.summariser import Summariser
 
 class QueryResponse(BaseModel):
     status: Status = Field(description="Status of the policy for the given country")
-    explanation: str = Field(
-        description="1 sentence explanation of the status with citations"
-    )
+    explanation: str = Field(description="1 sentence explanation of the status")
     sources: List[str] = Field(description="A list of URLs cited in the explanation")
 
 

@@ -20,7 +20,7 @@ def research(researcher, summariser, countries, policies):
 
     results = ["policy,country,status,explanation,source"]
     for country in countries:
-        for policy in policies:
+        for i, policy in enumerate(policies):
             research_result = researcher.research(country, policy)
             summary = summariser.summarise(research_result)
             sources = ",".join(summary.sources)
@@ -28,6 +28,9 @@ def research(researcher, summariser, countries, policies):
                 [policy, country, summary.status, summary.explanation, sources]
             )
             results.append(result)
+
+            with open(f"results/dumps/{country}-{i + 1}.json", "w") as f:
+                f.write(summary.dump)
 
     return "\n".join(results)
 
