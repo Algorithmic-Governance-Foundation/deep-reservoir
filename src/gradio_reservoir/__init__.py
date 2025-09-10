@@ -1,6 +1,7 @@
 import os
 from dotenv import load_dotenv
 import gradio as gr
+import pandas as pd
 
 from deep_reservoir.researcher.openai import (
     OpenAIChatCompletionsResearcher,
@@ -18,71 +19,104 @@ def research(researcher, summariser, countries, policies):
 
     summariser = OpenAISummariser(OpenAISummariserModel.GPT_5_MINI)
 
-    countries = countries.strip().split("\n")[1:]
-    policies = policies.strip().split("\n")[1:]
+    countries = countries.strip().split(",")
+    countries = [country.strip() for country in countries]
 
-    results = ["policy,country,status,explanation,source"]
+    policies = policies.strip().split("\n")
+    policies = [policy.strip() for policy in policies]
+
+    results = []
     for country in countries:
         for i, policy in enumerate(policies, 1):
             research_result = researcher.research(country, policy)
             summary = summariser.summarise(research_result)
             sources = ",".join(summary.sources)
-            result = ",".join(
-                [policy, country, summary.status, summary.explanation, sources]
+            results.append(
+                {
+                    "policy": policy,
+                    "country": country,
+                    "status": summary.status,
+                    "explanation": summary.explanation,
+                    "source": sources,
+                }
             )
-            results.append(result)
 
             os.makedirs("./results/dumps", exist_ok=True)
             with open(f"./results/dumps/{country}-{i}.txt", "w") as f:
                 f.write(summary.dump)
 
-    return "\n".join(results)
+    df = pd.DataFrame(results)
+    return df
 
 
-COUNTRIES_PLACEHOLDER = "country\nNew Zealand\nVietnam\nAustralia"
-POLICIES_PLACEHOLDER = "policy\nBagels can be eaten for dinner\nChicken salt is allowed on fries\nKangaroos are not to be ridden"
+def run_research_and_enable_download(researcher, summariser, countries, policies):
+    df = research(researcher, summariser, countries, policies)
+
+    # Save to CSV file
+    os.makedirs("./results", exist_ok=True)
+    csv_path = "./results/research_results.csv"
+    df.to_csv(csv_path, index=False, quoting=0)
+
+    return df, gr.DownloadButton("Download CSV", value=csv_path, visible=True)
 
 
 def main():
     load_dotenv()
 
-    demo = gr.Interface(
-        fn=research,
-        inputs=[
-            gr.Dropdown(
-                [
-                    *[model.value for model in OpenAIChatCompletionsResearchModel],
-                    *[model.value for model in OpenAIResponsesResearchModel],
-                    *[model.value for model in SonarResearchModel],
-                ],
-                label="Researcher Agent",
-            ),
-            gr.Dropdown(
-                [model.value for model in OpenAISummariserModel],
-                label="Summariser Agent",
-            ),
-            gr.Textbox(
-                label="countries.csv",
-                lines=5,
-                placeholder=COUNTRIES_PLACEHOLDER,
-                max_lines=10,
-            ),
-            gr.TextArea(
-                label="policies.csv",
-                lines=5,
-                placeholder=POLICIES_PLACEHOLDER,
-                max_lines=10,
-            ),
-        ],
-        outputs=gr.Textbox(label="output.csv", lines=40),
-    )
+    with gr.Blocks() as demo:
+        gr.Markdown("# Deep Reservoir Research Interface")
+
+        with gr.Row():
+            with gr.Column():
+                researcher_dropdown = gr.Dropdown(
+                    [
+                        *[model.value for model in OpenAIChatCompletionsResearchModel],
+                        *[model.value for model in OpenAIResponsesResearchModel],
+                        *[model.value for model in SonarResearchModel],
+                    ],
+                    label="Researcher Agent",
+                )
+                summariser_dropdown = gr.Dropdown(
+                    [model.value for model in OpenAISummariserModel],
+                    label="Summariser Agent",
+                )
+                countries_input = gr.Textbox(
+                    lines=3,
+                    label="Countries: comma sepearted values",
+                    placeholder="Australia, Canada, UK",
+                )
+            with gr.Column():
+                policies_input = gr.TextArea(
+                    lines=10,
+                    label="Policies: One per line, each policy should start with a verb",
+                    placeholder="Australia, Canada, UK",
+                )
+
+                run_btn = gr.Button("Run Research")
+
+        with gr.Row():
+            with gr.Column():
+                output_df = gr.DataFrame(label="Research Results")
+                download_btn = gr.DownloadButton("Download CSV", visible=False)
+
+        run_btn.click(
+            fn=run_research_and_enable_download,
+            inputs=[
+                researcher_dropdown,
+                summariser_dropdown,
+                countries_input,
+                policies_input,
+            ],
+            outputs=[output_df, download_btn],
+        )
 
     password = os.environ.get("GRADIO_PASSWORD")
 
     if not password:
         raise Exception(f"You forgot to set a gradio password\n{os.environ}")
 
-    demo.launch(auth=("agf", password))
+    # demo.launch(auth=("agf", password))
+    demo.launch()
 
 
 if __name__ == "__main__":
