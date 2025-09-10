@@ -75,28 +75,41 @@ def main():
                         *[model.value for model in SonarResearchModel],
                     ],
                     label="Researcher Agent",
+                    value=OpenAISummariserModel.GPT_4_1.value,
                 )
                 summariser_dropdown = gr.Dropdown(
                     [model.value for model in OpenAISummariserModel],
                     label="Summariser Agent",
+                    value=OpenAISummariserModel.GPT_4_1.value,
                 )
                 countries_input = gr.Textbox(
                     lines=3,
-                    label="Countries: comma sepearted values",
+                    label="Countries",
+                    info="A list of comma separated list of countries",
                     placeholder="Australia, Canada, UK",
                 )
             with gr.Column():
                 policies_input = gr.TextArea(
                     lines=10,
-                    label="Policies: One per line, each policy should start with a verb",
-                    placeholder="Australia, Canada, UK",
+                    label="Policies",
+                    info="Each policy should be on a new line\nFor best results, policies should start with a **verb** and be clearly defined",
+                    placeholder="Enjoys bagels\nConsiders baked beans a breakfast\nHas warm weather",
                 )
 
                 run_btn = gr.Button("Run Research")
 
         with gr.Row():
             with gr.Column():
-                output_df = gr.DataFrame(label="Research Results")
+                output_df = gr.DataFrame(
+                    label="Research Results",
+                    headers=["policy", "country", "status", "explanation", "source"],
+                    column_widths=["10%", "10%", "10%", "20%", "50%"],
+                    show_fullscreen_button=True,
+                    show_row_numbers=True,
+                    show_copy_button=True,
+                    show_search="filter",
+                    wrap=True,
+                )
                 download_btn = gr.DownloadButton("Download CSV", visible=False)
 
         run_btn.click(
