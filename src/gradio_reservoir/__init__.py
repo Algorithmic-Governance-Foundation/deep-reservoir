@@ -85,7 +85,7 @@ def main():
                 countries_input = gr.Textbox(
                     lines=3,
                     label="Countries",
-                    info="A list of comma separated list of countries",
+                    info="A list of comma separated values",
                     placeholder="Australia, Canada, UK",
                 )
             with gr.Column():
