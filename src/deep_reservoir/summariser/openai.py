@@ -20,8 +20,6 @@ class OpenAISummariserModel(Enum):
     GPT_5 = "gpt-5"
     GPT_5_MINI = "gpt-5-mini"
     GPT_5_NANO = "gpt-5-nano"
-    O3_DEEP_RESEARCH = "o3-deep-research"
-    O4_MINI_DEEP_RESEARCH = "o4-mini-deep-research"
 
 
 class OpenAISummariser(Summariser):
