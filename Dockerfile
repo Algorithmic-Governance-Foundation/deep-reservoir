@@ -29,6 +29,9 @@ USER user
 RUN uv sync --locked
 
 # This is so jank but I can't think of an easier way
+# References:
+# https://huggingface.co/docs/hub/en/spaces-sdks-docker#buildtime
+# https://docs.astral.sh/uv/concepts/configuration-files/#env
 RUN --mount=type=secret,id=PERPLEXITY_API_KEY,mode=0444,required=true \
     --mount=type=secret,id=OPENAI_API_KEY,mode=0444,required=true \
     --mount=type=secret,id=GRADIO_PASSWORD,mode=0444,required=true \
