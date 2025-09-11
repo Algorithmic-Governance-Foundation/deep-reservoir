@@ -2,30 +2,28 @@
 FROM python:3.12-slim
 COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
 
-# Create user early to avoid chown issues
+# Change the working directory to the `app` directory
+WORKDIR /app
+
+# For devmode
 RUN useradd -m -u 1000 user
 
-# Set environment variables for user
-ENV HOME=/home/user \
-    PATH=/home/user/.local/bin:$PATH
-
-# Change the working directory to the user's home app directory
-WORKDIR $HOME/app
-
-# Switch to user before any file operations
-USER user
-
-# Create cache directory for user
-RUN mkdir -p /home/user/.cache/uv
-
 # Install dependencies
-RUN --mount=type=cache,target=/home/user/.cache/uv \
+RUN --mount=type=cache,target=/root/.cache/uv \
     --mount=type=bind,source=uv.lock,target=uv.lock \
     --mount=type=bind,source=pyproject.toml,target=pyproject.toml \
     uv sync --locked --no-install-project
 
-# Copy the project into the image with proper ownership
-COPY --chown=user:user . .
+# Copy the project into the image
+ADD . /app
+
+# Change ownership to user and create cache directory
+RUN chown -R user:user /app && \
+    mkdir -p /home/user/.cache/uv && \
+    chown -R user:user /home/user/.cache
+
+# Switch to user
+USER user
 
 # Sync the project
 RUN uv sync --locked
