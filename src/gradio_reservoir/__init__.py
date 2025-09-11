@@ -89,11 +89,12 @@ def main():
                     placeholder="Australia, Canada, UK",
                 )
             with gr.Column():
+                placeholder = "Promotes renewable energy investment through tax incentives\nSupports small businesses with low-interest government-backed loans\nRegulates data privacy protections for all citizens"
                 policies_input = gr.TextArea(
                     lines=10,
                     label="Policies",
                     info="Each policy should be on a new line\nFor best results, policies should start with a **verb** and be clearly defined",
-                    placeholder="Enjoys bagels\nConsiders baked beans a breakfast\nHas warm weather",
+                    placeholder=placeholder,
                 )
 
                 run_btn = gr.Button("Run Research")
