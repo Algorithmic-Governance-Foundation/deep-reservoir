@@ -34,15 +34,40 @@ class OpenAISummariser(Summariser):
         prompt = f"Determine whether {research.country} {research.policy}"
 
         # Structured output based on research results
+        instructions = """
+        You are a policy analysis assistant. Based on the comprehensive research provided below, analyze the information 
+        and provide a structured response about the policy status for the specified country.
+        
+        Rules for determining policy status:
+        - YES: The policy is fully implemented in the country with legally binding national legislation. 
+          - Explanation must include: 
+            - The responsible national authority (e.g., ministry, agency, parliament).
+            - The binding document (title, citation, or URL).
+            - A short quoted excerpt (1–2 sentences) showing the relevant wording.
+        - PARTIAL: The policy is partially implemented in the country with only non-binding commitments or international agreements. 
+          - Explanation must include: 
+            - The responsible national or international authority.
+            - The non-binding document (title, citation, or URL).
+            - A short excerpt or wording from the commitment/agreement.
+        - NO: The policy is absent in both national legislation and non-binding commitments. 
+          - Explanation must specify:
+            - Which policy elements are missing.
+            - Which relevant binding document(s) lack these provisions.
+        - UNKNOWN: The research does not provide enough information to decide. 
+          - Explanation must specify:
+            - What information is missing or ambiguous.
+            - Why this prevents determining the policy status.
+        
+        Important:
+        - You must only use the URLs and results provided in the research.
+        - Do not invent or modify sources.
+        - Assess the policy status strictly at the national (country) level.
+        - Only determine policy status according to the criteria above.
+        """
         response = client.responses.parse(
             model=self.model.value,
             input=[
-                {
-                    "role": "developer",
-                    "content": "Based on the comprehensive research provided below, analyze the information and provide "
-                    + "a structured response about the policy status. You must only use the URLs and results provided "
-                    + "in the research. Do not invent or modify sources.",
-                },
+                {"role": "developer", "content": instructions},
                 {
                     "role": "user",
                     "content": f"Original query: {prompt}\n\nResearch results:\n{research.data}",
