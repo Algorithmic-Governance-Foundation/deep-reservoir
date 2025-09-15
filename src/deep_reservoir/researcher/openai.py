@@ -73,22 +73,7 @@ class OpenAIResponsesResearcher(Researcher):
         # Web search mode - gather comprehensive information
 
         response = client.responses.create(
-            model="gpt-5",
-            # reasoning={"effort": "low"},
-            # tools=[
-            #     {
-            #         "type": "web_search",
-            #         "filters": {
-            #             "allowed_domains": [
-            #                 "pubmed.ncbi.nlm.nih.gov",
-            #                 "clinicaltrials.gov",
-            #                 "www.who.int",
-            #                 "www.cdc.gov",
-            #                 "www.fda.gov",
-            #             ]
-            #         },
-            #     }
-            # ],
+            model=self.model.value,
             tool_choice="auto",
             include=["web_search_call.action.sources"],
             input=prompt,
