@@ -27,7 +27,7 @@ class OpenAIChatCompletionsResearcher(Researcher):
 
         # Web search mode - gather comprehensive information
         response = client.chat.completions.create(
-            model="gpt-4o-mini-search-preview",
+            model=self.model.value,
             messages=[
                 {
                     "role": "developer",
